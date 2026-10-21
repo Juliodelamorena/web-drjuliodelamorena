@@ -259,3 +259,5 @@ form.f { background: #fff; color: var(--ink); padding: 36px; display: flex; flex
   details.bloque > *:not(summary) { display: block; }
   body { font-size: 12pt; }
 }
+.f-line { border: 1px solid #DDE2E9; margin: 24px 0; }
+.f input[type=email], .f select { font: inherit; font-size: 16px; padding: 12px 14px; border: 1px solid #C9D0DA; border-radius: 2px; background: #fff; min-height: 48px; color: var(--ink); }
