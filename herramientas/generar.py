@@ -1,6 +1,7 @@
 import json, os, sys, html
 sys.path.insert(0, os.path.dirname(__file__))
 from paginas import PAGES, ABOUT
+from paginas_en import SLUG_ES_TO_EN
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = "https://drjuliodelamorena.com"
@@ -19,7 +20,8 @@ BY_SLUG = {p["slug"]: p for p in PAGES}
 
 def esc(s): return html.escape(s, quote=True)
 
-HEADER = f'''<div class="util">
+def header(en_url="/en/"):
+    return f'''<div class="util">
 <div class="wrap">
 <span class="util-addr">Hospital Memorial Publio Cordón · Paseo de la Casa de Campo, 5 · Pozuelo de Alarcón (Madrid)</span>
 <span>Cita previa <strong>913 548 990</strong></span>
@@ -34,10 +36,13 @@ HEADER = f'''<div class="util">
 <a href="/dr-julio-de-la-morena/">El doctor</a>
 <a href="/planes/">Planes de ejercicio</a>
 <a href="/blog/">Artículos</a>
+<a class="lang" href="{en_url}" hreflang="en" lang="en">English</a>
 <a class="btn" href="/#contacto">Solicitar cita</a>
 </nav>
 </div>
 </header>'''
+
+HEADER = header()
 
 def footer():
     links = "".join(f'<a href="/{p["slug"]}/">{esc(p["nav"])}</a>' for p in PAGES)
@@ -57,7 +62,13 @@ def footer():
 </div>
 </footer>'''
 
-def head(title, desc, url, img, ld):
+def alternates(es_url, en_url):
+    return (f'<link rel="alternate" hreflang="es" href="{es_url}">\n'
+            f'<link rel="alternate" hreflang="en" href="{en_url}">\n'
+            f'<link rel="alternate" hreflang="x-default" href="{es_url}">\n')
+
+def head(title, desc, url, img, ld, en_url=None):
+    alt = alternates(url, en_url) if en_url else ""
     return f'''<!doctype html>
 <html lang="es">
 <head>
@@ -66,7 +77,7 @@ def head(title, desc, url, img, ld):
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
 <link rel="canonical" href="{url}">
-<meta property="og:type" content="article">
+{alt}<meta property="og:type" content="article">
 <meta property="og:locale" content="es_ES">
 <meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(desc)}">
@@ -81,7 +92,7 @@ def head(title, desc, url, img, ld):
 </script>
 </head>
 <body>
-{HEADER}
+{header(en_url.replace(SITE, '') if en_url else '/en/')}
 '''
 
 DOCTOR_REF = {"@type": "Person", "@id": f"{SITE}/#julio", "name": "Dr. Julio De la Morena Garzón"}
@@ -140,7 +151,8 @@ def page(p):
 </article>
 </main>
 '''
-    return head(p["seo"], p["desc"], url, p["img"], ld) + body + footer() + "\n</body>\n</html>\n"
+    en = SLUG_ES_TO_EN.get(p["slug"])
+    return head(p["seo"], p["desc"], url, p["img"], ld, f"{SITE}/en/{en}/" if en else None) + body + footer() + "\n</body>\n</html>\n"
 
 def about_page():
     a = ABOUT; url = f"{SITE}/{a['slug']}/"
@@ -198,7 +210,7 @@ def about_page():
 </article>
 </main>
 '''
-    return head(a["seo"], a["desc"], url, "retrato.jpg", ld) + body + footer() + "\n</body>\n</html>\n"
+    return head(a["seo"], a["desc"], url, "retrato.jpg", ld, f"{SITE}/en/{SLUG_ES_TO_EN[a['slug']]}/") + body + footer() + "\n</body>\n</html>\n"
 
 if __name__ == "__main__":
   for p in PAGES:

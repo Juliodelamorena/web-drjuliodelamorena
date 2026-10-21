@@ -129,7 +129,8 @@ def portada(arts):
 def sitemap(arts):
     urls = [("/", "1.0"), ("/dr-julio-de-la-morena/", "0.9")] + [(f"/{p['slug']}/", "0.8") for p in PAGES] + \
            [("/blog/", "0.7"), ("/planes/", "0.8")] + [(f"/planes/{q['slug']}/", "0.8") for q in __import__("planes").cargar()] + [(f"/blog/{a['slug']}.html", "0.6") for a in arts] + \
-           [("/aviso-legal.html", "0.2"), ("/privacidad.html", "0.2")]
+           [("/aviso-legal.html", "0.2"), ("/privacidad.html", "0.2")] + \
+           [("/en/", "0.8"), ("/en/dr-julio-de-la-morena/", "0.7")] + [(f"/en/{q['slug']}/", "0.7") for q in __import__("paginas_en").PAGES_EN]
     hoy = max([a["fecha"] for a in arts] + [G.REVISION])
     x = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + \
         "".join(f"  <url><loc>{SITE}{u}</loc><lastmod>{hoy}</lastmod><priority>{pr}</priority></url>\n" for u, pr in urls) + "</urlset>\n"

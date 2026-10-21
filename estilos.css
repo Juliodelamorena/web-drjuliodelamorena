@@ -50,6 +50,7 @@ h1, h2, h3 { text-wrap: balance; }
 .menu { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 26px; font-size: 14px; font-weight: 500; }
 .menu a { color: var(--ink); text-decoration: none; }
 .menu a:hover { color: var(--gold-text); }
+.menu a.lang { font-size: 13px; letter-spacing: 0.4px; text-transform: uppercase; color: var(--gold-text); }
 .menu .btn { min-height: 44px; padding: 10px 22px; color: var(--navy); }
 
 /* Hero */
@@ -189,7 +190,7 @@ form.f { background: #fff; color: var(--ink); padding: 36px; display: flex; flex
   .hero-img::after { inset: 12px -10px -12px 12px; }
   .top { position: static; }
   .util-addr { display: none; }
-  .menu a:not(.btn) { display: none; }
+  .menu a:not(.btn):not(.lang) { display: none; }
   .top .wrap { flex-wrap: nowrap; }
   .brand strong { font-size: 23px; }
   .brand span { font-size: 10px; letter-spacing: 1.4px; }

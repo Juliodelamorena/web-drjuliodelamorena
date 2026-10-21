@@ -26,3 +26,11 @@ Origen: planes genéricos de Julio en Google Drive, carpeta "01 Clinica y pacien
 1. Pasar el plan a `herramientas/planes/<slug>.json` (ver capsulitis-hombro-congelado.json): se respeta su texto y su trato de tú; se quitan los campos de paciente y la marca IMRAD.
 2. Fotos opcionales en `img/planes/<slug>/<n>.jpg` (n = número de ejercicio en orden), a 760 px.
 3. `python3 herramientas/planes.py` y después `python3 herramientas/articulos.py` (actualiza el sitemap).
+
+## Versión en inglés (/en/)
+
+- Contenido en `herramientas/paginas_en.py`; se genera con `python3 herramientas/generar_en.py`.
+- Orden al regenerar todo: `generar.py`, `generar_en.py`, `articulos.py`, `planes.py`.
+- Cada página española con pareja en inglés lleva enlaces hreflang (es, en, x-default) y el enlace "English" en la cabecera; la tabla de parejas es `SLUG_ES_TO_EN`.
+- Al añadir una página nueva en español, añadir su traducción en `paginas_en.py` y su pareja en `SLUG_ES_TO_EN`.
+- La segunda opinión todavía no tiene versión en inglés.
