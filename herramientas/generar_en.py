@@ -134,7 +134,7 @@ def page(p):
 def about_page():
     a = ABOUT_EN; url = f"{SITE}/en/{a['slug']}/"; es_url = f"{SITE}/{a['es']}/"
     faq = [
-     ("Who is Dr Julio De la Morena?", "He is a doctor specialising in Sport and Exercise Medicine, registered with the Madrid Medical Council (no. 281903698). He sees patients at the Regenerative Therapies and Sports Medicine Unit of Hospital Memorial Publio Cordón in Pozuelo de Alarcón (Madrid). He spent fourteen years with the Real Madrid CF medical services, four as first-team doctor, and is head of medical services at the Spanish Rugby Federation."),
+     ("Who is Dr Julio De la Morena?", "He is a doctor specialising in Sport and Exercise Medicine, registered with the Madrid Medical Council (no. 281903698). He sees patients at the Regenerative Therapies and Sports Medicine Unit of Hospital Memorial Publio Cordón in Pozuelo de Alarcón (Madrid). He spent fourteen years with the Real Madrid CF medical services, four as first-team doctor, and is Chief Medical Officer of the Spanish Rugby Federation."),
      ("What does Dr Julio De la Morena treat?", "Osteoarthritis, tendinopathies, low back pain and sciatica, shoulder pain, sprains and muscle injuries, in athletes and in people who do no sport. He uses ultrasound in the same appointment, ultrasound-guided injections and autologous growth factors (platelet-rich plasma) when appropriate."),
      ("Does Dr De la Morena speak English?", "Yes. Consultations are available in English and Spanish."),
      ("How do I book an appointment?", f"By phone on {PHONE}, through the Hospital Memorial Publio Cordón website or with the contact form on drjuliodelamorena.com/en/."),
@@ -160,14 +160,14 @@ def about_page():
 <nav class="crumbs" aria-label="Breadcrumb"><a href="/en/">Home</a><span aria-hidden="true">/</span><span>The doctor</span></nav>
 <p class="label">The doctor</p>
 <h1>{esc(a['h1'])}</h1>
-<p class="answer">Dr Julio De la Morena Garzón is a specialist in Sport and Exercise Medicine (Madrid Medical Council no. 281903698). He sees patients at the Regenerative Therapies and Sports Medicine Unit of Hospital Memorial Publio Cordón in Pozuelo de Alarcón (Madrid). He spent fourteen years with the Real Madrid CF medical services, four of them as first-team doctor, and is head of medical services at the Spanish Rugby Federation. He treats osteoarthritis, tendinopathies, back pain and musculoskeletal injuries in anyone, whether or not they play sport, with ultrasound in the same appointment and treatment without surgery whenever possible. Consultations are available in English.</p>
+<p class="answer">Dr Julio De la Morena Garzón is a specialist in Sport and Exercise Medicine (Madrid Medical Council no. 281903698). He sees patients at the Regenerative Therapies and Sports Medicine Unit of Hospital Memorial Publio Cordón in Pozuelo de Alarcón (Madrid). He spent fourteen years with the Real Madrid CF medical services, four of them as first-team doctor, and is Chief Medical Officer of the Spanish Rugby Federation. He treats osteoarthritis, tendinopathies, back pain and musculoskeletal injuries in anyone, whether or not they play sport, with ultrasound in the same appointment and treatment without surgery whenever possible. Consultations are available in English.</p>
 <img class="wide" src="/img/trayectoria.jpg" alt="Dr Julio De la Morena with the Real Madrid league trophy" width="1018" height="1024" style="aspect-ratio: 4 / 3; object-position: center 30%">
 <h2>Career</h2>
 <ul class="cvlist">
 <li><strong>Specialty:</strong> Sport and Exercise Medicine.</li>
 <li><strong>Registered</strong> with the Madrid Medical Council, no. 281903698.</li>
 <li><strong>Real Madrid CF:</strong> fourteen years with the club's medical services, four as first-team doctor.</li>
-<li><strong>Rugby:</strong> head of medical services at the Spanish Rugby Federation.</li>
+<li><strong>Rugby:</strong> Chief Medical Officer of the Spanish Rugby Federation.</li>
 <li><strong>Athletes:</strong> medical care of professional rugby, padel and football players.</li>
 <li><strong>Research:</strong> certified training in Good Clinical Practice for clinical trials.</li>
 <li><strong>Currently:</strong> Regenerative Therapies and Sports Medicine Unit, Hospital Memorial Publio Cordón.</li>
@@ -236,7 +236,7 @@ def home():
 <div class="creds-row">
 <div class="wrap">
 <div class="cred"><b>14 years</b><span>with the Real Madrid CF medical services, 4 as first-team doctor</span></div>
-<div class="cred"><b>Head of medical services</b><span>at the Spanish Rugby Federation</span></div>
+<div class="cred"><b>Chief Medical Officer</b><span>of the Spanish Rugby Federation</span></div>
 <div class="cred"><b>Specialist</b><span>in Sport and Exercise Medicine · Reg. no. 281903698</span></div>
 </div>
 </div>
@@ -302,7 +302,7 @@ def home():
 <li><span>Specialty</span><span>Sport and Exercise Medicine</span></li>
 <li><span>Registration</span><span>No. 281903698 · Madrid Medical Council</span></li>
 <li><span>Real Madrid CF</span><span>14 years with the club's medical services, 4 as first-team doctor</span></li>
-<li><span>Rugby</span><span>Head of medical services, Spanish Rugby Federation</span></li>
+<li><span>Rugby</span><span>Chief Medical Officer, Spanish Rugby Federation</span></li>
 <li><span>Athletes</span><span>Medical care of professional rugby, padel and football players</span></li>
 <li><span>Languages</span><span>Spanish and English</span></li>
 <li><span>Currently</span><span>Regenerative Therapies and Sports Medicine Unit · Hospital Memorial Publio Cordón</span></li>

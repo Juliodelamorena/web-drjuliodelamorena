@@ -203,7 +203,7 @@ PAGES_EN = [
  "label": "Treatments",
  "img": "trayectoria.jpg", "img_alt": "Dr Julio De la Morena during his years at Real Madrid", "img_wh": (1018, 1024),
  "about": ("MedicalSpecialty", "Sports medicine", ["Sport and exercise medicine", "Sports doctor", "Sports injuries"]),
- "lead": "Sports medicine diagnoses and treats injuries of the musculoskeletal system and guides a safe return to activity. Dr Julio De la Morena is a specialist in Sport and Exercise Medicine. He spent fourteen years with the Real Madrid CF medical services, four of them as first-team doctor, is head of medical services at the Spanish Rugby Federation and continues to look after professional rugby, padel and football players. He applies the same method to anyone, from weekend runners to people who simply want to walk without pain, at Hospital Memorial Publio Cordón (Pozuelo de Alarcón, Madrid). Consultations are available in English.",
+ "lead": "Sports medicine diagnoses and treats injuries of the musculoskeletal system and guides a safe return to activity. Dr Julio De la Morena is a specialist in Sport and Exercise Medicine. He spent fourteen years with the Real Madrid CF medical services, four of them as first-team doctor, is Chief Medical Officer of the Spanish Rugby Federation and continues to look after professional rugby, padel and football players. He applies the same method to anyone, from weekend runners to people who simply want to walk without pain, at Hospital Memorial Publio Cordón (Pozuelo de Alarcón, Madrid). Consultations are available in English.",
  "sections": [
   ("What is treated", "<ul><li>Muscle, tendon and ligament injuries.</li><li>Knee, ankle, shoulder and spine injuries in athletes.</li><li>Overload and recurrent injuries.</li><li>Planning the return to sport after an injury or surgery.</li></ul>"),
   ("The method", "<p>Accurate diagnosis with examination and ultrasound in the same appointment, a plan with timelines and objective criteria, and coordination with physiotherapists, rehabilitation specialists and, when needed, surgeons. The aim is to return as soon as possible, but without re-injury.</p>"),
@@ -222,5 +222,5 @@ ABOUT_EN = {
  "nav": "The doctor",
  "h1": "Dr Julio De la Morena Garzón",
  "seo": "Dr Julio De la Morena Garzón · Sports medicine doctor in Madrid",
- "desc": "Dr Julio De la Morena Garzón, specialist in Sport and Exercise Medicine. 14 years with the Real Madrid CF medical services, head of medical services at the Spanish Rugby Federation. Hospital Memorial Publio Cordón, Pozuelo de Alarcón (Madrid). Consultations in English.",
+ "desc": "Dr Julio De la Morena Garzón, specialist in Sport and Exercise Medicine. 14 years with the Real Madrid CF medical services, Chief Medical Officer of the Spanish Rugby Federation. Hospital Memorial Publio Cordón, Pozuelo de Alarcón (Madrid). Consultations in English.",
 }
