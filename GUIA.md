@@ -20,3 +20,9 @@ Slugs de páginas de especialidad: artrosis-rodilla, lumbalgia-ciatica, tendinop
 
 ## Páginas de especialidad
 Texto en `herramientas/paginas.py`; se regeneran con `python3 herramientas/generar.py`.
+
+## Planes de ejercicio
+Origen: planes genéricos de Julio en Google Drive, carpeta "01 Clinica y pacientes/PROGRAMAS DE EJERCICIOS VIP" (los que llevan "(generico)" o sin nombre de paciente). Nunca publicar planes con nombre de paciente.
+1. Pasar el plan a `herramientas/planes/<slug>.json` (ver capsulitis-hombro-congelado.json): se respeta su texto y su trato de tú; se quitan los campos de paciente y la marca IMRAD.
+2. Fotos opcionales en `img/planes/<slug>/<n>.jpg` (n = número de ejercicio en orden), a 760 px.
+3. `python3 herramientas/planes.py` y después `python3 herramientas/articulos.py` (actualiza el sitemap).

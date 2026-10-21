@@ -32,7 +32,8 @@ HEADER = f'''<div class="util">
 <a href="/#areas">Especialidades</a>
 <a href="/#tratamientos">Tratamientos</a>
 <a href="/dr-julio-de-la-morena/">El doctor</a>
-<a href="/#articulos">Artículos</a>
+<a href="/planes/">Planes de ejercicio</a>
+<a href="/blog/">Artículos</a>
 <a class="btn" href="/#contacto">Solicitar cita</a>
 </nav>
 </div>
@@ -48,7 +49,7 @@ def footer():
 <span>Hospital Memorial Publio Cordón · Paseo de la Casa de Campo, 5 · 28223 Pozuelo de Alarcón (Madrid)</span>
 <span>Cita previa: 913 548 990</span>
 </div>
-<nav class="foot-col foot-links" aria-label="Especialidades y tratamientos">{links}<a href="/dr-julio-de-la-morena/">El doctor</a></nav>
+<nav class="foot-col foot-links" aria-label="Especialidades y tratamientos">{links}<a href="/dr-julio-de-la-morena/">El doctor</a><a href="/planes/">Planes de ejercicio</a><a href="/blog/">Artículos</a></nav>
 </div>
 <div class="wrap foot-legal">
 <span>Dr. Julio De la Morena Garzón · Colegiado nº 281903698 · Medicina de la Educación Física y del Deporte</span>

@@ -224,3 +224,37 @@ form.f { background: #fff; color: var(--ink); padding: 36px; display: flex; flex
 @media (max-width: 760px) { .foot .foot-grid { grid-template-columns: minmax(0, 1fr); } }
 .treat h3 a { color: #fff; text-decoration: none; border-bottom: 1px solid rgba(194,162,106,.6); }
 .treat h3 a:hover { color: var(--gold); }
+
+/* Exercise plans (mobile first) */
+.aviso { background: #FFF8E8; border: 1px solid #EAD9AE; padding: 14px 16px; font-size: 15px; line-height: 1.5; }
+.regla { background: var(--navy); color: #fff; padding: 20px 22px; }
+.regla p { color: var(--on-navy); margin: 0; }
+.regla .label { color: var(--gold); margin-bottom: 8px; }
+.bloque { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 14px 0; }
+.bloque summary { cursor: pointer; font-family: var(--display); font-weight: 600; font-size: 22px; }
+.bloque > p, .bloque > ul { margin-top: 12px !important; }
+.plan-bar { position: sticky; top: 0; z-index: 5; background: var(--ground); padding: 10px 0; border-bottom: 1px solid var(--line); display: flex; flex-direction: column; gap: 6px; }
+.tabs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }
+.tab { font: inherit; font-size: 14px; font-weight: 600; min-height: 44px; border: 1px solid var(--line); background: #fff; color: var(--navy); cursor: pointer; padding: 8px; }
+.tab[aria-selected="true"] { background: var(--navy); color: #fff; border-color: var(--navy); }
+.cuenta { font-size: 13px; color: var(--muted); }
+.pane h2 { margin-top: 8px !important; }
+.cuando { font-size: 14px; font-weight: 600; color: var(--gold-text); }
+.exs { list-style: none; padding: 0 !important; margin: 0; display: flex; flex-direction: column; gap: 14px !important; }
+.ex { border: 1px solid var(--line); background: #fff; padding: 16px; display: flex; flex-direction: column; gap: 10px; }
+.ex p { margin: 0; font-size: 16px; line-height: 1.55; }
+.ex img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; }
+.ex-head { display: flex; gap: 12px; align-items: center; cursor: pointer; }
+.ex-head input { width: 26px; height: 26px; flex: none; accent-color: var(--navy); }
+.ex-n { flex: none; width: 32px; height: 32px; border-radius: 50%; background: var(--navy); color: var(--gold); font-weight: 700; font-size: 14px; display: flex; align-items: center; justify-content: center; }
+.ex-head strong { display: block; font-size: 17px; line-height: 1.3; }
+.ex-head small { display: block; font-size: 12px; letter-spacing: 1.2px; text-transform: uppercase; color: var(--muted); }
+.ex:has(input:checked) { border-color: #9DC3A8; background: #F3FAF5; }
+.dosis { font-weight: 600; color: var(--navy); background: var(--mist); padding: 8px 12px; font-size: 15px !important; }
+@media print {
+  .util, .top, .foot, .plan-bar, .no-print, .crumbs { display: none !important; }
+  .pane { display: block !important; }
+  .ex { break-inside: avoid; }
+  details.bloque > *:not(summary) { display: block; }
+  body { font-size: 12pt; }
+}
