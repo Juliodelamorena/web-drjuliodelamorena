@@ -197,3 +197,30 @@ form.f { background: #fff; color: var(--ink); padding: 36px; display: flex; flex
   form.f { padding: 26px; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .btn { transition: none; } }
+
+/* Specialty pages */
+.crumbs { display: flex; flex-wrap: wrap; gap: 8px; font-size: 13px; color: var(--muted); }
+.crumbs a { color: var(--muted); }
+.answer { margin: 0; font-size: 19px; line-height: 1.7; color: var(--ink); padding: 22px 26px; background: var(--mist); border-left: 2px solid var(--gold); }
+.article ul, .article ol { margin: 0; padding-left: 22px; display: flex; flex-direction: column; gap: 8px; }
+.article .faq summary { font-size: 21px; }
+.byline { display: flex; gap: 16px; align-items: center; padding-top: 22px; border-top: 1px solid var(--line); }
+.byline img { width: 64px; height: 64px; border-radius: 50%; object-fit: cover; flex: none; }
+.byline p { margin: 0; font-size: 14.5px; color: var(--muted); line-height: 1.55; }
+.related { display: flex; flex-direction: column; gap: 0; }
+.related .label { margin-bottom: 12px; }
+.rel { display: flex; justify-content: space-between; gap: 16px; padding: 16px 0; border-top: 1px solid var(--line); text-decoration: none; font-family: var(--display); font-weight: 600; font-size: 22px; color: var(--navy); }
+.rel:last-child { border-bottom: 1px solid var(--line); }
+.cvlist li, .arealist li { font-size: 17px; }
+
+/* Footer with links */
+.foot .foot-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr); gap: 32px 56px; padding-block: 48px 28px !important; }
+.foot-col { display: flex; flex-direction: column; gap: 4px; }
+.foot-brand { font-family: var(--display); font-weight: 600; font-size: 24px; color: #fff; margin-bottom: 6px; }
+.foot-links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 28px; }
+.foot-links a { text-decoration: none; }
+.foot-links a:hover { color: #fff; }
+.foot-legal { border-top: 1px solid rgba(255,255,255,.12); padding-block: 22px !important; font-size: 13px; }
+@media (max-width: 760px) { .foot .foot-grid { grid-template-columns: minmax(0, 1fr); } }
+.treat h3 a { color: #fff; text-decoration: none; border-bottom: 1px solid rgba(194,162,106,.6); }
+.treat h3 a:hover { color: var(--gold); }

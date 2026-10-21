@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://drjuliodelamorena.com/</loc><lastmod>2026-10-21</lastmod></url>
-  <url><loc>https://drjuliodelamorena.com/blog/lumbalgia-5-cosas.html</loc><lastmod>2026-10-21</lastmod></url>
-  <url><loc>https://drjuliodelamorena.com/aviso-legal.html</loc></url>
-  <url><loc>https://drjuliodelamorena.com/privacidad.html</loc></url>
+  <url><loc>https://drjuliodelamorena.com/</loc><lastmod>2026-10-21</lastmod><priority>1.0</priority></url>
+  <url><loc>https://drjuliodelamorena.com/dr-julio-de-la-morena/</loc><lastmod>2026-10-21</lastmod><priority>0.9</priority></url>
+  <url><loc>https://drjuliodelamorena.com/artrosis-rodilla/</loc><lastmod>2026-10-21</lastmod><priority>0.8</priority></url>
+  <url><loc>https://drjuliodelamorena.com/lumbalgia-ciatica/</loc><lastmod>2026-10-21</lastmod><priority>0.8</priority></url>
+  <url><loc>https://drjuliodelamorena.com/tendinopatias/</loc><lastmod>2026-10-21</lastmod><priority>0.8</priority></url>
+  <url><loc>https://drjuliodelamorena.com/hombro-doloroso/</loc><lastmod>2026-10-21</lastmod><priority>0.8</priority></url>
+  <url><loc>https://drjuliodelamorena.com/esguince-tobillo/</loc><lastmod>2026-10-21</lastmod><priority>0.8</priority></url>
+  <url><loc>https://drjuliodelamorena.com/lesiones-musculares/</loc><lastmod>2026-10-21</lastmod><priority>0.8</priority></url>
+  <url><loc>https://drjuliodelamorena.com/factores-crecimiento-autologos/</loc><lastmod>2026-10-21</lastmod><priority>0.8</priority></url>
+  <url><loc>https://drjuliodelamorena.com/infiltraciones-ecoguiadas/</loc><lastmod>2026-10-21</lastmod><priority>0.8</priority></url>
+  <url><loc>https://drjuliodelamorena.com/medicina-deportiva/</loc><lastmod>2026-10-21</lastmod><priority>0.8</priority></url>
+  <url><loc>https://drjuliodelamorena.com/segunda-opinion/</loc><lastmod>2026-10-21</lastmod><priority>0.8</priority></url>
+  <url><loc>https://drjuliodelamorena.com/blog/lumbalgia-5-cosas.html</loc><lastmod>2026-10-21</lastmod><priority>0.6</priority></url>
+  <url><loc>https://drjuliodelamorena.com/aviso-legal.html</loc><lastmod>2026-10-21</lastmod><priority>0.2</priority></url>
+  <url><loc>https://drjuliodelamorena.com/privacidad.html</loc><lastmod>2026-10-21</lastmod><priority>0.2</priority></url>
 </urlset>
