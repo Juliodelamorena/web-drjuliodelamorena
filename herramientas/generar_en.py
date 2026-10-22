@@ -141,7 +141,7 @@ def about_page():
     ]
     ld = {"@context": "https://schema.org", "@graph": [
         {"@type": "ProfilePage", "@id": url, "url": url, "name": a["seo"], "inLanguage": "en",
-         "mainEntity": {"@id": f"{SITE}/#julio"}, "dateModified": REVISION, "isPartOf": {"@id": f"{SITE}/#web"}},
+         "mainEntity": {"@id": f"{SITE}/#julio"}, "dateModified": REVISION + "T09:00:00+02:00", "isPartOf": {"@id": f"{SITE}/#web"}},
         {"@type": "Person", "@id": f"{SITE}/#julio", "name": "Julio De la Morena Garzón",
          "alternateName": ["Dr Julio De la Morena", "Dr. Julio De la Morena", "Julio de la Morena"], "honorificPrefix": "Dr",
          "jobTitle": "Specialist in Sport and Exercise Medicine",
