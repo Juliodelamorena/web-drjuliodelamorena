@@ -179,7 +179,8 @@ def about_page():
          "knowsLanguage": ["es", "en"],
          "subjectOf": [
            {"@type": "VideoObject", "name": "Cómo prevenir lesiones en tendones y ligamentos", "url": "https://www.youtube.com/watch?v=FxVOJ4pY-Y4", "thumbnailUrl": "https://drjuliodelamorena.com/img/videos/tve-tendones-ligamentos.jpg", "publisher": {"@type": "Organization", "name": "Sanitas"}},
-           {"@type": "VideoObject", "name": "Entrevista a Julio de la Morena y a Eduardo Vizcaíno", "url": "https://www.youtube.com/watch?v=PCEiHsOmEHU", "thumbnailUrl": "https://drjuliodelamorena.com/img/videos/esradio-entrevista.jpg", "publisher": {"@type": "Organization", "name": "esRadio"}}
+           {"@type": "VideoObject", "name": "Entrevista a Julio de la Morena y a Eduardo Vizcaíno", "url": "https://www.youtube.com/watch?v=PCEiHsOmEHU", "thumbnailUrl": "https://drjuliodelamorena.com/img/videos/esradio-entrevista.jpg", "publisher": {"@type": "Organization", "name": "esRadio"}},
+           {"@type": "NewsArticle", "headline": "El Comité de Competición anula la roja al médico del Castilla", "url": "https://www.libertaddigital.com/deportes/futbol/2014-05-14/competicion-anula-la-roja-al-medico-del-castilla-1276518574/", "datePublished": "2014-05-14", "publisher": {"@type": "Organization", "name": "Libertad Digital"}}
          ],
          "hasCredential": [{"@type": "EducationalOccupationalCredential", "name": "Especialista en Medicina de la Educación Física y del Deporte (MIR)", "recognizedBy": {"@type": "CollegeOrUniversity", "name": "Universidad Complutense de Madrid"}}, {"@type": "EducationalOccupationalCredential", "name": "Certificación ICH-GCP E6(R3) Buenas Prácticas Clínicas", "recognizedBy": {"@type": "Organization", "name": "NIDA Clinical Trials Network, National Institutes of Health"}}],
          "identifier": {"@type": "PropertyValue", "propertyID": "Número de colegiado (Colegio de Médicos de Madrid)", "value": "281903698"},
@@ -226,6 +227,10 @@ def about_page():
 <a class="video" href="https://www.youtube.com/watch?v=FxVOJ4pY-Y4" target="_blank" rel="noopener"><img src="/img/videos/tve-tendones-ligamentos.jpg" alt="El Dr. Julio De la Morena entrevistado en La mañana de La 1 sobre el tendón de Aquiles" width="960" height="540" loading="lazy"><span class="video-t"><strong>Cómo prevenir lesiones en tendones y ligamentos</strong><span>Entrevista en televisión (La mañana de La 1) · Canal de Sanitas en YouTube</span></span></a>
 <a class="video" href="https://www.youtube.com/watch?v=PCEiHsOmEHU" target="_blank" rel="noopener"><img src="/img/videos/esradio-entrevista.jpg" alt="Entrevista al Dr. Julio De la Morena en esRadio" width="960" height="540" loading="lazy"><span class="video-t"><strong>Entrevista en esRadio</strong><span>«Es la mañana de Federico», con Eduardo Vizcaíno · YouTube</span></span></a>
 </div>
+<h3>En la prensa</h3>
+<ul class="prensa">
+<li><a href="https://www.libertaddigital.com/deportes/futbol/2014-05-14/competicion-anula-la-roja-al-medico-del-castilla-1276518574/" target="_blank" rel="noopener">El Comité de Competición anula la tarjeta roja al médico del Castilla</a><span>Libertad Digital · 14 de mayo de 2014. Expulsado por entrar al campo sin permiso para atender a un jugador que había perdido el conocimiento; el Comité dejó sin efecto la sanción.</span></li>
+</ul>
 <h2>Forma de trabajar</h2>
 <p>Consulta de alta resolución: en una misma visita se explora al paciente, se estudia con ecografía, se establece el diagnóstico y, cuando está indicado, se inicia el tratamiento, en coordinación con radiología intervencionista, fisioterapia y traumatología. La cirugía se reserva para los casos que de verdad la necesitan.</p>
 <h2>Qué trata</h2>

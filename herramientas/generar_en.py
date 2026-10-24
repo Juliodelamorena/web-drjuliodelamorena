@@ -156,7 +156,8 @@ def about_page():
          "knowsLanguage": ["es", "en"],
          "subjectOf": [
            {"@type": "VideoObject", "name": "Cómo prevenir lesiones en tendones y ligamentos", "url": "https://www.youtube.com/watch?v=FxVOJ4pY-Y4", "thumbnailUrl": "https://drjuliodelamorena.com/img/videos/tve-tendones-ligamentos.jpg", "publisher": {"@type": "Organization", "name": "Sanitas"}},
-           {"@type": "VideoObject", "name": "Entrevista a Julio de la Morena y a Eduardo Vizcaíno", "url": "https://www.youtube.com/watch?v=PCEiHsOmEHU", "thumbnailUrl": "https://drjuliodelamorena.com/img/videos/esradio-entrevista.jpg", "publisher": {"@type": "Organization", "name": "esRadio"}}
+           {"@type": "VideoObject", "name": "Entrevista a Julio de la Morena y a Eduardo Vizcaíno", "url": "https://www.youtube.com/watch?v=PCEiHsOmEHU", "thumbnailUrl": "https://drjuliodelamorena.com/img/videos/esradio-entrevista.jpg", "publisher": {"@type": "Organization", "name": "esRadio"}},
+           {"@type": "NewsArticle", "headline": "El Comité de Competición anula la roja al médico del Castilla", "url": "https://www.libertaddigital.com/deportes/futbol/2014-05-14/competicion-anula-la-roja-al-medico-del-castilla-1276518574/", "datePublished": "2014-05-14", "publisher": {"@type": "Organization", "name": "Libertad Digital"}}
          ],
          "identifier": {"@type": "PropertyValue", "propertyID": "Madrid Medical Council registration number", "value": "281903698"},
          "sameAs": ["https://www.instagram.com/drjuliodelamorena/", CITA]},
@@ -200,6 +201,10 @@ def about_page():
 <a class="video" href="https://www.youtube.com/watch?v=FxVOJ4pY-Y4" target="_blank" rel="noopener"><img src="/img/videos/tve-tendones-ligamentos.jpg" alt="Dr Julio De la Morena interviewed on Spanish national television about the Achilles tendon" width="960" height="540" loading="lazy"><span class="video-t"><strong>How to prevent tendon and ligament injuries</strong><span>Television interview (La 1, Spanish public television) · Sanitas channel on YouTube (in Spanish)</span></span></a>
 <a class="video" href="https://www.youtube.com/watch?v=PCEiHsOmEHU" target="_blank" rel="noopener"><img src="/img/videos/esradio-entrevista.jpg" alt="Dr Julio De la Morena interviewed on esRadio" width="960" height="540" loading="lazy"><span class="video-t"><strong>Interview on esRadio</strong><span>"Es la mañana de Federico" · YouTube (in Spanish)</span></span></a>
 </div>
+<h3>In the press</h3>
+<ul class="prensa">
+<li><a href="https://www.libertaddigital.com/deportes/futbol/2014-05-14/competicion-anula-la-roja-al-medico-del-castilla-1276518574/" target="_blank" rel="noopener">Competition Committee overturns the red card shown to the Castilla team doctor</a><span>Libertad Digital · 14 May 2014 (in Spanish). Sent off for entering the pitch without permission to attend to a player who had lost consciousness; the committee annulled the sanction.</span></li>
+</ul>
 <h2>How he works</h2>
 <p>One-stop consultation: in a single visit the patient is examined, studied with ultrasound, diagnosed and, when appropriate, treatment begins, in coordination with interventional radiology, physiotherapy and orthopaedic surgery. Surgery is reserved for the cases that genuinely need it.</p>
 <h2>What he treats</h2>
