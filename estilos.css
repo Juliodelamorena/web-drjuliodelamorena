@@ -298,3 +298,13 @@ a.tel { color: inherit; text-decoration: none; font-weight: inherit; }
 /* Botón de cita: en el móvil llama; en escritorio va al contacto */
 .btn.solo-movil { display: none; }
 @media (max-width: 760px) { .btn.solo-movil { display: inline-flex; } .btn.solo-escritorio { display: none; } }
+
+/* Entrevistas en vídeo */
+.videos { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; margin: 8px 0 12px; }
+.video { display: block; text-decoration: none; color: inherit; border: 1px solid var(--line); border-radius: 4px; overflow: hidden; background: #fff; }
+.video img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; }
+.video-t { display: block; padding: 14px 16px 16px; }
+.video-t strong { display: block; font-size: 16.5px; line-height: 1.3; margin-bottom: 4px; }
+.video-t span { display: block; font-size: 13.5px; color: var(--muted); line-height: 1.4; }
+.video:hover strong { text-decoration: underline; }
+@media (max-width: 640px) { .videos { grid-template-columns: minmax(0, 1fr); } }
