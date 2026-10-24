@@ -20,7 +20,7 @@ def header(es_url="/"):
     return f'''<div class="util">
 <div class="wrap">
 <span class="util-addr">Hospital Memorial Publio Cordón · Paseo de la Casa de Campo, 5 · Pozuelo de Alarcón (Madrid)</span>
-<span>Appointments <strong>{PHONE}</strong></span>
+<span>Appointments <a class="tel" href="tel:+34913548990">+34 913 548 990</a><span class="util-hor"> · Mon–Fri, 3 pm to 9 pm</span></span>
 </div>
 </div>
 <header class="top">
@@ -44,7 +44,7 @@ def footer():
 <strong class="foot-brand">Dr Julio De la Morena</strong>
 <span>Regenerative Therapies and Sports Medicine Unit</span>
 <span>Hospital Memorial Publio Cordón · Paseo de la Casa de Campo, 5 · 28223 Pozuelo de Alarcón (Madrid), Spain</span>
-<span>Appointments: {PHONE} · Consultations in English and Spanish</span>
+<span>Appointments: <a class="tel" href="tel:+34913548990">+34 913 548 990</a> · Mon–Fri, 3 pm to 9 pm · Consultations in English and Spanish</span>
 </div>
 <nav class="foot-col foot-links" aria-label="Conditions and treatments">{links}<a href="/en/dr-julio-de-la-morena/">The doctor</a><a href="/" hreflang="es" lang="es">Español</a></nav>
 </div>
@@ -52,7 +52,8 @@ def footer():
 <span>Dr Julio De la Morena Garzón · Madrid Medical Council registration no. 281903698 · Specialist in Sport and Exercise Medicine</span>
 <nav aria-label="Legal"><a href="/aviso-legal.html" hreflang="es">Legal notice (Spanish)</a><a href="/privacidad.html" hreflang="es">Privacy (Spanish)</a></nav>
 </div>
-</footer>'''
+</footer>
+<nav class="cta-fija" aria-label="Quick contact"><a class="llamar" href="tel:+34913548990">Call · +34 913 548 990</a><a class="cita" href="https://www.memorialpubliocordon.com/medicos/dr-julio-de-la-morena-garzon/">Book online</a></nav>'''
 
 def head(title, desc, url, es_url, img, ld, og_type="article", extra=""):
     return f'''<!doctype html>
@@ -89,8 +90,8 @@ def breadcrumb(name, url):
 
 def cta():
     return f'''<div class="cta-band">
-<div><h3>Request an assessment</h3><p>Regenerative Therapies and Sports Medicine Unit · Hospital Memorial Publio Cordón · {PHONE}</p></div>
-<a class="btn" href="/en/#contact">Request an appointment</a>
+<div><h3>Would you like your case assessed?</h3><p class="ventaja">Examination and ultrasound in the same appointment: you leave with a diagnosis and a plan. First appointment with no commitment to treatment: if nothing is indicated, we tell you.</p><p>Hospital Memorial Publio Cordón · Pozuelo de Alarcón · <a class="tel" href="tel:+34913548990">+34 913 548 990</a> · Mon–Fri, 3 pm to 9 pm</p></div>
+<a class="btn" href="{CITA}">Book online</a>
 </div>'''
 
 def page(p):
@@ -193,6 +194,9 @@ HOME_FAQ = [
  ("What are autologous growth factors?", "A treatment obtained from the patient's own blood, also known as platelet-rich plasma, and applied to the injured area, usually under ultrasound guidance. It is used in selected cases of osteoarthritis and tendinopathy; it is not suitable for every patient."),
  ("What is an ultrasound-guided injection?", "An injection in which the doctor sees the needle and the structure being treated on the ultrasound screen, so the treatment is placed exactly in the affected tendon or joint."),
  ("Can I be seen in English?", "Yes. Dr De la Morena sees patients in English and Spanish."),
+ ("Do you accept health insurance?", "No. Consultations are private and are not billed through insurers. You are told the fee when you book, before the visit."),
+ ("Do I need a referral?", "No. You can book directly."),
+ ("What are the clinic hours?", "Monday to Friday, 3 pm to 9 pm, at Hospital Memorial Publio Cordón (Pozuelo de Alarcón, Madrid)."),
  ("How do I book an appointment?", f"By phone on {PHONE}, through the Hospital Memorial Publio Cordón website or with the form on this page."),
 ]
 
@@ -227,8 +231,8 @@ def home():
 <h1>Osteoarthritis, tendinitis and back pain: treatment <em>without surgery</em> whenever possible.</h1>
 <p>Diagnosis and treatment of sports injuries, osteoarthritis, tendinopathies and back pain, with high-resolution ultrasound in the same appointment. For anyone with pain or an injury, whether or not they play sport. Consultations in English and Spanish.</p>
 <div class="hero-cta">
-<a class="btn" href="#contact">Request an appointment</a>
-<a class="btn btn-line" href="#doctor">Meet the doctor</a>
+<a class="btn" href="{CITA}">Book online</a>
+<a class="btn btn-line" href="#contact">Ask us to call you</a>
 </div>
 </div>
 <div class="hero-img"><img src="/img/hero.jpg" alt="Dr Julio De la Morena at Hospital Memorial Publio Cordón" width="1282" height="1600"></div>
@@ -348,7 +352,7 @@ def home():
 <p class="label">Appointments</p>
 <h2 class="h2">Request an appointment</h2>
 <p>Regenerative Therapies and Sports Medicine Unit<br>Hospital Memorial Publio Cordón<br>Paseo de la Casa de Campo, 5 · 28223 Pozuelo de Alarcón (Madrid), Spain</p>
-<div><p class="label" style="margin-bottom: 8px">Phone</p><div class="phone">{PHONE}</div></div>
+<div><p class="label" style="margin-bottom: 8px">Phone</p><div class="phone"><a class="tel" href="tel:+34913548990">+34 913 548 990</a></div><p class="horario">Clinic hours: Monday to Friday, 3 pm to 9 pm. We call you back within those hours.</p></div>
 <div class="hero-cta"><a class="btn" href="{CITA}">Book on the hospital website</a><a class="btn btn-line" href="https://www.instagram.com/drjuliodelamorena/">Instagram</a></div>
 </div>
 <form class="f" name="contacto-en" method="POST" action="/en/thank-you.html" data-netlify="true" netlify-honeypot="web">

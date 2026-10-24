@@ -24,7 +24,7 @@ def header(en_url="/en/"):
     return f'''<div class="util">
 <div class="wrap">
 <span class="util-addr">Hospital Memorial Publio Cordón · Paseo de la Casa de Campo, 5 · Pozuelo de Alarcón (Madrid)</span>
-<span>Cita previa <strong>913 548 990</strong></span>
+<span>Cita previa <a class="tel" href="tel:+34913548990">913 548 990</a><span class="util-hor"> · lunes a viernes, de 15:00 a 21:00</span></span>
 </div>
 </div>
 <header class="top">
@@ -52,7 +52,7 @@ def footer():
 <strong class="foot-brand">Dr. Julio De la Morena</strong>
 <span>Unidad de Terapias Regenerativas y Medicina Deportiva</span>
 <span>Hospital Memorial Publio Cordón · Paseo de la Casa de Campo, 5 · 28223 Pozuelo de Alarcón (Madrid)</span>
-<span>Cita previa: 913 548 990</span>
+<span>Cita previa: <a class="tel" href="tel:+34913548990">913 548 990</a> · Consulta lunes a viernes, de 15:00 a 21:00</span>
 </div>
 <nav class="foot-col foot-links" aria-label="Especialidades y tratamientos">{links}<a href="/dr-julio-de-la-morena/">El doctor</a><a href="/planes/">Planes de ejercicio</a><a href="/blog/">Artículos</a></nav>
 </div>
@@ -60,7 +60,8 @@ def footer():
 <span>Dr. Julio De la Morena Garzón · Colegiado nº 281903698 · Medicina de la Educación Física y del Deporte</span>
 <nav aria-label="Legal"><a href="/aviso-legal.html">Aviso legal</a><a href="/privacidad.html">Privacidad</a></nav>
 </div>
-</footer>'''
+</footer>
+<nav class="cta-fija" aria-label="Contacto rápido"><a class="llamar" href="tel:+34913548990">Llamar · 913 548 990</a><a class="cita" href="https://www.memorialpubliocordon.com/medicos/dr-julio-de-la-morena-garzon/">Pedir cita</a></nav>'''
 
 def alternates(es_url, en_url):
     return (f'<link rel="alternate" hreflang="es" href="{es_url}">\n'
@@ -140,8 +141,8 @@ def page(p):
 {faqs}
 </div>
 <div class="cta-band">
-<div><h3>Solicite una valoración</h3><p>Unidad de Terapias Regenerativas y Medicina Deportiva · Hospital Memorial Publio Cordón · 913 548 990</p></div>
-<a class="btn" href="{CITA}">Solicitar cita</a>
+<div><h3>{esc(p.get("cta", "Solicite una valoración"))}</h3><p class="ventaja">Exploración y ecografía en la misma consulta: sale con diagnóstico y plan. Primera consulta sin compromiso de tratamiento: si no está indicado, se lo decimos.</p><p>Hospital Memorial Publio Cordón · Pozuelo de Alarcón · <a class="tel" href="tel:+34913548990">913 548 990</a> · lunes a viernes, de 15:00 a 21:00</p></div>
+<a class="btn" href="{CITA}">Pedir cita</a>
 </div>
 <div class="byline">
 <img src="/img/retrato.jpg" alt="" width="480" height="480" loading="lazy">
@@ -159,7 +160,7 @@ def about_page():
     faq = [
      ("¿Quién es el Dr. Julio De la Morena?", "Es médico especialista en Medicina de la Educación Física y del Deporte, colegiado nº 281903698 en el Colegio de Médicos de Madrid. Pasa consulta en la Unidad de Terapias Regenerativas y Medicina Deportiva del Hospital Memorial Publio Cordón, en Pozuelo de Alarcón (Madrid). Trabajó catorce años en los servicios médicos del Real Madrid, cuatro como médico del primer equipo, y es director médico de la Real Federación Española de Rugby."),
      ("¿Qué trata el Dr. Julio De la Morena?", "Artrosis, tendinopatías, lumbalgia y ciática, dolor de hombro, esguinces y lesiones musculares, en deportistas y en personas que no hacen deporte. Utiliza ecografía en la misma consulta, infiltraciones guiadas por ecografía y factores de crecimiento autólogos cuando están indicados."),
-     ("¿Cómo pedir cita con el Dr. Julio De la Morena?", "Por teléfono en el 913 548 990, en la web del Hospital Memorial Publio Cordón o mediante el formulario de drjuliodelamorena.com."),
+     ("¿Cómo pedir cita con el Dr. Julio De la Morena?", "Por teléfono en el 913 548 990 (consulta de lunes a viernes, de 15:00 a 21:00), en la web del Hospital Memorial Publio Cordón o mediante el formulario de drjuliodelamorena.com."),
     ]
     ld = {"@context": "https://schema.org", "@graph": [
         {"@type": "ProfilePage", "@id": url, "url": url, "name": a["seo"], "inLanguage": "es-ES",
@@ -204,8 +205,8 @@ def about_page():
 {faqs}
 </div>
 <div class="cta-band">
-<div><h3>Solicite una valoración</h3><p>Hospital Memorial Publio Cordón · Paseo de la Casa de Campo, 5 · Pozuelo de Alarcón · 913 548 990</p></div>
-<a class="btn" href="{CITA}">Solicitar cita</a>
+<div><h3>¿Quiere que valore su caso?</h3><p class="ventaja">Exploración y ecografía en la misma consulta: sale con diagnóstico y plan. Primera consulta sin compromiso de tratamiento: si no está indicado, se lo decimos.</p><p>Hospital Memorial Publio Cordón · Paseo de la Casa de Campo, 5 · Pozuelo de Alarcón · <a class="tel" href="tel:+34913548990">913 548 990</a> · lunes a viernes, de 15:00 a 21:00</p></div>
+<a class="btn" href="{CITA}">Pedir cita</a>
 </div>
 </article>
 </main>

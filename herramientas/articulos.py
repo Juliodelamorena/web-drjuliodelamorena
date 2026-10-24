@@ -68,8 +68,8 @@ def articulo(a):
 {secs}
 {faq}
 <div class="cta-band">
-<div><h3>Solicite una valoración</h3><p>Unidad de Terapias Regenerativas y Medicina Deportiva · Hospital Memorial Publio Cordón · 913 548 990</p></div>
-<a class="btn" href="{G.CITA}">Solicitar cita</a>
+<div><h3>¿Se reconoce en lo que acaba de leer?</h3><p class="ventaja">Exploración y ecografía en la misma consulta: sale con diagnóstico y plan. Primera consulta sin compromiso de tratamiento: si no está indicado, se lo decimos.</p><p>Hospital Memorial Publio Cordón · Pozuelo de Alarcón · <a class="tel" href="tel:+34913548990">913 548 990</a> · lunes a viernes, de 15:00 a 21:00</p></div>
+<a class="btn" href="{G.CITA}">Pedir cita</a>
 </div>
 <div class="byline">
 <img src="/img/retrato.jpg" alt="" width="480" height="480" loading="lazy">

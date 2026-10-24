@@ -34,3 +34,10 @@ Origen: planes genéricos de Julio en Google Drive, carpeta "01 Clinica y pacien
 - Cada página española con pareja en inglés lleva enlaces hreflang (es, en, x-default) y el enlace "English" en la cabecera; la tabla de parejas es `SLUG_ES_TO_EN`.
 - Al añadir una página nueva en español, añadir su traducción en `paginas_en.py` y su pareja en `SLUG_ES_TO_EN`.
 - La segunda opinión todavía no tiene versión en inglés.
+
+## Captación (24 oct 2026)
+- Teléfono siempre pulsable (`<a class="tel" href="tel:+34913548990">`) y barra fija en el móvil (`.cta-fija`, la añade `footer()` en generar.py y generar_en.py; index.html y blog/lumbalgia-5-cosas.html la llevan a mano).
+- Horario de consulta: lunes a viernes, de 15:00 a 21:00. Aparece en la barra superior, el contacto, el pie, las preguntas frecuentes y el JSON-LD (openingHoursSpecification).
+- Portada: bloque "¿Es su caso?" (#caso) y botón principal a la cita online del hospital; el formulario queda como "Prefiero que me llamen" y pide la zona que duele.
+- Cada página de paginas.py lleva `"cta"`: una pregunta específica para el cierre, más la ventaja (exploración y ecografía en la misma consulta; primera consulta sin compromiso).
+- Sin seguros: la consulta es privada. Está en las preguntas frecuentes (es/en). Sin precios en la web.

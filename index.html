@@ -49,6 +49,7 @@
       "telephone": "+34913548990",
       "medicalSpecialty": ["SportsMedicine", "Musculoskeletal"],
       "isAcceptingNewPatients": true,
+      "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "15:00", "closes": "21:00" },
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Paseo de la Casa de Campo, 5",
@@ -76,6 +77,9 @@
         { "@type": "Question", "name": "¿Qué son los factores de crecimiento autólogos?", "acceptedAnswer": { "@type": "Answer", "text": "Son un tratamiento que se obtiene de la propia sangre del paciente y se aplica en la zona lesionada, normalmente con guía ecográfica. Se usan en algunos casos de artrosis y tendinopatías. No están indicados en todos los pacientes, por lo que primero hay que valorar cada caso en consulta." } },
         { "@type": "Question", "name": "¿Qué es una infiltración guiada por ecografía?", "acceptedAnswer": { "@type": "Answer", "text": "Es una infiltración en la que el médico ve en la pantalla del ecógrafo la aguja y la estructura que trata, para colocar el tratamiento exactamente en el tendón o la articulación afectada." } },
         { "@type": "Question", "name": "¿Qué es la radiculopatía o ciática?", "acceptedAnswer": { "@type": "Answer", "text": "Es el dolor que aparece cuando una raíz nerviosa de la columna se irrita o se comprime, por ejemplo por una hernia discal. Baja por la nalga y la pierna, a veces hasta el pie, con hormigueo, quemazón o pérdida de fuerza. Se diagnostica con una buena exploración y, en muchos casos, se puede tratar sin cirugía." } },
+        { "@type": "Question", "name": "¿El Dr. Julio De la Morena atiende con seguro médico?", "acceptedAnswer": { "@type": "Answer", "text": "No. La consulta es privada y no se atiende a través de aseguradoras." } },
+        { "@type": "Question", "name": "¿Hace falta volante o derivación para pedir cita?", "acceptedAnswer": { "@type": "Answer", "text": "No. Se puede pedir cita directamente por teléfono (913 548 990), en la web del Hospital Memorial Publio Cordón o con el formulario de drjuliodelamorena.com." } },
+        { "@type": "Question", "name": "¿Cuál es el horario de consulta del Dr. Julio De la Morena?", "acceptedAnswer": { "@type": "Answer", "text": "De lunes a viernes, de 15:00 a 21:00, en el Hospital Memorial Publio Cordón (Pozuelo de Alarcón, Madrid)." } },
         { "@type": "Question", "name": "¿Dónde pasa consulta el Dr. Julio De la Morena y cómo se pide cita?", "acceptedAnswer": { "@type": "Answer", "text": "En la Unidad de Terapias Regenerativas y Medicina Deportiva del Hospital Memorial Publio Cordón, Paseo de la Casa de Campo, 5, 28223 Pozuelo de Alarcón (Madrid). La cita se pide en el teléfono 913 548 990 o en la web del hospital." } }
       ]
     },
@@ -96,7 +100,7 @@
 <div class="util">
 <div class="wrap">
 <span class="util-addr">Hospital Memorial Publio Cordón · Paseo de la Casa de Campo, 5 · Pozuelo de Alarcón (Madrid)</span>
-<span>Cita previa <strong>913 548 990</strong></span>
+<span>Cita previa <a class="tel" href="tel:+34913548990">913 548 990</a><span class="util-hor"> · lunes a viernes, de 15:00 a 21:00</span></span>
 </div>
 </div>
 
@@ -124,8 +128,8 @@
 <h1>Artrosis, tendinitis y dolor de espalda: tratamiento <em>sin cirugía</em> siempre que sea posible.</h1>
 <p>Diagnóstico y tratamiento de lesiones deportivas, artrosis, tendinopatías y dolor de espalda, con ecografía de alta resolución en la misma consulta. Para cualquier persona con dolor o una lesión, haga deporte o no.</p>
 <div class="hero-cta">
-<a class="btn" href="#contacto">Solicitar cita</a>
-<a class="btn btn-line" href="#doctor">Conocer al doctor</a>
+<a class="btn" href="https://www.memorialpubliocordon.com/medicos/dr-julio-de-la-morena-garzon/">Pedir cita online</a>
+<a class="btn btn-line" href="#contacto">Prefiero que me llamen</a>
 </div>
 </div>
 <div class="hero-img"><img src="/img/hero.jpg" alt="El Dr. Julio De la Morena en el Hospital Memorial Publio Cordón" width="1282" height="1600"></div>
@@ -135,6 +139,25 @@
 <div class="cred"><b>14 años</b><span>en los servicios médicos del Real Madrid, 4 como médico del primer equipo</span></div>
 <div class="cred"><b>Director médico</b><span>de la Real Federación Española de Rugby</span></div>
 <div class="cred"><b>Especialista</b><span>en Medicina de la Educación Física y del Deporte · Col. 281903698</span></div>
+</div>
+</div>
+</section>
+
+<section id="caso" class="block caso">
+<div class="wrap">
+<div class="text">
+<p class="label">¿Es su caso?</p>
+<h2 class="h2">Si se reconoce en dos de estas frases, merece una valoración</h2>
+<p class="lead">No hace falta que el dolor sea reciente ni que haga deporte. Lo habitual es llegar después de meses de aguantar.</p>
+</div>
+<div>
+<ul>
+<li>Lleva más de seis semanas con dolor en una articulación, un tendón o la espalda.</li>
+<li>Le han dicho que es operar o aguantar.</li>
+<li>Le han infiltrado y no ha mejorado, o nadie le ha hecho una ecografía.</li>
+<li>Quiere una segunda opinión antes de pasar por quirófano.</li>
+</ul>
+<p class="cierre"><strong>Primera consulta sin compromiso de tratamiento.</strong> Se le explora y se le hace la ecografía en la misma visita; si no está indicado ningún tratamiento, se lo decimos.</p>
 </div>
 </div>
 </section>
@@ -274,7 +297,10 @@
 <details><summary>¿Qué son los factores de crecimiento autólogos?</summary><p>Un tratamiento que se obtiene de la propia sangre del paciente y se aplica en la zona lesionada, normalmente con guía ecográfica. Se emplea en casos seleccionados de artrosis y tendinopatía; no está indicado en todos los pacientes.</p></details>
 <details><summary>¿Qué es una infiltración guiada por ecografía?</summary><p>Una infiltración en la que el médico ve en la pantalla del ecógrafo la aguja y la estructura que trata, para colocar el tratamiento exactamente en el tendón o la articulación afectada.</p></details>
 <details><summary>¿Qué es la radiculopatía o ciática?</summary><p>El dolor que aparece cuando una raíz nerviosa de la columna se irrita o se comprime, por ejemplo por una hernia discal. Se irradia por la nalga y la pierna, a veces hasta el pie, con hormigueo, quemazón o pérdida de fuerza. Se diagnostica con una buena exploración y, en muchos casos, se trata sin cirugía.</p></details>
-<details><summary>¿Cómo se solicita cita?</summary><p>Por teléfono en el 913 548 990, en la web del Hospital Memorial Publio Cordón o mediante el formulario de esta página.</p></details>
+<details><summary>¿Atiende con seguro médico?</summary><p>No. La consulta es privada y no se atiende a través de aseguradoras. Se le indica el coste al pedir la cita, antes de la visita.</p></details>
+<details><summary>¿Hace falta volante o derivación de otro médico?</summary><p>No. Puede pedir cita directamente.</p></details>
+<details><summary>¿Qué llevo a la primera consulta?</summary><p>Los informes y pruebas que tenga (resonancia, radiografías, ecografías), a ser posible con las imágenes y no solo el informe, y la lista de tratamientos que ya ha probado. Si no tiene pruebas, no importa: la ecografía se hace en la misma consulta.</p></details>
+<details><summary>¿Cuál es el horario y cómo se pide cita?</summary><p>La consulta es de lunes a viernes, de 15:00 a 21:00. Puede pedir cita por teléfono en el <a class="tel" href="tel:+34913548990">913 548 990</a>, en la web del Hospital Memorial Publio Cordón o con el formulario de esta página.</p></details>
 </div>
 </div>
 </section>
@@ -285,8 +311,8 @@
 <p class="label">Cita previa</p>
 <h2 class="h2">Solicite su cita</h2>
 <p>Unidad de Terapias Regenerativas y Medicina Deportiva<br>Hospital Memorial Publio Cordón<br>Paseo de la Casa de Campo, 5 · 28223 Pozuelo de Alarcón (Madrid)</p>
-<div><p class="label" style="margin-bottom: 8px">Teléfono</p><div class="phone">913 548 990</div></div>
-<div class="hero-cta"><a class="btn" href="https://www.memorialpubliocordon.com/medicos/dr-julio-de-la-morena-garzon/">Cita en la web del hospital</a><a class="btn btn-line" href="https://www.instagram.com/drjuliodelamorena/">Instagram</a></div>
+<div><p class="label" style="margin-bottom: 8px">Teléfono</p><div class="phone"><a class="tel" href="tel:+34913548990">913 548 990</a></div><p class="horario">Consulta de lunes a viernes, de 15:00 a 21:00. Le llamamos en ese horario para darle cita.</p></div>
+<div class="hero-cta"><a class="btn" href="https://www.memorialpubliocordon.com/medicos/dr-julio-de-la-morena-garzon/">Pedir cita online</a><a class="btn btn-line" href="https://www.instagram.com/drjuliodelamorena/">Instagram</a></div>
 </div>
 <form class="f" name="contacto" method="POST" action="/gracias.html" data-netlify="true" netlify-honeypot="web">
 <input type="hidden" name="form-name" value="contacto">
@@ -294,7 +320,9 @@
 <h3>Le llamamos</h3>
 <label for="f-nombre">Nombre y apellidos<input id="f-nombre" name="nombre" type="text" autocomplete="name" required></label>
 <label for="f-tel">Teléfono<input id="f-tel" name="telefono" type="tel" autocomplete="tel" required></label>
-<label for="f-motivo">Motivo de consulta<textarea id="f-motivo" name="motivo" rows="4"></textarea></label>
+<label for="f-zona">¿Qué zona le duele?<select id="f-zona" name="zona" required><option value="">Elija una opción</option><option>Rodilla</option><option>Hombro</option><option>Espalda o ciática</option><option>Cadera</option><option>Codo</option><option>Tobillo o pie</option><option>Lesión muscular</option><option>Otra</option></select></label>
+<label for="f-motivo">Cuéntenos brevemente qué le pasa<textarea id="f-motivo" name="motivo" rows="3"></textarea></label>
+<p class="nota">Le llamamos de lunes a viernes, de 15:00 a 21:00, para darle cita.</p>
 <label class="check" for="f-priv"><input id="f-priv" name="privacidad" type="checkbox" required><span>He leído y acepto la <a href="/privacidad.html">política de privacidad</a>. Sus datos se usan únicamente para contactarle en relación con su cita.</span></label>
 <button class="btn btn-dark" type="submit">Enviar solicitud</button>
 </form>
@@ -308,7 +336,7 @@
 <strong class="foot-brand">Dr. Julio De la Morena</strong>
 <span>Unidad de Terapias Regenerativas y Medicina Deportiva</span>
 <span>Hospital Memorial Publio Cordón · Paseo de la Casa de Campo, 5 · 28223 Pozuelo de Alarcón (Madrid)</span>
-<span>Cita previa: 913 548 990</span>
+<span>Cita previa: <a class="tel" href="tel:+34913548990">913 548 990</a> · Consulta lunes a viernes, de 15:00 a 21:00</span>
 </div>
 <nav class="foot-col foot-links" aria-label="Especialidades y tratamientos"><a href="/artrosis-rodilla/">Artrosis de rodilla</a><a href="/lumbalgia-ciatica/">Lumbalgia y ciática</a><a href="/tendinopatias/">Tendinitis y tendinopatías</a><a href="/hombro-doloroso/">Dolor de hombro</a><a href="/esguince-tobillo/">Esguince de tobillo</a><a href="/lesiones-musculares/">Lesiones musculares</a><a href="/factores-crecimiento-autologos/">Factores de crecimiento autólogos</a><a href="/infiltraciones-ecoguiadas/">Infiltraciones ecoguiadas</a><a href="/medicina-deportiva/">Medicina deportiva</a><a href="/segunda-opinion/">Segunda opinión</a><a href="/dr-julio-de-la-morena/">El doctor</a><a href="/planes/">Planes de ejercicio</a><a href="/blog/">Artículos</a></nav>
 </div>
@@ -317,5 +345,6 @@
 <nav aria-label="Legal"><a href="/aviso-legal.html">Aviso legal</a><a href="/privacidad.html">Privacidad</a></nav>
 </div>
 </footer>
+<nav class="cta-fija" aria-label="Contacto rápido"><a class="llamar" href="tel:+34913548990">Llamar · 913 548 990</a><a class="cita" href="https://www.memorialpubliocordon.com/medicos/dr-julio-de-la-morena-garzon/">Pedir cita</a></nav>
 </body>
 </html>

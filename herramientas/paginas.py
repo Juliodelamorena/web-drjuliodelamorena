@@ -4,6 +4,7 @@
 PAGES = [
 {
  "slug": "artrosis-rodilla",
+ "cta": "¿Lleva meses con dolor de rodilla y le han hablado de prótesis?",
  "nav": "Artrosis de rodilla",
  "h1": "Artrosis de rodilla: tratamiento sin cirugía",
  "seo": "Artrosis de rodilla: tratamiento sin cirugía en Pozuelo (Madrid)",
@@ -28,6 +29,7 @@ PAGES = [
 },
 {
  "slug": "lumbalgia-ciatica",
+ "cta": "¿Le baja el dolor de la espalda a la pierna?",
  "nav": "Lumbalgia y ciática",
  "h1": "Lumbalgia y ciática",
  "seo": "Lumbalgia y ciática (radiculopatía): diagnóstico y tratamiento en Pozuelo (Madrid)",
@@ -53,6 +55,7 @@ PAGES = [
 },
 {
  "slug": "tendinopatias",
+ "cta": "¿Una tendinitis que no se va con el reposo?",
  "nav": "Tendinitis y tendinopatías",
  "h1": "Tendinitis y tendinopatías",
  "seo": "Tendinitis y tendinopatías: tratamiento en Pozuelo (Madrid)",
@@ -75,6 +78,7 @@ PAGES = [
 },
 {
  "slug": "hombro-doloroso",
+ "cta": "¿No puede dormir sobre el hombro ni levantar el brazo?",
  "nav": "Dolor de hombro",
  "h1": "Dolor de hombro",
  "seo": "Dolor de hombro y manguito rotador: tratamiento en Pozuelo (Madrid)",
@@ -96,6 +100,7 @@ PAGES = [
 },
 {
  "slug": "esguince-tobillo",
+ "cta": "¿Siempre se tuerce el mismo tobillo?",
  "nav": "Esguince de tobillo",
  "h1": "Esguince de tobillo",
  "seo": "Esguince de tobillo e inestabilidad: tratamiento en Pozuelo (Madrid)",
@@ -118,6 +123,7 @@ PAGES = [
 },
 {
  "slug": "lesiones-musculares",
+ "cta": "¿Una rotura muscular que se repite o no termina de curar?",
  "nav": "Lesiones musculares",
  "h1": "Roturas de fibras y lesiones musculares",
  "seo": "Rotura de fibras y lesiones musculares: tratamiento en Pozuelo (Madrid)",
@@ -139,6 +145,7 @@ PAGES = [
 },
 {
  "slug": "factores-crecimiento-autologos",
+ "cta": "¿Quiere saber si los factores de crecimiento están indicados en su caso?",
  "nav": "Factores de crecimiento autólogos",
  "h1": "Factores de crecimiento autólogos",
  "seo": "Factores de crecimiento autólogos (plasma rico en plaquetas) en Pozuelo (Madrid)",
@@ -163,6 +170,7 @@ PAGES = [
 },
 {
  "slug": "infiltraciones-ecoguiadas",
+ "cta": "¿Le han propuesto una infiltración?",
  "nav": "Infiltraciones ecoguiadas",
  "h1": "Infiltraciones guiadas por ecografía",
  "seo": "Infiltraciones guiadas por ecografía en Pozuelo (Madrid)",
@@ -185,6 +193,7 @@ PAGES = [
 },
 {
  "slug": "medicina-deportiva",
+ "cta": "¿Una lesión que le impide entrenar o competir?",
  "nav": "Medicina deportiva",
  "h1": "Medicina deportiva en Madrid",
  "seo": "Médico deportivo en Madrid y Pozuelo · Dr. Julio De la Morena",
@@ -205,6 +214,7 @@ PAGES = [
 },
 {
  "slug": "segunda-opinion",
+ "cta": "¿Le han propuesto operarse y quiere una segunda opinión?",
  "nav": "Segunda opinión",
  "h1": "Segunda opinión antes de una cirugía",
  "seo": "Segunda opinión médica antes de operarse, presencial o a distancia: rodilla, hombro y columna · Madrid",

@@ -189,7 +189,7 @@ form.f { background: #fff; color: var(--ink); padding: 36px; display: flex; flex
   .cv li { grid-template-columns: minmax(0, 1fr); gap: 2px; }
   .hero-img::after { inset: 12px -10px -12px 12px; }
   .top { position: static; }
-  .util-addr { display: none; }
+  .util-addr, .util-hor { display: none; }
   .menu a:not(.btn):not(.lang) { display: none; }
   .top .wrap { flex-wrap: nowrap; }
   .brand strong { font-size: 23px; }
@@ -264,3 +264,33 @@ form.f { background: #fff; color: var(--ink); padding: 36px; display: flex; flex
 .fig { margin: 28px 0 8px; }
 .fig img { display: block; width: 100%; height: auto; border-radius: 4px; box-shadow: 0 10px 30px rgba(12, 30, 56, 0.18); }
 .fig figcaption { margin-top: 12px; font-size: 14.5px; line-height: 1.5; color: var(--muted, #5b6676); }
+
+/* Teléfono pulsable */
+a.tel { color: inherit; text-decoration: none; font-weight: inherit; }
+.util a.tel, .foot a.tel { color: #fff; font-weight: 600; letter-spacing: 0.4px; }
+.phone a.tel { color: #fff; }
+.contact .horario { margin-top: 10px; color: var(--on-navy); font-size: 15px; }
+/* "¿Es su caso?" */
+.caso { background: var(--mist); }
+.caso .wrap { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 40px 64px; align-items: start; }
+.caso ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+.caso li { display: flex; gap: 14px; align-items: flex-start; font-size: 17px; line-height: 1.45; color: var(--ink); }
+.caso li::before { content: ""; flex: none; width: 22px; height: 22px; margin-top: 2px; border: 2px solid var(--gold); border-radius: 4px; }
+.caso .cierre { margin-top: 26px; padding: 18px 22px; background: var(--navy); color: #fff; border-left: 4px solid var(--gold); font-size: 16px; line-height: 1.5; }
+.caso .cierre strong { color: var(--gold); font-weight: 600; }
+@media (max-width: 760px) { .caso .wrap { grid-template-columns: minmax(0, 1fr); gap: 24px; } }
+/* Formulario: zona */
+.f select { font: inherit; font-size: 16px; padding: 12px 14px; border: 1px solid #C9D0DA; border-radius: 2px; background: #fff; min-height: 48px; color: var(--ink); }
+.f .nota { margin: -4px 0 0; font-size: 13.5px; color: var(--muted); font-weight: 400; letter-spacing: 0; }
+/* Cierre de las páginas: ventaja */
+.cta-band .ventaja { margin: 10px 0 0; color: #fff; font-size: 15px; line-height: 1.5; max-width: 60ch; }
+/* Barra fija de contacto en el móvil */
+.cta-fija { display: none; }
+@media (max-width: 760px) {
+  body { padding-bottom: 78px; }
+  .cta-fija { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; position: fixed; left: 0; right: 0; bottom: 0; z-index: 60; padding: 10px 12px calc(10px + env(safe-area-inset-bottom)); background: rgba(11, 27, 51, 0.96); backdrop-filter: blur(8px); border-top: 1px solid rgba(255,255,255,.14); }
+  .cta-fija a { display: flex; align-items: center; justify-content: center; min-height: 48px; border-radius: 4px; font-weight: 600; font-size: 15px; text-decoration: none; }
+  .cta-fija .llamar { color: #fff; border: 1px solid rgba(255,255,255,.55); }
+  .cta-fija .cita { background: var(--gold); color: var(--navy); }
+}
+@media print { .cta-fija { display: none !important; } body { padding-bottom: 0; } }
