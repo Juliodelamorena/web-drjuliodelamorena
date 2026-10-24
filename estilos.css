@@ -261,3 +261,6 @@ form.f { background: #fff; color: var(--ink); padding: 36px; display: flex; flex
 }
 .f-line { border: 1px solid #DDE2E9; margin: 24px 0; }
 .f input[type=email], .f select { font: inherit; font-size: 16px; padding: 12px 14px; border: 1px solid #C9D0DA; border-radius: 2px; background: #fff; min-height: 48px; color: var(--ink); }
+.fig { margin: 28px 0 8px; }
+.fig img { display: block; width: 100%; height: auto; border-radius: 4px; box-shadow: 0 10px 30px rgba(12, 30, 56, 0.18); }
+.fig figcaption { margin-top: 12px; font-size: 14.5px; line-height: 1.5; color: var(--muted, #5b6676); }
