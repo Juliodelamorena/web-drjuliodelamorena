@@ -177,6 +177,10 @@ def about_page():
          "alumniOf": [{"@type": "CollegeOrUniversity", "name": "Universidad de Alcalá"}, {"@type": "CollegeOrUniversity", "name": "Universidad Complutense de Madrid"}],
          "award": ["Premio Manuel Clavel Nolla, Jornadas Nacionales de Traumatología del Deporte (2007)"],
          "knowsLanguage": ["es", "en"],
+         "subjectOf": [
+           {"@type": "VideoObject", "name": "Cómo prevenir lesiones en tendones y ligamentos", "url": "https://www.youtube.com/watch?v=FxVOJ4pY-Y4", "thumbnailUrl": "https://drjuliodelamorena.com/img/videos/tve-tendones-ligamentos.jpg", "publisher": {"@type": "Organization", "name": "Sanitas"}},
+           {"@type": "VideoObject", "name": "Entrevista a Julio de la Morena y a Eduardo Vizcaíno", "url": "https://www.youtube.com/watch?v=PCEiHsOmEHU", "thumbnailUrl": "https://drjuliodelamorena.com/img/videos/esradio-entrevista.jpg", "publisher": {"@type": "Organization", "name": "esRadio"}}
+         ],
          "hasCredential": [{"@type": "EducationalOccupationalCredential", "name": "Especialista en Medicina de la Educación Física y del Deporte (MIR)", "recognizedBy": {"@type": "CollegeOrUniversity", "name": "Universidad Complutense de Madrid"}}, {"@type": "EducationalOccupationalCredential", "name": "Certificación ICH-GCP E6(R3) Buenas Prácticas Clínicas", "recognizedBy": {"@type": "Organization", "name": "NIDA Clinical Trials Network, National Institutes of Health"}}],
          "identifier": {"@type": "PropertyValue", "propertyID": "Número de colegiado (Colegio de Médicos de Madrid)", "value": "281903698"},
          "sameAs": ["https://www.instagram.com/drjuliodelamorena/", CITA]},
@@ -217,6 +221,11 @@ def about_page():
 <li><strong>Autor</strong> del capítulo «Beneficios psicológicos del ejercicio en la mujer» en <em>Mujer y Deporte. La salud como meta</em> (Sanitas Hospitales y Cátedra Olímpica Marqués de Samaranch, 2018), y coautor de publicaciones en revistas internacionales y comunicaciones en congresos nacionales e internacionales.</li>
 <li><strong>Idiomas:</strong> español e inglés (nivel alto; cursó la educación secundaria en el Reino Unido). Atiende en los dos idiomas.</li>
 </ul>
+<h2>Entrevistas y divulgación</h2>
+<div class="videos">
+<a class="video" href="https://www.youtube.com/watch?v=FxVOJ4pY-Y4" target="_blank" rel="noopener"><img src="/img/videos/tve-tendones-ligamentos.jpg" alt="El Dr. Julio De la Morena entrevistado en La mañana de La 1 sobre el tendón de Aquiles" width="960" height="540" loading="lazy"><span class="video-t"><strong>Cómo prevenir lesiones en tendones y ligamentos</strong><span>Entrevista en televisión (La mañana de La 1) · Canal de Sanitas en YouTube</span></span></a>
+<a class="video" href="https://www.youtube.com/watch?v=PCEiHsOmEHU" target="_blank" rel="noopener"><img src="/img/videos/esradio-entrevista.jpg" alt="Entrevista al Dr. Julio De la Morena en esRadio" width="960" height="540" loading="lazy"><span class="video-t"><strong>Entrevista en esRadio</strong><span>«Es la mañana de Federico», con Eduardo Vizcaíno · YouTube</span></span></a>
+</div>
 <h2>Forma de trabajar</h2>
 <p>Consulta de alta resolución: en una misma visita se explora al paciente, se estudia con ecografía, se establece el diagnóstico y, cuando está indicado, se inicia el tratamiento, en coordinación con radiología intervencionista, fisioterapia y traumatología. La cirugía se reserva para los casos que de verdad la necesitan.</p>
 <h2>Qué trata</h2>
