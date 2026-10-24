@@ -294,3 +294,7 @@ a.tel { color: inherit; text-decoration: none; font-weight: inherit; }
   .cta-fija .cita { background: var(--gold); color: var(--navy); }
 }
 @media print { .cta-fija { display: none !important; } body { padding-bottom: 0; } }
+
+/* Botón de cita: en el móvil llama; en escritorio va al contacto */
+.btn.solo-movil { display: none; }
+@media (max-width: 760px) { .btn.solo-movil { display: inline-flex; } .btn.solo-escritorio { display: none; } }

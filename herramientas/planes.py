@@ -86,7 +86,7 @@ def plan(p):
 <details class="bloque"><summary>Tratamiento complementario</summary><p>{esc(p['complementario'])}</p></details>
 <div class="box"><h3>Cuándo consultar antes de la revisión</h3><ul>{consultar}</ul><p style="margin-top:12px">{esc(p['normal'])}</p></div>
 <p class="no-print"><button class="btn btn-dark" id="imprimir" type="button">Imprimir o guardar en PDF</button></p>
-<div class="cta-band no-print"><div><h3>¿No mejora como esperabas?</h3><p>Solicita una revisión · Hospital Memorial Publio Cordón · <a class="tel" href="tel:+34913548990">913 548 990</a> · lunes a viernes, de 15:00 a 21:00</p></div><a class="btn" href="{G.CITA}">Pedir cita</a></div>
+<div class="cta-band no-print"><div><h3>¿No mejora como esperabas?</h3><p>Solicita una revisión · Hospital Memorial Publio Cordón · <a class="tel" href="tel:+34913548990">913 548 990</a> · lunes a viernes, de 15:00 a 21:00</p></div><a class="btn solo-movil" href="tel:+34913548990">Llamar para pedir cita</a><a class="btn solo-escritorio" href="/#contacto">Pedir cita</a></div>
 <div class="byline"><img src="/img/retrato.jpg" alt="" width="480" height="480" loading="lazy"><p>Plan elaborado por el <a href="/dr-julio-de-la-morena/">Dr. Julio De la Morena Garzón</a>, especialista en Medicina de la Educación Física y del Deporte (colegiado nº 281903698), Unidad de Terapias Regenerativas y Medicina Deportiva del Hospital Memorial Publio Cordón.</p></div>
 <div class="related no-print">{('<p class="label">Relacionado</p>' + rel) if rel else ''}</div>
 </article>

@@ -31,7 +31,7 @@ def header(es_url="/"):
 <a href="/en/#treatments">Treatments</a>
 <a href="/en/dr-julio-de-la-morena/">The doctor</a>
 <a class="lang" href="{es_url}" hreflang="es" lang="es">Español</a>
-<a class="btn" href="/en/#contact">Request an appointment</a>
+<a class="btn solo-movil" href="tel:+34913548990">Book</a><a class="btn solo-escritorio" href="/en/#contact">Book an appointment</a>
 </nav>
 </div>
 </header>'''
@@ -53,7 +53,7 @@ def footer():
 <nav aria-label="Legal"><a href="/aviso-legal.html" hreflang="es">Legal notice (Spanish)</a><a href="/privacidad.html" hreflang="es">Privacy (Spanish)</a></nav>
 </div>
 </footer>
-<nav class="cta-fija" aria-label="Quick contact"><a class="llamar" href="tel:+34913548990">Call · +34 913 548 990</a><a class="cita" href="https://www.memorialpubliocordon.com/medicos/dr-julio-de-la-morena-garzon/">Book online</a></nav>'''
+<nav class="cta-fija" aria-label="Quick contact"><a class="llamar" href="tel:+34913548990">Call · +34 913 548 990</a><a class="cita" href="/en/#contact">Ask for a call</a></nav>'''
 
 def head(title, desc, url, es_url, img, ld, og_type="article", extra=""):
     return f'''<!doctype html>
@@ -91,7 +91,7 @@ def breadcrumb(name, url):
 def cta():
     return f'''<div class="cta-band">
 <div><h3>Would you like your case assessed?</h3><p class="ventaja">Examination and ultrasound in the same appointment: you leave with a diagnosis and a plan. First appointment with no commitment to treatment: if nothing is indicated, we tell you.</p><p>Hospital Memorial Publio Cordón · Pozuelo de Alarcón · <a class="tel" href="tel:+34913548990">+34 913 548 990</a> · Mon–Fri, 3 pm to 9 pm</p></div>
-<a class="btn" href="{CITA}">Book online</a>
+<a class="btn solo-movil" href="tel:+34913548990">Call to book</a><a class="btn solo-escritorio" href="/en/#contact">Book an appointment</a>
 </div>'''
 
 def page(p):
@@ -138,7 +138,7 @@ def about_page():
      ("Who is Dr Julio De la Morena?", "He is a doctor specialising in Sport and Exercise Medicine, registered with the Madrid Medical Council (no. 281903698). He sees patients at the Regenerative Therapies and Sports Medicine Unit of Hospital Memorial Publio Cordón in Pozuelo de Alarcón (Madrid). He spent fourteen years with the Real Madrid CF medical services, four as first-team doctor, and is Chief Medical Officer of the Spanish Rugby Federation."),
      ("What does Dr Julio De la Morena treat?", "Osteoarthritis, tendinopathies, low back pain and sciatica, shoulder pain, sprains and muscle injuries, in athletes and in people who do no sport. He uses ultrasound in the same appointment, ultrasound-guided injections and autologous growth factors (platelet-rich plasma) when appropriate."),
      ("Does Dr De la Morena speak English?", "Yes. Consultations are available in English and Spanish."),
-     ("How do I book an appointment?", f"By phone on {PHONE}, through the Hospital Memorial Publio Cordón website or with the contact form on drjuliodelamorena.com/en/."),
+     ("How do I book an appointment?", f"By phone on {PHONE}, or with the contact form on drjuliodelamorena.com/en/, and we call you back."),
     ]
     ld = {"@context": "https://schema.org", "@graph": [
         {"@type": "ProfilePage", "@id": url, "url": url, "name": a["seo"], "inLanguage": "en",
@@ -197,7 +197,7 @@ HOME_FAQ = [
  ("Do you accept health insurance?", "No. Consultations are private and are not billed through insurers. You are told the fee when you book, before the visit."),
  ("Do I need a referral?", "No. You can book directly."),
  ("What are the clinic hours?", "Monday to Friday, 3 pm to 9 pm, at Hospital Memorial Publio Cordón (Pozuelo de Alarcón, Madrid)."),
- ("How do I book an appointment?", f"By phone on {PHONE}, through the Hospital Memorial Publio Cordón website or with the form on this page."),
+ ("How do I book an appointment?", f"By phone on {PHONE}, or with the form on this page, and we call you back."),
 ]
 
 def home():
@@ -231,7 +231,7 @@ def home():
 <h1>Osteoarthritis, tendinitis and back pain: treatment <em>without surgery</em> whenever possible.</h1>
 <p>Diagnosis and treatment of sports injuries, osteoarthritis, tendinopathies and back pain, with high-resolution ultrasound in the same appointment. For anyone with pain or an injury, whether or not they play sport. Consultations in English and Spanish.</p>
 <div class="hero-cta">
-<a class="btn" href="{CITA}">Book online</a>
+<a class="btn solo-movil" href="tel:+34913548990">Call to book</a><a class="btn solo-escritorio" href="/en/#contact">Book an appointment</a>
 <a class="btn btn-line" href="#contact">Ask us to call you</a>
 </div>
 </div>
@@ -353,7 +353,7 @@ def home():
 <h2 class="h2">Request an appointment</h2>
 <p>Regenerative Therapies and Sports Medicine Unit<br>Hospital Memorial Publio Cordón<br>Paseo de la Casa de Campo, 5 · 28223 Pozuelo de Alarcón (Madrid), Spain</p>
 <div><p class="label" style="margin-bottom: 8px">Phone</p><div class="phone"><a class="tel" href="tel:+34913548990">+34 913 548 990</a></div><p class="horario">Clinic hours: Monday to Friday, 3 pm to 9 pm. We call you back within those hours.</p></div>
-<div class="hero-cta"><a class="btn" href="{CITA}">Book on the hospital website</a><a class="btn btn-line" href="https://www.instagram.com/drjuliodelamorena/">Instagram</a></div>
+<div class="hero-cta"><a class="btn solo-movil" href="tel:+34913548990">Call now</a><a class="btn btn-line" href="https://www.instagram.com/drjuliodelamorena/">Instagram</a></div>
 </div>
 <form class="f" name="contacto-en" method="POST" action="/en/thank-you.html" data-netlify="true" netlify-honeypot="web">
 <input type="hidden" name="form-name" value="contacto-en">
@@ -383,7 +383,7 @@ def thank_you():
 <link rel="stylesheet" href="/estilos.css">
 </head>
 <body>
-<header class="top"><div class="wrap"><a class="brand" href="/en/"><strong>Dr Julio De la Morena</strong><span>Sports Medicine · Regenerative Therapies</span></a><nav class="menu" aria-label="Main"><a href="/en/">Home</a><a class="btn" href="/en/#contact">Request an appointment</a></nav></div></header>
+<header class="top"><div class="wrap"><a class="brand" href="/en/"><strong>Dr Julio De la Morena</strong><span>Sports Medicine · Regenerative Therapies</span></a><nav class="menu" aria-label="Main"><a href="/en/">Home</a><a class="btn solo-movil" href="tel:+34913548990">Book</a><a class="btn solo-escritorio" href="/en/#contact">Book an appointment</a></nav></div></header>
 <main class="legal"><div class="wrap">
 <h1>Received</h1>
 <p>Thank you for getting in touch. We will call you to arrange your appointment.</p>

@@ -37,7 +37,7 @@ def header(en_url="/en/"):
 <a href="/planes/">Planes de ejercicio</a>
 <a href="/blog/">Artículos</a>
 <a class="lang" href="{en_url}" hreflang="en" lang="en">English</a>
-<a class="btn" href="/#contacto">Solicitar cita</a>
+<a class="btn solo-movil" href="tel:+34913548990">Pedir cita</a><a class="btn solo-escritorio" href="/#contacto">Pedir cita</a>
 </nav>
 </div>
 </header>'''
@@ -61,7 +61,7 @@ def footer():
 <nav aria-label="Legal"><a href="/aviso-legal.html">Aviso legal</a><a href="/privacidad.html">Privacidad</a></nav>
 </div>
 </footer>
-<nav class="cta-fija" aria-label="Contacto rápido"><a class="llamar" href="tel:+34913548990">Llamar · 913 548 990</a><a class="cita" href="https://www.memorialpubliocordon.com/medicos/dr-julio-de-la-morena-garzon/">Pedir cita</a></nav>'''
+<nav class="cta-fija" aria-label="Contacto rápido"><a class="llamar" href="tel:+34913548990">Llamar · 913 548 990</a><a class="cita" href="/#contacto">Que me llamen</a></nav>'''
 
 def alternates(es_url, en_url):
     return (f'<link rel="alternate" hreflang="es" href="{es_url}">\n'
@@ -142,7 +142,7 @@ def page(p):
 </div>
 <div class="cta-band">
 <div><h3>{esc(p.get("cta", "Solicite una valoración"))}</h3><p class="ventaja">Exploración y ecografía en la misma consulta: sale con diagnóstico y plan. Primera consulta sin compromiso de tratamiento: si no está indicado, se lo decimos.</p><p>Hospital Memorial Publio Cordón · Pozuelo de Alarcón · <a class="tel" href="tel:+34913548990">913 548 990</a> · lunes a viernes, de 15:00 a 21:00</p></div>
-<a class="btn" href="{CITA}">Pedir cita</a>
+<a class="btn solo-movil" href="tel:+34913548990">Llamar para pedir cita</a><a class="btn solo-escritorio" href="/#contacto">Pedir cita</a>
 </div>
 <div class="byline">
 <img src="/img/retrato.jpg" alt="" width="480" height="480" loading="lazy">
@@ -160,7 +160,7 @@ def about_page():
     faq = [
      ("¿Quién es el Dr. Julio De la Morena?", "Es médico especialista en Medicina de la Educación Física y del Deporte, colegiado nº 281903698 en el Colegio de Médicos de Madrid. Pasa consulta en la Unidad de Terapias Regenerativas y Medicina Deportiva del Hospital Memorial Publio Cordón, en Pozuelo de Alarcón (Madrid). Trabajó catorce años en los servicios médicos del Real Madrid, cuatro como médico del primer equipo, y es director médico de la Real Federación Española de Rugby."),
      ("¿Qué trata el Dr. Julio De la Morena?", "Artrosis, tendinopatías, lumbalgia y ciática, dolor de hombro, esguinces y lesiones musculares, en deportistas y en personas que no hacen deporte. Utiliza ecografía en la misma consulta, infiltraciones guiadas por ecografía y factores de crecimiento autólogos cuando están indicados."),
-     ("¿Cómo pedir cita con el Dr. Julio De la Morena?", "Por teléfono en el 913 548 990 (consulta de lunes a viernes, de 15:00 a 21:00), en la web del Hospital Memorial Publio Cordón o mediante el formulario de drjuliodelamorena.com."),
+     ("¿Cómo pedir cita con el Dr. Julio De la Morena?", "Por teléfono en el 913 548 990 (consulta de lunes a viernes, de 15:00 a 21:00) o con el formulario de drjuliodelamorena.com, y le llamamos para darle cita."),
     ]
     ld = {"@context": "https://schema.org", "@graph": [
         {"@type": "ProfilePage", "@id": url, "url": url, "name": a["seo"], "inLanguage": "es-ES",
@@ -206,7 +206,7 @@ def about_page():
 </div>
 <div class="cta-band">
 <div><h3>¿Quiere que valore su caso?</h3><p class="ventaja">Exploración y ecografía en la misma consulta: sale con diagnóstico y plan. Primera consulta sin compromiso de tratamiento: si no está indicado, se lo decimos.</p><p>Hospital Memorial Publio Cordón · Paseo de la Casa de Campo, 5 · Pozuelo de Alarcón · <a class="tel" href="tel:+34913548990">913 548 990</a> · lunes a viernes, de 15:00 a 21:00</p></div>
-<a class="btn" href="{CITA}">Pedir cita</a>
+<a class="btn solo-movil" href="tel:+34913548990">Llamar para pedir cita</a><a class="btn solo-escritorio" href="/#contacto">Pedir cita</a>
 </div>
 </article>
 </main>
