@@ -57,6 +57,7 @@ Origen: planes genéricos de Julio en Google Drive, carpeta "01 Clinica y pacien
 - Al contar visitas, descartar lo anterior al 1 de noviembre de 2026: son filas de prueba.
 - La política de privacidad (`privacidad.html`) explica la medición; si cambia lo que se guarda, actualizarla.
 - Supabase gratuito pausa el proyecto tras una semana sin peticiones: si el contador deja de registrar, comprobar que el proyecto está activo.
+- Para qué sirve: Julio no quiere informes de visitas. Los datos son para decidir, y así está puesto en las dos tareas semanales (lunes, Instagram; viernes, artículos): mirar qué páginas atraen gente y cuáles no, de dónde llegan las visitas (instagram, google, asistentes de inteligencia artificial, directo) y qué idiomas se usan, y a partir de ahí elegir los temas de los carruseles y de los artículos, reforzar o enlazar mejor lo que nadie ve, y ajustar a qué página se lleva desde Instagram. En los mensajes a Julio, como mucho una frase si hay algo que deba saber; nunca tablas de visitas.
 
 ## Captación (24 oct 2026)
 - Teléfono siempre pulsable (`<a class="tel" href="tel:+34913548990">`) y barra fija en el móvil (`.cta-fija`, la añade `footer()` en generar.py y generar_en.py; index.html y blog/lumbalgia-5-cosas.html la llevan a mano).
