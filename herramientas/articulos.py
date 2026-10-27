@@ -131,6 +131,12 @@ def sitemap(arts):
            [("/blog/", "0.7"), ("/planes/", "0.8")] + [(f"/planes/{q['slug']}/", "0.8") for q in __import__("planes").cargar()] + [(f"/blog/{a['slug']}.html", "0.6") for a in arts] + \
            [("/aviso-legal.html", "0.2"), ("/privacidad.html", "0.2")] + \
            [("/en/", "0.8"), ("/en/dr-julio-de-la-morena/", "0.7")] + [(f"/en/{q['slug']}/", "0.7") for q in __import__("paginas_en").PAGES_EN]
+    import idiomas as I
+    for code in I.PACKS:                      # Georgian, Russian, French (generar_i18n.py)
+        pk = I.pack(code)
+        if pk is None:
+            continue
+        urls += [(f"/{code}/", "0.8"), (f"/{code}/{pk.ABOUT['slug']}/", "0.7")] + [(f"/{code}/{q['slug']}/", "0.7") for q in pk.PAGES]
     hoy = max([a["fecha"] for a in arts] + [G.REVISION])
     x = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + \
         "".join(f"  <url><loc>{SITE}{u}</loc><lastmod>{hoy}</lastmod><priority>{pr}</priority></url>\n" for u, pr in urls) + "</urlset>\n"

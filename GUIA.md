@@ -31,9 +31,20 @@ Origen: planes genéricos de Julio en Google Drive, carpeta "01 Clinica y pacien
 
 - Contenido en `herramientas/paginas_en.py`; se genera con `python3 herramientas/generar_en.py`.
 - Orden al regenerar todo: `generar.py`, `generar_en.py`, `articulos.py`, `planes.py`.
-- Cada página española con pareja en inglés lleva enlaces hreflang (es, en, x-default) y el enlace "English" en la cabecera; la tabla de parejas es `SLUG_ES_TO_EN`.
+- Cada página española con pareja en otro idioma lleva enlaces hreflang (es, en, ka, ru, fr, x-default) y el menú de idiomas en la cabecera (`idiomas.py`); la tabla de parejas inglesas es `SLUG_ES_TO_EN`.
 - Al añadir una página nueva en español, añadir su traducción en `paginas_en.py` y su pareja en `SLUG_ES_TO_EN`.
-- La segunda opinión todavía no tiene versión en inglés.
+- La segunda opinión todavía no tiene versión en inglés (sí en georgiano, ruso y francés).
+
+## Versiones en georgiano, ruso y francés (/ka/, /ru/, /fr/)
+
+- Pensadas para pacientes que vienen desde fuera (muchos desde Georgia): portada con apartado "pacientes del extranjero", página del doctor, las nueve páginas de patologías y tratamientos y la segunda opinión a distancia con su formulario (`segunda-opinion-<idioma>`); formulario de contacto `contacto-<idioma>`. Página de gracias: `/ka/madloba.html`, `/ru/spasibo.html`, `/fr/merci.html`.
+- Contenido en `herramientas/paginas_ka.py`, `paginas_ru.py`, `paginas_fr.py` (misma estructura que `paginas_plantilla.py`, que es la plantilla en inglés). Comprobar la estructura con `python3 herramientas/comprobar_paquete.py ka`. Generar con `python3 herramientas/generar_i18n.py all` (o `ka`, `ru`, `fr`).
+- Orden al regenerar todo: `generar_i18n.py all`, `generar.py`, `generar_en.py`, `articulos.py`, `planes.py` (los dos primeros ponen el hreflang de cinco idiomas en las páginas españolas e inglesas; `articulos.py` mete los idiomas en el sitemap).
+- `herramientas/idiomas.py` es el registro común: parejas de slugs por idioma, enlaces hreflang, menú desplegable de idiomas (`<details class="lang-menu">`, sin JavaScript) y enlaces de idioma del pie. `index.html` lleva el menú y el hreflang a mano.
+- En estos idiomas el botón principal es "escríbanos" (formulario), no "llamar": la recepción del hospital atiende en español e inglés. En los textos se dice que puede escribirse en su idioma y que se responde en su idioma (Julio responde con ayuda de Claude), y que la consulta es en español o inglés (que vengan acompañados si no hablan ninguno). Nada de precios ni promesas.
+- El nombre del doctor va en alfabeto latino en marca, títulos SEO y descripciones, y transliterado en el cuerpo del texto (ხულიო დე ლა მორენა / Хулио де ла Морена). "Factores de crecimiento autólogos" es el término principal; "plasma rico en plaquetas" solo como sinónimo entre paréntesis.
+- Georgiano: las fuentes Manrope y Cormorant no tienen alfabeto georgiano; el paquete `paginas_ka.py` añade Noto Sans Georgian y Noto Serif Georgian (`META["extra_fonts"]` y `META["font_css"]`).
+- Pendiente: que un paciente georgiano de confianza revise la versión georgiana antes de difundirla.
 
 ## Captación (24 oct 2026)
 - Teléfono siempre pulsable (`<a class="tel" href="tel:+34913548990">`) y barra fija en el móvil (`.cta-fija`, la añade `footer()` en generar.py y generar_en.py; index.html y blog/lumbalgia-5-cosas.html la llevan a mano).

@@ -2,6 +2,7 @@ import json, os, sys, html
 sys.path.insert(0, os.path.dirname(__file__))
 from paginas import PAGES, ABOUT
 from paginas_en import SLUG_ES_TO_EN
+import idiomas as I
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = "https://drjuliodelamorena.com"
@@ -20,7 +21,7 @@ BY_SLUG = {p["slug"]: p for p in PAGES}
 
 def esc(s): return html.escape(s, quote=True)
 
-def header(en_url="/en/"):
+def header(es_slug=""):
     return f'''<div class="util">
 <div class="wrap">
 <span class="util-addr">Hospital Memorial Publio Cordón · Paseo de la Casa de Campo, 5 · Pozuelo de Alarcón (Madrid)</span>
@@ -36,7 +37,7 @@ def header(en_url="/en/"):
 <a href="/dr-julio-de-la-morena/">El doctor</a>
 <a href="/planes/">Planes de ejercicio</a>
 <a href="/blog/">Artículos</a>
-<a class="lang" href="{en_url}" hreflang="en" lang="en">English</a>
+{I.menu("es", es_slug, "Idioma")}
 <a class="btn solo-movil" href="tel:+34913548990">Pedir cita</a><a class="btn solo-escritorio" href="/#contacto">Pedir cita</a>
 </nav>
 </div>
@@ -54,7 +55,7 @@ def footer():
 <span>Hospital Memorial Publio Cordón · Paseo de la Casa de Campo, 5 · 28223 Pozuelo de Alarcón (Madrid)</span>
 <span>Cita previa: <a class="tel" href="tel:+34913548990">913 548 990</a> · Consulta lunes a viernes, de 15:00 a 21:00</span>
 </div>
-<nav class="foot-col foot-links" aria-label="Especialidades y tratamientos">{links}<a href="/dr-julio-de-la-morena/">El doctor</a><a href="/planes/">Planes de ejercicio</a><a href="/blog/">Artículos</a></nav>
+<nav class="foot-col foot-links" aria-label="Especialidades y tratamientos">{links}<a href="/dr-julio-de-la-morena/">El doctor</a><a href="/planes/">Planes de ejercicio</a><a href="/blog/">Artículos</a>{I.footer_links("es")}</nav>
 </div>
 <div class="wrap foot-legal">
 <span>Dr. Julio De la Morena Garzón · Colegiado nº 281903698 · Medicina de la Educación Física y del Deporte</span>
@@ -63,13 +64,13 @@ def footer():
 </footer>
 <nav class="cta-fija" aria-label="Contacto rápido"><a class="llamar" href="tel:+34913548990">Llamar · 913 548 990</a><a class="cita" href="/#contacto">Que me llamen</a></nav>'''
 
-def alternates(es_url, en_url):
-    return (f'<link rel="alternate" hreflang="es" href="{es_url}">\n'
-            f'<link rel="alternate" hreflang="en" href="{en_url}">\n'
-            f'<link rel="alternate" hreflang="x-default" href="{es_url}">\n')
+def alternates(es_url, en_url=None):
+    """hreflang links for the Spanish page at es_url, in every language that has a version of it."""
+    return I.alternates(I.es_slug_from_url(es_url))
 
 def head(title, desc, url, img, ld, en_url=None):
-    alt = alternates(url, en_url) if en_url else ""
+    es_slug = I.es_slug_from_url(url)
+    alt = I.alternates(es_slug)
     return f'''<!doctype html>
 <html lang="es">
 <head>
@@ -80,7 +81,7 @@ def head(title, desc, url, img, ld, en_url=None):
 <link rel="canonical" href="{url}">
 {alt}<meta property="og:type" content="article">
 <meta property="og:locale" content="es_ES">
-<meta property="og:title" content="{esc(title)}">
+{I.og_alternates("es")}<meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(desc)}">
 <meta property="og:url" content="{url}">
 <meta property="og:image" content="{SITE}/img/{img}">
@@ -93,7 +94,7 @@ def head(title, desc, url, img, ld, en_url=None):
 </script>
 </head>
 <body>
-{header(en_url.replace(SITE, '') if en_url else '/en/')}
+{header(es_slug)}
 '''
 
 DOCTOR_REF = {"@type": "Person", "@id": f"{SITE}/#julio", "name": "Dr. Julio De la Morena Garzón"}

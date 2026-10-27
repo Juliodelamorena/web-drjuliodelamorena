@@ -8,6 +8,7 @@ Content lives in herramientas/paginas_en.py. Spanish pages get hreflang from gen
 import json, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import generar as G
+import idiomas as I
 from paginas_en import PAGES_EN, ABOUT_EN, SLUG_ES_TO_EN
 
 ROOT, SITE, CITA, FONTS, esc = G.ROOT, G.SITE, G.CITA, G.FONTS, G.esc
@@ -16,7 +17,7 @@ BY = {p["slug"]: p for p in PAGES_EN}
 DOCTOR_REF = G.DOCTOR_REF
 PHONE = "+34 913 548 990"
 
-def header(es_url="/"):
+def header(es_slug=""):
     return f'''<div class="util">
 <div class="wrap">
 <span class="util-addr">Hospital Memorial Publio Cordón · Paseo de la Casa de Campo, 5 · Pozuelo de Alarcón (Madrid)</span>
@@ -30,13 +31,13 @@ def header(es_url="/"):
 <a href="/en/#conditions">Conditions</a>
 <a href="/en/#treatments">Treatments</a>
 <a href="/en/dr-julio-de-la-morena/">The doctor</a>
-<a class="lang" href="{es_url}" hreflang="es" lang="es">Español</a>
+{I.menu("en", es_slug, "Language")}
 <a class="btn solo-movil" href="tel:+34913548990">Book</a><a class="btn solo-escritorio" href="/en/#contact">Book an appointment</a>
 </nav>
 </div>
 </header>'''
 
-def footer():
+def footer(es_slug=""):
     links = "".join(f'<a href="/en/{p["slug"]}/">{esc(p["nav"])}</a>' for p in PAGES_EN)
     return f'''<footer class="foot">
 <div class="wrap foot-grid">
@@ -46,7 +47,7 @@ def footer():
 <span>Hospital Memorial Publio Cordón · Paseo de la Casa de Campo, 5 · 28223 Pozuelo de Alarcón (Madrid), Spain</span>
 <span>Appointments: <a class="tel" href="tel:+34913548990">+34 913 548 990</a> · Mon–Fri, 3 pm to 9 pm · Consultations in English and Spanish</span>
 </div>
-<nav class="foot-col foot-links" aria-label="Conditions and treatments">{links}<a href="/en/dr-julio-de-la-morena/">The doctor</a><a href="/" hreflang="es" lang="es">Español</a></nav>
+<nav class="foot-col foot-links" aria-label="Conditions and treatments">{links}<a href="/en/dr-julio-de-la-morena/">The doctor</a>{I.footer_links("en", es_slug)}</nav>
 </div>
 <div class="wrap foot-legal">
 <span>Dr Julio De la Morena Garzón · Madrid Medical Council registration no. 281903698 · Specialist in Sport and Exercise Medicine</span>
@@ -64,9 +65,9 @@ def head(title, desc, url, es_url, img, ld, og_type="article", extra=""):
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
 <link rel="canonical" href="{url}">
-{G.alternates(es_url, url)}{extra}<meta property="og:type" content="{og_type}">
+{I.alternates(I.es_slug_from_url(es_url))}{extra}<meta property="og:type" content="{og_type}">
 <meta property="og:locale" content="en_GB">
-<meta property="og:locale:alternate" content="es_ES">
+{I.og_alternates("en")}
 <meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(desc)}">
 <meta property="og:url" content="{url}">
@@ -80,7 +81,7 @@ def head(title, desc, url, es_url, img, ld, og_type="article", extra=""):
 </script>
 </head>
 <body>
-{header(es_url.replace(SITE, ""))}
+{header(I.es_slug_from_url(es_url))}
 '''
 
 def breadcrumb(name, url):
@@ -130,7 +131,7 @@ def page(p):
 </article>
 </main>
 '''
-    return head(p["seo"], p["desc"], url, es_url, p["img"], ld) + body + footer() + "\n</body>\n</html>\n"
+    return head(p["seo"], p["desc"], url, es_url, p["img"], ld) + body + footer(p["es"]) + "\n</body>\n</html>\n"
 
 def about_page():
     a = ABOUT_EN; url = f"{SITE}/en/{a['slug']}/"; es_url = f"{SITE}/{a['es']}/"
@@ -225,7 +226,7 @@ def about_page():
 </article>
 </main>
 '''
-    return head(a["seo"], a["desc"], url, es_url, "retrato.jpg", ld) + body + footer() + "\n</body>\n</html>\n"
+    return head(a["seo"], a["desc"], url, es_url, "retrato.jpg", ld) + body + footer(a["es"]) + "\n</body>\n</html>\n"
 
 HOME_FAQ = [
  ("Do I need to be an athlete to come to the clinic?", "No. The clinic sees professional rugby, padel and football players, and also people who do no sport and have osteoarthritis, tendinopathies, back pain, sciatica or sprains."),
