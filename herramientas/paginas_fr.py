@@ -356,7 +356,7 @@ UI = {
  "privacy": "Confidentialité (en espagnol)",
  "bar_label": "Contact rapide",
  "bar_write": "Écrivez-nous",
- "bar_call": "Appeler · {phone}",
+ "bar_call": "{phone}",
  "crumb_label": "Fil d'Ariane",
  "crumb_home": "Accueil",
  "faq_title": "Questions fréquentes",

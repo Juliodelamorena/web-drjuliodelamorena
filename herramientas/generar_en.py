@@ -446,8 +446,8 @@ def llms():
     block = "\n".join(sec) + "\n"
     if "\n## English\n" in s:
         before, rest = s.split("\n## English\n", 1)
-        after = rest.split("\n## Artículos", 1)
-        s = before + "\n" + block + ("\n## Artículos" + after[1] if len(after) > 1 else "")
+        nxt = rest.find("\n## ")            # keep whatever section follows (Georgian, Russian, French, Artículos)
+        s = before + "\n" + block + (rest[nxt:] if nxt >= 0 else "")
     else:
         s = s.replace("\n## Artículos", "\n" + block + "\n## Artículos", 1)
     open(p, "w", encoding="utf-8").write(s)
