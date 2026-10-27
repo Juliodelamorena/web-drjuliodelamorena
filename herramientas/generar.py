@@ -62,7 +62,8 @@ def footer():
 <nav aria-label="Legal"><a href="/aviso-legal.html">Aviso legal</a><a href="/privacidad.html">Privacidad</a></nav>
 </div>
 </footer>
-<nav class="cta-fija" aria-label="Contacto rápido"><a class="llamar" href="tel:+34913548990">Llamar · 913 548 990</a><a class="cita" href="/#contacto">Que me llamen</a></nav>'''
+<nav class="cta-fija" aria-label="Contacto rápido"><a class="llamar" href="tel:+34913548990">Llamar · 913 548 990</a><a class="cita" href="/#contacto">Que me llamen</a></nav>
+{CONTADOR}'''
 
 def alternates(es_url, en_url=None):
     """hreflang links for the Spanish page at es_url, in every language that has a version of it."""
@@ -96,6 +97,11 @@ def head(title, desc, url, img, ld, en_url=None):
 <body>
 {header(es_slug)}
 '''
+
+CONTADOR = """<script>
+/* Contador de visitas propio: sin cookies, sin identificadores y sin direcciones IP. */
+(function(){try{if(navigator.webdriver)return;var h=location.hostname;if(h.indexOf("drjuliodelamorena")<0&&h.indexOf("netlify")<0)return;var d=JSON.stringify({ruta:location.pathname,ref:document.referrer,ancho:window.innerWidth}),u="https://nwbipjfhfumgkmdvoltc.supabase.co/functions/v1/visita";if(navigator.sendBeacon){navigator.sendBeacon(u,new Blob([d],{type:"text/plain;charset=UTF-8"}))}else{fetch(u,{method:"POST",body:d,keepalive:true})}}catch(e){}})();
+</script>"""
 
 DOCTOR_REF = {"@type": "Person", "@id": f"{SITE}/#julio", "name": "Dr. Julio De la Morena Garzón"}
 

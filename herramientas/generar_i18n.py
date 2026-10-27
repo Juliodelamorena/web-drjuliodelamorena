@@ -84,7 +84,8 @@ class Builder:
 <nav aria-label="Legal"><a href="/aviso-legal.html" hreflang="es">{esc(UI["legal_notice"])}</a><a href="/privacidad.html" hreflang="es">{esc(UI["privacy"])}</a></nav>
 </div>
 </footer>
-<nav class="cta-fija" aria-label="{esc(UI["bar_label"])}"><a class="llamar" href="{TEL}">{esc(self.t("bar_call"))}</a><a class="cita" href="{b}#contact">{esc(UI["bar_write"])}</a></nav>'''
+<nav class="cta-fija" aria-label="{esc(UI["bar_label"])}"><a class="llamar" href="{TEL}">{esc(self.t("bar_call"))}</a><a class="cita" href="{b}#contact">{esc(UI["bar_write"])}</a></nav>
+{G.CONTADOR}'''
 
     def head(self, title, desc, es_slug, img, ld, og_type="article"):
         url = SITE + I.path_for(self.L, es_slug)

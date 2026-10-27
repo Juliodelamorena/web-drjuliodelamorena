@@ -54,7 +54,8 @@ def footer(es_slug=""):
 <nav aria-label="Legal"><a href="/aviso-legal.html" hreflang="es">Legal notice (Spanish)</a><a href="/privacidad.html" hreflang="es">Privacy (Spanish)</a></nav>
 </div>
 </footer>
-<nav class="cta-fija" aria-label="Quick contact"><a class="llamar" href="tel:+34913548990">Call · +34 913 548 990</a><a class="cita" href="/en/#contact">Ask for a call</a></nav>'''
+<nav class="cta-fija" aria-label="Quick contact"><a class="llamar" href="tel:+34913548990">Call · +34 913 548 990</a><a class="cita" href="/en/#contact">Ask for a call</a></nav>
+{G.CONTADOR}'''
 
 def head(title, desc, url, es_url, img, ld, og_type="article", extra=""):
     return f'''<!doctype html>

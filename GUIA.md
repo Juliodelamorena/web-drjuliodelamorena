@@ -46,6 +46,18 @@ Origen: planes genéricos de Julio en Google Drive, carpeta "01 Clinica y pacien
 - Georgiano: las fuentes Manrope y Cormorant no tienen alfabeto georgiano; el paquete `paginas_ka.py` añade Noto Sans Georgian y Noto Serif Georgian (`META["extra_fonts"]` y `META["font_css"]`).
 - Pendiente: que un paciente georgiano de confianza revise la versión georgiana antes de difundirla.
 
+## Contador de visitas (27 oct 2026)
+
+- Contador propio, sin cookies, sin identificadores y sin guardar direcciones IP, para no necesitar aviso de cookies. Lo lee Claude; no hay panel público.
+- En la web: un `<script>` de cuatro líneas al final de cada página. Está en `CONTADOR` (herramientas/generar.py) y lo añaden los tres pies de página (`generar.py`, `generar_en.py`, `generar_i18n.py`). Las páginas escritas a mano lo llevan pegado: `index.html`, `gracias.html`, `aviso-legal.html`, `privacidad.html` y `blog/lumbalgia-5-cosas.html` (este último tiene `"manual": true` y no se regenera). Al crear una página nueva a mano, copiar el `<script>`.
+- El script no envía nada si el dominio no es drjuliodelamorena.com o netlify, ni desde navegadores automatizados (`navigator.webdriver`).
+- Servidor: proyecto de Supabase `visitas-drjuliodelamorena` (identificador `nwbipjfhfumgkmdvoltc`, servidores en Fráncfort), función `visita` y tabla `visitas` (una fila por página vista: fecha, ruta, idioma, origen, referente, dispositivo y si es la primera página de la visita). La tabla tiene seguridad a nivel de fila sin políticas: solo la función del servidor escribe, nadie puede leerla con la clave pública.
+- La función solo acepta peticiones con origen drjuliodelamorena.com (o netlify) y descarta robots por el agente de usuario.
+- `origen` se clasifica a partir del referente: instagram, google, buscador, ia, facebook, linkedin, x, whatsapp, youtube, tiktok, doctoralia, hospital, interno (navegación dentro de la web), directo y otros.
+- Al contar visitas, descartar lo anterior al 1 de noviembre de 2026: son filas de prueba.
+- La política de privacidad (`privacidad.html`) explica la medición; si cambia lo que se guarda, actualizarla.
+- Supabase gratuito pausa el proyecto tras una semana sin peticiones: si el contador deja de registrar, comprobar que el proyecto está activo.
+
 ## Captación (24 oct 2026)
 - Teléfono siempre pulsable (`<a class="tel" href="tel:+34913548990">`) y barra fija en el móvil (`.cta-fija`, la añade `footer()` en generar.py y generar_en.py; index.html y blog/lumbalgia-5-cosas.html la llevan a mano).
 - Horario de consulta: lunes a viernes, de 15:00 a 21:00. Aparece en la barra superior, el contacto, el pie, las preguntas frecuentes y el JSON-LD (openingHoursSpecification).

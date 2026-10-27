@@ -24,8 +24,9 @@
 <p>Con nadie, salvo el proveedor técnico que aloja la web y el formulario (Netlify), que actúa como encargado del tratamiento.</p>
 <h2>Tus derechos</h2>
 <p>Puedes pedir acceso, rectificación, supresión, oposición, limitación y portabilidad de tus datos escribiendo a través del formulario. También puedes reclamar ante la Agencia Española de Protección de Datos (aepd.es).</p>
-<h2>Cookies</h2>
-<p>Esta web no usa cookies de análisis ni de publicidad.</p>
+<h2>Cookies y medición de visitas</h2>
+<p>Esta web no usa cookies de análisis ni de publicidad, ni guarda nada en su dispositivo.</p>
+<p>Para saber cuántas personas visitan la web, se registra cada página vista con la fecha, la dirección de la página, el sitio desde el que ha llegado y si navega desde móvil o desde ordenador. No se guarda su dirección de protocolo de internet ni ningún dato que permita identificarle, y esa información no se cruza con ninguna otra ni se comparte con terceros con fines publicitarios. El registro se aloja en Supabase (servidores en Alemania, Unión Europea), que actúa como encargado del tratamiento.</p>
 </div></main>
 <footer class="foot">
 <div class="wrap foot-grid">
@@ -42,5 +43,9 @@
 <nav aria-label="Legal"><a href="/aviso-legal.html">Aviso legal</a><a href="/privacidad.html">Privacidad</a></nav>
 </div>
 </footer>
+<script>
+/* Contador de visitas propio: sin cookies, sin identificadores y sin direcciones IP. */
+(function(){try{if(navigator.webdriver)return;var h=location.hostname;if(h.indexOf("drjuliodelamorena")<0&&h.indexOf("netlify")<0)return;var d=JSON.stringify({ruta:location.pathname,ref:document.referrer,ancho:window.innerWidth}),u="https://nwbipjfhfumgkmdvoltc.supabase.co/functions/v1/visita";if(navigator.sendBeacon){navigator.sendBeacon(u,new Blob([d],{type:"text/plain;charset=UTF-8"}))}else{fetch(u,{method:"POST",body:d,keepalive:true})}}catch(e){}})();
+</script>
 </body>
 </html>
