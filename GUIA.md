@@ -67,6 +67,12 @@ Origen: planes genéricos de Julio en Google Drive, carpeta "01 Clinica y pacien
 - Cada página de paginas.py lleva `"cta"`: una pregunta específica para el cierre, más la ventaja (exploración y ecografía en la misma consulta; primera consulta sin compromiso).
 - Sin seguros: la consulta es privada. Está en las preguntas frecuentes (es/en). Sin precios en la web.
 
+## Ficha de Google (Perfil de Empresa) — 30 oct 2026
+- Completada: nombre, dirección (P.º de la Casa de Campo, 5, Pozuelo), teléfono del hospital, horario lunes a viernes 15:00–21:00, web, enlace a Instagram, once servicios, "Se necesita cita = Sí".
+- Fotos: portada (Julio ante el cartel del Memorial), logotipo (retrato) y cinco de consulta (cartel, exploración de rodilla, infiltración ecoguiada, explicando la resonancia, sala de resonancia). Las de Real Madrid NO se suben: usar al club como reclamo va contra el código de deontología.
+- Reserva: enlace propio a `https://drjuliodelamorena.com/#contacto` (gratis, sin Doctoralia). Manda el tráfico a la web, no a terceros.
+- Doctoralia: Julio tiene perfil con 36 opiniones, dado de alta en C/ Serrano, 215 (Clínica CRES) y gestionado por CRES. Pendiente: añadir el Memorial como segunda dirección y ponerla la primera. Las opiniones van pegadas al médico, no a la dirección.
+
 ## Dosier de prensa de mayo de 2014
 - Los recortes (ABC, AS 11 y 12, El País, Marca, Sport) están en /home/claude/kit/prensa2014/ (copia del móvil de Julio). Son páginas de periódico con derechos: NO se publican en la web; solo se citan cabecera, fecha y titular, y se enlaza Libertad Digital. No nombrar al jugador en la web.
 - Netlify (plan gratuito) agotó los créditos de publicación el 24 oct 2026: los cambios desde el commit 8aa9765 quedan pendientes hasta que se renueven (o se amplíe el plan). Agrupar cambios y publicar como mucho una vez al día.
