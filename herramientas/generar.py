@@ -6,6 +6,7 @@ import idiomas as I
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = "https://drjuliodelamorena.com"
+MAPA = "https://maps.google.com/?cid=4492723553507247190"   # ficha de Google del doctor (enlace neutro: Cómo llegar)
 CITA = "https://www.memorialpubliocordon.com/medicos/dr-julio-de-la-morena-garzon/"
 REVISION = "2026-10-21"
 FONTS = "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&amp;family=Manrope:wght@400;500;600&amp;display=swap"
@@ -52,7 +53,7 @@ def footer():
 <div class="foot-col">
 <strong class="foot-brand">Dr. Julio De la Morena</strong>
 <span>Unidad de Terapias Regenerativas y Medicina Deportiva</span>
-<span>Hospital Memorial Publio Cordón · Paseo de la Casa de Campo, 5 · 28223 Pozuelo de Alarcón (Madrid)</span>
+<span>Hospital Memorial Publio Cordón · Paseo de la Casa de Campo, 5 · 28223 Pozuelo de Alarcón (Madrid) · <a href="{MAPA}" rel="noopener" target="_blank">Cómo llegar</a></span>
 <span>Cita previa: <a class="tel" href="tel:+34913548990">913 548 990</a> · Consulta lunes a viernes, de 15:00 a 21:00</span>
 </div>
 <nav class="foot-col foot-links" aria-label="Especialidades y tratamientos">{links}<a href="/dr-julio-de-la-morena/">El doctor</a><a href="/planes/">Planes de ejercicio</a><a href="/blog/">Artículos</a>{I.footer_links("es")}</nav>

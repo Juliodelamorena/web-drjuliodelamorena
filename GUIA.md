@@ -70,7 +70,9 @@ Origen: planes genéricos de Julio en Google Drive, carpeta "01 Clinica y pacien
 ## Ficha de Google (Perfil de Empresa) — 30 oct 2026
 - Completada: nombre, dirección (P.º de la Casa de Campo, 5, Pozuelo), teléfono del hospital, horario lunes a viernes 15:00–21:00, web, enlace a Instagram, once servicios, "Se necesita cita = Sí".
 - Fotos: portada (Julio ante el cartel del Memorial), logotipo (retrato) y cinco de consulta (cartel, exploración de rodilla, infiltración ecoguiada, explicando la resonancia, sala de resonancia). Las de Real Madrid NO se suben: usar al club como reclamo va contra el código de deontología.
+- Top Doctors y Quirónsalud: 30 oct 2026 se pidió por correo (vía delegado de protección de datos) que Top Doctors ponga el Memorial como consulta principal y que Quirónsalud retire la ficha del Ruber y un teléfono que no es de Julio.
 - Reserva: enlace propio a `https://drjuliodelamorena.com/#contacto` (gratis, sin Doctoralia). Manda el tráfico a la web, no a terceros.
+- Enlace al mapa: el pie de TODAS las páginas (es, en, ka, ru, fr) lleva "Cómo llegar" a https://maps.google.com/?cid=4492723553507247190 (constante MAPA en generar.py, generar_en.py y generar_i18n.py; MAPA_TXT para ka/ru/fr). Es un enlace neutro al mapa, NO a las reseñas: el Código de Deontología prohíbe usar testimonios de pacientes como publicidad, así que en la web no se publican reseñas ni se enlaza a ellas como tales. El enlace para PEDIR reseña no va nunca en la web (lo usaría quien no ha sido paciente): se manda por WhatsApp o en el correo del informe.
 - Doctoralia: Julio tiene perfil con 36 opiniones, dado de alta en C/ Serrano, 215 (Clínica CRES) y gestionado por CRES. Pendiente: añadir el Memorial como segunda dirección y ponerla la primera. Las opiniones van pegadas al médico, no a la dirección.
 
 ## Dosier de prensa de mayo de 2014

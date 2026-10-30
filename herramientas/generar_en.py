@@ -16,6 +16,7 @@ REVISION = G.REVISION
 BY = {p["slug"]: p for p in PAGES_EN}
 DOCTOR_REF = G.DOCTOR_REF
 PHONE = "+34 913 548 990"
+MAPA = "https://maps.google.com/?cid=4492723553507247190"   # ficha de Google del doctor (enlace neutro: Cómo llegar)
 
 def header(es_slug=""):
     return f'''<div class="util">
@@ -44,7 +45,7 @@ def footer(es_slug=""):
 <div class="foot-col">
 <strong class="foot-brand">Dr Julio De la Morena</strong>
 <span>Regenerative Therapies and Sports Medicine Unit</span>
-<span>Hospital Memorial Publio Cordón · Paseo de la Casa de Campo, 5 · 28223 Pozuelo de Alarcón (Madrid), Spain</span>
+<span>Hospital Memorial Publio Cordón · Paseo de la Casa de Campo, 5 · 28223 Pozuelo de Alarcón (Madrid), Spain · <a href="{MAPA}" rel="noopener" target="_blank">Get directions</a></span>
 <span>Appointments: <a class="tel" href="tel:+34913548990">+34 913 548 990</a> · Mon–Fri, 3 pm to 9 pm · Consultations in English and Spanish</span>
 </div>
 <nav class="foot-col foot-links" aria-label="Conditions and treatments">{links}<a href="/en/dr-julio-de-la-morena/">The doctor</a>{I.footer_links("en", es_slug)}</nav>

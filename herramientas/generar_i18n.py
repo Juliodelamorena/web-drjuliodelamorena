@@ -14,6 +14,8 @@ import idiomas as I
 ROOT, SITE, FONTS, esc, REVISION, DOCTOR_REF, CITA = G.ROOT, G.SITE, G.FONTS, G.esc, G.REVISION, G.DOCTOR_REF, G.CITA
 PHONE = "+34 913 548 990"
 TEL = "tel:+34913548990"
+MAPA = "https://maps.google.com/?cid=4492723553507247190"   # ficha de Google del doctor (enlace neutro: Cómo llegar)
+MAPA_TXT = {"ka": "როგორ მივიდეთ", "ru": "Как добраться", "fr": "Itinéraire"}   # etiqueta del enlace al mapa
 
 
 class Builder:
@@ -74,7 +76,7 @@ class Builder:
 <div class="foot-col">
 <strong class="foot-brand">Dr. Julio De la Morena</strong>
 <span>{esc(UI["foot_unit"])}</span>
-<span>{esc(UI["foot_addr"])}</span>
+<span>{esc(UI["foot_addr"])} · <a href="{MAPA}" rel="noopener" target="_blank">{esc(MAPA_TXT.get(self.L, "Google Maps"))}</a></span>
 <span>{esc(self.t("foot_appt")).replace(PHONE, f'<a class="tel" href="{TEL}">{PHONE}</a>')}</span>
 </div>
 <nav class="foot-col foot-links" aria-label="{esc(UI["foot_nav_label"])}">{links}<a href="{self.about_path}">{esc(UI["menu_doctor"])}</a>{I.footer_links(self.L, es_slug)}</nav>
