@@ -69,7 +69,7 @@ def articulo(a):
 {faq}
 <div class="cta-band">
 <div><h3>¿Se reconoce en lo que acaba de leer?</h3><p class="ventaja">Exploración y ecografía en la misma consulta: sale con diagnóstico y plan. Primera consulta sin compromiso de tratamiento: si no está indicado, se lo decimos.</p><p>Hospital Memorial Publio Cordón · Pozuelo de Alarcón · <a class="tel" href="tel:+34913548990">913 548 990</a> · lunes a viernes, de 15:00 a 21:00</p></div>
-<a class="btn solo-movil" href="tel:+34913548990">Llamar para pedir cita</a><a class="btn solo-escritorio" href="/#contacto">Pedir cita</a>
+<a class="btn solo-movil" href="tel:+34913548990">Llamar para pedir cita</a><a class="btn solo-escritorio" href="#contacto">Pedir cita</a>
 </div>
 <div class="byline">
 <img src="/img/retrato.jpg" alt="" width="480" height="480" loading="lazy">
@@ -77,9 +77,10 @@ def articulo(a):
 </div>
 {rel_html}
 </article>
+{G.formulario(url.replace(G.SITE, ""))}
 </main>
 '''
-    t = f"{a['titulo']} · Dr. Julio De la Morena"
+    t = a["titulo"] + (" · Dr. Julio De la Morena" if len(a["titulo"]) <= 35 else "")
     return G.head(t, a["descripcion"], url, a["imagen"], ld) + body + G.footer() + "\n</body>\n</html>\n"
 
 
@@ -113,7 +114,7 @@ def indice(arts):
 </div>
 </main>
 '''
-    return G.head("Artículos · Dr. Julio De la Morena", "Artículos sobre artrosis, tendinopatías, dolor de espalda, lesiones deportivas y terapias regenerativas del Dr. Julio De la Morena, Hospital Memorial Publio Cordón (Pozuelo de Alarcón).", url, "lumbar.jpg", ld) + body + G.footer() + "\n</body>\n</html>\n"
+    return G.head("Artículos · Dr. Julio De la Morena", "Artículos del Dr. Julio De la Morena sobre artrosis, tendinopatías, dolor de espalda, lesiones deportivas y terapias regenerativas. Pozuelo (Madrid).", url, "lumbar.jpg", ld, form=False) + body + G.footer(form=False) + "\n</body>\n</html>\n"
 
 
 def portada(arts):

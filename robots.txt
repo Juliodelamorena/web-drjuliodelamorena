@@ -2,6 +2,7 @@
 User-agent: *
 Allow: /
 Disallow: /gracias.html
+Disallow: /404.html
 Disallow: /ig/
 
 User-agent: Googlebot

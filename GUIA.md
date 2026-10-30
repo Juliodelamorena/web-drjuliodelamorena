@@ -2,6 +2,10 @@
 
 Web estática del Dr. Julio De la Morena Garzón (drjuliodelamorena.com), publicada en Netlify desde la rama `main`. Cada `git push` la publica en un minuto.
 
+**Orden para regenerar (siempre completo y en este orden):**
+`python3 herramientas/generar.py && python3 herramientas/generar_en.py && python3 herramientas/generar_i18n.py && python3 herramientas/articulos.py && python3 herramientas/planes.py && python3 herramientas/imagenes.py`
+El último paso (imagenes.py) recomprime las fotos, crea los .webp y envuelve cada `<img src="/img/…jpg">` en `<picture>`; si se olvida, las páginas regeneradas salen sin WebP. Las páginas manuales (index.html, gracias.html, aviso-legal.html, privacidad.html, blog/lumbalgia-5-cosas.html, 404.html) no las toca ningún generador salvo imagenes.py: la cabecera se les pega a mano desde `generar.header()`.
+
 ## Reglas de contenido (obligatorias)
 - Trato de usted al lector. Tono de clínica privada, sobrio.
 - Código de Deontología Médica: sin precios, sin testimonios ni pacientes reconocibles, sin famosos como reclamo, sin prometer resultados ("siempre que sea posible", "en casos seleccionados", "cuando está indicado").
@@ -74,6 +78,24 @@ Origen: planes genéricos de Julio en Google Drive, carpeta "01 Clinica y pacien
 - Reserva: enlace propio a `https://drjuliodelamorena.com/#contacto` (gratis, sin Doctoralia). Manda el tráfico a la web, no a terceros.
 - Enlace al mapa: el pie de TODAS las páginas (es, en, ka, ru, fr) lleva "Cómo llegar" a https://maps.google.com/?cid=4492723553507247190 (constante MAPA en generar.py, generar_en.py y generar_i18n.py; MAPA_TXT para ka/ru/fr). Es un enlace neutro al mapa, NO a las reseñas: el Código de Deontología prohíbe usar testimonios de pacientes como publicidad, así que en la web no se publican reseñas ni se enlaza a ellas como tales. El enlace para PEDIR reseña no va nunca en la web (lo usaría quien no ha sido paciente): se manda por WhatsApp o en el correo del informe.
 - Doctoralia: Julio tiene perfil con 36 opiniones, dado de alta en C/ Serrano, 215 (Clínica CRES) y gestionado por CRES. Pendiente: añadir el Memorial como segunda dirección y ponerla la primera. Las opiniones van pegadas al médico, no a la dirección.
+
+## Revisión de conversión del 30 oct 2026 (publicación el 1 nov)
+Hecho a raíz de una revisión con ojos de paciente (móvil y escritorio):
+- **Menú móvil**: `idiomas.nav_movil()` genera un `<details class="nav-menu">` que solo se ve por debajo de 640 px. Los enlaces de escritorio siguen sueltos en `.menu` (ocultos en móvil). "Planes de ejercicio" ya no va en el menú principal (sí en el pie).
+- **Menos botones en móvil**: la cabecera oculta "Pedir cita" (`.menu .btn`) y el hero oculta el botón secundario (`.hero-cta .btn-line`); la barra fija inferior ya lleva "Llamar" y "Que me llamen".
+- **Formulario en cada página**: `generar.formulario(ruta, zona)` (es), `generar_en.contact_block()` (en), `Builder.contact_block()` (ka/ru/fr). Mismo nombre de formulario de Netlify que la portada (`contacto`, `contacto-<lang>`) más un campo oculto `pagina` con la ruta de origen y la zona del dolor preseleccionada. Los botones "Pedir cita" de escritorio y la barra fija apuntan al `#contacto`/`#contact` de la propia página; `header(form=False)` / `footer(form=False)` para páginas sin formulario (listado del blog, planes, legales, 404).
+- **Sin botón de Instagram** en el bloque "Solicite su cita" (sacaba al paciente en el momento de convertir). Instagram sigue en el pie / página del doctor.
+- **Respuesta directa** (`idiomas.respuesta()`): en móvil se recorta a seis líneas con "Seguir leyendo" (casilla oculta, sin JavaScript); en escritorio sale entera. El texto completo sigue en el HTML para buscadores.
+- **Página del doctor recortada** (es, en y la plantilla de ka/ru/fr): orden "Forma de trabajar → Formación → Trayectoria → Docencia e idiomas → Entrevistas"; fuera la trayectoria anterior a 2007, GO fit, Consejo Superior de Deportes, el diploma de estudios avanzados, el cargo honorífico, el capítulo de libro, la lista de seis recortes de prensa (queda un párrafo con el enlace de Libertad Digital), la pregunta "¿Quién es…?" y la lista "Qué trata". Primera foto: consulta (`consulta.jpg`), no el trofeo. La historia de 2014 va en el artículo "El día que me expulsaron" (borrador), no en la biografía.
+- **Sin cifras del hospital** (urgencias, quirófanos, metros, profesionales): en su lugar, dirección, "a unos 30 minutos del aeropuerto" y botón "Cómo llegar" al mapa.
+- **Títulos ≤ 60 caracteres y descripciones ≤ 155** en todas las páginas (es, en, ka, ru, fr, blog, planes). En articulos.py y planes.py el sufijo " · Dr. Julio De la Morena" solo se añade si el título cabe.
+- **Favicon** (`favicon.svg`, `favicon.ico`, `apple-touch-icon.png`, `icon-512.png`: monograma JM azul y dorado) y **404.html** propio (noindex, con enlaces a las especialidades).
+- **Fotos**: `herramientas/imagenes.py` (ver arriba). Originales en `herramientas/img_originales/`. `fetchpriority="high"` en la foto del hero. OJO: las fotos de consulta, resonancia, quirófano y hospital son imágenes generadas a partir del retrato de Julio, no fotografías reales; sustituirlas por fotos de verdad (móvil, en consulta) en cuanto las haga. Pendiente de Julio.
+- **Pie en dos columnas** en escritorio (`.foot nav.foot-links`), gracias.html de usted, hero de escritorio ajustado para caber en 900 px de alto.
+- **Contador**: además de la página vista, registra `evento = llamada` (toque en `tel:`), `formulario` (envío) y `whatsapp`, con la ruta de la página. Columna `evento` en `public.visitas`; la función `visita` (versión 2) acepta el campo. Sirve para saber qué página genera llamadas, no para informes a Julio.
+- **WhatsApp**: `generar.WHATSAPP = ""` y `generar.whatsapp_btn()`. Mientras no haya número de la unidad no se muestra nada. Cuando lo haya: poner el número (34XXXXXXXXX), regenerar, y añadirlo a mano en index.html donde está el comentario `WHATSAPP:`. Nunca el móvil personal de Julio.
+- Search Console: verificada por DNS desde el 21 oct 2026 (no hay etiqueta meta porque no hace falta).
+- Pendiente de traducción: versión inglesa sin el apartado "Pacientes desde el extranjero" ni página de segunda opinión (ka/ru/fr sí los tienen).
 
 ## Dosier de prensa de mayo de 2014
 - Los recortes (ABC, AS 11 y 12, El País, Marca, Sport) están en /home/claude/kit/prensa2014/ (copia del móvil de Julio). Son páginas de periódico con derechos: NO se publican en la web; solo se citan cabecera, fecha y titular, y se enlaza Libertad Digital. No nombrar al jugador en la web.

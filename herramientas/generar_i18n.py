@@ -15,6 +15,8 @@ ROOT, SITE, FONTS, esc, REVISION, DOCTOR_REF, CITA = G.ROOT, G.SITE, G.FONTS, G.
 PHONE = "+34 913 548 990"
 TEL = "tel:+34913548990"
 MAPA = "https://maps.google.com/?cid=4492723553507247190"   # ficha de Google del doctor (enlace neutro: Cómo llegar)
+WHATSAPP_TXT = {"ka": "მოგვწერეთ WhatsApp-ში", "ru": "Написать в WhatsApp", "fr": "Écrire sur WhatsApp"}
+MENU_TXT = {"ka": "მენიუ", "ru": "Меню", "fr": "Menu"}   # etiqueta del menú desplegable del móvil
 MAPA_TXT = {"ka": "როგორ მივიდეთ", "ru": "Как добраться", "fr": "Itinéraire"}   # etiqueta del enlace al mapa
 
 
@@ -63,7 +65,8 @@ class Builder:
 <a href="{b}#treatments">{esc(UI["menu_treatments"])}</a>
 <a href="{self.about_path}">{esc(UI["menu_doctor"])}</a>
 {I.menu(self.L, es_slug, UI["lang_menu"])}
-<a class="btn" href="{b}#contact">{esc(UI["menu_write"])}</a>
+<a class="btn" href="#contact">{esc(UI["menu_write"])}</a>
+{I.nav_movil([(f"{b}#conditions", UI["menu_conditions"]), (f"{b}#treatments", UI["menu_treatments"]), (self.about_path, UI["menu_doctor"])], MENU_TXT.get(self.L, "Menu"), [(TEL, self.t("bar_call")), ("#contact", UI["menu_write"])])}
 </nav>
 </div>
 </header>'''
@@ -86,7 +89,7 @@ class Builder:
 <nav aria-label="Legal"><a href="/aviso-legal.html" hreflang="es">{esc(UI["legal_notice"])}</a><a href="/privacidad.html" hreflang="es">{esc(UI["privacy"])}</a></nav>
 </div>
 </footer>
-<nav class="cta-fija" aria-label="{esc(UI["bar_label"])}"><a class="llamar" href="{TEL}">{esc(self.t("bar_call"))}</a><a class="cita" href="{b}#contact">{esc(UI["bar_write"])}</a></nav>
+<nav class="cta-fija" aria-label="{esc(UI["bar_label"])}"><a class="llamar" href="{TEL}">{esc(self.t("bar_call"))}</a><a class="cita" href="#contact">{esc(UI["bar_write"])}</a></nav>
 {G.CONTADOR}'''
 
     def head(self, title, desc, es_slug, img, ld, og_type="article"):
@@ -96,6 +99,10 @@ class Builder:
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#0B1B33">
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
 <link rel="canonical" href="{url}">
@@ -127,13 +134,30 @@ class Builder:
         loc = esc(self.t("cta_location")).replace(PHONE, f'<a class="tel" href="{TEL}">{PHONE}</a>')
         return f'''<div class="cta-band">
 <div><h3>{esc(title or UI["cta_default"])}</h3><p class="ventaja">{esc(UI["cta_ventaja"])}</p><p>{loc}</p></div>
-<a class="btn" href="{b}#contact">{esc(UI["cta_btn_write"])}</a>
+<a class="btn" href="#contact">{esc(UI["cta_btn_write"])}</a>
 </div>'''
 
-    def contact_form(self):
+    def contact_block(self, ruta, compacto=False):
+        """Sección de cita con el formulario. En la portada va completa; en las interiores, compacta."""
+        H = self.H
+        return f'''<section id="contact" class="block navy contact{" contact-compacto" if compacto else ""}">
+<div class="wrap split">
+<div class="text">
+<p class="label">{esc(H["contact_label"])}</p>
+<h2 class="h2">{esc(H["contact_h2"])}</h2>
+<p>{H["contact_addr"]}</p>
+<div><p class="label" style="margin-bottom: 8px">{esc(H["contact_phone_label"])}</p><div class="phone"><a class="tel" href="{TEL}">{PHONE}</a></div><p class="horario">{esc(H["contact_horario"])}</p></div>
+<div class="hero-cta"><a class="btn solo-movil" href="{TEL}">{esc(H["contact_btn_call"])}</a>{G.whatsapp_btn(WHATSAPP_TXT.get(self.L, "WhatsApp"))}</div>
+</div>
+{self.contact_form(ruta)}
+</div>
+</section>'''
+
+    def contact_form(self, ruta=""):
         UI = self.UI
         return f'''<form class="f" name="contacto-{self.L}" method="POST" action="{self.base}{self.M["thanks"]}" data-netlify="true" netlify-honeypot="web">
 <input type="hidden" name="form-name" value="contacto-{self.L}">
+<input type="hidden" name="pagina" value="{esc(ruta)}">
 <p class="hidden"><label>Do not fill in <input name="web"></label></p>
 <h3>{esc(UI["form_title"])}</h3>
 <label for="f-nombre">{esc(UI["form_name"])}<input id="f-nombre" name="nombre" type="text" autocomplete="name" required></label>
@@ -170,7 +194,7 @@ class Builder:
 <nav class="crumbs" aria-label="{esc(UI["crumb_label"])}"><a href="{b}">{esc(UI["crumb_home"])}</a><span aria-hidden="true">/</span><a href="{b}#{anchor}">{esc(p['label'])}</a><span aria-hidden="true">/</span><span>{esc(p['nav'])}</span></nav>
 <p class="label">{esc(p['label'])}</p>
 <h1>{esc(p['h1'])}</h1>
-<p class="answer">{esc(p['lead'])}</p>
+{I.respuesta(esc(p["lead"]), self.L)}
 <img class="wide" src="/img/{p['img']}" alt="{esc(p['img_alt'])}" width="{w}" height="{h}">
 {secs}
 <h2>{esc(UI["faq_title"])}</h2>
@@ -184,6 +208,7 @@ class Builder:
 </div>
 <div class="related"><p class="label">{esc(UI["related"])}</p>{rel}</div>
 </article>
+{self.contact_block(self.base + p["slug"] + "/", compacto=True)}
 </main>
 '''
         return self.head(p["seo"], p["desc"], p["es"], p["img"], ld) + body + self.footer(p["es"]) + "\n</body>\n</html>\n"
@@ -214,17 +239,16 @@ class Builder:
 <nav class="crumbs" aria-label="{esc(UI["crumb_label"])}"><a href="{b}">{esc(UI["crumb_home"])}</a><span aria-hidden="true">/</span><span>{esc(a["nav"])}</span></nav>
 <p class="label">{esc(a["nav"])}</p>
 <h1>{esc(a['h1'])}</h1>
-<p class="answer">{esc(a["answer"])}</p>
-<img class="wide" src="/img/trayectoria.jpg" alt="{esc(a["img_alt"])}" width="1018" height="1024" style="aspect-ratio: 4 / 3; object-position: center 30%">
+{I.respuesta(esc(a["answer"]), self.L)}
+<img class="wide" src="/img/consulta.jpg" alt="{esc(a["img_alt"])}" width="960" height="1200" style="aspect-ratio: 4 / 3; object-position: center 22%">
 {secs}
-<h2>{esc(UI["about_treats"])}</h2>
-<ul class="arealist">{areas}</ul>
 <h2>{esc(UI["faq_title"])}</h2>
 <div class="faq">
 {faqs}
 </div>
 {self.cta()}
 </article>
+{self.contact_block(self.about_path, compacto=True)}
 </main>
 '''
         return self.head(a["seo"], a["desc"], a["es"], "retrato.jpg", ld) + body + self.footer(a["es"]) + "\n</body>\n</html>\n"
@@ -265,7 +289,7 @@ class Builder:
 <a class="btn btn-line" href="{TEL}">{esc(self.h("hero_btn_call"))}</a>
 </div>
 </div>
-<div class="hero-img"><img src="/img/hero.jpg" alt="{esc(H["hero_img_alt"])}" width="1282" height="1600"></div>
+<div class="hero-img"><img fetchpriority="high" src="/img/hero.jpg" alt="{esc(H["hero_img_alt"])}" width="1282" height="1600"></div>
 </div>
 <div class="creds-row">
 <div class="wrap">
@@ -353,9 +377,9 @@ class Builder:
 <p class="label">{esc(H["hospital_label"])}</p>
 <h2 class="h2">{esc(H["hospital_h2"])}</h2>
 <p class="lead">{esc(H["hospital_lead"])}</p>
-<div class="facts4">
-{facts}
-</div>
+{f'<div class="facts4">{facts}</div>' if facts else ""}
+<p>{esc(UI["foot_addr"])}</p>
+<p style="margin: 0"><a class="btn btn-outline" href="{MAPA}" rel="noopener" target="_blank">{esc(MAPA_TXT.get(self.L, "Google Maps"))}</a></p>
 </div>
 <div><img class="photo" src="/img/hospital.jpg" alt="{esc(H["hospital_img_alt"])}" width="1122" height="1402" loading="lazy"></div>
 </div>
@@ -373,18 +397,7 @@ class Builder:
 </div>
 </section>
 
-<section id="contact" class="block navy contact">
-<div class="wrap split">
-<div class="text">
-<p class="label">{esc(H["contact_label"])}</p>
-<h2 class="h2">{esc(H["contact_h2"])}</h2>
-<p>{H["contact_addr"]}</p>
-<div><p class="label" style="margin-bottom: 8px">{esc(H["contact_phone_label"])}</p><div class="phone"><a class="tel" href="{TEL}">{PHONE}</a></div><p class="horario">{esc(H["contact_horario"])}</p></div>
-<div class="hero-cta"><a class="btn solo-movil" href="{TEL}">{esc(H["contact_btn_call"])}</a><a class="btn btn-line" href="https://www.instagram.com/drjuliodelamorena/">{esc(H["contact_instagram"])}</a></div>
-</div>
-{self.contact_form()}
-</div>
-</section>
+{self.contact_block(b)}
 </main>
 '''
         return self.head(H["title"], H["desc"], "", "compartir.jpg", ld, og_type="website") + body + self.footer("") + "\n</body>\n</html>\n"
@@ -396,6 +409,10 @@ class Builder:
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#0B1B33">
 <title>{esc(UI["thanks_title"])}</title>
 <meta name="robots" content="noindex">
 <link rel="stylesheet" href="{self.fonts()}">

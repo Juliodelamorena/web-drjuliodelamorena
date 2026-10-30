@@ -93,7 +93,7 @@ def plan(p):
 </main>
 {SCRIPT}
 '''
-    return G.head(p["titulo"] + " · Dr. Julio De la Morena", p["descripcion"], url, "retrato.jpg", ld) + body + G.footer() + "\n</body>\n</html>\n"
+    return G.head(p["titulo"] + (" · Dr. Julio De la Morena" if len(p["titulo"]) <= 35 else ""), p["descripcion"], url, "retrato.jpg", ld, form=False) + body + G.footer(form=False) + "\n</body>\n</html>\n"
 
 
 def indice(planes):
@@ -105,7 +105,7 @@ def indice(planes):
 <div class="cards">{cards}</div></div></main>
 '''
     ld = {"@context": "https://schema.org", "@type": "CollectionPage", "url": url, "name": "Planes de ejercicio del Dr. Julio De la Morena", "inLanguage": "es-ES", "author": G.DOCTOR_REF}
-    return G.head("Planes de ejercicio · Dr. Julio De la Morena", "Planes de ejercicio por fases para casa, pensados para el móvil: capsulitis, lumbalgia y más. Dr. Julio De la Morena, Hospital Memorial Publio Cordón.", url, "retrato.jpg", ld) + body + G.footer() + "\n</body>\n</html>\n"
+    return G.head("Planes de ejercicio · Dr. Julio De la Morena", "Planes de ejercicio por fases para casa, pensados para el móvil: capsulitis, lumbalgia y más. Dr. Julio De la Morena, Hospital Memorial Publio Cordón.", url, "retrato.jpg", ld, form=False) + body + G.footer(form=False) + "\n</body>\n</html>\n"
 
 
 def cargar():

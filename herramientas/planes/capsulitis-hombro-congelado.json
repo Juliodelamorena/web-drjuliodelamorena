@@ -1,9 +1,9 @@
 {
  "slug": "capsulitis-hombro-congelado",
- "titulo": "Plan de ejercicios para la capsulitis adhesiva (hombro congelado)",
+ "titulo": "Plan de ejercicios para el hombro congelado (capsulitis)",
  "corto": "Capsulitis adhesiva (hombro congelado)",
  "zona": "Hombro",
- "descripcion": "Plan de ejercicios por fases para la capsulitis adhesiva u hombro congelado: calmar el dolor, recuperar el recorrido y recuperar la fuerza. Dr. Julio De la Morena, Hospital Memorial Publio Cordón (Pozuelo de Alarcón).",
+ "descripcion": "Plan de ejercicios por fases para la capsulitis adhesiva u hombro congelado: calmar el dolor, recuperar el recorrido y la fuerza. Dr. Julio De la Morena.",
  "fecha": "2026-10-21",
  "intro": [
   "La articulación del hombro está envuelta en una funda de tejido llamada cápsula. En la capsulitis adhesiva esa cápsula se inflama, se engrosa y se retrae: se queda corta y el hombro pierde recorrido. No es un problema del tendón ni un desgaste: es la funda, que se ha encogido.",
@@ -13,50 +13,185 @@
  ],
  "regla": "El estiramiento se lleva hasta notar tensión y una molestia leve, nunca hasta el dolor que te hace apretar los dientes. Si cinco minutos después de terminar el hombro duele más que antes de empezar, te has pasado: reduce el recorrido y aumenta el número de sesiones. La cápsula cede por repetición diaria, no por intensidad.",
  "elegir_fase": [
-  ["Fase 1, dolorosa", "Duele en reposo, molesta por la noche y te despierta al girarte. El recorrido se pierde sobre todo porque duele."],
-  ["Fase 2, rígida", "El dolor de reposo ha bajado, pero el brazo llega hasta un punto y se para en seco. No puedes ponerte la chaqueta ni alcanzar el bolsillo trasero."],
-  ["Fase 3, descongelación", "El recorrido va volviendo. Queda debilidad, falta de movimiento en los extremos y fatiga con las tareas por encima de la cabeza."]
+  [
+   "Fase 1, dolorosa",
+   "Duele en reposo, molesta por la noche y te despierta al girarte. El recorrido se pierde sobre todo porque duele."
+  ],
+  [
+   "Fase 2, rígida",
+   "El dolor de reposo ha bajado, pero el brazo llega hasta un punto y se para en seco. No puedes ponerte la chaqueta ni alcanzar el bolsillo trasero."
+  ],
+  [
+   "Fase 3, descongelación",
+   "El recorrido va volviendo. Queda debilidad, falta de movimiento en los extremos y fatiga con las tareas por encima de la cabeza."
+  ]
  ],
  "antes": [
-  ["Calor antes, siempre", "De diez a quince minutos de calor húmedo sobre el hombro antes de cada tanda. El tejido caliente cede; el frío lo deja rígido. El frío se reserva para el final del día si el hombro ha quedado dolorido."],
-  ["Frecuencia por encima de intensidad", "Cuatro o cinco tandas cortas repartidas por el día. Es lo que de verdad acelera la recuperación."],
-  ["No inmovilices el brazo", "Nada de cabestrillo salvo indicación expresa. Usa el brazo en la vida diaria dentro de lo que no duela."],
-  ["Prepara la noche", "Duerme boca arriba con una almohada pequeña bajo el codo, o de lado sobre el hombro sano abrazando una almohada que sostenga el brazo afectado."]
+  [
+   "Calor antes, siempre",
+   "De diez a quince minutos de calor húmedo sobre el hombro antes de cada tanda. El tejido caliente cede; el frío lo deja rígido. El frío se reserva para el final del día si el hombro ha quedado dolorido."
+  ],
+  [
+   "Frecuencia por encima de intensidad",
+   "Cuatro o cinco tandas cortas repartidas por el día. Es lo que de verdad acelera la recuperación."
+  ],
+  [
+   "No inmovilices el brazo",
+   "Nada de cabestrillo salvo indicación expresa. Usa el brazo en la vida diaria dentro de lo que no duela."
+  ],
+  [
+   "Prepara la noche",
+   "Duerme boca arriba con una almohada pequeña bajo el codo, o de lado sobre el hombro sano abrazando una almohada que sostenga el brazo afectado."
+  ]
  ],
  "fases": [
-  {"nombre": "Fase 1 · Calmar el hombro", "cuando": "Mientras el dolor mande · 4 o 5 veces al día · 5-10 minutos cada vez",
+  {
+   "nombre": "Fase 1 · Calmar el hombro",
+   "cuando": "Mientras el dolor mande · 4 o 5 veces al día · 5-10 minutos cada vez",
    "texto": "El objetivo no es ganar recorrido, sino bajar la irritación y evitar que el hombro se cierre más. Todo es suave, asistido y sin dolor: el brazo lo mueve la otra mano, el bastón o la gravedad, no el músculo del hombro.",
    "ejercicios": [
-    ["Péndulo de Codman", "Descarga articular", "Inclina el tronco apoyando la mano sana en una mesa y deja colgar el brazo afectado relajado. Dibuja círculos pequeños dejando que el peso del brazo haga el movimiento. Es el primer ejercicio de cada tanda.", "2 × 60 segundos en cada sentido · 4-5 veces al día"],
-    ["Flexión asistida con bastón", "Elevación asistida", "Tumbado boca arriba, sujeta un bastón o una escoba con las dos manos. El brazo sano empuja: sube el bastón hacia la cabeza llevando el brazo afectado hasta donde llegue sin dolor, mantén y baja despacio.", "10 repeticiones · 5 segundos arriba · 4-5 veces al día"],
-    ["Rotación externa asistida con bastón", "Rotación externa", "Codo del lado afectado pegado al costado y doblado a 90 grados, con una toalla enrollada entre el codo y el cuerpo. Empuja el bastón con la mano sana para abrir el antebrazo hacia fuera. Es el primer movimiento que se pierde y el último que vuelve.", "10 repeticiones · mantener 10 segundos · 4-5 veces al día"],
-    ["Isométrico de rotación externa", "Infraespinoso", "Junto al marco de una puerta, codo pegado y doblado a 90 grados. Empuja el dorso de la mano contra el marco al 30 % de tu fuerza, sin que el brazo se mueva. Aquí sirve para calmar el dolor: si duele, baja la fuerza.", "5 × 20 segundos · 2 veces al día"],
-    ["Isométrico de rotación interna", "Subescapular", "La misma posición, empujando con la palma hacia dentro contra el marco. Mismo nivel de fuerza y sin dolor.", "5 × 20 segundos · 2 veces al día"],
-    ["Control escapular", "Trapecio inferior y serrato", "Lleva los omoplatos hacia abajo y hacia dentro, como si quisieras metértelos en los bolsillos de atrás, sin encoger el cuello.", "3 × 10 · mantener 5 segundos"]
-   ]},
-  {"nombre": "Fase 2 · Ganar recorrido", "cuando": "Cuando el dolor de reposo afloje y el tope sea rígido · 3 veces al día · 15 minutos",
+    [
+     "Péndulo de Codman",
+     "Descarga articular",
+     "Inclina el tronco apoyando la mano sana en una mesa y deja colgar el brazo afectado relajado. Dibuja círculos pequeños dejando que el peso del brazo haga el movimiento. Es el primer ejercicio de cada tanda.",
+     "2 × 60 segundos en cada sentido · 4-5 veces al día"
+    ],
+    [
+     "Flexión asistida con bastón",
+     "Elevación asistida",
+     "Tumbado boca arriba, sujeta un bastón o una escoba con las dos manos. El brazo sano empuja: sube el bastón hacia la cabeza llevando el brazo afectado hasta donde llegue sin dolor, mantén y baja despacio.",
+     "10 repeticiones · 5 segundos arriba · 4-5 veces al día"
+    ],
+    [
+     "Rotación externa asistida con bastón",
+     "Rotación externa",
+     "Codo del lado afectado pegado al costado y doblado a 90 grados, con una toalla enrollada entre el codo y el cuerpo. Empuja el bastón con la mano sana para abrir el antebrazo hacia fuera. Es el primer movimiento que se pierde y el último que vuelve.",
+     "10 repeticiones · mantener 10 segundos · 4-5 veces al día"
+    ],
+    [
+     "Isométrico de rotación externa",
+     "Infraespinoso",
+     "Junto al marco de una puerta, codo pegado y doblado a 90 grados. Empuja el dorso de la mano contra el marco al 30 % de tu fuerza, sin que el brazo se mueva. Aquí sirve para calmar el dolor: si duele, baja la fuerza.",
+     "5 × 20 segundos · 2 veces al día"
+    ],
+    [
+     "Isométrico de rotación interna",
+     "Subescapular",
+     "La misma posición, empujando con la palma hacia dentro contra el marco. Mismo nivel de fuerza y sin dolor.",
+     "5 × 20 segundos · 2 veces al día"
+    ],
+    [
+     "Control escapular",
+     "Trapecio inferior y serrato",
+     "Lleva los omoplatos hacia abajo y hacia dentro, como si quisieras metértelos en los bolsillos de atrás, sin encoger el cuello.",
+     "3 × 10 · mantener 5 segundos"
+    ]
+   ]
+  },
+  {
+   "nombre": "Fase 2 · Ganar recorrido",
+   "cuando": "Cuando el dolor de reposo afloje y el tope sea rígido · 3 veces al día · 15 minutos",
    "texto": "La fase que decide el resultado. Se lleva el brazo hasta notar la tensión de la cápsula y se mantiene al menos 30 segundos, porque el tejido solo cede con el tiempo mantenido. Los ejercicios de la Fase 1 se siguen haciendo como calentamiento.",
    "ejercicios": [
-    ["Deslizamiento en pared", "Elevación", "De frente a la pared, ve trepando con los dedos hacia arriba acercando el cuerpo. Sube hasta notar tensión, mantén y baja despacio. Marca la altura alcanzada para ver cada semana cómo avanzas.", "10 subidas · 10 segundos arriba · 3 veces al día"],
-    ["Estiramiento de pectoral en el marco de la puerta", "Pectoral y cápsula anterior", "Antebrazo apoyado en el marco con el codo a la altura del hombro. Gira el cuerpo hacia el lado contrario hasta notar tensión en el pecho y la parte delantera del hombro.", "5 × 30 segundos · 3 veces al día"],
-    ["Estiramiento de cápsula posterior", "Cápsula posterior", "Tumbado sobre el lado afectado, brazo por delante y codo a 90 grados. Con la otra mano lleva el antebrazo hacia el suelo, despacio, hasta notar tensión detrás del hombro.", "5 × 30 segundos · 3 veces al día"],
-    ["Rotación interna con toalla", "Cápsula inferior", "Pasa una toalla por encima del hombro sano y sujeta el otro extremo por detrás con la mano afectada. Tira suavemente hacia arriba para subir la mano de abajo por la espalda.", "5 × 30 segundos · 3 veces al día"],
-    ["Círculos de brazo sin peso", "Movilidad activa", "Círculos controlados hacia delante y hacia atrás dentro del recorrido que tengas, sin forzar el final. Sirven de calentamiento.", "2 × 10 en cada sentido · antes de cada tanda"],
-    ["Elevación en plano escapular hasta el hombro", "Deltoides y manguito rotador", "Sube los brazos con el pulgar hacia arriba en diagonal, unos 30 grados por delante del cuerpo, y para a la altura del hombro. Sin peso mientras el recorrido no sea completo.", "3 × 10 · sin peso"],
-    ["T en prono", "Trapecio medio y romboides", "Boca abajo con el brazo colgando, ábrelo en cruz hasta la altura del tronco juntando el omoplato, sin subir el hombro hacia la oreja.", "3 × 12 · sin peso o 1 kg"]
-   ]},
-  {"nombre": "Fase 3 · Fuerza y función", "cuando": "Cuando el recorrido esté cerca del normal · 3 días por semana · 30 minutos",
+    [
+     "Deslizamiento en pared",
+     "Elevación",
+     "De frente a la pared, ve trepando con los dedos hacia arriba acercando el cuerpo. Sube hasta notar tensión, mantén y baja despacio. Marca la altura alcanzada para ver cada semana cómo avanzas.",
+     "10 subidas · 10 segundos arriba · 3 veces al día"
+    ],
+    [
+     "Estiramiento de pectoral en el marco de la puerta",
+     "Pectoral y cápsula anterior",
+     "Antebrazo apoyado en el marco con el codo a la altura del hombro. Gira el cuerpo hacia el lado contrario hasta notar tensión en el pecho y la parte delantera del hombro.",
+     "5 × 30 segundos · 3 veces al día"
+    ],
+    [
+     "Estiramiento de cápsula posterior",
+     "Cápsula posterior",
+     "Tumbado sobre el lado afectado, brazo por delante y codo a 90 grados. Con la otra mano lleva el antebrazo hacia el suelo, despacio, hasta notar tensión detrás del hombro.",
+     "5 × 30 segundos · 3 veces al día"
+    ],
+    [
+     "Rotación interna con toalla",
+     "Cápsula inferior",
+     "Pasa una toalla por encima del hombro sano y sujeta el otro extremo por detrás con la mano afectada. Tira suavemente hacia arriba para subir la mano de abajo por la espalda.",
+     "5 × 30 segundos · 3 veces al día"
+    ],
+    [
+     "Círculos de brazo sin peso",
+     "Movilidad activa",
+     "Círculos controlados hacia delante y hacia atrás dentro del recorrido que tengas, sin forzar el final. Sirven de calentamiento.",
+     "2 × 10 en cada sentido · antes de cada tanda"
+    ],
+    [
+     "Elevación en plano escapular hasta el hombro",
+     "Deltoides y manguito rotador",
+     "Sube los brazos con el pulgar hacia arriba en diagonal, unos 30 grados por delante del cuerpo, y para a la altura del hombro. Sin peso mientras el recorrido no sea completo.",
+     "3 × 10 · sin peso"
+    ],
+    [
+     "T en prono",
+     "Trapecio medio y romboides",
+     "Boca abajo con el brazo colgando, ábrelo en cruz hasta la altura del tronco juntando el omoplato, sin subir el hombro hacia la oreja.",
+     "3 × 12 · sin peso o 1 kg"
+    ]
+   ]
+  },
+  {
+   "nombre": "Fase 3 · Fuerza y función",
+   "cuando": "Cuando el recorrido esté cerca del normal · 3 días por semana · 30 minutos",
    "texto": "El recorrido ha vuelto, pero el hombro está débil. Ahora toca cargar: banda elástica primero y mancuernas después, con la bajada siempre lenta. Los estiramientos de la Fase 2 se mantienen a diario.",
    "ejercicios": [
-    ["Rotación externa con banda", "Infraespinoso y redondo menor", "Codo pegado al costado con una toalla enrollada, banda anclada al frente. Lleva la mano hacia fuera sin separar el codo y vuelve despacio.", "3 × 15 · vuelta en 3 segundos"],
-    ["Rotación interna con banda", "Subescapular", "Igual que el anterior, tirando hacia dentro con el codo siempre pegado.", "3 × 15 · vuelta en 3 segundos"],
-    ["Remo bajo con banda", "Trapecio y romboides", "Banda a la altura del pecho. Tira con los codos pegados al cuerpo y junta los omoplatos al final.", "3 × 15"],
-    ["Face pull con banda", "Rotadores y trapecio inferior", "Banda a la altura de la cara. Tira hacia la frente separando las manos, con los codos altos y atrás.", "3 × 15"],
-    ["Y en prono", "Trapecio inferior", "Boca abajo, sube el brazo en diagonal por encima de la cabeza formando una Y, con el pulgar hacia arriba.", "3 × 12 · sin peso o 1 kg"],
-    ["Elevación completa en plano escapular", "Deltoides y manguito rotador", "Como la elevación de la Fase 2, ahora por encima de la cabeza con 1 o 2 kg. Cuando la hagas con el mismo recorrido que el lado sano y sin molestia, el hombro está recuperado.", "3 × 10"],
-    ["Remo con mancuerna apoyado en banco", "Dorsal, trapecio y romboides", "Apoya la mano y la rodilla del lado contrario. Sube el codo pegado al cuerpo hasta la altura del tronco, sin girar la espalda.", "3 × 12 · peso progresivo"],
-    ["Rotación externa con banda a 90 grados", "Manguito rotador en posición alta", "Brazo separado 90 grados y codo doblado. Gira el antebrazo hacia arriba y vuelve despacio. Es el último ejercicio del plan, solo con el recorrido completo.", "3 × 12 · vuelta en 3 segundos"]
-   ]}
+    [
+     "Rotación externa con banda",
+     "Infraespinoso y redondo menor",
+     "Codo pegado al costado con una toalla enrollada, banda anclada al frente. Lleva la mano hacia fuera sin separar el codo y vuelve despacio.",
+     "3 × 15 · vuelta en 3 segundos"
+    ],
+    [
+     "Rotación interna con banda",
+     "Subescapular",
+     "Igual que el anterior, tirando hacia dentro con el codo siempre pegado.",
+     "3 × 15 · vuelta en 3 segundos"
+    ],
+    [
+     "Remo bajo con banda",
+     "Trapecio y romboides",
+     "Banda a la altura del pecho. Tira con los codos pegados al cuerpo y junta los omoplatos al final.",
+     "3 × 15"
+    ],
+    [
+     "Face pull con banda",
+     "Rotadores y trapecio inferior",
+     "Banda a la altura de la cara. Tira hacia la frente separando las manos, con los codos altos y atrás.",
+     "3 × 15"
+    ],
+    [
+     "Y en prono",
+     "Trapecio inferior",
+     "Boca abajo, sube el brazo en diagonal por encima de la cabeza formando una Y, con el pulgar hacia arriba.",
+     "3 × 12 · sin peso o 1 kg"
+    ],
+    [
+     "Elevación completa en plano escapular",
+     "Deltoides y manguito rotador",
+     "Como la elevación de la Fase 2, ahora por encima de la cabeza con 1 o 2 kg. Cuando la hagas con el mismo recorrido que el lado sano y sin molestia, el hombro está recuperado.",
+     "3 × 10"
+    ],
+    [
+     "Remo con mancuerna apoyado en banco",
+     "Dorsal, trapecio y romboides",
+     "Apoya la mano y la rodilla del lado contrario. Sube el codo pegado al cuerpo hasta la altura del tronco, sin girar la espalda.",
+     "3 × 12 · peso progresivo"
+    ],
+    [
+     "Rotación externa con banda a 90 grados",
+     "Manguito rotador en posición alta",
+     "Brazo separado 90 grados y codo doblado. Gira el antebrazo hacia arriba y vuelve despacio. Es el último ejercicio del plan, solo con el recorrido completo.",
+     "3 × 12 · vuelta en 3 segundos"
+    ]
+   ]
+  }
  ],
  "evitar": [
   "Forzar el estiramiento hasta el dolor fuerte: aumenta la inflamación y alarga la fase dolorosa.",
@@ -72,5 +207,8 @@
   "El hombro se hincha, se pone caliente o aparece fiebre."
  ],
  "normal": "Es normal una molestia difusa durante una o dos horas después de los estiramientos, avances lentos de una semana a otra y días malos sueltos. En la capsulitis la mejoría se mide en meses, no en días.",
- "relacionadas": ["hombro-doloroso", "infiltraciones-ecoguiadas"]
+ "relacionadas": [
+  "hombro-doloroso",
+  "infiltraciones-ecoguiadas"
+ ]
 }

@@ -18,7 +18,10 @@ DOCTOR_REF = G.DOCTOR_REF
 PHONE = "+34 913 548 990"
 MAPA = "https://maps.google.com/?cid=4492723553507247190"   # ficha de Google del doctor (enlace neutro: Cómo llegar)
 
-def header(es_slug=""):
+MENU_EN = [("/en/#conditions", "Conditions"), ("/en/#treatments", "Treatments"), ("/en/dr-julio-de-la-morena/", "The doctor")]
+
+def header(es_slug="", form=True):
+    cita = "#contact" if form else "/en/#contact"
     return f'''<div class="util">
 <div class="wrap">
 <span class="util-addr">Hospital Memorial Publio Cordón · Paseo de la Casa de Campo, 5 · Pozuelo de Alarcón (Madrid)</span>
@@ -33,12 +36,14 @@ def header(es_slug=""):
 <a href="/en/#treatments">Treatments</a>
 <a href="/en/dr-julio-de-la-morena/">The doctor</a>
 {I.menu("en", es_slug, "Language")}
-<a class="btn solo-movil" href="tel:+34913548990">Book</a><a class="btn solo-escritorio" href="/en/#contact">Book an appointment</a>
+<a class="btn solo-movil" href="tel:+34913548990">Book</a><a class="btn solo-escritorio" href="{cita}">Book an appointment</a>
+{I.nav_movil(MENU_EN, "Menu", [("tel:+34913548990", "Call +34 913 548 990"), (cita, "Book an appointment")])}
 </nav>
 </div>
 </header>'''
 
-def footer(es_slug=""):
+def footer(es_slug="", form=True):
+    cita = "#contact" if form else "/en/#contact"
     links = "".join(f'<a href="/en/{p["slug"]}/">{esc(p["nav"])}</a>' for p in PAGES_EN)
     return f'''<footer class="foot">
 <div class="wrap foot-grid">
@@ -55,15 +60,45 @@ def footer(es_slug=""):
 <nav aria-label="Legal"><a href="/aviso-legal.html" hreflang="es">Legal notice (Spanish)</a><a href="/privacidad.html" hreflang="es">Privacy (Spanish)</a></nav>
 </div>
 </footer>
-<nav class="cta-fija" aria-label="Quick contact"><a class="llamar" href="tel:+34913548990">Call · +34 913 548 990</a><a class="cita" href="/en/#contact">Ask for a call</a></nav>
+<nav class="cta-fija" aria-label="Quick contact"><a class="llamar" href="tel:+34913548990">Call · +34 913 548 990</a><a class="cita" href="{cita}">Ask for a call</a></nav>
 {G.CONTADOR}'''
 
-def head(title, desc, url, es_url, img, ld, og_type="article", extra=""):
+
+def contact_block(ruta, compacto=False):
+    """Appointment block with the Netlify form (same form name on every page)."""
+    return f'''<section id="contact" class="block navy contact{" contact-compacto" if compacto else ""}">
+<div class="wrap split">
+<div class="text">
+<p class="label">Appointments</p>
+<h2 class="h2">Request an appointment</h2>
+<p>Regenerative Therapies and Sports Medicine Unit<br>Hospital Memorial Publio Cordón<br>Paseo de la Casa de Campo, 5 · 28223 Pozuelo de Alarcón (Madrid), Spain</p>
+<div><p class="label" style="margin-bottom: 8px">Phone</p><div class="phone"><a class="tel" href="tel:+34913548990">+34 913 548 990</a></div><p class="horario">Clinic hours: Monday to Friday, 3 pm to 9 pm. We call you back within those hours.</p></div>
+<div class="hero-cta"><a class="btn solo-movil" href="tel:+34913548990">Call now</a>{G.whatsapp_btn("Write on WhatsApp")}</div>
+</div>
+<form class="f" name="contacto-en" method="POST" action="/en/thank-you.html" data-netlify="true" netlify-honeypot="web">
+<input type="hidden" name="form-name" value="contacto-en">
+<input type="hidden" name="pagina" value="{esc(ruta)}">
+<p class="hidden"><label>Do not fill in <input name="web"></label></p>
+<h3>We will call you</h3>
+<label for="f-nombre">Full name<input id="f-nombre" name="nombre" type="text" autocomplete="name" required></label>
+<label for="f-tel">Phone<input id="f-tel" name="telefono" type="tel" autocomplete="tel" required></label>
+<label for="f-motivo">Reason for your visit<textarea id="f-motivo" name="motivo" rows="4"></textarea></label>
+<label class="check" for="f-priv"><input id="f-priv" name="privacidad" type="checkbox" required><span>I have read and accept the <a href="/privacidad.html" hreflang="es">privacy policy</a> (in Spanish). Your details are used only to contact you about your appointment.</span></label>
+<button class="btn btn-dark" type="submit">Send request</button>
+</form>
+</div>
+</section>'''
+
+def head(title, desc, url, es_url, img, ld, og_type="article", extra="", form=True):
     return f'''<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#0B1B33">
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
 <link rel="canonical" href="{url}">
@@ -83,7 +118,7 @@ def head(title, desc, url, es_url, img, ld, og_type="article", extra=""):
 </script>
 </head>
 <body>
-{header(I.es_slug_from_url(es_url))}
+{header(I.es_slug_from_url(es_url), form)}
 '''
 
 def breadcrumb(name, url):
@@ -94,7 +129,7 @@ def breadcrumb(name, url):
 def cta():
     return f'''<div class="cta-band">
 <div><h3>Would you like your case assessed?</h3><p class="ventaja">Examination and ultrasound in the same appointment: you leave with a diagnosis and a plan. First appointment with no commitment to treatment: if nothing is indicated, we tell you.</p><p>Hospital Memorial Publio Cordón · Pozuelo de Alarcón · <a class="tel" href="tel:+34913548990">+34 913 548 990</a> · Mon–Fri, 3 pm to 9 pm</p></div>
-<a class="btn solo-movil" href="tel:+34913548990">Call to book</a><a class="btn solo-escritorio" href="/en/#contact">Book an appointment</a>
+<a class="btn solo-movil" href="tel:+34913548990">Call to book</a><a class="btn solo-escritorio" href="#contact">Book an appointment</a>
 </div>'''
 
 def page(p):
@@ -117,7 +152,7 @@ def page(p):
 <nav class="crumbs" aria-label="Breadcrumb"><a href="/en/">Home</a><span aria-hidden="true">/</span><a href="/en/#{anchor}">{esc(p['label'])}</a><span aria-hidden="true">/</span><span>{esc(p['nav'])}</span></nav>
 <p class="label">{esc(p['label'])}</p>
 <h1>{esc(p['h1'])}</h1>
-<p class="answer">{esc(p['lead'])}</p>
+{I.respuesta(esc(p["lead"]), "en")}
 <img class="wide" src="/img/{p['img']}" alt="{esc(p['img_alt'])}" width="{w}" height="{h}">
 {secs}
 <h2>Frequently asked questions</h2>
@@ -131,6 +166,7 @@ def page(p):
 </div>
 <div class="related"><p class="label">Related</p>{rel}</div>
 </article>
+{contact_block('/en/' + p['slug'] + '/', compacto=True)}
 </main>
 '''
     return head(p["seo"], p["desc"], url, es_url, p["img"], ld) + body + footer(p["es"]) + "\n</body>\n</html>\n"
@@ -138,7 +174,6 @@ def page(p):
 def about_page():
     a = ABOUT_EN; url = f"{SITE}/en/{a['slug']}/"; es_url = f"{SITE}/{a['es']}/"
     faq = [
-     ("Who is Dr Julio De la Morena?", "He is a doctor specialising in Sport and Exercise Medicine, registered with the Madrid Medical Council (no. 281903698). He sees patients at the Regenerative Therapies and Sports Medicine Unit of Hospital Memorial Publio Cordón in Pozuelo de Alarcón (Madrid). He spent fourteen years with the Real Madrid CF medical services, four as first-team doctor, and is Chief Medical Officer of the Spanish Rugby Federation."),
      ("What does Dr Julio De la Morena treat?", "Osteoarthritis, tendinopathies, low back pain and sciatica, shoulder pain, sprains and muscle injuries, in athletes and in people who do no sport. He uses ultrasound in the same appointment, ultrasound-guided injections and autologous growth factors (platelet-rich plasma) when appropriate."),
      ("Does Dr De la Morena speak English?", "Yes. Consultations are available in English and Spanish."),
      ("How do I book an appointment?", f"By phone on {PHONE}, or with the contact form on drjuliodelamorena.com/en/, and we call you back."),
@@ -168,64 +203,31 @@ def about_page():
          "identifier": {"@type": "PropertyValue", "propertyID": "Madrid Medical Council registration number", "value": "281903698"},
          "sameAs": ["https://www.instagram.com/drjuliodelamorena/", CITA]},
         breadcrumb("The doctor", url), G.faq_ld(faq)]}
-    areas = "".join(f'<li><a href="/en/{p["slug"]}/">{esc(p["nav"])}</a></li>' for p in PAGES_EN)
     faqs = "\n".join(f'<details><summary>{esc(q)}</summary><p>{esc(x)}</p></details>' for q, x in faq)
     body = f'''<main class="article">
 <article class="wrap">
 <nav class="crumbs" aria-label="Breadcrumb"><a href="/en/">Home</a><span aria-hidden="true">/</span><span>The doctor</span></nav>
 <p class="label">The doctor</p>
 <h1>{esc(a['h1'])}</h1>
-<p class="answer">Dr Julio De la Morena Garzón is a specialist in Sport and Exercise Medicine (Madrid Medical Council no. 281903698). He sees patients at the Regenerative Therapies and Sports Medicine Unit of Hospital Memorial Publio Cordón in Pozuelo de Alarcón (Madrid). He spent fourteen years with the Real Madrid CF medical services, four of them as first-team doctor, and is Chief Medical Officer of the Spanish Rugby Federation. He treats osteoarthritis, tendinopathies, back pain and musculoskeletal injuries in anyone, whether or not they play sport, with ultrasound in the same appointment and treatment without surgery whenever possible. Consultations are available in English.</p>
-<img class="wide" src="/img/trayectoria.jpg" alt="Dr Julio De la Morena with the Real Madrid league trophy" width="1018" height="1024" style="aspect-ratio: 4 / 3; object-position: center 30%">
-<h2>Training</h2>
-<ul class="cvlist">
-<li><strong>Specialist in Sport and Exercise Medicine</strong> (Spanish MIR residency) · Complutense University of Madrid (2006).</li>
-<li><strong>Degree in Medicine and Surgery</strong> · University of Alcalá (1998), top of his year.</li>
-<li><strong>Advanced Studies Diploma</strong> (research proficiency) · University of Alcalá (2001).</li>
-<li><strong>Good Clinical Practice certification</strong> for clinical trials (ICH-GCP E6 R3) · NIDA Clinical Trials Network, National Institutes of Health (2026–2029).</li>
-<li><strong>Accredited doping-control physician</strong>, Spanish Sports Council.</li>
-</ul>
-<h2>Career</h2>
-<ul class="cvlist">
-<li><strong>2026 – present · Hospital Memorial Publio Cordón</strong> (Pozuelo de Alarcón, Madrid). Regenerative Therapies and Sports Medicine Unit: diagnostic and interventional musculoskeletal ultrasound and ultrasound-guided biological therapies. Development of the hospital's advanced-therapies programme, including a clinical trial in muscle injury.</li>
-<li><strong>2022 – present · Spanish Rugby Federation.</strong> Chief Medical Officer: clinical lead for the national teams; prevention, diagnosis and safe return-to-play protocols.</li>
-<li><strong>2021 – 2026 · Hospital Ruber Internacional</strong> (Madrid). Sports, Regenerative and Biomechanics Medicine Unit.</li>
-<li><strong>2007 – 2021 · Real Madrid CF.</strong> Fourteen years with the club's medical services: academy (2007–2013), Real Madrid Castilla (2013–2017) and first-team doctor (2017–2021).</li>
-<li><strong>2019 – 2021 · GO fit Athletics.</strong> Head of medical services of a high-performance athletics club.</li>
-<li><strong>2012 – 2019 · Hospital Sanitas La Moraleja</strong> (Madrid). Sports Medicine Unit.</li>
-<li><strong>2006 – 2007 · Spanish Sports Council.</strong> Sports Medicine Centre: clinical care and research with elite athletes.</li>
-</ul>
-<h2>Teaching, research and awards</h2>
-<ul class="cvlist">
-<li><strong>"Manuel Clavel Nolla" Award</strong> (Spanish National Sports Traumatology Meeting, 2007) for an ultrasound study of the quadriceps tendon in elite weightlifters.</li>
-<li><strong>Associate lecturer</strong> on the master's degrees in Sports Training and Nutrition and in Sports Physiotherapy · Universidad Europea de Madrid (2013–2016); contributing lecturer on the master's in Sports Traumatology · Complutense University of Madrid (2011–2012).</li>
-<li><strong>Author</strong> of a book chapter on the psychological benefits of exercise in women (<em>Mujer y Deporte</em>, 2018) and co-author of papers in international journals and conference communications.</li>
-<li><strong>Languages:</strong> Spanish and English (he completed his secondary education in the United Kingdom). Consultations in both languages.</li>
-</ul>
-<h2>Interviews and media</h2>
-<div class="videos">
-<a class="video" href="https://www.youtube.com/watch?v=FxVOJ4pY-Y4" target="_blank" rel="noopener"><img src="/img/videos/tve-tendones-ligamentos.jpg" alt="Dr Julio De la Morena interviewed on Spanish national television about the Achilles tendon" width="960" height="540" loading="lazy"><span class="video-t"><strong>How to prevent tendon and ligament injuries</strong><span>Television interview (La 1, Spanish public television) · Sanitas channel on YouTube (in Spanish)</span></span></a>
-<a class="video" href="https://www.youtube.com/watch?v=PCEiHsOmEHU" target="_blank" rel="noopener"><img src="/img/videos/esradio-entrevista.jpg" alt="Dr Julio De la Morena interviewed on esRadio" width="960" height="540" loading="lazy"><span class="video-t"><strong>Interview on esRadio</strong><span>"Es la mañana de Federico" · YouTube (in Spanish)</span></span></a>
-</div>
-<h3>In the press</h3>
-<p>May 2014. A Real Madrid Castilla player collapsed unconscious on the pitch after a collision. Dr De la Morena ran on to treat him without waiting for the referee's permission, secured his airway and was sent off. The Spanish sports press backed his decision and the Competition Committee overturned the sanction.</p>
-<ul class="prensa">
-<li><a href="https://www.libertaddigital.com/deportes/futbol/2014-05-14/competicion-anula-la-roja-al-medico-del-castilla-1276518574/" target="_blank" rel="noopener">Competition Committee overturns the red card shown to the Castilla team doctor</a><span>Libertad Digital · 14 May 2014 (in Spanish)</span></li>
-<li><strong>"Tarjeta roja al sentido común" (A red card for common sense)</strong><span>El País · 13 May 2014</span></li>
-<li><strong>"Clamor contra Muñoz"</strong><span>Diario AS · 12 May 2014</span></li>
-<li><strong>"Una roja por salvar una vida" (A red card for saving a life)</strong><span>Marca · 11 May 2014</span></li>
-<li><strong>ABC and Sport</strong><span>11 and 13 May 2014</span></li>
-</ul>
+{I.respuesta("""Dr Julio De la Morena Garzón is a specialist in Sport and Exercise Medicine (Madrid Medical Council no. 281903698). He sees patients at the Regenerative Therapies and Sports Medicine Unit of Hospital Memorial Publio Cordón in Pozuelo de Alarcón (Madrid). He spent fourteen years with the Real Madrid CF medical services, four of them as first-team doctor, and is Chief Medical Officer of the Spanish Rugby Federation. He treats osteoarthritis, tendinopathies, back pain and musculoskeletal injuries in anyone, whether or not they play sport, with ultrasound in the same appointment and treatment without surgery whenever possible. Consultations are available in English.""", "en")}
+<img class="wide" src="/img/consulta.jpg" alt="Dr Julio De la Morena explaining a treatment to a patient in his consulting room" width="960" height="1200" style="aspect-ratio: 4 / 3; object-position: center 30%">
 <h2>How he works</h2>
-<p>One-stop consultation: in a single visit the patient is examined, studied with ultrasound, diagnosed and, when appropriate, treatment begins, in coordination with interventional radiology, physiotherapy and orthopaedic surgery. Surgery is reserved for the cases that genuinely need it.</p>
-<h2>What he treats</h2>
-<ul class="arealist">{areas}</ul>
+<p>One-stop consultation: in a single visit the patient is examined, studied with ultrasound, diagnosed and, when appropriate, treatment begins, in coordination with interventional radiology, physiotherapy and orthopaedic surgery. Surgery is reserved for the cases that genuinely need it. Patients from abroad can have their scans reviewed before travelling.</p>
+<h2>Training</h2>
+<ul class="cvlist"><li><strong>Specialist in Sport and Exercise Medicine</strong> (Spanish MIR residency) · Complutense University of Madrid (2006).</li><li><strong>Degree in Medicine and Surgery</strong> · University of Alcalá (1998), top of his year.</li><li><strong>Good Clinical Practice certification</strong> for clinical trials (ICH-GCP E6 R3) · NIDA Clinical Trials Network, National Institutes of Health (2026–2029).</li><li><strong>Accredited doping-control physician</strong>, Spanish Sports Council.</li></ul>
+<h2>Career</h2>
+<ul class="cvlist"><li><strong>2026 – present · Hospital Memorial Publio Cordón</strong> (Pozuelo de Alarcón, Madrid). Regenerative Therapies and Sports Medicine Unit: diagnostic and interventional musculoskeletal ultrasound and ultrasound-guided biological therapies. Development of the hospital's advanced-therapies programme, including a clinical trial in muscle injury.</li><li><strong>2022 – present · Spanish Rugby Federation.</strong> Chief Medical Officer: clinical lead for the national teams; prevention, diagnosis and safe return-to-play protocols.</li><li><strong>2021 – 2026 · Hospital Ruber Internacional</strong> (Madrid). Sports, Regenerative and Biomechanics Medicine Unit.</li><li><strong>2007 – 2021 · Real Madrid CF.</strong> Fourteen years with the club's medical services: academy (2007–2013), Real Madrid Castilla (2013–2017) and first-team doctor (2017–2021).</li><li><strong>2012 – 2019 · Hospital Sanitas La Moraleja</strong> (Madrid). Sports Medicine Unit.</li></ul>
+<h2>Teaching and languages</h2>
+<ul class="cvlist"><li><strong>"Manuel Clavel Nolla" Award</strong> (Spanish National Sports Traumatology Meeting, 2007) for an ultrasound study of the quadriceps tendon in elite weightlifters.</li><li><strong>Associate lecturer</strong> on the master's degrees in Sports Training and Nutrition and in Sports Physiotherapy · Universidad Europea de Madrid (2013–2016); contributing lecturer on the master's in Sports Traumatology · Complutense University of Madrid (2011–2012).</li><li><strong>Languages:</strong> Spanish and English (he completed his secondary education in the United Kingdom). Written communication with patients from abroad in their own language.</li></ul>
+<h2>Interviews and media</h2>
+<div class="videos"><a class="video" href="https://www.youtube.com/watch?v=FxVOJ4pY-Y4" target="_blank" rel="noopener"><img src="/img/videos/tve-tendones-ligamentos.jpg" alt="Dr Julio De la Morena interviewed on Spanish national television about the Achilles tendon" width="960" height="540" loading="lazy"><span class="video-t"><strong>How to prevent tendon and ligament injuries</strong><span>Television interview (La 1, Spanish public television) · Sanitas channel on YouTube (in Spanish)</span></span></a><a class="video" href="https://www.youtube.com/watch?v=PCEiHsOmEHU" target="_blank" rel="noopener"><img src="/img/videos/esradio-entrevista.jpg" alt="Dr Julio De la Morena interviewed on esRadio" width="960" height="540" loading="lazy"><span class="video-t"><strong>Interview on esRadio</strong><span>"Es la mañana de Federico" · YouTube (in Spanish)</span></span></a></div><p>In May 2014, as Real Madrid Castilla team doctor, he ran on to the pitch to treat a player who had collapsed unconscious, without waiting for the referee's permission, and was sent off. The Spanish sports press backed his decision and the Competition Committee <a href="https://www.libertaddigital.com/deportes/futbol/2014-05-14/competicion-anula-la-roja-al-medico-del-castilla-1276518574/" target="_blank" rel="noopener">overturned the sanction</a>.</p>
 <h2>Frequently asked questions</h2>
 <div class="faq">
 {faqs}
 </div>
 {cta()}
 </article>
+{contact_block('/en/dr-julio-de-la-morena/', compacto=True)}
 </main>
 '''
     return head(a["seo"], a["desc"], url, es_url, "retrato.jpg", ld) + body + footer(a["es"]) + "\n</body>\n</html>\n"
@@ -263,8 +265,8 @@ def home():
              ("muscle-injuries", "Muscle injuries", "Muscle tears and injuries that keep coming back.")]
     area_html = "\n".join(f'<a class="area" href="/en/{s}/"><h3>{esc(t)}</h3><p>{esc(d)}</p><small>Find out more →</small></a>' for s, t, d in areas)
     faqs = "\n".join(f'<details><summary>{esc(q)}</summary><p>{esc(a)}</p></details>' for q, a in HOME_FAQ)
-    title = "Dr Julio De la Morena · English-speaking Sports Medicine Doctor in Madrid"
-    desc = "Dr Julio De la Morena Garzón, specialist in Sport and Exercise Medicine in Madrid. Osteoarthritis, tendinopathy, back pain, sciatica and injuries, with ultrasound in clinic and treatment without surgery whenever possible. Hospital Memorial Publio Cordón, Pozuelo de Alarcón. Consultations in English."
+    title = "Dr Julio De la Morena · Sports medicine doctor in Madrid"
+    desc = "Osteoarthritis, tendinopathy, back pain and injuries: ultrasound in clinic and treatment without surgery when possible. Pozuelo (Madrid). In English."
     body = f'''<main>
 <section class="hero">
 <div class="wrap">
@@ -273,11 +275,11 @@ def home():
 <h1>Osteoarthritis, tendinitis and back pain: treatment <em>without surgery</em> whenever possible.</h1>
 <p>Diagnosis and treatment of sports injuries, osteoarthritis, tendinopathies and back pain, with high-resolution ultrasound in the same appointment. For anyone with pain or an injury, whether or not they play sport. Consultations in English and Spanish.</p>
 <div class="hero-cta">
-<a class="btn solo-movil" href="tel:+34913548990">Call to book</a><a class="btn solo-escritorio" href="/en/#contact">Book an appointment</a>
+<a class="btn solo-movil" href="tel:+34913548990">Call to book</a><a class="btn solo-escritorio" href="#contact">Book an appointment</a>
 <a class="btn btn-line" href="#contact">Ask us to call you</a>
 </div>
 </div>
-<div class="hero-img"><img src="/img/hero.jpg" alt="Dr Julio De la Morena at Hospital Memorial Publio Cordón" width="1282" height="1600"></div>
+<div class="hero-img"><img fetchpriority="high" src="/img/hero.jpg" alt="Dr Julio De la Morena at Hospital Memorial Publio Cordón" width="1282" height="1600"></div>
 </div>
 <div class="creds-row">
 <div class="wrap">
@@ -365,12 +367,8 @@ def home():
 <p class="label">The hospital</p>
 <h2 class="h2">Hospital Memorial Publio Cordón</h2>
 <p class="lead">A new hospital in Pozuelo de Alarcón, next to Madrid's Casa de Campo park, with full diagnostic and surgical facilities a few steps from the clinic.</p>
-<div class="facts4">
-<div><b>24 h</b><span>Emergency department</span></div>
-<div><b>8</b><span>Operating theatres</span></div>
-<div><b>15,000</b><span>Square metres</span></div>
-<div><b>250</b><span>Professionals</span></div>
-</div>
+<p>Paseo de la Casa de Campo, 5 · 28223 Pozuelo de Alarcón (Madrid) · about 30 minutes by car from Madrid-Barajas airport.</p>
+<p style="margin: 0"><a class="btn btn-outline" href="{MAPA}" rel="noopener" target="_blank">Get directions</a></p>
 </div>
 <div><img class="photo" src="/img/hospital.jpg" alt="The doctor's consulting room at Hospital Memorial Publio Cordón" width="1122" height="1402" loading="lazy"></div>
 </div>
@@ -388,27 +386,7 @@ def home():
 </div>
 </section>
 
-<section id="contact" class="block navy contact">
-<div class="wrap split">
-<div class="text">
-<p class="label">Appointments</p>
-<h2 class="h2">Request an appointment</h2>
-<p>Regenerative Therapies and Sports Medicine Unit<br>Hospital Memorial Publio Cordón<br>Paseo de la Casa de Campo, 5 · 28223 Pozuelo de Alarcón (Madrid), Spain</p>
-<div><p class="label" style="margin-bottom: 8px">Phone</p><div class="phone"><a class="tel" href="tel:+34913548990">+34 913 548 990</a></div><p class="horario">Clinic hours: Monday to Friday, 3 pm to 9 pm. We call you back within those hours.</p></div>
-<div class="hero-cta"><a class="btn solo-movil" href="tel:+34913548990">Call now</a><a class="btn btn-line" href="https://www.instagram.com/drjuliodelamorena/">Instagram</a></div>
-</div>
-<form class="f" name="contacto-en" method="POST" action="/en/thank-you.html" data-netlify="true" netlify-honeypot="web">
-<input type="hidden" name="form-name" value="contacto-en">
-<p class="hidden"><label>Do not fill in <input name="web"></label></p>
-<h3>We will call you</h3>
-<label for="f-nombre">Full name<input id="f-nombre" name="nombre" type="text" autocomplete="name" required></label>
-<label for="f-tel">Phone<input id="f-tel" name="telefono" type="tel" autocomplete="tel" required></label>
-<label for="f-motivo">Reason for your visit<textarea id="f-motivo" name="motivo" rows="4"></textarea></label>
-<label class="check" for="f-priv"><input id="f-priv" name="privacidad" type="checkbox" required><span>I have read and accept the <a href="/privacidad.html" hreflang="es">privacy policy</a> (in Spanish). Your details are used only to contact you about your appointment.</span></label>
-<button class="btn btn-dark" type="submit">Send request</button>
-</form>
-</div>
-</section>
+{contact_block("/en/")}
 </main>
 '''
     return head(title, desc, url, es_url, "compartir.jpg", ld, og_type="website") + body + footer() + "\n</body>\n</html>\n"
@@ -419,6 +397,10 @@ def thank_you():
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#0B1B33">
 <title>Thank you · Dr Julio De la Morena</title>
 <meta name="robots" content="noindex">
 <link rel="stylesheet" href="{FONTS}">

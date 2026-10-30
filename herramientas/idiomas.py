@@ -82,6 +82,25 @@ def menu(current, es_slug, label="Idioma"):
     return (f'<details class="lang-menu"><summary aria-label="{label}" lang="{current}">{SHORT[current]}</summary>'
             f'<div>{"".join(items)}</div></details>')
 
+def nav_movil(links, label, destacados=()):
+    """Menú desplegable para el móvil (details). `links` y `destacados`: lista de (href, texto).
+    Solo se ve por debajo de 640 px (CSS .nav-menu); en escritorio los enlaces van sueltos en .menu."""
+    import html as _h
+    items = "".join(f'<a href="{href}">{_h.escape(t)}</a>' for href, t in links)
+    items += "".join(f'<a class="destacado" href="{href}">{_h.escape(t)}</a>' for href, t in destacados)
+    return (f'<details class="nav-menu"><summary aria-label="{_h.escape(label)}">{_h.escape(label)}</summary>'
+            f'<div>{items}</div></details>')
+
+LEER_MAS = {"es": "Seguir leyendo", "en": "Read more", "ka": "მეტის წაკითხვა", "ru": "Читать дальше", "fr": "Lire la suite"}
+_n = [0]
+def respuesta(texto_html, lang="es"):
+    """Párrafo de respuesta directa. En el móvil se muestra recortado a seis líneas con un
+    'Seguir leyendo' (casilla oculta, sin JavaScript); en escritorio sale entero."""
+    _n[0] += 1
+    i = f"mas-{_n[0]}"
+    return (f'<div class="answer-wrap"><input type="checkbox" id="{i}" class="answer-toggle" aria-hidden="true" tabindex="-1">'
+            f'<p class="answer">{texto_html}</p><label for="{i}" class="answer-more">{LEER_MAS.get(lang, LEER_MAS["en"])}</label></div>')
+
 def footer_links(current, es_slug=""):
     u, home = urls(es_slug), urls("")
     return "".join(f'<a href="{(u.get(c) or home[c]).replace(SITE, "")}" hreflang="{c}" lang="{c}">{NAMES[c]}</a>'
