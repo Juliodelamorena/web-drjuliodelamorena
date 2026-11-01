@@ -2,6 +2,9 @@
 # Reglas: sin precios, sin testimonios, sin prometer resultados; trato de usted (თქვენ).
 # "აუტოლოგიური ზრდის ფაქტორები" es el término principal; "თრომბოციტებით მდიდარი პლაზმა" solo como sinónimo.
 
+from paginas_nuevas_ka import NEW_PAGES as _NEW
+import paginas_plantilla as _T
+
 META = {
  "lang": "ka",
  "locale": "ka_GE",
@@ -25,7 +28,20 @@ SLUGS = {
  "medicina-deportiva": "sports-medicine",
  "dr-julio-de-la-morena": "dr-julio-de-la-morena",
  "segunda-opinion": "second-opinion",
+ "codo-de-tenista": "tennis-elbow",
+ "fascitis-plantar": "plantar-fasciitis",
+ "tendinitis-rotuliana": "patellar-tendinopathy",
+ "tendinitis-aquiles": "achilles-tendinopathy",
+ "rotura-menisco": "meniscus-tear",
+ "artrosis-cadera": "hip-osteoarthritis",
+ "pubalgia": "groin-pain",
 }
+
+_EN2ES0 = {v: k for k, v in _T.SLUGS.items()}
+for _p in _NEW:
+    _p['slug'] = SLUGS[_p['es']]
+    _p['related'] = [SLUGS[_EN2ES0[r]] for r in _p['related']]
+_NEW_LOCAL = _NEW
 
 PAGES = [
 {
@@ -210,6 +226,7 @@ PAGES = [
  ],
  "related": ["sports-medicine", "autologous-growth-factors", "ankle-sprain"],
 },
+*_NEW_LOCAL,
 {
  "slug": "autologous-growth-factors",
  "es": "factores-crecimiento-autologos",
@@ -523,3 +540,4 @@ ABOUT = {
   ("როგორ ჩავეწერო კონსულტაციაზე?", "მოგვწერეთ drjuliodelamorena.com-ზე არსებული ფორმით და გიპასუხებთ ელექტრონული ფოსტით ან ტელეფონით, ან დარეკეთ {phone} (ესპანურად ან ინგლისურად)."),
  ],
 }
+
