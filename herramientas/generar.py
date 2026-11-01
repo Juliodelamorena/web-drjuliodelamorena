@@ -161,6 +161,34 @@ def formulario(ruta, zona="", compacto=True):
 </div>
 </section>'''
 
+VIDEOS = {
+ "tve": {"id": "FxVOJ4pY-Y4", "img": "/img/videos/tve-tendones-ligamentos.jpg",
+         "name": "Cómo prevenir lesiones en tendones y ligamentos",
+         "desc": "El Dr. Julio De la Morena explica en La mañana de La 1 cómo prevenir las lesiones de tendones y ligamentos, con el tendón de Aquiles como ejemplo.",
+         "sub": "Entrevista en televisión (La mañana de La 1) · Canal de Sanitas en YouTube",
+         "alt": "El Dr. Julio De la Morena entrevistado en La mañana de La 1 sobre el tendón de Aquiles",
+         "date": "2012-04-10T14:53:54-07:00", "dur": "PT2M25S"},
+ "esradio": {"id": "PCEiHsOmEHU", "img": "/img/videos/esradio-entrevista.jpg",
+         "name": "Entrevista al Dr. Julio De la Morena en esRadio",
+         "desc": "Entrevista al Dr. Julio De la Morena en «Es la mañana de Federico» (esRadio), con Eduardo Vizcaíno, sobre medicina deportiva y lesiones.",
+         "sub": "«Es la mañana de Federico», con Eduardo Vizcaíno · YouTube",
+         "alt": "Entrevista al Dr. Julio De la Morena en esRadio",
+         "date": "2023-06-26T05:05:59-07:00", "dur": "PT16M59S"},
+}
+VIDEO_POR_SLUG = {"tendinitis-aquiles": "tve", "tendinopatias": "tve", "medicina-deportiva": "esradio"}
+
+def video_ld(k):
+    v = VIDEOS[k]
+    return {"@type": "VideoObject", "name": v["name"], "description": v["desc"],
+            "thumbnailUrl": SITE + v["img"], "uploadDate": v["date"], "duration": v["dur"],
+            "contentUrl": f"https://www.youtube.com/watch?v={v['id']}", "embedUrl": f"https://www.youtube.com/embed/{v['id']}",
+            "inLanguage": "es"}
+
+def video_card(k):
+    v = VIDEOS[k]
+    return (f'<a class="video" href="https://www.youtube.com/watch?v={v["id"]}" target="_blank" rel="noopener"><img src="{v["img"]}" alt="{esc(v["alt"])}" width="960" height="540" loading="lazy">'
+            f'<span class="video-t"><strong>{esc(v["name"])}</strong><span>{esc(v["sub"])}</span></span></a>')
+
 DOCTOR_REF = {"@type": "Person", "@id": f"{SITE}/#julio", "name": "Dr. Julio De la Morena Garzón"}
 
 def breadcrumb(name, url):
@@ -184,6 +212,9 @@ def page(p):
          "primaryImageOfPage": f"{SITE}/img/{p['img']}",
          "isPartOf": {"@id": f"{SITE}/#web"}},
         breadcrumb(p["nav"], url), faq_ld(p["faq"])]}
+    vk = VIDEO_POR_SLUG.get(p["slug"])
+    if vk:
+        ld["@graph"].append(video_ld(vk))
     w, h = p["img_wh"]
     alt = ALT_FIX.get(p["slug"], p["img_alt"])
     secs = "\n".join(f'<h2>{esc(t)}</h2>\n{body}' for t, body in p["sections"])
@@ -201,6 +232,7 @@ def page(p):
 <img class="wide" src="/img/{p['img']}" alt="{esc(alt)}" width="{w}" height="{h}">
 {secs}
 {extra}
+{('<h2>En vídeo</h2>' + chr(10) + '<div class="videos uno">' + video_card(vk) + '</div>') if vk else ''}
 <h2>Preguntas frecuentes</h2>
 <div class="faq">
 {faqs}
@@ -224,10 +256,11 @@ def page(p):
 def about_page():
     a = ABOUT; url = f"{SITE}/{a['slug']}/"
     faq = [
-     ("¿Qué trata el Dr. Julio De la Morena?", "Artrosis, tendinopatías, lumbalgia y ciática, dolor de hombro, esguinces y lesiones musculares, en deportistas y en personas que no hacen deporte. Utiliza ecografía en la misma consulta, infiltraciones guiadas por ecografía y factores de crecimiento autólogos cuando están indicados."),
+     ("¿Qué trata el Dr. Julio De la Morena?", "Artrosis de rodilla y de cadera, tendinopatías (codo de tenista y de pádel, tendinitis rotuliana y de Aquiles, fascitis plantar), lumbalgia y ciática, dolor de hombro, roturas de menisco, pubalgia, esguinces y lesiones musculares, en deportistas y en personas que no hacen deporte. Utiliza ecografía en la misma consulta, infiltraciones guiadas por ecografía y factores de crecimiento autólogos cuando están indicados."),
      ("¿Cómo pedir cita con el Dr. Julio De la Morena?", "Por teléfono en el 913 548 990 (consulta de lunes a viernes, de 15:00 a 21:00) o con el formulario de drjuliodelamorena.com, y le llamamos para darle cita."),
     ]
     ld = {"@context": "https://schema.org", "@graph": [
+        video_ld("tve"), video_ld("esradio"),
         {"@type": "ProfilePage", "@id": url, "url": url, "name": a["seo"], "inLanguage": "es-ES",
          "mainEntity": {"@id": f"{SITE}/#julio"}, "dateModified": REVISION + "T09:00:00+02:00", "isPartOf": {"@id": f"{SITE}/#web"}},
         {"@type": "Person", "@id": f"{SITE}/#julio", "name": "Julio De la Morena Garzón",
