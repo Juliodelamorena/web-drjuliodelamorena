@@ -328,6 +328,9 @@ a.tel { color: inherit; text-decoration: none; font-weight: inherit; }
 .lang-menu > div a:hover { background: var(--mist); color: var(--navy); }
 .menu .lang-menu { margin-left: 2px; }
 .foot-links a[hreflang] { color: var(--gold-text); }
+.bandera { display: inline-block; width: 20px; height: 14px; object-fit: cover; border-radius: 2px; box-shadow: 0 0 0 1px rgba(11,27,51,.15); vertical-align: -2px; margin-right: 8px; }
+.lang-menu summary .bandera { margin-right: 0; }
+.lang-menu > div a { display: flex; align-items: center; }
 p.nota { font-size: 15px; color: var(--muted); margin: 18px 0 22px; }
 @media (max-width: 640px) {
   .top { position: relative; z-index: 20; }

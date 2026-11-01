@@ -70,6 +70,9 @@ def og_alternates(current):
     home = urls("")
     return "".join(f'<meta property="og:locale:alternate" content="{loc[c]}">\n' for c in ORDER if c != current and c in home)
 
+def bandera(code):
+    return f'<img class="bandera" src="/img/banderas/{code}.svg" width="20" height="14" alt="" aria-hidden="true">'
+
 def menu(current, es_slug, label="Idioma"):
     """<details> language switcher. Pages without a version in a language link to that language's home."""
     u, home = urls(es_slug), urls("")
@@ -78,8 +81,8 @@ def menu(current, es_slug, label="Idioma"):
         if c == current or c not in home:
             continue
         href = (u.get(c) or home[c]).replace(SITE, "")
-        items.append(f'<a href="{href}" hreflang="{c}" lang="{c}">{NAMES[c]}</a>')
-    return (f'<details class="lang-menu"><summary aria-label="{label}" lang="{current}">{SHORT[current]}</summary>'
+        items.append(f'<a href="{href}" hreflang="{c}" lang="{c}">{bandera(c)}{NAMES[c]}</a>')
+    return (f'<details class="lang-menu"><summary aria-label="{label}" lang="{current}">{bandera(current)}{SHORT[current]}</summary>'
             f'<div>{"".join(items)}</div></details>')
 
 def nav_movil(links, label, destacados=()):
@@ -103,7 +106,7 @@ def respuesta(texto_html, lang="es"):
 
 def footer_links(current, es_slug=""):
     u, home = urls(es_slug), urls("")
-    return "".join(f'<a href="{(u.get(c) or home[c]).replace(SITE, "")}" hreflang="{c}" lang="{c}">{NAMES[c]}</a>'
+    return "".join(f'<a href="{(u.get(c) or home[c]).replace(SITE, "")}" hreflang="{c}" lang="{c}">{bandera(c)}{NAMES[c]}</a>'
                    for c in ORDER if c != current and c in home)
 
 def es_slug_from_url(url):
