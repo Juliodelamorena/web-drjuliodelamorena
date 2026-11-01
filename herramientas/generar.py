@@ -14,6 +14,7 @@ def whatsapp_btn(texto="Escribir por WhatsApp", clase="btn btn-line"):
         return ""
     return f'<a class="{clase}" href="https://wa.me/{WHATSAPP}" rel="noopener" target="_blank">{esc(texto)}</a>'
 
+CITA_URL = "https://nwbipjfhfumgkmdvoltc.supabase.co/functions/v1/cita"   # función de Supabase que guarda la solicitud y redirige a la página de gracias (sustituye a los formularios de Netlify)
 MAPA = "https://maps.google.com/?cid=4492723553507247190"   # ficha de Google del doctor (enlace neutro: Cómo llegar)
 CITA = "https://www.memorialpubliocordon.com/medicos/dr-julio-de-la-morena-garzon/"
 REVISION = "2026-10-21"
@@ -141,7 +142,7 @@ def formulario(ruta, zona="", compacto=True):
 <div><p class="label" style="margin-bottom: 8px">Teléfono</p><div class="phone"><a class="tel" href="tel:+34913548990">913 548 990</a></div><p class="horario">Consulta de lunes a viernes, de 15:00 a 21:00. Le llamamos en ese horario para darle cita.</p></div>
 <div class="hero-cta"><a class="btn solo-movil" href="tel:+34913548990">Llamar ahora</a>{whatsapp_btn()}</div>
 </div>
-<form class="f" name="contacto" method="POST" action="/gracias.html" data-netlify="true" netlify-honeypot="web">
+<form class="f" name="contacto" method="POST" action="{CITA_URL}">
 <input type="hidden" name="form-name" value="contacto">
 <input type="hidden" name="pagina" value="{esc(ruta)}">
 <p class="hidden"><label>No rellenar <input name="web"></label></p>

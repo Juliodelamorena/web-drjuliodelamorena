@@ -1,6 +1,8 @@
 # Cómo se mantiene esta web
 
-Web estática del Dr. Julio De la Morena Garzón (drjuliodelamorena.com), publicada en Netlify desde la rama `main`. Cada `git push` la publica en un minuto.
+Web estática del Dr. Julio De la Morena Garzón (drjuliodelamorena.com), publicada en **GitHub Pages** desde la rama `main` (workflow `.github/workflows/pages.yml`; desde el 1 nov 2026, Netlify bloqueó los despliegues del plan gratuito). Cada `git push` la publica en un par de minutos. El workflow excluye herramientas/, ig/, GUIA.md y README.md. El dominio sigue registrado en Netlify (solo como registrador y DNS).
+
+**Formularios**: ya no son de Netlify. Todos (`contacto`, `contacto-<lang>`, `segunda-opinion`, `segunda-opinion-<lang>`) envían por POST a la función de Supabase `cita` (`generar.CITA_URL`), que guarda en `public.solicitudes` (RLS activado, solo clave de servicio) y redirige a la página de gracias del idioma. Campo trampa `web` para robots. La tarea programada "Web: avisar de solicitudes de cita" (cada hora, 8–22 h) manda por Gmail a Julio las filas con `notificada` vacío y las marca.
 
 **Orden para regenerar (siempre completo y en este orden):**
 `python3 herramientas/generar.py && python3 herramientas/generar_en.py && python3 herramientas/generar_i18n.py && python3 herramientas/articulos.py && python3 herramientas/planes.py && python3 herramientas/imagenes.py`

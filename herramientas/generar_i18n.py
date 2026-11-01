@@ -155,7 +155,7 @@ class Builder:
 
     def contact_form(self, ruta=""):
         UI = self.UI
-        return f'''<form class="f" name="contacto-{self.L}" method="POST" action="{self.base}{self.M["thanks"]}" data-netlify="true" netlify-honeypot="web">
+        return f'''<form class="f" name="contacto-{self.L}" method="POST" action="{G.CITA_URL}">
 <input type="hidden" name="form-name" value="contacto-{self.L}">
 <input type="hidden" name="pagina" value="{esc(ruta)}">
 <p class="hidden"><label>Do not fill in <input name="web"></label></p>
@@ -170,7 +170,7 @@ class Builder:
 
     def second_opinion_form(self):
         UI = self.UI
-        return f'''<form class="f f-line" name="segunda-opinion-{self.L}" method="POST" action="{self.base}{self.M["thanks"]}" data-netlify="true" netlify-honeypot="web"><input type="hidden" name="form-name" value="segunda-opinion-{self.L}"><p class="hidden"><label>Do not fill in <input name="web"></label></p><h3>{esc(UI["so_form_title"])}</h3><label for="so-nombre">{esc(UI["so_name"])}<input id="so-nombre" name="nombre" type="text" autocomplete="name" required></label><label for="so-email">{esc(UI["so_email"])}<input id="so-email" name="email" type="email" autocomplete="email" required></label><label for="so-tel">{esc(UI["so_phone"])}<input id="so-tel" name="telefono" type="tel" autocomplete="tel"></label><label for="so-ciudad">{esc(UI["so_city"])}<input id="so-ciudad" name="ciudad" type="text"></label><label for="so-mod">{esc(UI["so_mod"])}<select id="so-mod" name="modalidad" required><option value="">{esc(UI["so_mod_choose"])}</option><option>{esc(UI["so_mod_report"])}</option><option>{esc(UI["so_mod_video"])}</option></select></label><label for="so-caso">{esc(UI["so_case"])}<textarea id="so-caso" name="caso" rows="5" required></textarea></label><label class="check" for="so-priv"><input id="so-priv" name="privacidad" type="checkbox" required><span>{UI["so_privacy"]}</span></label><button class="btn btn-dark" type="submit">{esc(UI["so_submit"])}</button></form>'''
+        return f'''<form class="f f-line" name="segunda-opinion-{self.L}" method="POST" action="{G.CITA_URL}"><input type="hidden" name="form-name" value="segunda-opinion-{self.L}"><p class="hidden"><label>Do not fill in <input name="web"></label></p><h3>{esc(UI["so_form_title"])}</h3><label for="so-nombre">{esc(UI["so_name"])}<input id="so-nombre" name="nombre" type="text" autocomplete="name" required></label><label for="so-email">{esc(UI["so_email"])}<input id="so-email" name="email" type="email" autocomplete="email" required></label><label for="so-tel">{esc(UI["so_phone"])}<input id="so-tel" name="telefono" type="tel" autocomplete="tel"></label><label for="so-ciudad">{esc(UI["so_city"])}<input id="so-ciudad" name="ciudad" type="text"></label><label for="so-mod">{esc(UI["so_mod"])}<select id="so-mod" name="modalidad" required><option value="">{esc(UI["so_mod_choose"])}</option><option>{esc(UI["so_mod_report"])}</option><option>{esc(UI["so_mod_video"])}</option></select></label><label for="so-caso">{esc(UI["so_case"])}<textarea id="so-caso" name="caso" rows="5" required></textarea></label><label class="check" for="so-priv"><input id="so-priv" name="privacidad" type="checkbox" required><span>{UI["so_privacy"]}</span></label><button class="btn btn-dark" type="submit">{esc(UI["so_submit"])}</button></form>'''
 
     # ---------- pages ----------
     def page(self, p):

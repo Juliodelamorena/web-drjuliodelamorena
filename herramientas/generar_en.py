@@ -75,7 +75,7 @@ def contact_block(ruta, compacto=False):
 <div><p class="label" style="margin-bottom: 8px">Phone</p><div class="phone"><a class="tel" href="tel:+34913548990">+34 913 548 990</a></div><p class="horario">Clinic hours: Monday to Friday, 3 pm to 9 pm. We call you back within those hours.</p></div>
 <div class="hero-cta"><a class="btn solo-movil" href="tel:+34913548990">Call now</a>{G.whatsapp_btn("Write on WhatsApp")}</div>
 </div>
-<form class="f" name="contacto-en" method="POST" action="/en/thank-you.html" data-netlify="true" netlify-honeypot="web">
+<form class="f" name="contacto-en" method="POST" action="{G.CITA_URL}">
 <input type="hidden" name="form-name" value="contacto-en">
 <input type="hidden" name="pagina" value="{esc(ruta)}">
 <p class="hidden"><label>Do not fill in <input name="web"></label></p>
