@@ -1,0 +1,47 @@
+{
+ "slug": "lumbalgia-5-cosas",
+ "fecha": "2026-10-21",
+ "categoria": "Spine",
+ "titulo": "Low back pain: five key points and when the pain travels down the leg",
+ "resumen": "Why movement helps, what an MRI really shows and what radiculopathy is.",
+ "descripcion": "Low back pain and sciatica: why movement helps, when to see a doctor and what radiculopathy is.",
+ "entradilla": "Eight out of ten people will have low back pain at some point in their lives. Most improve within a few weeks, but there are cases where it is worth taking a careful look.",
+ "imagen": "lumbar.jpg",
+ "imagen_wh": [
+  1200,
+  676
+ ],
+ "imagen_alt": "Patient with lower back pain",
+ "temas": [
+  "Low back pain",
+  "Sciatica",
+  "Lumbar radiculopathy"
+ ],
+ "secciones": [
+  [
+   "1. Movement is part of the treatment",
+   "<p>Prolonged bed rest slows recovery. Walking and keeping up daily activity, within what the pain allows, helps the back recover sooner.</p>"
+  ],
+  [
+   "2. Most cases improve within a few weeks",
+   "<p>Acute low back pain usually settles well on its own. If it has not improved after six weeks, or it keeps coming back, it needs to be investigated.</p>"
+  ],
+  [
+   "3. An MRI does not always explain the pain",
+   "<p>Many people without any pain have disc herniations or wear on an MRI. Imaging helps, but the diagnosis comes from putting together what you describe, the examination and the tests.</p>"
+  ],
+  [
+   "4. Strength prevents relapses",
+   "<p>Strengthening the abdominal, gluteal and back muscles is the best investment for your spine. A tailored exercise plan reduces relapses.</p>"
+  ],
+  [
+   "5. When the pain travels down the leg",
+   "<figure class=\"fig\"><a href=\"/img/dermatomas-miembro-inferior.jpg\" target=\"_blank\" rel=\"noopener\"><picture><source srcset=\"/img/dermatomas-miembro-inferior.webp\" type=\"image/webp\"><img src=\"/img/dermatomas-miembro-inferior.jpg\" alt=\"Map of the lower-limb dermatomes in anterior, medial, lateral and posterior views, from L1 to S5\" width=\"1008\" height=\"1112\" loading=\"lazy\"></picture></a><figcaption>Each nerve root has its own territory in the leg: sciatic pain follows that path. Tap the image to see it full size.</figcaption></figure><p>When a nerve root in the lumbar spine is irritated or compressed, for example by a disc herniation, the pain can spread down the buttock and leg, sometimes to the foot. It usually comes with tingling, burning or loss of strength.</p><p>This is what we call <strong>radiculopathy</strong>, and sciatica is the best-known example. It is pain of nerve origin: it is diagnosed with a good examination and, in many cases, it can be treated without surgery.</p><div class=\"box\"><h3>When the pain becomes chronic</h3><ul><li>Accurate diagnosis, with examination and ultrasound.</li><li>An exercise plan tailored to you.</li><li>Ultrasound-guided injections, if indicated.</li></ul></div>"
+  ]
+ ],
+ "faq": [],
+ "relacionadas": [
+  "lumbalgia-ciatica",
+  "segunda-opinion"
+ ]
+}

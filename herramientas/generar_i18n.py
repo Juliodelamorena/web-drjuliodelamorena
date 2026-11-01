@@ -15,6 +15,7 @@ def mas_lesiones(self):
 import json, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import generar as G
+import extras as X
 import idiomas as I
 
 ROOT, SITE, FONTS, esc, REVISION, DOCTOR_REF, CITA = G.ROOT, G.SITE, G.FONTS, G.esc, G.REVISION, G.DOCTOR_REF, G.CITA
@@ -89,11 +90,11 @@ class Builder:
 <span>{esc(UI["foot_addr"])} · <a href="{MAPA}" rel="noopener" target="_blank">{esc(MAPA_TXT.get(self.L, "Google Maps"))}</a></span>
 <span>{esc(self.t("foot_appt")).replace(PHONE, f'<a class="tel" href="{TEL}">{PHONE}</a>')}</span>
 </div>
-<nav class="foot-col foot-links" aria-label="{esc(UI["foot_nav_label"])}">{links}<a href="{self.about_path}">{esc(UI["menu_doctor"])}</a>{I.footer_links(self.L, es_slug)}</nav>
+<nav class="foot-col foot-links" aria-label="{esc(UI["foot_nav_label"])}">{links}<a href="{self.about_path}">{esc(UI["menu_doctor"])}</a>{__import__("generar_en")._extra_links(self.L)}{I.footer_links(self.L, es_slug)}</nav>
 </div>
 <div class="wrap foot-legal">
 <span>{esc(UI["foot_legal"])}</span>
-<nav aria-label="Legal"><a href="/aviso-legal.html" hreflang="es">{esc(UI["legal_notice"])}</a><a href="/privacidad.html" hreflang="es">{esc(UI["privacy"])}</a></nav>
+<nav aria-label="Legal"><a href="{b}aviso-legal.html">{esc(UI["legal_notice"])}</a><a href="{b}privacidad.html">{esc(UI["privacy"])}</a></nav>
 </div>
 </footer>
 <nav class="cta-fija" aria-label="{esc(UI["bar_label"])}"><a class="llamar" href="{TEL}">{esc(self.t("bar_call"))}</a><a class="cita" href="#contact">{esc(UI["bar_write"])}</a></nav>
@@ -191,6 +192,8 @@ class Builder:
              "author": DOCTOR_REF, "reviewedBy": DOCTOR_REF, "primaryImageOfPage": f"{SITE}/img/{p['img']}",
              "isPartOf": {"@id": f"{SITE}/#web"}},
             self.breadcrumb(p["nav"], url), G.faq_ld([(q, a.replace("{phone}", PHONE)) for q, a in p["faq"]])]}
+        if p["es"] in X.REELS:
+            ld["@graph"].append(X.reel_ld(self.L, p["es"], p["h1"], p["desc"]))
         w, h = p["img_wh"]
         secs = "\n".join(f'<h2>{esc(t)}</h2>\n{body.replace("{{FORM_SEGUNDA}}", self.second_opinion_form()).replace("{phone}", PHONE)}' for t, body in p["sections"])
         faqs = "\n".join(f'<details><summary>{esc(q)}</summary><p>{esc(a.replace("{phone}", PHONE))}</p></details>' for q, a in p["faq"])
@@ -202,7 +205,7 @@ class Builder:
 <p class="label">{esc(p['label'])}</p>
 <h1>{esc(p['h1'])}</h1>
 {I.respuesta(esc(p["lead"]), self.L)}
-<img class="wide" src="/img/{p['img']}" alt="{esc(p['img_alt'])}" width="{w}" height="{h}">
+{X.reel_html(self.L, p["es"]) if p["es"] in X.REELS else f'<img class="wide" src="/img/{p["img"]}" alt="{esc(p["img_alt"])}" width="{w}" height="{h}">'}
 {secs}
 <h2>{esc(UI["faq_title"])}</h2>
 <div class="faq">
@@ -249,6 +252,7 @@ class Builder:
 {I.respuesta(esc(a["answer"]), self.L)}
 <img class="wide" src="/img/consulta.jpg" alt="{esc(a["img_alt"])}" width="960" height="1200" style="aspect-ratio: 4 / 3; object-position: center 22%">
 {secs}
+{X.galeria_html(self.L) if self.L in ("ka", "ru", "fr") and __import__("os").path.isfile(__import__("os").path.join(X.DIR, self.L, "galeria.json")) else ""}
 <h2>{esc(UI["faq_title"])}</h2>
 <div class="faq">
 {faqs}

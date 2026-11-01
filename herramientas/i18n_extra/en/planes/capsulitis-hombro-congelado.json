@@ -1,0 +1,214 @@
+{
+ "slug": "capsulitis-hombro-congelado",
+ "titulo": "Exercise plan for frozen shoulder (adhesive capsulitis)",
+ "corto": "Adhesive capsulitis (frozen shoulder)",
+ "zona": "Shoulder",
+ "descripcion": "Phased exercise plan for adhesive capsulitis or frozen shoulder: settle the pain, then regain range of movement and strength. Dr Julio De la Morena.",
+ "fecha": "2026-10-21",
+ "intro": [
+  "The shoulder joint is wrapped in a sleeve of tissue called the capsule. In adhesive capsulitis this capsule becomes inflamed, thickens and contracts: it becomes too short and the shoulder loses range of movement. It is not a tendon problem or wear and tear: it is the sleeve, which has shrunk.",
+  "That is why it is treated by giving it back its length, stretching many times a day for months. Strength comes at the end, once the range of movement has returned. If you start with strength work on a stiff shoulder, all you get is more pain.",
+  "The condition has three stages that always follow the same order: a painful phase, a stiff phase and a thawing phase. It resolves on its own, but it can take between one and three years; well-done work shortens that time and stops the shoulder being left with lost range of movement.",
+  "It is more common and lasts longer in people with diabetes or thyroid disorders: if that is your case, keeping those levels under control is part of the treatment. It also often appears after a period of immobilisation. That is why, even if it hurts, the arm is not kept still."
+ ],
+ "regla": "Take the stretch to the point of tension and mild discomfort, never to pain that makes you grit your teeth. If five minutes after finishing your shoulder hurts more than before you started, you have overdone it: reduce the range and increase the number of sessions. The capsule gives way through daily repetition, not intensity.",
+ "elegir_fase": [
+  [
+   "Phase 1, painful",
+   "It hurts at rest, it bothers you at night and wakes you when you turn over. Range of movement is lost mainly because it hurts."
+  ],
+  [
+   "Phase 2, stiff",
+   "Pain at rest has eased, but the arm reaches a certain point and stops dead. You cannot put on your jacket or reach your back pocket."
+  ],
+  [
+   "Phase 3, thawing",
+   "Range of movement is coming back. Weakness remains, along with lack of movement at the end of range and fatigue with overhead tasks."
+  ]
+ ],
+ "antes": [
+  [
+   "Heat first, always",
+   "Ten to fifteen minutes of moist heat on the shoulder before each session. Warm tissue gives way; cold leaves it stiff. Save cold for the end of the day if the shoulder has been left sore."
+  ],
+  [
+   "Frequency over intensity",
+   "Four or five short sessions spread through the day. This is what really speeds up recovery."
+  ],
+  [
+   "Do not immobilise the arm",
+   "No sling unless specifically advised. Use the arm in daily life within what does not hurt."
+  ],
+  [
+   "Prepare for the night",
+   "Sleep on your back with a small pillow under your elbow, or on your side on the healthy shoulder, hugging a pillow that supports the affected arm."
+  ]
+ ],
+ "fases": [
+  {
+   "nombre": "Phase 1 · Calm the shoulder",
+   "cuando": "While pain is in charge · 4 or 5 times a day · 5-10 minutes each time",
+   "texto": "The aim is not to gain range of movement but to reduce irritation and stop the shoulder closing up further. Everything is gentle, assisted and pain-free: the arm is moved by the other hand, the stick or gravity, not by the shoulder muscles.",
+   "ejercicios": [
+    [
+     "Codman's pendulum",
+     "Joint offloading",
+     "Lean forward, resting your healthy hand on a table, and let the affected arm hang relaxed. Draw small circles, letting the weight of the arm do the movement. It is the first exercise of every session.",
+     "2 × 60 seconds in each direction · 4-5 times a day"
+    ],
+    [
+     "Stick-assisted flexion",
+     "Assisted elevation",
+     "Lying on your back, hold a stick or broom with both hands. The healthy arm does the pushing: raise the stick towards your head, taking the affected arm as far as it goes without pain, hold and lower slowly.",
+     "10 repetitions · 5 seconds at the top · 4-5 times a day"
+    ],
+    [
+     "Stick-assisted external rotation",
+     "External rotation",
+     "Elbow on the affected side tucked against your side and bent to 90 degrees, with a rolled towel between elbow and body. Push the stick with the healthy hand to open the forearm outwards. It is the first movement to be lost and the last to return.",
+     "10 repetitions · hold 10 seconds · 4-5 times a day"
+    ],
+    [
+     "External rotation isometric",
+     "Infraspinatus",
+     "Standing by a door frame, elbow tucked in and bent to 90 degrees. Push the back of your hand against the frame at 30% of your strength, without the arm moving. Here it is used to calm the pain: if it hurts, reduce the force.",
+     "5 × 20 seconds · twice a day"
+    ],
+    [
+     "Internal rotation isometric",
+     "Subscapularis",
+     "The same position, pushing inwards against the frame with your palm. Same level of force and no pain.",
+     "5 × 20 seconds · twice a day"
+    ],
+    [
+     "Shoulder blade control",
+     "Lower trapezius and serratus",
+     "Draw your shoulder blades down and in, as if you wanted to tuck them into your back pockets, without shrugging your neck.",
+     "3 × 10 · hold 5 seconds"
+    ]
+   ]
+  },
+  {
+   "nombre": "Phase 2 · Gain range of movement",
+   "cuando": "When pain at rest eases and the end point feels stiff · 3 times a day · 15 minutes",
+   "texto": "The phase that decides the outcome. Take the arm to the point where you feel the capsule's tension and hold for at least 30 seconds, because the tissue only gives way with sustained time. Keep doing the Phase 1 exercises as a warm-up.",
+   "ejercicios": [
+    [
+     "Wall slide",
+     "Elevation",
+     "Facing the wall, walk your fingers upwards while bringing your body closer. Go up until you feel tension, hold and lower slowly. Mark the height you reach to see your progress each week.",
+     "10 slides · 10 seconds at the top · 3 times a day"
+    ],
+    [
+     "Pectoral stretch in a door frame",
+     "Pectoral and anterior capsule",
+     "Forearm resting on the frame with the elbow at shoulder height. Turn your body away until you feel tension in the chest and the front of the shoulder.",
+     "5 × 30 seconds · 3 times a day"
+    ],
+    [
+     "Posterior capsule stretch",
+     "Posterior capsule",
+     "Lying on the affected side, arm in front of you and elbow at 90 degrees. With the other hand, slowly take the forearm towards the floor until you feel tension behind the shoulder.",
+     "5 × 30 seconds · 3 times a day"
+    ],
+    [
+     "Towel internal rotation",
+     "Inferior capsule",
+     "Pass a towel over the healthy shoulder and hold the other end behind you with the affected hand. Pull gently upwards to bring the lower hand up your back.",
+     "5 × 30 seconds · 3 times a day"
+    ],
+    [
+     "Arm circles without weight",
+     "Active mobility",
+     "Controlled circles forwards and backwards within the range you have, without forcing the end. They serve as a warm-up.",
+     "2 × 10 in each direction · before each session"
+    ],
+    [
+     "Scapular-plane elevation to shoulder height",
+     "Deltoid and rotator cuff",
+     "Raise your arms with the thumb pointing up, diagonally, about 30 degrees in front of the body, and stop at shoulder height. No weight until the range of movement is complete.",
+     "3 × 10 · no weight"
+    ],
+    [
+     "Prone T",
+     "Middle trapezius and rhomboids",
+     "Lying face down with the arm hanging, open it out to the side to body height, drawing the shoulder blade in, without lifting the shoulder towards your ear.",
+     "3 × 12 · no weight or 1 kg"
+    ]
+   ]
+  },
+  {
+   "nombre": "Phase 3 · Strength and function",
+   "cuando": "When range of movement is close to normal · 3 days a week · 30 minutes",
+   "texto": "Range of movement has returned, but the shoulder is weak. Now it is time to load: resistance band first and dumbbells afterwards, always lowering slowly. Keep doing the Phase 2 stretches every day.",
+   "ejercicios": [
+    [
+     "Band external rotation",
+     "Infraspinatus and teres minor",
+     "Elbow tucked against your side with a rolled towel, band anchored in front. Move your hand outwards without letting the elbow drift away and return slowly.",
+     "3 × 15 · 3-second return"
+    ],
+    [
+     "Band internal rotation",
+     "Subscapularis",
+     "As before, pulling inwards with the elbow always tucked in.",
+     "3 × 15 · 3-second return"
+    ],
+    [
+     "Low band row",
+     "Trapezius and rhomboids",
+     "Band at chest height. Pull with your elbows close to your body and squeeze your shoulder blades together at the end.",
+     "3 × 15"
+    ],
+    [
+     "Band face pull",
+     "Rotators and lower trapezius",
+     "Band at face height. Pull towards your forehead, separating your hands, with elbows high and back.",
+     "3 × 15"
+    ],
+    [
+     "Prone Y",
+     "Lower trapezius",
+     "Lying face down, raise the arm diagonally above your head to form a Y, with the thumb pointing up.",
+     "3 × 12 · no weight or 1 kg"
+    ],
+    [
+     "Full scapular-plane elevation",
+     "Deltoid and rotator cuff",
+     "Like the Phase 2 elevation, now above your head with 1 or 2 kg. When you can do it with the same range as the healthy side and without discomfort, the shoulder has recovered.",
+     "3 × 10"
+    ],
+    [
+     "Bench-supported dumbbell row",
+     "Latissimus dorsi, trapezius and rhomboids",
+     "Rest the hand and knee of the opposite side on the bench. Raise the elbow close to your body up to trunk height, without twisting your back.",
+     "3 × 12 · progressive weight"
+    ],
+    [
+     "Band external rotation at 90 degrees",
+     "Rotator cuff in a raised position",
+     "Arm out to the side at 90 degrees and elbow bent. Rotate the forearm upwards and return slowly. It is the last exercise in the plan, only with full range of movement.",
+     "3 × 12 · 3-second return"
+    ]
+   ]
+  }
+ ],
+ "evitar": [
+  "Forcing the stretch into strong pain: it increases inflammation and prolongs the painful phase.",
+  "Sudden jerks, and anyone lifting your arm “to see how far it goes”.",
+  "Slings and immobility: every week with the arm kept still is range of movement that has to be regained.",
+  "Lifting weights or strength training before Phase 3."
+ ],
+ "complementario": "Manual physiotherapy improves the shoulder's tolerance and allows you to stretch further. In the painful phases, an ultrasound-guided intra-articular injection and capsular distension can break the cycle of pain and stiffness and open a window in which range-of-movement work pays off more: if indicated, this is assessed in clinic. None of this works without the daily work at home.",
+ "consultar": [
+  "Night pain clearly gets worse and keeps you from sleeping for several nights in a row.",
+  "Range of movement is being lost instead of gained after two or three weeks of consistent work.",
+  "Tingling, loss of strength in the hand or pain running down the arm to the fingers appears.",
+  "The shoulder swells, becomes warm or you develop a fever."
+ ],
+ "normal": "It is normal to have diffuse discomfort for one or two hours after stretching, slow progress from one week to the next and the odd bad day. In capsulitis, improvement is measured in months, not days.",
+ "relacionadas": [
+  "hombro-doloroso",
+  "infiltraciones-ecoguiadas"
+ ]
+}

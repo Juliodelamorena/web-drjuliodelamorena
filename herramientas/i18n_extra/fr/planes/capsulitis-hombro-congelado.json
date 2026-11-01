@@ -1,0 +1,214 @@
+{
+ "slug": "capsulitis-hombro-congelado",
+ "titulo": "Programme d'exercices pour l'épaule gelée (capsulite rétractile)",
+ "corto": "Capsulite rétractile (épaule gelée)",
+ "zona": "Épaule",
+ "descripcion": "Programme d'exercices par phases pour la capsulite rétractile (épaule gelée) : calmer la douleur, retrouver amplitude et force. Dr Julio De la Morena.",
+ "fecha": "2026-10-21",
+ "intro": [
+  "L'articulation de l'épaule est enveloppée d'une gaine de tissu appelée capsule. Dans la capsulite rétractile, cette capsule s'enflamme, s'épaissit et se rétracte : elle devient trop courte et l'épaule perd de l'amplitude. Ce n'est ni un problème de tendon ni de l'usure : c'est la gaine qui s'est rétractée.",
+  "C'est pourquoi le traitement consiste à lui redonner de la longueur, en étirant plusieurs fois par jour pendant des mois. La force vient à la fin, lorsque l'amplitude est revenue. Si vous commencez par la force sur une épaule raide, vous n'obtiendrez que davantage de douleur.",
+  "L'évolution comporte trois étapes qui se succèdent toujours dans le même ordre : une phase douloureuse, une phase d'enraidissement et une phase de récupération. Elle guérit d'elle-même, mais cela peut prendre entre un et trois ans ; un travail bien conduit raccourcit ce délai et évite que l'épaule garde une perte d'amplitude.",
+  "Elle est plus fréquente et dure plus longtemps chez les personnes diabétiques ou atteintes de troubles de la thyroïde : si c'est votre cas, le contrôle de ces valeurs fait partie du traitement. Elle apparaît aussi souvent après une période d'immobilisation. C'est pourquoi, même si cela fait mal, il ne faut pas laisser le bras immobile."
+ ],
+ "regla": "L'étirement se poursuit jusqu'à ressentir une tension et une gêne légère, jamais jusqu'à la douleur qui vous fait serrer les dents. Si, cinq minutes après la fin, l'épaule fait plus mal qu'avant de commencer, vous êtes allé trop loin : réduisez l'amplitude et augmentez le nombre de séances. La capsule cède grâce à la répétition quotidienne, pas à l'intensité.",
+ "elegir_fase": [
+  [
+   "Phase 1, douloureuse",
+   "Douleur au repos, gêne la nuit, réveils quand vous vous retournez. L'amplitude se perd surtout à cause de la douleur."
+  ],
+  [
+   "Phase 2, enraidissement",
+   "La douleur au repos a diminué, mais le bras va jusqu'à un certain point et s'arrête net. Vous n'arrivez pas à enfiler votre veste ni à atteindre votre poche arrière."
+  ],
+  [
+   "Phase 3, récupération",
+   "L'amplitude revient peu à peu. Il reste une faiblesse, un manque de mobilité en fin de mouvement et une fatigue lors des tâches au-dessus de la tête."
+  ]
+ ],
+ "antes": [
+  [
+   "Toujours de la chaleur avant",
+   "Dix à quinze minutes de chaleur humide sur l'épaule avant chaque série. Un tissu chaud cède ; le froid le rend raide. Le froid est réservé à la fin de la journée si l'épaule est restée douloureuse."
+  ],
+  [
+   "La fréquence avant l'intensité",
+   "Quatre ou cinq courtes séries réparties dans la journée. C'est ce qui accélère vraiment la récupération."
+  ],
+  [
+   "N'immobilisez pas le bras",
+   "Pas d'écharpe, sauf indication expresse. Servez-vous du bras dans la vie quotidienne, dans la limite de ce qui ne fait pas mal."
+  ],
+  [
+   "Préparez la nuit",
+   "Dormez sur le dos avec un petit oreiller sous le coude, ou sur le côté de l'épaule saine en serrant contre vous un oreiller qui soutient le bras atteint."
+  ]
+ ],
+ "fases": [
+  {
+   "nombre": "Phase 1 · Calmer l'épaule",
+   "cuando": "Tant que la douleur domine · 4 ou 5 fois par jour · 5 à 10 minutes à chaque fois",
+   "texto": "L'objectif n'est pas de gagner de l'amplitude, mais de diminuer l'irritation et d'éviter que l'épaule ne se ferme davantage. Tout se fait en douceur, de façon assistée et sans douleur : c'est l'autre main, le bâton ou la pesanteur qui fait bouger le bras, et non les muscles de l'épaule.",
+   "ejercicios": [
+    [
+     "Pendule de Codman",
+     "Décoaptation articulaire",
+     "Penchez le buste en appuyant la main saine sur une table et laissez pendre le bras atteint, relâché. Dessinez de petits cercles en laissant le poids du bras produire le mouvement. C'est le premier exercice de chaque série.",
+     "2 × 60 secondes dans chaque sens · 4 à 5 fois par jour"
+    ],
+    [
+     "Flexion assistée avec un bâton",
+     "Élévation assistée",
+     "Allongé sur le dos, tenez un bâton ou un manche à balai à deux mains. C'est le bras sain qui pousse : montez le bâton vers la tête en emmenant le bras atteint aussi loin que possible sans douleur, maintenez, puis redescendez lentement.",
+     "10 répétitions · 5 secondes en haut · 4 à 5 fois par jour"
+    ],
+    [
+     "Rotation externe assistée avec un bâton",
+     "Rotation externe",
+     "Coude du côté atteint collé au corps et plié à 90 degrés, avec une serviette roulée entre le coude et le corps. Poussez le bâton avec la main saine pour ouvrir l'avant-bras vers l'extérieur. C'est le premier mouvement qui se perd et le dernier qui revient.",
+     "10 répétitions · maintenir 10 secondes · 4 à 5 fois par jour"
+    ],
+    [
+     "Isométrique en rotation externe",
+     "Infra-épineux",
+     "Près d'un encadrement de porte, coude collé au corps et plié à 90 degrés. Poussez le dos de la main contre l'encadrement à 30 % de votre force, sans que le bras ne bouge. Ici, l'exercice sert à calmer la douleur : si cela fait mal, diminuez la force.",
+     "5 × 20 secondes · 2 fois par jour"
+    ],
+    [
+     "Isométrique en rotation interne",
+     "Subscapulaire",
+     "Même position, en poussant avec la paume vers l'intérieur contre l'encadrement. Même niveau de force et sans douleur.",
+     "5 × 20 secondes · 2 fois par jour"
+    ],
+    [
+     "Contrôle scapulaire",
+     "Trapèze inférieur et dentelé antérieur",
+     "Abaissez les omoplates et rapprochez-les, comme si vous vouliez les glisser dans vos poches arrière, sans hausser les épaules.",
+     "3 × 10 · maintenir 5 secondes"
+    ]
+   ]
+  },
+  {
+   "nombre": "Phase 2 · Gagner de l'amplitude",
+   "cuando": "Quand la douleur au repos diminue et que la butée devient raide · 3 fois par jour · 15 minutes",
+   "texto": "La phase qui détermine le résultat. Le bras est amené jusqu'à ressentir la tension de la capsule et maintenu au moins 30 secondes, car le tissu ne cède qu'avec un étirement maintenu dans le temps. Les exercices de la Phase 1 continuent d'être faits en guise d'échauffement.",
+   "ejercicios": [
+    [
+     "Glissement le long du mur",
+     "Élévation",
+     "Face au mur, faites grimper vos doigts vers le haut en rapprochant le corps. Montez jusqu'à ressentir une tension, maintenez, puis redescendez lentement. Marquez la hauteur atteinte pour voir vos progrès chaque semaine.",
+     "10 montées · 10 secondes en haut · 3 fois par jour"
+    ],
+    [
+     "Étirement des pectoraux dans l'encadrement de porte",
+     "Pectoraux et capsule antérieure",
+     "Avant-bras appuyé sur l'encadrement, coude à hauteur de l'épaule. Tournez le corps du côté opposé jusqu'à ressentir une tension dans la poitrine et à l'avant de l'épaule.",
+     "5 × 30 secondes · 3 fois par jour"
+    ],
+    [
+     "Étirement de la capsule postérieure",
+     "Capsule postérieure",
+     "Allongé sur le côté atteint, bras devant vous et coude à 90 degrés. Avec l'autre main, amenez lentement l'avant-bras vers le sol jusqu'à ressentir une tension à l'arrière de l'épaule.",
+     "5 × 30 secondes · 3 fois par jour"
+    ],
+    [
+     "Rotation interne avec une serviette",
+     "Capsule inférieure",
+     "Passez une serviette par-dessus l'épaule saine et tenez l'autre extrémité dans le dos avec la main du côté atteint. Tirez doucement vers le haut pour faire remonter la main du bas le long du dos.",
+     "5 × 30 secondes · 3 fois par jour"
+    ],
+    [
+     "Cercles de bras sans charge",
+     "Mobilité active",
+     "Cercles contrôlés vers l'avant et vers l'arrière dans l'amplitude dont vous disposez, sans forcer en fin de mouvement. Ils servent d'échauffement.",
+     "2 × 10 dans chaque sens · avant chaque série"
+    ],
+    [
+     "Élévation dans le plan de l'omoplate jusqu'à hauteur d'épaule",
+     "Deltoïde et coiffe des rotateurs",
+     "Levez les bras pouce vers le haut, en diagonale, environ 30 degrés en avant du corps, et arrêtez-vous à hauteur d'épaule. Sans charge tant que l'amplitude n'est pas complète.",
+     "3 × 10 · sans charge"
+    ],
+    [
+     "T en position ventrale",
+     "Trapèze moyen et rhomboïdes",
+     "À plat ventre, le bras pendant, écartez-le en croix jusqu'à hauteur du tronc en rapprochant l'omoplate, sans hausser l'épaule vers l'oreille.",
+     "3 × 12 · sans charge ou 1 kg"
+    ]
+   ]
+  },
+  {
+   "nombre": "Phase 3 · Force et fonction",
+   "cuando": "Quand l'amplitude est proche de la normale · 3 jours par semaine · 30 minutes",
+   "texto": "L'amplitude est revenue, mais l'épaule est faible. Il est temps de charger : d'abord avec un élastique, puis avec des haltères, en descendant toujours lentement. Les étirements de la Phase 2 sont maintenus chaque jour.",
+   "ejercicios": [
+    [
+     "Rotation externe avec élastique",
+     "Infra-épineux et petit rond",
+     "Coude collé au corps avec une serviette roulée, élastique fixé devant vous. Emmenez la main vers l'extérieur sans décoller le coude et revenez lentement.",
+     "3 × 15 · retour en 3 secondes"
+    ],
+    [
+     "Rotation interne avec élastique",
+     "Subscapulaire",
+     "Comme l'exercice précédent, en tirant vers l'intérieur, le coude toujours collé au corps.",
+     "3 × 15 · retour en 3 secondes"
+    ],
+    [
+     "Tirage bas avec élastique",
+     "Trapèze et rhomboïdes",
+     "Élastique à hauteur de poitrine. Tirez, coudes collés au corps, et rapprochez les omoplates en fin de mouvement.",
+     "3 × 15"
+    ],
+    [
+     "Face pull avec élastique",
+     "Rotateurs et trapèze inférieur",
+     "Élastique à hauteur du visage. Tirez vers le front en écartant les mains, coudes hauts et en arrière.",
+     "3 × 15"
+    ],
+    [
+     "Y en position ventrale",
+     "Trapèze inférieur",
+     "À plat ventre, levez le bras en diagonale au-dessus de la tête pour former un Y, pouce vers le haut.",
+     "3 × 12 · sans charge ou 1 kg"
+    ],
+    [
+     "Élévation complète dans le plan de l'omoplate",
+     "Deltoïde et coiffe des rotateurs",
+     "Comme l'élévation de la Phase 2, mais cette fois au-dessus de la tête avec 1 ou 2 kg. Lorsque vous la réalisez avec la même amplitude que du côté sain et sans gêne, l'épaule est récupérée.",
+     "3 × 10"
+    ],
+    [
+     "Rowing avec haltère en appui sur un banc",
+     "Grand dorsal, trapèze et rhomboïdes",
+     "Appuyez la main et le genou du côté opposé. Montez le coude, collé au corps, jusqu'à hauteur du tronc, sans tourner le dos.",
+     "3 × 12 · charge progressive"
+    ],
+    [
+     "Rotation externe avec élastique à 90 degrés",
+     "Coiffe des rotateurs en position haute",
+     "Bras écarté à 90 degrés et coude plié. Tournez l'avant-bras vers le haut et revenez lentement. C'est le dernier exercice du programme, uniquement lorsque l'amplitude est complète.",
+     "3 × 12 · retour en 3 secondes"
+    ]
+   ]
+  }
+ ],
+ "evitar": [
+  "Forcer l'étirement jusqu'à une douleur intense : cela augmente l'inflammation et prolonge la phase douloureuse.",
+  "Les mouvements brusques, et laisser quelqu'un vous lever le bras « pour voir jusqu'où il va ».",
+  "L'écharpe et l'immobilité : chaque semaine passée le bras immobile représente de l'amplitude qu'il faudra regagner.",
+  "Porter des charges ou travailler la force avant la Phase 3."
+ ],
+ "complementario": "La kinésithérapie manuelle améliore la tolérance de l'épaule et permet d'étirer davantage. Pendant les phases douloureuses, l'infiltration intra-articulaire échoguidée et la distension capsulaire peuvent rompre le cercle douleur-raideur et ouvrir une fenêtre pendant laquelle le travail d'amplitude est plus efficace : si elle est indiquée, elle est évaluée en consultation. Rien de tout cela ne fonctionne sans le travail quotidien à la maison.",
+ "consultar": [
+  "La douleur nocturne s'aggrave nettement et vous empêche de dormir plusieurs nuits de suite.",
+  "Vous perdez de l'amplitude au lieu d'en gagner après deux ou trois semaines de travail régulier.",
+  "Des fourmillements, une perte de force dans la main ou une douleur qui descend le long du bras jusqu'aux doigts apparaissent.",
+  "L'épaule gonfle, devient chaude ou de la fièvre apparaît."
+ ],
+ "normal": "Il est normal de ressentir une gêne diffuse pendant une ou deux heures après les étirements, de progresser lentement d'une semaine à l'autre et d'avoir quelques mauvais jours isolés. Dans la capsulite, l'amélioration se mesure en mois, pas en jours.",
+ "relacionadas": [
+  "hombro-doloroso",
+  "infiltraciones-ecoguiadas"
+ ]
+}

@@ -138,6 +138,7 @@ def sitemap(arts):
         if pk is None:
             continue
         urls += [(f"/{code}/", "0.8"), (f"/{code}/{pk.ABOUT['slug']}/", "0.7")] + [(f"/{code}/{q['slug']}/", "0.7") for q in pk.PAGES]
+    urls += __import__("contenido_i18n").urls_sitemap()   # blog y planes traducidos
     hoy = max([a["fecha"] for a in arts] + [G.REVISION])
     x = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + \
         "".join(f"  <url><loc>{SITE}{u}</loc><lastmod>{hoy}</lastmod><priority>{pr}</priority></url>\n" for u, pr in urls) + "</urlset>\n"

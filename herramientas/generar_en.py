@@ -10,6 +10,7 @@ NEW_ES = [p['slug'] for p in _NUEVAS]
 import json, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import generar as G
+import extras as X
 import idiomas as I
 from paginas_en import PAGES_EN, ABOUT_EN, SLUG_ES_TO_EN
 
@@ -45,6 +46,12 @@ def header(es_slug="", form=True):
 </div>
 </header>'''
 
+def _extra_links(l):
+    u = X.ui(l); out = ""
+    if os.path.isdir(os.path.join(X.DIR, l, "planes")): out += f'<a href="/{l}/planes/">{esc(u["plans_label"])}</a>'
+    if os.path.isdir(os.path.join(X.DIR, l, "articulos")): out += f'<a href="/{l}/blog/">{esc(u["blog_label"])}</a>'
+    return out
+
 def footer(es_slug="", form=True):
     cita = "#contact" if form else "/en/#contact"
     links = "".join(f'<a href="/en/{p["slug"]}/">{esc(p["nav"])}</a>' for p in PAGES_EN)
@@ -56,11 +63,11 @@ def footer(es_slug="", form=True):
 <span>Hospital Memorial Publio Cordón · Paseo de la Casa de Campo, 5 · 28223 Pozuelo de Alarcón (Madrid), Spain · <a href="{MAPA}" rel="noopener" target="_blank">Get directions</a></span>
 <span>Appointments: <a class="tel" href="tel:+34913548990">+34 913 548 990</a> · Mon–Fri, 3 pm to 9 pm · Consultations in English and Spanish</span>
 </div>
-<nav class="foot-col foot-links" aria-label="Conditions and treatments">{links}<a href="/en/dr-julio-de-la-morena/">The doctor</a>{I.footer_links("en", es_slug)}</nav>
+<nav class="foot-col foot-links" aria-label="Conditions and treatments">{links}<a href="/en/dr-julio-de-la-morena/">The doctor</a>{_extra_links("en")}{I.footer_links("en", es_slug)}</nav>
 </div>
 <div class="wrap foot-legal">
 <span>Dr Julio De la Morena Garzón · Madrid Medical Council registration no. 281903698 · Specialist in Sport and Exercise Medicine</span>
-<nav aria-label="Legal"><a href="/aviso-legal.html" hreflang="es">Legal notice (Spanish)</a><a href="/privacidad.html" hreflang="es">Privacy (Spanish)</a></nav>
+<nav aria-label="Legal"><a href="/en/aviso-legal.html">Legal notice</a><a href="/en/privacidad.html">Privacy</a></nav>
 </div>
 </footer>
 <nav class="cta-fija" aria-label="Quick contact"><a class="llamar" href="tel:+34913548990">Call · +34 913 548 990</a><a class="cita" href="{cita}">Ask for a call</a></nav>
@@ -86,7 +93,7 @@ def contact_block(ruta, compacto=False):
 <label for="f-nombre">Full name<input id="f-nombre" name="nombre" type="text" autocomplete="name" required></label>
 <label for="f-tel">Phone<input id="f-tel" name="telefono" type="tel" autocomplete="tel" required></label>
 <label for="f-motivo">Reason for your visit<textarea id="f-motivo" name="motivo" rows="4"></textarea></label>
-<label class="check" for="f-priv"><input id="f-priv" name="privacidad" type="checkbox" required><span>I have read and accept the <a href="/privacidad.html" hreflang="es">privacy policy</a> (in Spanish). Your details are used only to contact you about your appointment.</span></label>
+<label class="check" for="f-priv"><input id="f-priv" name="privacidad" type="checkbox" required><span>I have read and accept the <a href="/en/privacidad.html">privacy policy</a>. Your details are used only to contact you about your appointment.</span></label>
 <button class="btn btn-dark" type="submit">Send request</button>
 </form>
 </div>
@@ -145,6 +152,8 @@ def page(p):
          "author": DOCTOR_REF, "reviewedBy": DOCTOR_REF, "primaryImageOfPage": f"{SITE}/img/{p['img']}",
          "isPartOf": {"@id": f"{SITE}/#web"}},
         breadcrumb(p["nav"], url), G.faq_ld(p["faq"])]}
+    if p["es"] in X.REELS:
+        ld["@graph"].append(X.reel_ld("en", p["es"], p["h1"], p["desc"]))
     w, h = p["img_wh"]
     secs = "\n".join(f'<h2>{esc(t)}</h2>\n{b}' for t, b in p["sections"])
     faqs = "\n".join(f'<details><summary>{esc(q)}</summary><p>{esc(a)}</p></details>' for q, a in p["faq"])
@@ -156,7 +165,7 @@ def page(p):
 <p class="label">{esc(p['label'])}</p>
 <h1>{esc(p['h1'])}</h1>
 {I.respuesta(esc(p["lead"]), "en")}
-<img class="wide" src="/img/{p['img']}" alt="{esc(p['img_alt'])}" width="{w}" height="{h}">
+{X.reel_html("en", p["es"]) if p["es"] in X.REELS else f'<img class="wide" src="/img/{p["img"]}" alt="{esc(p["img_alt"])}" width="{w}" height="{h}">'}
 {secs}
 <h2>Frequently asked questions</h2>
 <div class="faq">

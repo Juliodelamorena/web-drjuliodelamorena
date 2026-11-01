@@ -1,0 +1,67 @@
+{
+ "slug": "factores-crecimiento-evidencia",
+ "fecha": "2026-10-21",
+ "categoria": "Thérapies régénératives",
+ "titulo": "Facteurs de croissance autologues : ce que disent les études",
+ "resumen": "Les meilleures revues et les meilleurs essais sur le plasma riche en plaquettes dans l'arthrose, les tendinopathies et l'épaule, résumés et avec leur lien.",
+ "descripcion": "Ce que disent les études sur les facteurs de croissance autologues (plasma riche en plaquettes) : arthrose du genou, tendinopathies et fasciite plantaire.",
+ "entradilla": "Les facteurs de croissance autologues, également appelés plasma riche en plaquettes, sont l'un des traitements régénératifs les plus étudiés. L'indication la mieux étayée scientifiquement est l'arthrose du genou légère ou modérée, pour laquelle les revues d'essais cliniques montrent un soulagement plus important et plus durable qu'avec l'acide hyaluronique ou les corticoïdes. Des études favorables existent aussi pour la tendinopathie glutéale, le tennis elbow, la fasciite plantaire et la chirurgie de la coiffe des rotateurs. Nous résumons ici les principales, avec leur lien.",
+ "imagen": "regenerativa.jpg",
+ "imagen_wh": [
+  960,
+  1200
+ ],
+ "imagen_alt": "Application d'un traitement sous guidage échographique",
+ "temas": [
+  "Arthrose du genou",
+  "Tendinopathie",
+  "Épicondylite latérale",
+  "Fasciite plantaire",
+  "Rupture de la coiffe des rotateurs"
+ ],
+ "secciones": [
+  [
+   "Comment nous avons sélectionné les études",
+   "<p>Nous avons privilégié les sources de la plus haute qualité : revues systématiques et méta-analyses, qui regroupent de nombreux essais cliniques randomisés, un consensus européen d'experts et des essais cliniques en double aveugle. Chaque étude est résumée en une phrase et renvoie à sa publication originale. Les résultats défavorables sont également inclus, car une information honnête fait partie d'une bonne indication. Une revue systématique retirée par le journal qui l'avait publiée a été exclue.</p>"
+  ],
+  [
+   "Arthrose du genou : l'indication la mieux étayée",
+   "<ul><li><strong>Consensus européen (2024).</strong> La Société européenne de traumatologie du sport, de chirurgie du genou et d'arthroscopie conclut, avec le plus haut niveau de recommandation, que les preuves sont suffisantes pour son utilisation dans l'arthrose du genou légère à modérée, que son effet dure plus longtemps que celui des corticoïdes et qu'il peut constituer une première option parmi les traitements par infiltration. <a href=\"https://doi.org/10.1002/ksa.12077\" rel=\"noopener\" target=\"_blank\">Laver et collaborateurs, Knee Surgery, Sports Traumatology, Arthroscopy, 2024</a>.</li><li><strong>Par rapport à l'acide hyaluronique.</strong> Quinze essais en double aveugle portant sur 1 632 patients : amélioration plus importante de la douleur et de la fonction à 12 mois, avec une différence cliniquement pertinente. <a href=\"https://doi.org/10.1016/j.arthro.2025.06.033\" rel=\"noopener\" target=\"_blank\">Li et collaborateurs, Arthroscopy, 2025</a>.</li><li><strong>Comparaison de toutes les infiltrations.</strong> Quarante-huit essais portant sur 9 338 genoux : les facteurs de croissance obtiennent le meilleur classement pour la douleur et la fonction à partir de 6 mois, devant l'acide hyaluronique et les corticoïdes. <a href=\"https://doi.org/10.1016/j.arthro.2024.01.037\" rel=\"noopener\" target=\"_blank\">Jawanda et collaborateurs, Arthroscopy, 2024</a>.</li><li><strong>Par rapport aux corticoïdes.</strong> Meilleurs résultats à 3, 6 et 9 mois ; trois infiltrations à une semaine d'intervalle font mieux qu'une seule. <a href=\"https://doi.org/10.1186/s12891-021-04308-3\" rel=\"noopener\" target=\"_blank\">McLarnon et Heron, BMC Musculoskeletal Disorders, 2021</a>.</li><li><strong>Par rapport au placebo.</strong> Trente-quatre essais : le bénéfice va au-delà de l'effet placebo et augmente avec le temps, jusqu'à devenir cliniquement pertinent entre 6 et 12 mois. <a href=\"https://doi.org/10.1177/1947603520931170\" rel=\"noopener\" target=\"_blank\">Filardo et collaborateurs, Cartilage, 2020</a>.</li></ul>"
+  ],
+  [
+   "Tendinopathie glutéale (douleur sur la face externe de la hanche)",
+   "<ul><li><strong>Essai en double aveugle contre corticoïde.</strong> Une seule infiltration échoguidée apporte une amélioration plus importante à 3 mois. <a href=\"https://doi.org/10.1177/0363546517745525\" rel=\"noopener\" target=\"_blank\">Fitzpatrick et collaborateurs, American Journal of Sports Medicine, 2018</a>.</li><li><strong>Suivi à deux ans.</strong> L'amélioration se maintient à 2 ans, alors que celle obtenue avec le corticoïde ne dépasse pas 24 semaines. <a href=\"https://doi.org/10.1177/0363546519826969\" rel=\"noopener\" target=\"_blank\">Fitzpatrick et collaborateurs, American Journal of Sports Medicine, 2019</a>.</li></ul>"
+  ],
+  [
+   "Tennis elbow, fasciite plantaire et autres tendinopathies",
+   "<ul><li><strong>Tennis elbow (épicondylite).</strong> Le corticoïde soulage davantage pendant le premier mois ; les facteurs de croissance donnent de meilleurs résultats à 3 et 6 mois. <a href=\"https://doi.org/10.1016/j.jse.2023.04.018\" rel=\"noopener\" target=\"_blank\">Hohmann et collaborateurs, Journal of Shoulder and Elbow Surgery, 2023</a>.</li><li><strong>Fasciite plantaire.</strong> Vingt et un essais : réduction de la douleur plus importante qu'avec les corticoïdes, les ondes de choc ou le placebo. <a href=\"https://doi.org/10.1016/j.fas.2024.02.004\" rel=\"noopener\" target=\"_blank\">Herber et collaborateurs, Foot and Ankle Surgery, 2024</a>.</li><li><strong>Tendinopathies dans leur ensemble.</strong> Vingt-sept essais : à moyen terme, meilleurs résultats que les corticoïdes sur la douleur et la fonction. <a href=\"https://doi.org/10.1186/s12891-025-08566-3\" rel=\"noopener\" target=\"_blank\">Ye et collaborateurs, BMC Musculoskeletal Disorders, 2025</a>.</li></ul>"
+  ],
+  [
+   "Épaule opérée : réparation de la coiffe des rotateurs",
+   "<p>Vingt-trois essais portant sur 1 440 patients : ajouter du plasma riche en plaquettes lors de la réparation arthroscopique réduit les ruptures récidivantes de 29 % à 16 % et améliore la douleur et la fonction. <a href=\"https://doi.org/10.1016/j.arthro.2021.05.023\" rel=\"noopener\" target=\"_blank\">Li et collaborateurs, Arthroscopy, 2021</a>.</p>"
+  ],
+  [
+   "Ce qu'il faut savoir aussi",
+   "<ul><li><strong>Toutes les études ne sont pas favorables.</strong> Un essai australien portant sur 288 patients n'a pas trouvé de différence par rapport au placebo dans l'arthrose du genou à 12 mois. <a href=\"https://doi.org/10.1001/jama.2021.19415\" rel=\"noopener\" target=\"_blank\">Bennell et collaborateurs, JAMA, 2021</a>.</li><li><strong>Pour les tendons, la qualité des preuves est moindre</strong> que pour le genou, et certaines revues ne trouvent pas de différence nette avec d'autres traitements. <a href=\"https://doi.org/10.2450/2022.0087-22\" rel=\"noopener\" target=\"_blank\">Masiello et collaborateurs, Blood Transfusion, 2022</a>.</li><li><strong>La préparation compte.</strong> Il existe de nombreux types de plasma riche en plaquettes et ils ne sont pas tous équivalents ; cela explique une partie des différences entre les études.</li><li><strong>Il n'est pas efficace chez tous les patients.</strong> Les meilleurs résultats sont obtenus dans des cas bien sélectionnés et lorsqu'il est associé à l'exercice thérapeutique.</li></ul><p>C'est pourquoi l'indication est toujours décidée en consultation, après l'examen clinique et l'échographie, et aucun résultat n'est jamais garanti.</p>"
+  ]
+ ],
+ "faq": [
+  [
+   "Est-il prouvé que le plasma riche en plaquettes est efficace dans l'arthrose du genou ?",
+   "Les revues d'essais cliniques et le consensus européen de 2024 le considèrent comme une option valable dans l'arthrose légère à modérée, avec un soulagement plus important et plus durable qu'avec l'acide hyaluronique ou les corticoïdes. Certains essais n'ont pas trouvé de différence par rapport au placebo : la sélection du patient est donc essentielle."
+  ],
+  [
+   "Est-ce mieux qu'une infiltration de corticoïde ?",
+   "Le corticoïde soulage généralement plus vite, pendant les premières semaines. Les facteurs de croissance donnent de meilleurs résultats à moyen terme, entre 3 et 12 mois, dans l'arthrose du genou, le tennis elbow, la fasciite plantaire et la tendinopathie glutéale."
+  ],
+  [
+   "Facteurs de croissance autologues et plasma riche en plaquettes, est-ce la même chose ?",
+   "Oui. Ce sont deux noms pour le même type de traitement, obtenu à partir du sang du patient lui-même."
+  ]
+ ],
+ "relacionadas": [
+  "factores-crecimiento-autologos",
+  "artrosis-rodilla",
+  "tendinopatias"
+ ]
+}

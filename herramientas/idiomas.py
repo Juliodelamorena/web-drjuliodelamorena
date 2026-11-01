@@ -37,8 +37,33 @@ def slug_map(code):
         return m
     return pk.SLUGS
 
+EXTRA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "i18n_extra")
+LEGAL = ("aviso-legal.html", "privacidad.html")
+
+def extra_available(code, es_slug):
+    """Blog articles, exercise plans and legal pages translated in i18n_extra/<code>/."""
+    d = os.path.join(EXTRA_DIR, code)
+    if es_slug in LEGAL:
+        return os.path.isfile(os.path.join(d, "legal.json"))
+    if es_slug in ("blog/", "planes/"):
+        return os.path.isdir(os.path.join(d, es_slug.rstrip("/") if es_slug == "planes/" else "articulos"))
+    if es_slug.startswith("blog/") and es_slug.endswith(".html"):
+        return os.path.isfile(os.path.join(d, "articulos", es_slug[5:-5] + ".json"))
+    if es_slug.startswith("planes/"):
+        return os.path.isfile(os.path.join(d, "planes", es_slug[7:].strip("/") + ".json"))
+    return False
+
+def is_extra(es_slug):
+    return es_slug in LEGAL or es_slug.startswith("blog/") or es_slug.startswith("planes/")
+
 def path_for(code, es_slug):
     """Site-relative path of the page `es_slug` in language `code`, or None if it has no version."""
+    if es_slug in ("blog", "planes") or (es_slug.startswith("planes/") and not es_slug.endswith("/")):
+        es_slug += "/"
+    if is_extra(es_slug):
+        if code == "es":
+            return "/" + es_slug
+        return f"/{code}/{es_slug}" if extra_available(code, es_slug) else None
     if code == "es":
         if not es_slug:
             return "/"

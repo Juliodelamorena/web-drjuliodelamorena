@@ -188,15 +188,12 @@ REELS = {
 REEL_POR_SLUG = set(REELS)
 
 def reel_html(slug):
-    r = REELS[slug]
-    return (f'<figure class="reel"><video controls playsinline preload="none" poster="{r["poster"]}" width="720" height="1280">'
-            f'<source src="{r["src"]}" type="video/mp4"></video>'
-            f'<figcaption>{r["cap"]}</figcaption></figure>')
+    import extras as X
+    return X.reel_html("es", slug)
 
 def reel_ld(slug):
-    r = REELS[slug]
-    return {"@type": "VideoObject", "name": r["name"], "description": r["desc"], "thumbnailUrl": SITE + r["poster"],
-            "uploadDate": r["date"], "duration": r["dur"], "contentUrl": SITE + r["src"], "inLanguage": "es"}
+    import extras as X
+    return X.reel_ld("es", slug, REELS[slug]["name"], REELS[slug]["desc"])
 
 VIDEO_POR_SLUG = {"tendinitis-aquiles": "tve", "tendinopatias": "tve", "medicina-deportiva": "esradio"}
 

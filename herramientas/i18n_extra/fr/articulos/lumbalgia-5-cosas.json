@@ -1,0 +1,22 @@
+{
+ "slug": "lumbalgia-5-cosas",
+ "fecha": "2026-10-21",
+ "categoria": "Colonne vertébrale",
+ "titulo": "Lombalgie : cinq points clés et quand la douleur descend dans la jambe",
+ "resumen": "Pourquoi bouger aide, ce que montre vraiment l'IRM et ce qu'est la radiculopathie.",
+ "descripcion": "Lombalgie et sciatique : pourquoi bouger aide, quand consulter et ce qu'est la radiculopathie.",
+ "entradilla": "Huit personnes sur dix souffriront de douleurs lombaires à un moment de leur vie. La plupart s'améliorent en quelques semaines, mais dans certains cas, il vaut la peine d'y regarder de plus près.",
+ "imagen": "lumbar.jpg",
+ "imagen_wh": [1200, 676],
+ "imagen_alt": "Patient souffrant de douleurs lombaires",
+ "temas": ["Lombalgie", "Sciatique", "Radiculopathie lombaire"],
+ "secciones": [
+  ["1. Bouger fait partie du traitement", "<p>Le repos prolongé au lit retarde la récupération. Marcher et maintenir les activités quotidiennes, dans la mesure où la douleur le permet, aide le dos à récupérer plus vite.</p>"],
+  ["2. La plupart s'améliorent en quelques semaines", "<p>La lombalgie aiguë évolue généralement bien d'elle-même. Si elle ne s'est pas améliorée au bout de six semaines, ou si elle revient sans cesse, il faut l'explorer.</p>"],
+  ["3. L'IRM n'explique pas toujours la douleur", "<p>Beaucoup de personnes qui n'ont aucune douleur présentent des hernies ou une usure à l'IRM. L'imagerie aide, mais le diagnostic naît de la mise en commun de ce que vous racontez, de l'examen clinique et des examens complémentaires.</p>"],
+  ["4. La force prévient les récidives", "<p>Renforcer les abdominaux, les fessiers et les muscles du dos est le meilleur investissement pour votre colonne. Un programme d'exercices adapté réduit les récidives.</p>"],
+  ["5. Quand la douleur descend dans la jambe", "<figure class=\"fig\"><a href=\"/img/dermatomas-miembro-inferior.jpg\" target=\"_blank\" rel=\"noopener\"><picture><source srcset=\"/img/dermatomas-miembro-inferior.webp\" type=\"image/webp\"><img src=\"/img/dermatomas-miembro-inferior.jpg\" alt=\"Mapa de los dermatomas del miembro inferior en vista anterior, medial, lateral y posterior, de L1 a S5\" width=\"1008\" height=\"1112\" loading=\"lazy\"></picture></a><figcaption>Chaque racine nerveuse a son territoire dans la jambe : la douleur de la sciatique suit ce trajet. Cliquez sur l'image pour l'agrandir.</figcaption></figure><p>Lorsqu'une racine nerveuse de la colonne lombaire est irritée ou comprimée, par exemple par une hernie discale, la douleur peut irradier dans la fesse et la jambe, parfois jusqu'au pied. Elle s'accompagne généralement de fourmillements, de brûlures ou d'une perte de force.</p><p>C'est ce que l'on appelle une <strong>radiculopathie</strong>, dont la sciatique est la forme la plus connue. C'est une douleur d'origine nerveuse : elle se diagnostique par un examen clinique soigneux et, dans de nombreux cas, peut être traitée sans chirurgie.</p><div class=\"box\"><h3>Quand la douleur devient chronique</h3><ul><li>Un diagnostic précis, avec examen clinique et échographie.</li><li>Un programme d'exercices sur mesure.</li><li>Des infiltrations échoguidées, si elles sont indiquées.</li></ul></div>"]
+ ],
+ "faq": [],
+ "relacionadas": ["lumbalgia-ciatica", "segunda-opinion"]
+}
