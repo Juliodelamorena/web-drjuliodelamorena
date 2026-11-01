@@ -400,3 +400,6 @@ p.nota { font-size: 15px; color: var(--muted); margin: 18px 0 22px; }
 .mas-lesiones { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: 28px; }
 .mas-lesiones > span { font-weight: 600; color: var(--navy); margin-right: 4px; }
 .videos.uno { grid-template-columns: minmax(0, 1fr); max-width: 560px; }
+.article ol.flow { padding-left: 0; gap: 0; }
+.article .flow h3 { font-family: var(--body); }
+@media (max-width: 640px) { .article .flow li { grid-template-columns: 34px minmax(0, 1fr); gap: 10px; } }
