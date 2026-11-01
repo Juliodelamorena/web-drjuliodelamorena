@@ -5,6 +5,8 @@ Builds /en/index.html, /en/<slug>/index.html, /en/dr-julio-de-la-morena/, /en/th
 and refreshes the "## English" section of llms.txt.
 Content lives in herramientas/paginas_en.py. Spanish pages get hreflang from generar.py.
 """
+from paginas_nuevas_es import NUEVAS as _NUEVAS
+NEW_ES = [p['slug'] for p in _NUEVAS]
 import json, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import generar as G
@@ -318,6 +320,7 @@ def home():
 <div class="areas">
 {area_html}
 </div>
+<div class="mas-lesiones"><span>We also treat:</span>{"".join(f'<a class="chip" href="/en/{q["slug"]}/">{esc(q["nav"])}</a>' for q in PAGES_EN if q["es"] in NEW_ES)}</div>
 </div>
 </section>
 

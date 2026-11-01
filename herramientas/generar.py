@@ -17,7 +17,7 @@ def whatsapp_btn(texto="Escribir por WhatsApp", clase="btn btn-line"):
 CITA_URL = "https://nwbipjfhfumgkmdvoltc.supabase.co/functions/v1/cita"   # función de Supabase que guarda la solicitud y redirige a la página de gracias (sustituye a los formularios de Netlify)
 MAPA = "https://maps.google.com/?cid=4492723553507247190"   # ficha de Google del doctor (enlace neutro: Cómo llegar)
 CITA = "https://www.memorialpubliocordon.com/medicos/dr-julio-de-la-morena-garzon/"
-REVISION = "2026-10-21"
+REVISION = "2026-11-01"
 FONTS = "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&amp;family=Manrope:wght@400;500;600&amp;display=swap"
 
 # Fix image alt texts that describe the photo, not the topic
@@ -127,6 +127,8 @@ CONTADOR = """<script>
 ZONAS = ["Rodilla", "Hombro", "Espalda o ciática", "Cadera", "Codo", "Tobillo o pie", "Lesión muscular", "Otra"]
 ZONA_POR_SLUG = {"artrosis-rodilla": "Rodilla", "hombro-doloroso": "Hombro", "lumbalgia-ciatica": "Espalda o ciática",
                  "esguince-tobillo": "Tobillo o pie", "lesiones-musculares": "Lesión muscular"}
+from paginas_nuevas_es import ZONAS_NUEVAS
+ZONA_POR_SLUG.update(ZONAS_NUEVAS)
 
 def formulario(ruta, zona="", compacto=True):
     """Bloque de cita con el formulario de Netlify (mismo nombre y campos que la portada, para que

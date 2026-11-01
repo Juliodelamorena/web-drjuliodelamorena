@@ -6,6 +6,12 @@ Builds /<lang>/index.html, /<lang>/<slug>/index.html, the doctor page, the thank
 and refreshes the "## <Language>" section of llms.txt. Spanish and English pages get their
 hreflang links from idiomas.py, so run generar.py and generar_en.py after adding a language.
 """
+from paginas_nuevas_es import NUEVAS as _NUEVAS
+NEW_ES = [p['slug'] for p in _NUEVAS]
+MAS_TXT = {"ka": "ასევე ვმკურნალობთ:", "ru": "Мы также лечим:", "fr": "Nous traitons aussi :"}
+def mas_lesiones(self):
+    chips = "".join(f'<a class="chip" href="{self.base}{q["slug"]}/">{esc(q["nav"])}</a>' for q in self.P.PAGES if q["es"] in NEW_ES)
+    return f'<div class="mas-lesiones"><span>{MAS_TXT.get(self.L, "")}</span>{chips}</div>' if chips else ""
 import json, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import generar as G
@@ -323,6 +329,7 @@ class Builder:
 <div class="areas">
 {areas}
 </div>
+{mas_lesiones(self)}
 </div>
 </section>
 

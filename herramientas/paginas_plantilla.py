@@ -3,6 +3,8 @@
 # values exactly as they are (only the text changes). Rules: no prices, no testimonials, no promised
 # results, "autologous growth factors" is the main term and "platelet-rich plasma" only as a synonym.
 
+from paginas_nuevas_en import NEW_PAGES_EN
+
 META = {
  "lang": "en",            # ISO code used in <html lang>, hreflang and the folder /<lang>/
  "locale": "en_GB",       # og:locale
@@ -28,6 +30,13 @@ SLUGS = {
  "medicina-deportiva": "sports-medicine",
  "dr-julio-de-la-morena": "dr-julio-de-la-morena",
  "segunda-opinion": "second-opinion",
+ "codo-de-tenista": "tennis-elbow",
+ "fascitis-plantar": "plantar-fasciitis",
+ "tendinitis-rotuliana": "patellar-tendinopathy",
+ "tendinitis-aquiles": "achilles-tendinopathy",
+ "rotura-menisco": "meniscus-tear",
+ "artrosis-cadera": "hip-osteoarthritis",
+ "pubalgia": "groin-pain",
 }
 
 PAGES = [
@@ -213,6 +222,7 @@ PAGES = [
  ],
  "related": ["sports-medicine", "autologous-growth-factors", "ankle-sprain"],
 },
+*NEW_PAGES_EN,  # the seven condition pages added on 1 Nov 2026 (paginas_nuevas_en.py)
 {
  "slug": "autologous-growth-factors",
  "es": "factores-crecimiento-autologos",

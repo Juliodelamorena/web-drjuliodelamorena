@@ -1,6 +1,9 @@
 # English content for /en/. Same rules as the Spanish site: no prices, no testimonials,
 # no promised results. Each page keeps the Spanish slug in "es" for hreflang pairing.
 
+from paginas_nuevas_en import SLUGS_NEW, NEW_PAGES_EN
+import copy as _copy
+
 SLUG_ES_TO_EN = {
  "artrosis-rodilla": "knee-osteoarthritis",
  "lumbalgia-ciatica": "low-back-pain-sciatica",
@@ -13,6 +16,13 @@ SLUG_ES_TO_EN = {
  "medicina-deportiva": "sports-medicine",
  "dr-julio-de-la-morena": "dr-julio-de-la-morena",
 }
+SLUG_ES_TO_EN.update(SLUGS_NEW)
+
+def _en(p):
+    q = _copy.deepcopy(p); q.pop("cta", None)
+    # the English site has no second-opinion page
+    q["related"] = [r if r != "second-opinion" else "sports-medicine" for r in q["related"]]
+    return q
 
 PAGES_EN = [
 {
@@ -75,6 +85,7 @@ PAGES_EN = [
  "sections": [
   ("Common symptoms", "<ul><li>Pain in the tendon when starting an activity, which sometimes eases once warmed up and gets worse afterwards.</li><li>Morning stiffness, typical of the Achilles tendon and plantar fascia.</li><li>Pain when lifting or twisting the wrist, at the elbow.</li><li>Pain that does not settle after weeks of rest.</li></ul>"),
   ("Diagnosis with ultrasound", "<p>Ultrasound shows the thickness and structure of the tendon, any partial tears, calcifications or increased blood flow, and allows comparison with the healthy side. It is a dynamic test: the tendon can be studied while it moves.</p>"),
+  ("Each tendinopathy in detail", "<ul><li><a href=\"/en/tennis-elbow/\">Tennis and padel elbow</a></li><li><a href=\"/en/patellar-tendinopathy/\">Patellar tendinopathy</a></li><li><a href=\"/en/achilles-tendinopathy/\">Achilles tendinopathy</a></li><li><a href=\"/en/plantar-fasciitis/\">Plantar fasciitis</a></li><li><a href=\"/en/shoulder-pain/\">Shoulder pain and rotator cuff</a></li></ul>"),
   ("Treatment", "<ul><li><strong>Progressive loading exercise.</strong> The treatment with the strongest scientific support: isometric and eccentric exercises adapted to each phase.</li><li><strong>Adjusting activity</strong> without complete rest.</li><li><strong>Autologous growth factors</strong> (platelet-rich plasma) in selected chronic tendinopathies that have not responded to exercise.</li><li><strong>Ultrasound-guided injections</strong> around the tendon when appropriate, avoiding repeated corticosteroids inside the tendon.</li></ul>"),
  ],
  "faq": [
@@ -148,6 +159,7 @@ PAGES_EN = [
  ],
  "related": ["sports-medicine", "autologous-growth-factors", "ankle-sprain"],
 },
+*[_en(p) for p in NEW_PAGES_EN],
 {
  "slug": "autologous-growth-factors", "es": "factores-crecimiento-autologos",
  "nav": "Autologous growth factors",

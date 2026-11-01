@@ -1,6 +1,8 @@
 # Contenido de las páginas por especialidad y tratamiento.
 # Reglas: sin precios, sin testimonios, sin prometer resultados; trato de usted.
 
+from paginas_nuevas_es import NUEVAS
+
 PAGES = [
 {
  "slug": "artrosis-rodilla",
@@ -67,6 +69,7 @@ PAGES = [
  "sections": [
   ("Síntomas habituales", "<ul><li>Dolor localizado en el tendón al empezar una actividad, que a veces mejora al calentar y empeora después.</li><li>Rigidez por la mañana, típica del tendón de Aquiles y de la fascia plantar.</li><li>Dolor al coger peso o al girar la muñeca, en el codo.</li><li>Dolor que no termina de irse tras semanas de reposo.</li></ul>"),
   ("Diagnóstico con ecografía", "<p>La ecografía permite ver el grosor y la estructura del tendón, si hay roturas parciales, calcificaciones o aumento de vascularización, y compararlo con el lado sano. Es una prueba dinámica: se puede estudiar el tendón en movimiento.</p>"),
+  ("Información de cada tendinopatía", "<ul><li><a href=\"/codo-de-tenista/\">Codo de tenista y de pádel</a></li><li><a href=\"/tendinitis-rotuliana/\">Tendinitis rotuliana</a></li><li><a href=\"/tendinitis-aquiles/\">Tendinitis de Aquiles</a></li><li><a href=\"/fascitis-plantar/\">Fascitis plantar</a></li><li><a href=\"/hombro-doloroso/\">Dolor de hombro y manguito rotador</a></li></ul>"),
   ("Tratamiento", "<ul><li><strong>Ejercicio de carga progresiva.</strong> Es el tratamiento con más respaldo científico: ejercicios isométricos y excéntricos adaptados a cada fase.</li><li><strong>Ajuste de la actividad</strong> sin llegar al reposo completo.</li><li><strong>Factores de crecimiento autólogos</strong> en tendinopatías crónicas seleccionadas que no han respondido al ejercicio.</li><li><strong>Infiltraciones guiadas por ecografía</strong> alrededor del tendón cuando están indicadas, evitando los corticoides repetidos dentro del tendón.</li></ul>"),
  ],
  "faq": [
@@ -143,6 +146,7 @@ PAGES = [
  ],
  "related": ["medicina-deportiva", "factores-crecimiento-autologos", "esguince-tobillo"],
 },
+*NUEVAS,
 {
  "slug": "factores-crecimiento-autologos",
  "cta": "¿Quiere saber si los factores de crecimiento están indicados en su caso?",
