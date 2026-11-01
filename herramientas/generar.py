@@ -175,6 +175,21 @@ VIDEOS = {
          "alt": "Entrevista al Dr. Julio De la Morena en esRadio",
          "date": "2023-06-26T05:05:59-07:00", "dur": "PT16M59S"},
 }
+REEL = {"src": "/video/terapias-regenerativas.mp4", "poster": "/video/terapias-regenerativas.jpg",
+        "name": "Factores de crecimiento autólogos (plasma rico en plaquetas) con el Dr. Julio De la Morena",
+        "desc": "El Dr. Julio De la Morena explica en 35 segundos el tratamiento con factores de crecimiento autólogos o plasma rico en plaquetas, guiado por ecografía, en el Hospital Memorial Publio Cordón (Pozuelo de Alarcón, Madrid).",
+        "date": "2026-11-01T22:00:00+01:00", "dur": "PT35S"}
+REEL_POR_SLUG = {"factores-crecimiento-autologos"}
+
+def reel_html():
+    return (f'<figure class="reel"><video controls playsinline preload="none" poster="{REEL["poster"]}" width="720" height="1280">'
+            f'<source src="{REEL["src"]}" type="video/mp4"></video>'
+            f'<figcaption>El Dr. Julio De la Morena lo explica en 35 segundos.</figcaption></figure>')
+
+def reel_ld():
+    return {"@type": "VideoObject", "name": REEL["name"], "description": REEL["desc"], "thumbnailUrl": SITE + REEL["poster"],
+            "uploadDate": REEL["date"], "duration": REEL["dur"], "contentUrl": SITE + REEL["src"], "inLanguage": "es"}
+
 VIDEO_POR_SLUG = {"tendinitis-aquiles": "tve", "tendinopatias": "tve", "medicina-deportiva": "esradio"}
 
 def video_ld(k):
@@ -215,6 +230,8 @@ def page(p):
     vk = VIDEO_POR_SLUG.get(p["slug"])
     if vk:
         ld["@graph"].append(video_ld(vk))
+    if p["slug"] in REEL_POR_SLUG:
+        ld["@graph"].append(reel_ld())
     w, h = p["img_wh"]
     alt = ALT_FIX.get(p["slug"], p["img_alt"])
     secs = "\n".join(f'<h2>{esc(t)}</h2>\n{body}' for t, body in p["sections"])
@@ -229,7 +246,7 @@ def page(p):
 <p class="label">{esc(p['label'])}</p>
 <h1>{esc(p['h1'])}</h1>
 {I.respuesta(esc(p["lead"]), "es")}
-<img class="wide" src="/img/{p['img']}" alt="{esc(alt)}" width="{w}" height="{h}">
+{reel_html() if p["slug"] in REEL_POR_SLUG else f'<img class="wide" src="/img/{p["img"]}" alt="{esc(alt)}" width="{w}" height="{h}">'}
 {secs}
 {extra}
 {('<h2>En vídeo</h2>' + chr(10) + '<div class="videos uno">' + video_card(vk) + '</div>') if vk else ''}

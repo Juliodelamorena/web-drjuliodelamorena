@@ -403,3 +403,11 @@ p.nota { font-size: 15px; color: var(--muted); margin: 18px 0 22px; }
 .article ol.flow { padding-left: 0; gap: 0; }
 .article .flow h3 { font-family: var(--body); }
 @media (max-width: 640px) { .article .flow li { grid-template-columns: 34px minmax(0, 1fr); gap: 10px; } }
+
+/* Vídeo vertical (reel) */
+.reel { margin: 18px 0 8px; max-width: 360px; }
+.reel video { display: block; width: 100%; height: auto; aspect-ratio: 9 / 16; background: var(--navy); border-radius: 6px; }
+.reel figcaption { font-size: 14px; color: var(--muted); margin-top: 8px; }
+.reel-portada { margin-top: 18px; }
+.navy .reel figcaption { color: var(--on-navy); }
+@media (max-width: 640px) { .reel { max-width: 100%; margin-inline: auto; } }
