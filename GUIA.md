@@ -102,3 +102,7 @@ Hecho a raíz de una revisión con ojos de paciente (móvil y escritorio):
 ## Dosier de prensa de mayo de 2014
 - Los recortes (ABC, AS 11 y 12, El País, Marca, Sport) están en /home/claude/kit/prensa2014/ (copia del móvil de Julio). Son páginas de periódico con derechos: NO se publican en la web; solo se citan cabecera, fecha y titular, y se enlaza Libertad Digital. No nombrar al jugador en la web.
 - Netlify (plan gratuito) agotó los créditos de publicación el 24 oct 2026: los cambios desde el commit 8aa9765 quedan pendientes hasta que se renueven (o se amplíe el plan). Agrupar cambios y publicar como mucho una vez al día.
+
+## Aviso a buscadores (IndexNow)
+
+Cada publicación avisa automáticamente a Bing (y a los buscadores que usan IndexNow) de las páginas .html cambiadas en ese commit. La clave es el archivo `<clave>.txt` de la raíz: no borrarlo. Si el mensaje del commit lleva `[indexnow-todo]`, se avisan todas las direcciones del sitemap.

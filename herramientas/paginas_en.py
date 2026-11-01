@@ -164,7 +164,7 @@ PAGES_EN = [
  "slug": "autologous-growth-factors", "es": "factores-crecimiento-autologos",
  "nav": "Autologous growth factors",
  "h1": "Autologous growth factors (platelet-rich plasma)",
- "seo": "Autologous growth factors (PRP) · Madrid (Pozuelo)",
+ "seo": "PRP injections in Madrid · Autologous growth factors",
  "desc": "Autologous growth factors (platelet-rich plasma): what they are, which injuries they treat and how they are applied. Dr Julio De la Morena, Madrid.",
  "label": "Treatments",
  "img": "regenerativa.jpg", "img_alt": "Ultrasound-guided treatment being applied", "img_wh": (960, 1200),

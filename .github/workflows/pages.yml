@@ -20,6 +20,8 @@ jobs:
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
       - name: Preparar la carpeta pública (sin herramientas, originales ni material de Instagram)
         run: |
           mkdir -p _sitio
@@ -32,3 +34,18 @@ jobs:
           path: _sitio
       - id: deploy
         uses: actions/deploy-pages@v4
+      - name: Avisar a Bing y otros buscadores (IndexNow) de las páginas cambiadas
+        if: success()
+        continue-on-error: true
+        run: |
+          KEY=cb9972add7ddea8ff2f843ff0627b83b
+          if git log -1 --pretty=%B | grep -q "\[indexnow-todo\]"; then
+            URLS=$(grep -o '<loc>[^<]*</loc>' sitemap.xml | sed 's/<[^>]*>//g')
+          else
+            URLS=$(git diff --name-only HEAD^ HEAD 2>/dev/null | grep '\.html$' | grep -v -e '^herramientas/' -e '^ig/' -e '404.html' -e 'gracias.html' -e 'thank-you.html' -e 'madloba.html' -e 'spasibo.html' -e 'merci.html' | sed -e 's#index\.html$##' -e 's#^#https://drjuliodelamorena.com/#')
+          fi
+          [ -z "$URLS" ] && { echo "Nada que avisar"; exit 0; }
+          LISTA=$(printf '%s\n' $URLS | python3 -c 'import sys,json;print(json.dumps([l.strip() for l in sys.stdin if l.strip()]))')
+          echo "$LISTA" | python3 -c 'import sys,json;print(len(json.load(sys.stdin)),"direcciones")'
+          curl -s -o /dev/null -w "IndexNow: %{http_code}\n" -X POST https://api.indexnow.org/indexnow -H 'Content-Type: application/json; charset=utf-8' \
+            -d "{\"host\":\"drjuliodelamorena.com\",\"key\":\"$KEY\",\"keyLocation\":\"https://drjuliodelamorena.com/$KEY.txt\",\"urlList\":$LISTA}"
