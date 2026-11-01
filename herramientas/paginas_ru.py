@@ -2,6 +2,9 @@
 # Reglas: sin precios, sin testimonios, sin prometer resultados; trato de «Вы».
 # El término principal es «аутологичные факторы роста»; «обогащенная тромбоцитами плазма» solo como sinónimo.
 
+from paginas_nuevas_ru import NEW_PAGES as _NEW
+import paginas_plantilla as _T
+
 META = {
  "lang": "ru",
  "locale": "ru_RU",
@@ -25,7 +28,20 @@ SLUGS = {
  "medicina-deportiva": "sportivnaya-meditsina",
  "dr-julio-de-la-morena": "doktor-julio-de-la-morena",
  "segunda-opinion": "vtoroe-mnenie",
+ "codo-de-tenista": "lokot-tennisista",
+ "fascitis-plantar": "plantarnyy-fastsiit",
+ "tendinitis-rotuliana": "tendinit-nadkolennika",
+ "tendinitis-aquiles": "tendinit-akhillova-sukhozhiliya",
+ "rotura-menisco": "razryv-meniska",
+ "artrosis-cadera": "artroz-tazobedrennogo-sustava",
+ "pubalgia": "pubalgiya",
 }
+
+_EN2ES0 = {v: k for k, v in _T.SLUGS.items()}
+for _p in _NEW:
+    _p['slug'] = SLUGS[_p['es']]
+    _p['related'] = [SLUGS[_EN2ES0[r]] for r in _p['related']]
+_NEW_LOCAL = _NEW
 
 PAGES = [
 {
@@ -210,6 +226,7 @@ PAGES = [
  ],
  "related": ["sportivnaya-meditsina", "autologichnye-faktory-rosta", "rastyazhenie-golenostopa"],
 },
+*_NEW_LOCAL,
 {
  "slug": "autologichnye-faktory-rosta",
  "es": "factores-crecimiento-autologos",
@@ -523,3 +540,4 @@ ABOUT = {
   ("Как записаться на прием?", "Напишите нам через форму на сайте drjuliodelamorena.com, и мы ответим по электронной почте или по телефону, либо позвоните по номеру {phone} (на испанском или английском языке)."),
  ],
 }
+

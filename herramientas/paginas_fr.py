@@ -3,6 +3,9 @@
 # résultat. Le terme principal est « facteurs de croissance autologues » et « plasma riche en
 # plaquettes (PRP) » n'apparaît qu'en synonyme, la première fois sur chaque page.
 
+from paginas_nuevas_fr import NEW_PAGES as _NEW
+import paginas_plantilla as _T
+
 META = {
  "lang": "fr",
  "locale": "fr_FR",
@@ -26,7 +29,20 @@ SLUGS = {
  "medicina-deportiva": "medecine-du-sport",
  "dr-julio-de-la-morena": "dr-julio-de-la-morena",
  "segunda-opinion": "second-avis",
+ "codo-de-tenista": "epicondylite-coude-tennis",
+ "fascitis-plantar": "fasciite-plantaire",
+ "tendinitis-rotuliana": "tendinopathie-rotulienne",
+ "tendinitis-aquiles": "tendinopathie-achille",
+ "rotura-menisco": "dechirure-menisque",
+ "artrosis-cadera": "arthrose-hanche",
+ "pubalgia": "pubalgie",
 }
+
+_EN2ES0 = {v: k for k, v in _T.SLUGS.items()}
+for _p in _NEW:
+    _p['slug'] = SLUGS[_p['es']]
+    _p['related'] = [SLUGS[_EN2ES0[r]] for r in _p['related']]
+_NEW_LOCAL = _NEW
 
 PAGES = [
 {
@@ -211,6 +227,7 @@ PAGES = [
  ],
  "related": ["medecine-du-sport", "facteurs-de-croissance-autologues", "entorse-cheville"],
 },
+*_NEW_LOCAL,
 {
  "slug": "facteurs-de-croissance-autologues",
  "es": "factores-crecimiento-autologos",
@@ -524,3 +541,4 @@ ABOUT = {
   ("Comment prendre rendez-vous ?", "Écrivez-nous à l'aide du formulaire sur drjuliodelamorena.com et nous vous répondons par e-mail ou par téléphone, ou appelez le {phone} (en espagnol ou en anglais)."),
  ],
 }
+
