@@ -376,3 +376,22 @@ p.nota { font-size: 15px; color: var(--muted); margin: 18px 0 22px; }
 .chip:hover { border-color: var(--gold); color: var(--gold-text); }
 .article .contact .wrap { max-width: 1240px; display: grid; font-size: inherit; line-height: inherit; }
 @media (max-width: 960px) { .article .contact .wrap { gap: 40px; } }
+
+/* Selector de idioma: todas las banderas a la vista */
+.lang-flags { display: inline-flex; align-items: center; gap: 2px; }
+.lang-flags .flag { display: inline-flex; align-items: center; justify-content: center; min-width: 28px; min-height: 44px; border-radius: 4px; opacity: .75; transition: opacity .15s; }
+.lang-flags a.flag:hover, .lang-flags a.flag:focus-visible { opacity: 1; }
+.lang-flags .flag .bandera { margin: 0; width: 22px; height: 15px; }
+.lang-flags .flag.actual { opacity: 1; }
+.lang-flags .flag.actual .bandera { box-shadow: 0 0 0 2px var(--gold, #c2a36b); }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+@media (max-width: 640px) { .lang-flags { gap: 0; } .lang-flags .flag { min-width: 30px; } .lang-flags .flag .bandera { width: 22px; height: 15px; } }
+/* En escritorio las banderas van en la franja oscura de arriba; en el móvil, en la cabecera blanca */
+.util .wrap { align-items: center; }
+.util .wrap > span:nth-child(2) { margin-left: auto; }
+.util-flags { margin-block: -12px; margin-left: -8px; }
+.util-flags .flag { opacity: .85; }
+.util-flags .flag .bandera { box-shadow: 0 0 0 1px rgba(255,255,255,.25); }
+.util-flags .flag.actual .bandera { box-shadow: 0 0 0 2px var(--gold); }
+.menu .lang-flags { display: none; }
+@media (max-width: 640px) { .util-flags { display: none; } .menu .lang-flags { display: inline-flex; } }

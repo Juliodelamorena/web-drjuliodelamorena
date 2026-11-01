@@ -26,6 +26,7 @@ def header(es_slug="", form=True):
 <div class="wrap">
 <span class="util-addr">Hospital Memorial Publio Cordón · Paseo de la Casa de Campo, 5 · Pozuelo de Alarcón (Madrid)</span>
 <span>Appointments <a class="tel" href="tel:+34913548990">+34 913 548 990</a><span class="util-hor"> · Mon–Fri, 3 pm to 9 pm</span></span>
+{I.menu("en", es_slug, "Language").replace('class="lang-flags"', 'class="lang-flags util-flags"')}
 </div>
 </div>
 <header class="top">

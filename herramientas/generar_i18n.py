@@ -55,6 +55,7 @@ class Builder:
 <div class="wrap">
 <span class="util-addr">{esc(UI["util_addr"])}</span>
 <span>{esc(UI["util_appt"])} <a class="tel" href="{TEL}">{PHONE}</a><span class="util-hor"> · {esc(UI["util_hours"])}</span></span>
+{I.menu(self.L, es_slug, UI["lang_menu"]).replace('class="lang-flags"', 'class="lang-flags util-flags"')}
 </div>
 </div>
 <header class="top">

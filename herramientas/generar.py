@@ -41,6 +41,7 @@ def header(es_slug="", form=True):
 <div class="wrap">
 <span class="util-addr">Hospital Memorial Publio Cordón · Paseo de la Casa de Campo, 5 · Pozuelo de Alarcón (Madrid)</span>
 <span>Cita previa <a class="tel" href="tel:+34913548990">913 548 990</a><span class="util-hor"> · lunes a viernes, de 15:00 a 21:00</span></span>
+{I.menu("es", es_slug, "Idioma").replace('class="lang-flags"', 'class="lang-flags util-flags"')}
 </div>
 </div>
 <header class="top">

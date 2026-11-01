@@ -74,16 +74,19 @@ def bandera(code):
     return f'<img class="bandera" src="/img/banderas/{code}.svg" width="20" height="14" alt="" aria-hidden="true">'
 
 def menu(current, es_slug, label="Idioma"):
-    """<details> language switcher. Pages without a version in a language link to that language's home."""
+    """Banderas de todos los idiomas, siempre a la vista. La del idioma actual va marcada y no es enlace.
+    Las páginas sin versión en un idioma enlazan a la portada de ese idioma."""
     u, home = urls(es_slug), urls("")
     items = []
     for c in ORDER:
-        if c == current or c not in home:
+        if c not in home:
             continue
-        href = (u.get(c) or home[c]).replace(SITE, "")
-        items.append(f'<a href="{href}" hreflang="{c}" lang="{c}">{bandera(c)}{NAMES[c]}</a>')
-    return (f'<details class="lang-menu"><summary aria-label="{label}" lang="{current}">{bandera(current)}{SHORT[current]}</summary>'
-            f'<div>{"".join(items)}</div></details>')
+        if c == current:
+            items.append(f'<span class="flag actual" lang="{c}" title="{NAMES[c]}" aria-current="true">{bandera(c)}<span class="sr">{NAMES[c]}</span></span>')
+        else:
+            href = (u.get(c) or home[c]).replace(SITE, "")
+            items.append(f'<a class="flag" href="{href}" hreflang="{c}" lang="{c}" title="{NAMES[c]}">{bandera(c)}<span class="sr">{NAMES[c]}</span></a>')
+    return f'<nav class="lang-flags" aria-label="{label}">{"".join(items)}</nav>'
 
 def nav_movil(links, label, destacados=()):
     """Menú desplegable para el móvil (details). `links` y `destacados`: lista de (href, texto).
