@@ -239,7 +239,7 @@ class Builder:
              "knowsAbout": [p["about"][1] for p in self.pages],
              "knowsLanguage": ["es", "en"],
              "identifier": {"@type": "PropertyValue", "propertyID": "Número de colegiado", "value": "281903698"},
-             "sameAs": ["https://www.instagram.com/drjuliodelamorena/", CITA]},
+             "sameAs": ["https://www.instagram.com/drjuliodelamorena/", "https://www.youtube.com/channel/UCGJv0UcLm0GJpaZOdWRCauA", CITA]},
             self.breadcrumb(a["nav"], url), G.faq_ld(faq)]}
         areas = "".join(f'<li><a href="{b}{p["slug"]}/">{esc(p["nav"])}</a></li>' for p in self.pages)
         faqs = "\n".join(f'<details><summary>{esc(q)}</summary><p>{esc(x)}</p></details>' for q, x in faq)

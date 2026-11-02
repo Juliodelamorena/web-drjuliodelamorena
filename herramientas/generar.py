@@ -307,7 +307,7 @@ def about_page():
          ],
          "hasCredential": [{"@type": "EducationalOccupationalCredential", "name": "Especialista en Medicina de la Educación Física y del Deporte (MIR)", "recognizedBy": {"@type": "CollegeOrUniversity", "name": "Universidad Complutense de Madrid"}}, {"@type": "EducationalOccupationalCredential", "name": "Certificación ICH-GCP E6(R3) Buenas Prácticas Clínicas", "recognizedBy": {"@type": "Organization", "name": "NIDA Clinical Trials Network, National Institutes of Health"}}],
          "identifier": {"@type": "PropertyValue", "propertyID": "Número de colegiado (Colegio de Médicos de Madrid)", "value": "281903698"},
-         "sameAs": ["https://www.instagram.com/drjuliodelamorena/", CITA]},
+         "sameAs": ["https://www.instagram.com/drjuliodelamorena/", "https://www.youtube.com/channel/UCGJv0UcLm0GJpaZOdWRCauA", CITA]},
         breadcrumb("El doctor", url), faq_ld(faq)]}
     faqs = "\n".join(f'<details><summary>{esc(q)}</summary><p>{esc(x)}</p></details>' for q, x in faq)
     body = f'''<main class="article">

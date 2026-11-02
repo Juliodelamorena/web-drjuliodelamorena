@@ -213,7 +213,7 @@ def about_page():
            {"@type": "NewsArticle", "headline": "El Comité de Competición anula la roja al médico del Castilla", "url": "https://www.libertaddigital.com/deportes/futbol/2014-05-14/competicion-anula-la-roja-al-medico-del-castilla-1276518574/", "datePublished": "2014-05-14", "publisher": {"@type": "Organization", "name": "Libertad Digital"}}
          ],
          "identifier": {"@type": "PropertyValue", "propertyID": "Madrid Medical Council registration number", "value": "281903698"},
-         "sameAs": ["https://www.instagram.com/drjuliodelamorena/", CITA]},
+         "sameAs": ["https://www.instagram.com/drjuliodelamorena/", "https://www.youtube.com/channel/UCGJv0UcLm0GJpaZOdWRCauA", CITA]},
         breadcrumb("The doctor", url), G.faq_ld(faq)]}
     faqs = "\n".join(f'<details><summary>{esc(q)}</summary><p>{esc(x)}</p></details>' for q, x in faq)
     body = f'''<main class="article">
