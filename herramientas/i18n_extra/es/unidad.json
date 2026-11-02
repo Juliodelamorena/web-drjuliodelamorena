@@ -1,0 +1,26 @@
+{
+ "titulo": "La consulta por dentro",
+ "caption": "Recorrido por la unidad en el Hospital Memorial Publio Cordón (Pozuelo, Madrid)",
+ "fotos": [
+  [
+   "despacho-doctor",
+   "El despacho de consulta",
+   "El despacho de consulta"
+  ],
+  [
+   "eco-real",
+   "Ecografía durante la consulta",
+   "Ecografía durante la consulta"
+  ],
+  [
+   "sala-eco",
+   "Sala de ecografía y tratamientos",
+   "Sala de ecografía y tratamientos"
+  ],
+  [
+   "consulta-vista",
+   "Consulta y sala de tratamiento, una junto a otra",
+   "Consulta y sala de tratamiento, una junto a otra"
+  ]
+ ]
+}

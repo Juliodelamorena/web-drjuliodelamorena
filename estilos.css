@@ -418,3 +418,9 @@ p.nota { font-size: 15px; color: var(--muted); margin: 18px 0 22px; }
 .galeria img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 4px; }
 .galeria figcaption { font-size: 13.5px; color: var(--muted); margin-top: 6px; line-height: 1.35; }
 @media (max-width: 640px) { .galeria { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; } }
+/* La consulta por dentro: fotos reales bajo el vídeo de la unidad */
+.unidad { margin-top: 36px; }
+.unidad .h3 { margin: 0 0 14px; }
+.unidad .galeria { grid-template-columns: repeat(4, minmax(0, 1fr)); margin-bottom: 0; }
+@media (max-width: 760px) { .unidad .galeria { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+#hospital .reel { margin: 0 auto; max-width: 380px; }

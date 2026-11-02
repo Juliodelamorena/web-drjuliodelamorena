@@ -385,8 +385,9 @@ def home():
 <p>Paseo de la Casa de Campo, 5 · 28223 Pozuelo de Alarcón (Madrid) · about 30 minutes by car from Madrid-Barajas airport.</p>
 <p style="margin: 0"><a class="btn btn-outline" href="{MAPA}" rel="noopener" target="_blank">Get directions</a></p>
 </div>
-<div><img class="photo" src="/img/hospital.jpg" alt="The doctor's consulting room at Hospital Memorial Publio Cordón" width="1122" height="1402" loading="lazy"></div>
+<div>{X.unidad_video_html("en")}</div>
 </div>
+{X.unidad_fotos_html("en")}
 </section>
 
 <section id="faq" class="block">

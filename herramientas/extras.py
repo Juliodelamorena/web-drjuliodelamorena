@@ -52,3 +52,22 @@ def galeria_html(lang):
     if not g: return ""
     figs = "".join(f'<figure><img src="/img/rm/{f}" alt="{esc(a)}" width="800" height="1000" loading="lazy"><figcaption>{esc(c)}</figcaption></figure>' for f, a, c in g["fotos"])
     return f'<h2>{esc(g["titulo"])}</h2>\n<div class="galeria">{figs}</div>\n'
+
+
+# --- La consulta por dentro: vídeo-recorrido de la unidad y fotos reales (portadas de los cinco idiomas) ---
+def unidad(lang): return _load(lang, "unidad.json")
+
+def unidad_video_html(lang):
+    u = unidad(lang)
+    return (f'<figure class="reel"><video controls playsinline preload="none" crossorigin="anonymous" poster="/video/unidad.jpg" width="720" height="1280">'
+            f'<source src="/video/unidad.mp4" type="video/mp4">{_tracks(lang, "unidad")}</video>'
+            f'<figcaption>{esc(u.get("caption", ""))}</figcaption></figure>')
+
+def unidad_fotos_html(lang):
+    u = unidad(lang)
+    figs = "".join(f'<figure><picture><source srcset="/img/unidad/{f}.webp" type="image/webp"><img src="/img/unidad/{f}.jpg" alt="{esc(a)}" width="800" height="1000" loading="lazy"></picture><figcaption>{esc(c)}</figcaption></figure>' for f, a, c in u["fotos"])
+    ld = {"@context": "https://schema.org", "@type": "VideoObject", "name": u["caption"], "description": u["caption"],
+          "thumbnailUrl": f"{SITE}/video/unidad.jpg", "uploadDate": "2026-11-02T14:00:00+01:00", "duration": "PT34S",
+          "contentUrl": f"{SITE}/video/unidad.mp4", "inLanguage": lang}
+    return (f'<div class="wrap unidad"><h3 class="h3">{esc(u["titulo"])}</h3><div class="galeria">{figs}</div></div>\n'
+            f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>')

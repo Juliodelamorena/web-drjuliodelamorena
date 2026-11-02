@@ -393,8 +393,9 @@ class Builder:
 <p>{esc(UI["foot_addr"])}</p>
 <p style="margin: 0"><a class="btn btn-outline" href="{MAPA}" rel="noopener" target="_blank">{esc(MAPA_TXT.get(self.L, "Google Maps"))}</a></p>
 </div>
-<div><img class="photo" src="/img/hospital.jpg" alt="{esc(H["hospital_img_alt"])}" width="1122" height="1402" loading="lazy"></div>
+<div>{X.unidad_video_html(self.L)}</div>
 </div>
+{X.unidad_fotos_html(self.L)}
 </section>
 
 <section id="faq" class="block mist">
