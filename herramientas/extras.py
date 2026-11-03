@@ -71,3 +71,33 @@ def unidad_fotos_html(lang):
           "contentUrl": f"{SITE}/video/unidad.mp4", "inLanguage": lang}
     return (f'<div class="wrap unidad"><h3 class="h3">{esc(u["titulo"])}</h3><div class="galeria">{figs}</div></div>\n'
             f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>')
+
+
+# --- Llamada a la cita adaptada al tema de cada artículo y nota de consulta privada (3 nov 2026) ---
+CIERRE = {"es": "Pida cita con el Dr. De la Morena.", "en": "Book an appointment with Dr De la Morena.",
+          "fr": "Prenez rendez-vous avec le Dr De la Morena.", "ru": "Запишитесь на прием к доктору де ла Морена.",
+          "ka": "ჩაეწერეთ ექიმ დე ლა მორენასთან."}
+ART_CTA = {
+ "esguince-tobillo-sigue-fallando": {"es": "¿Su tobillo sigue fallando después de un esguince?", "en": "Does your ankle keep giving way after a sprain?",
+    "fr": "Votre cheville lâche encore après une entorse ?", "ru": "Голеностоп продолжает подворачиваться после растяжения?", "ka": "ღრძობის შემდეგ კოჭი ისევ გიცდებათ?"},
+ "factores-crecimiento-evidencia": {"es": "¿Quiere saber si el PRP es una opción en su caso?", "en": "Would you like to know whether PRP is an option for you?",
+    "fr": "Vous voulez savoir si le PRP est une option dans votre cas ?", "ru": "Хотите узнать, подходит ли Вам PRP?", "ka": "გსურთ გაიგოთ, შეესაბამება თუ არა PRP თქვენს შემთხვევას?"},
+ "tendinitis-cronica-cuando-no-se-cura-sola": {"es": "¿Lleva meses con una tendinitis que no se cura?", "en": "Have you had tendinitis for months that will not heal?",
+    "fr": "Une tendinite qui ne guérit pas depuis des mois ?", "ru": "Тендинит не проходит уже несколько месяцев?", "ka": "ტენდინიტი თვეების განმავლობაში არ გიქრებათ?"},
+ "terapias-regenerativas-que-son": {"es": "¿Quiere saber si una terapia regenerativa puede ayudarle?", "en": "Would you like to know whether a regenerative therapy could help you?",
+    "fr": "Vous voulez savoir si une thérapie régénérative peut vous aider ?", "ru": "Хотите узнать, может ли Вам помочь регенеративная терапия?", "ka": "გსურთ გაიგოთ, დაგეხმარებათ თუ არა რეგენერაციული თერაპია?"},
+ "lumbalgia-5-cosas": {"es": "¿Lleva tiempo con dolor lumbar o le baja a la pierna?", "en": "Have you had low back pain for a while, or pain running down your leg?",
+    "fr": "Mal de dos depuis un moment, ou une douleur qui descend dans la jambe ?", "ru": "Давно болит поясница или боль отдает в ногу?", "ka": "დიდი ხანია წელი გტკივათ ან ტკივილი ფეხში გადადის?"},
+}
+PRIVADA = {"es": "Consulta privada, sin intermediarios: tiempo y atención para su caso.",
+           "en": "Private practice, no insurers in between: time and attention for your case.",
+           "fr": "Consultation privée, sans intermédiaire : du temps et de l'attention pour votre cas.",
+           "ru": "Частный прием без посредников: время и внимание Вашему случаю.",
+           "ka": "კერძო მიღება, შუამავლების გარეშე: დრო და ყურადღება თქვენს შემთხვევას."}
+
+def art_cta(lang, slug, default):
+    q = ART_CTA.get(slug, {}).get(lang)
+    return f"{q} {CIERRE[lang]}" if q else default
+
+def privada_html(lang):
+    return f'<p class="privada">{esc(PRIVADA[lang])}</p>'

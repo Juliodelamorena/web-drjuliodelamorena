@@ -68,7 +68,7 @@ def articulo(a):
 {secs}
 {faq}
 <div class="cta-band">
-<div><h3>¿Se reconoce en lo que acaba de leer?</h3><p class="ventaja">Exploración y ecografía en la misma consulta: sale con diagnóstico y plan. Primera consulta sin compromiso de tratamiento: si no está indicado, se lo decimos.</p><p>Hospital Memorial Publio Cordón · Pozuelo de Alarcón · <a class="tel" href="tel:+34913548990">913 548 990</a> · lunes a viernes, de 15:00 a 21:00</p></div>
+<div><h3>{esc(__import__("extras").art_cta("es", a["slug"], "¿Se reconoce en lo que acaba de leer? " + __import__("extras").CIERRE["es"]))}</h3><p class="ventaja">Valoración completa y un plan claro desde la primera visita; ecografía y tratamiento el mismo día cuando está indicado. La primera consulta no le obliga a tratarse: si no está indicado ningún tratamiento, se lo decimos.</p><p>Hospital Memorial Publio Cordón · Pozuelo de Alarcón · <a class="tel" href="tel:+34913548990">913 548 990</a> · lunes a viernes, de 15:00 a 21:00</p></div>
 <a class="btn solo-movil" href="tel:+34913548990">Llamar para pedir cita</a><a class="btn solo-escritorio" href="#contacto">Pedir cita</a>
 </div>
 <div class="byline">

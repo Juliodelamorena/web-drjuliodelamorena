@@ -113,3 +113,4 @@ Cada publicación avisa automáticamente a Bing (y a los buscadores que usan Ind
 - El hospital tiene aparcamiento propio.
 - No prometer "diagnóstico y tratamiento en una sola visita": valoración completa y plan claro en la primera visita; ecografía y tratamiento el mismo día cuando está indicado.
 - No escribir "sin compromiso" (parece gratis): "la primera consulta no le obliga a tratarse".
+- Cada artículo nuevo lleva al final una llamada a la cita adaptada a su tema: añadir su entrada en ART_CTA de herramientas/extras.py (pregunta corta en los cinco idiomas, trato de usted). La frase de cierre la pone CIERRE: "Pida cita con el Dr. De la Morena." (Julio no quiere "Pida una valoración en Pozuelo").

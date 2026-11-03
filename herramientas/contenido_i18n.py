@@ -85,8 +85,9 @@ def cargar(lang, sub):
     return out
 
 
-def cta_band(u, href_book):
-    return (f'<div class="cta-band"><div><h3>{esc(u["art_cta_h"])}</h3><p class="ventaja">{esc(u["art_cta_p"])}</p>'
+def cta_band(u, href_book, lang=None, slug=None):
+    h = X.art_cta(lang, slug, u["art_cta_h"]) if lang else u["art_cta_h"]
+    return (f'<div class="cta-band"><div><h3>{esc(h)}</h3><p class="ventaja">{esc(u["art_cta_p"])}</p>'
             f'<p>Hospital Memorial Publio Cordón · Pozuelo de Alarcón · <a class="tel" href="tel:+34913548990">{PHONE_INTL}</a> · {esc(u["hours"])}</p></div>'
             f'<a class="btn solo-movil" href="tel:+34913548990">{esc(u["cta_call"])}</a><a class="btn solo-escritorio" href="{href_book}">{esc(u["cta_book"])}</a></div>')
 
@@ -134,7 +135,7 @@ def articulo(C, u, a):
 <img class="wide" src="/img/{a['imagen']}" alt="{esc(a['imagen_alt'])}" width="{w}" height="{h}">
 {secs}
 {faq}
-{cta_band(u, "#contact")}
+{cta_band(u, "#contact", C.L, a["slug"])}
 {byline(C, u["art_byline"])}
 {related(C, u, a.get("relacionadas", []))}
 </article>

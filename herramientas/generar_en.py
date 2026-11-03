@@ -83,6 +83,7 @@ def contact_block(ruta, compacto=False):
 <h2 class="h2">Request an appointment</h2>
 <p>Regenerative Therapies and Sports Medicine Unit<br>Hospital Memorial Publio Cordón<br>Paseo de la Casa de Campo, 5 · 28223 Pozuelo de Alarcón (Madrid), Spain<br>The hospital has its own car park.</p>
 <div><p class="label" style="margin-bottom: 8px">Phone</p><div class="phone"><a class="tel" href="tel:+34913548990">+34 913 548 990</a></div><p class="horario">Clinic hours: Monday to Friday, 3 pm to 9 pm. When you call, just say you would like an appointment with Dr De la Morena. If you leave your details, we will call you back within 24 hours (or on the next working day if that falls on a weekend or a public holiday).</p></div>
+{X.privada_html("en")}
 <div class="hero-cta"><a class="btn solo-movil" href="tel:+34913548990">Call now</a>{G.whatsapp_btn("Write on WhatsApp")}</div>
 </div>
 <form class="f" name="contacto-en" method="POST" action="{G.CITA_URL}">

@@ -155,6 +155,7 @@ class Builder:
 <h2 class="h2">{esc(H["contact_h2"])}</h2>
 <p>{H["contact_addr"]}</p>
 <div><p class="label" style="margin-bottom: 8px">{esc(H["contact_phone_label"])}</p><div class="phone"><a class="tel" href="{TEL}">{PHONE}</a></div><p class="horario">{esc(H["contact_horario"])}</p></div>
+{X.privada_html(self.L)}
 <div class="hero-cta"><a class="btn solo-movil" href="{TEL}">{esc(H["contact_btn_call"])}</a>{G.whatsapp_btn(WHATSAPP_TXT.get(self.L, "WhatsApp"))}</div>
 </div>
 {self.contact_form(ruta)}

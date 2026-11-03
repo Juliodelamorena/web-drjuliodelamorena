@@ -143,6 +143,7 @@ def formulario(ruta, zona="", compacto=True):
 <div class="text">
 {intro}
 <div><p class="label" style="margin-bottom: 8px">Teléfono</p><div class="phone"><a class="tel" href="tel:+34913548990">913 548 990</a></div><p class="horario">Consulta de lunes a viernes, de 15:00 a 21:00. Al llamar, basta con decir que quiere cita con el Dr. De la Morena.</p></div>
+{__import__("extras").privada_html("es")}
 <div class="hero-cta"><a class="btn solo-movil" href="tel:+34913548990">Llamar ahora</a>{whatsapp_btn()}</div>
 </div>
 <form class="f" name="contacto" method="POST" action="{CITA_URL}">
