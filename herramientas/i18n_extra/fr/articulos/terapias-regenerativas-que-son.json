@@ -3,15 +3,15 @@
  "fecha": "2026-10-23",
  "categoria": "Thérapies régénératives",
  "titulo": "Thérapies régénératives : de quoi s'agit-il et à qui peuvent-elles bénéficier ?",
- "resumen": "Ce que sont les facteurs de croissance autologues, comment ils sont appliqués et pour quelles lésions ils sont le mieux étayés scientifiquement.",
- "descripcion": "Thérapies régénératives par facteurs de croissance autologues : définition, application et lésions où elles sont le mieux étayées. Dr Julio De la Morena.",
- "entradilla": "Les thérapies régénératives sont des traitements par facteurs de croissance autologues, également appelés plasma riche en plaquettes, obtenus à partir du sang du patient lui-même, préparés sur-le-champ et injectés sous guidage échographique, sans chirurgie ni hospitalisation. Elles sont le mieux étayées scientifiquement dans l'arthrose du genou légère et modérée, le tennis elbow, la tendinopathie rotulienne et la fasciite plantaire. Le Dr Julio De la Morena les applique à l'Unité de thérapies régénératives et de médecine du sport de l'Hospital Memorial Publio Cordón (Pozuelo de Alarcón, Madrid).",
+ "resumen": "Ce qu'est le PRP (plasma riche en plaquettes), comment il est appliqué et pour quelles lésions il est le mieux étayé scientifiquement.",
+ "descripcion": "Thérapies régénératives par PRP (plasma riche en plaquettes) : définition, application et lésions où elles sont le mieux étayées. Dr Julio De la Morena.",
+ "entradilla": "Les thérapies régénératives sont des traitements par PRP (plasma riche en plaquettes), obtenu à partir du sang du patient lui-même, préparé sur-le-champ et injecté sous guidage échographique, sans chirurgie ni hospitalisation. Elles sont le mieux étayées scientifiquement dans l'arthrose du genou légère et modérée, le tennis elbow, la tendinopathie rotulienne et la fasciite plantaire. Le Dr Julio De la Morena les applique à l'Unité de thérapies régénératives et de médecine du sport de l'Hospital Memorial Publio Cordón (Pozuelo de Alarcón, Madrid).",
  "imagen": "eco.jpg",
  "imagen_wh": [
   960,
   1200
  ],
- "imagen_alt": "Infiltration échoguidée de facteurs de croissance autologues à l'Hospital Memorial Publio Cordón",
+ "imagen_alt": "Infiltration échoguidée de PRP à l'Hospital Memorial Publio Cordón",
  "temas": [
   "Arthrose du genou",
   "Épicondylite latérale",
@@ -21,7 +21,7 @@
  "secciones": [
   [
    "Que sont les thérapies régénératives ?",
-   "<p>Lorsque nous parlons de thérapies régénératives en consultation, nous faisons surtout référence aux <strong>facteurs de croissance autologues</strong>. « Autologue » signifie qu'ils proviennent de vous-même : ils sont obtenus à partir de votre propre sang. C'est le traitement que beaucoup de personnes connaissent sous le nom de <strong>plasma riche en plaquettes</strong> ; les deux noms désignent le même type de thérapie.</p><p>Les plaquettes contiennent des protéines qui interviennent dans la réparation des tissus. En les concentrant et en les appliquant sur la zone lésée, l'objectif est d'aider à contrôler l'inflammation et à restaurer le tissu endommagé, qu'il s'agisse d'un tendon, d'une aponévrose ou du cartilage d'une articulation usée.</p><p>Comme il s'agit d'un produit issu de votre propre sang, aucun médicament étranger n'est introduit dans l'organisme.</p>"
+   "<p>Lorsque nous parlons de thérapies régénératives en consultation, nous faisons surtout référence au <strong>PRP (plasma riche en plaquettes)</strong>. C'est un traitement autologue : il provient de vous-même, puisqu'il est obtenu à partir de votre propre sang.</p><p>Les plaquettes contiennent des protéines, les facteurs de croissance, qui interviennent dans la réparation des tissus. En les concentrant et en les appliquant sur la zone lésée, l'objectif est d'aider à contrôler l'inflammation et à restaurer le tissu endommagé, qu'il s'agisse d'un tendon, d'une aponévrose ou du cartilage d'une articulation usée.</p><p>Comme il s'agit d'un produit issu de votre propre sang, aucun médicament étranger n'est introduit dans l'organisme.</p>"
   ],
   [
    "Comment se déroule le traitement",
@@ -29,7 +29,7 @@
   ],
   [
    "Où elles sont le mieux étayées scientifiquement",
-   "<p>Toutes les lésions ne répondent pas de la même manière. Les indications les mieux étayées par les études sont :</p><ul><li><strong>L'arthrose du genou légère et modérée.</strong> C'est l'indication la plus étudiée ; les revues d'essais cliniques montrent un soulagement plus important et plus durable qu'avec l'acide hyaluronique ou les corticoïdes. Plus d'informations sur la page <a href=\"/artrosis-rodilla/\">arthrose du genou</a>.</li><li><strong>Le tennis elbow</strong> (épicondylite), douleur sur la face externe du coude due à une atteinte des tendons.</li><li><strong>La tendinopathie rotulienne</strong>, douleur du tendon situé sous la rotule.</li><li><strong>La fasciite plantaire</strong>, douleur sous la plante du pied, surtout au niveau du talon.</li></ul><p>Ces lésions concernent tout le monde, que l'on fasse du sport ou non. Si vous souhaitez connaître les études précises, nous les avons résumées, avec leurs liens, dans <a href=\"/blog/factores-crecimiento-evidencia.html\">Facteurs de croissance autologues : ce que disent les études</a>. Vous trouverez d'autres lésions des tendons sur la page <a href=\"/tendinopatias/\">tendinopathies</a>.</p>"
+   "<p>Toutes les lésions ne répondent pas de la même manière. Les indications les mieux étayées par les études sont :</p><ul><li><strong>L'arthrose du genou légère et modérée.</strong> C'est l'indication la plus étudiée ; les revues d'essais cliniques montrent un soulagement plus important et plus durable qu'avec l'acide hyaluronique ou les corticoïdes. Plus d'informations sur la page <a href=\"/artrosis-rodilla/\">arthrose du genou</a>.</li><li><strong>Le tennis elbow</strong> (épicondylite), douleur sur la face externe du coude due à une atteinte des tendons.</li><li><strong>La tendinopathie rotulienne</strong>, douleur du tendon situé sous la rotule.</li><li><strong>La fasciite plantaire</strong>, douleur sous la plante du pied, surtout au niveau du talon.</li></ul><p>Ces lésions concernent tout le monde, que l'on fasse du sport ou non. Si vous souhaitez connaître les études précises, nous les avons résumées, avec leurs liens, dans <a href=\"/blog/factores-crecimiento-evidencia.html\">PRP (plasma riche en plaquettes) : ce que disent les études</a>. Vous trouverez d'autres lésions des tendons sur la page <a href=\"/tendinopatias/\">tendinopathies</a>.</p>"
   ],
   [
    "Ce qu'elles ne sont pas",
@@ -41,16 +41,16 @@
   ],
   [
    "Êtes-vous candidat ?",
-   "<p>La seule façon de le savoir est de l'évaluer en consultation. Si vous souffrez d'une arthrose du genou, d'un tendon qui ne finit pas de guérir ou d'une fasciite plantaire qui se prolonge, le Dr Julio De la Morena peut étudier votre cas à l'Unité de thérapies régénératives et de médecine du sport de l'Hospital Memorial Publio Cordón et vous expliquer si ce traitement a du sens pour vous. Vous trouverez plus de détails sur la page consacrée aux <a href=\"/factores-crecimiento-autologos/\">facteurs de croissance autologues</a>.</p>"
+   "<p>La seule façon de le savoir est de l'évaluer en consultation. Si vous souffrez d'une arthrose du genou, d'un tendon qui ne finit pas de guérir ou d'une fasciite plantaire qui se prolonge, le Dr Julio De la Morena peut étudier votre cas à l'Unité de thérapies régénératives et de médecine du sport de l'Hospital Memorial Publio Cordón et vous expliquer si ce traitement a du sens pour vous. Vous trouverez plus de détails sur la page consacrée au <a href=\"/factores-crecimiento-autologos/\">PRP</a>.</p>"
   ]
  ],
  "faq": [
   [
-   "Quel médecin applique des thérapies régénératives par facteurs de croissance à Madrid ?",
-   "Le Dr Julio De la Morena, spécialiste en médecine du sport, applique des facteurs de croissance autologues sous guidage échographique à l'Unité de thérapies régénératives et de médecine du sport de l'Hospital Memorial Publio Cordón, à Pozuelo de Alarcón (Madrid)."
+   "Quel médecin applique des thérapies régénératives par PRP (plasma riche en plaquettes) à Madrid ?",
+   "Le Dr Julio De la Morena, spécialiste en médecine du sport, applique le PRP sous guidage échographique à l'Unité de thérapies régénératives et de médecine du sport de l'Hospital Memorial Publio Cordón, à Pozuelo de Alarcón (Madrid)."
   ],
   [
-   "Pour quelles lésions le plasma riche en plaquettes est-il utile ?",
+   "Pour quelles lésions le PRP est-il utile ?",
    "Les indications les mieux étayées scientifiquement sont l'arthrose du genou légère et modérée, le tennis elbow, la tendinopathie rotulienne et la fasciite plantaire. Chaque cas est évalué en consultation avant de l'indiquer."
   ],
   [

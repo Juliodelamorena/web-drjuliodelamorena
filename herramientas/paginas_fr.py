@@ -1,7 +1,7 @@
 # Pack de langue FRANÇAIS (fr), traduit à partir de paginas_plantilla.py.
 # Mêmes règles que le site espagnol. Pas de prix, pas de témoignages, pas de promesse de
-# résultat. Le terme principal est « facteurs de croissance autologues » et « plasma riche en
-# plaquettes (PRP) » n'apparaît qu'en synonyme, la première fois sur chaque page.
+# résultat. Le traitement s'appelle « PRP (plasma riche en plaquettes) » à la première mention de
+# chaque page, puis « PRP » (décision du 3 novembre 2026).
 
 from paginas_nuevas_fr import NEW_PAGES as _NEW
 import paginas_plantilla as _T
@@ -51,19 +51,19 @@ PAGES = [
  "nav": "Arthrose du genou",
  "h1": "Arthrose du genou : traitement sans chirurgie",
  "seo": "Arthrose du genou : traitement sans chirurgie à Madrid",
- "desc": "Arthrose du genou sans chirurgie : exercice, infiltrations échoguidées et facteurs de croissance autologues. Dr Julio De la Morena, Madrid (Pozuelo).",
+ "desc": "Arthrose du genou sans chirurgie : exercice, infiltrations échoguidées et PRP (plasma riche en plaquettes). Dr Julio De la Morena, Madrid (Pozuelo).",
  "label": "Pathologies",
  "cta": "Vous avez mal au genou depuis des mois et on vous a parlé de prothèse ?",
  "img": "rodilla.jpg", "img_alt": "Le médecin examinant le genou d'un patient en consultation", "img_wh": (960, 1200),
  "about": ("MedicalCondition", "Arthrose du genou", ["Gonarthrose", "Usure du cartilage du genou", "Arthrose fémoro-tibiale"]),
- "lead": "L'arthrose du genou, ou gonarthrose, est l'usure progressive du cartilage de l'articulation. Elle provoque des douleurs à la marche, en descendant les escaliers ou en se levant d'une chaise, ainsi qu'une raideur. Dans bien des cas, elle peut être contrôlée sans chirurgie pendant des années en associant le renforcement musculaire, le contrôle du poids et, lorsque c'est indiqué, des infiltrations échoguidées ou des facteurs de croissance autologues. À l'Unité de thérapies régénératives et de médecine du sport de l'Hospital Memorial Publio Cordón (Pozuelo de Alarcón, Madrid), le Dr Julio De la Morena évalue chaque cas par un examen clinique et une échographie lors de la même consultation.",
+ "lead": "L'arthrose du genou, ou gonarthrose, est l'usure progressive du cartilage de l'articulation. Elle provoque des douleurs à la marche, en descendant les escaliers ou en se levant d'une chaise, ainsi qu'une raideur. Dans bien des cas, elle peut être contrôlée sans chirurgie pendant des années en associant le renforcement musculaire, le contrôle du poids et, lorsque c'est indiqué, des infiltrations échoguidées ou des injections de PRP (plasma riche en plaquettes). À l'Unité de thérapies régénératives et de médecine du sport de l'Hospital Memorial Publio Cordón (Pozuelo de Alarcón, Madrid), le Dr Julio De la Morena évalue chaque cas par un examen clinique et une échographie lors de la même consultation.",
  "sections": [
   ("Symptômes fréquents",
    "<ul><li>Douleur en descendant les escaliers, en se levant d'une chaise ou aux premiers pas.</li><li>Raideur le matin ou après être resté un moment assis.</li><li>Gonflement du genou après la marche ou la station debout.</li><li>Craquements et sensation d'instabilité.</li><li>Douleur qui oblige à écourter les promenades ou à renoncer à certaines activités.</li></ul>"),
   ("Comment se fait le diagnostic",
    "<p>Le diagnostic repose sur l'interrogatoire et l'examen clinique. Lors de la même consultation, l'échographie montre s'il existe un épanchement, un kyste poplité (kyste de Baker), une inflammation de la membrane synoviale ou une atteinte des tendons et des ligaments. Une radiographie en charge précise le degré d'usure. L'imagerie par résonance magnétique (IRM) n'est demandée que si son résultat peut modifier la décision thérapeutique.</p>"),
   ("Le traitement sans chirurgie",
-   "<ul><li><strong>Exercice thérapeutique.</strong> Renforcer le quadriceps et les muscles de la hanche est la base du traitement et réduit la douleur.</li><li><strong>Contrôle du poids.</strong> Chaque kilo perdu allège la charge que supporte le genou à la marche.</li><li><strong>Infiltrations échoguidées.</strong> Acide hyaluronique ou, lors des poussées inflammatoires, corticoïde, déposés avec précision à l'intérieur de l'articulation.</li><li><strong>Facteurs de croissance autologues</strong> (plasma riche en plaquettes) dans des cas sélectionnés d'arthrose légère ou modérée.</li><li><strong>Adaptation de l'activité.</strong> Rester actif avec des exercices que le genou tolère, comme le vélo, la natation ou la marche sur terrain plat.</li></ul>"),
+   "<ul><li><strong>Exercice thérapeutique.</strong> Renforcer le quadriceps et les muscles de la hanche est la base du traitement et réduit la douleur.</li><li><strong>Contrôle du poids.</strong> Chaque kilo perdu allège la charge que supporte le genou à la marche.</li><li><strong>Infiltrations échoguidées.</strong> Acide hyaluronique ou, lors des poussées inflammatoires, corticoïde, déposés avec précision à l'intérieur de l'articulation.</li><li><strong>PRP</strong> dans des cas sélectionnés d'arthrose légère ou modérée.</li><li><strong>Adaptation de l'activité.</strong> Rester actif avec des exercices que le genou tolère, comme le vélo, la natation ou la marche sur terrain plat.</li></ul>"),
   ("Quand envisager la chirurgie",
    "<p>Lorsque l'arthrose est avancée, que la douleur ne répond pas au traitement et qu'elle limite fortement la vie quotidienne, la pose d'une prothèse de genou est discutée avec un chirurgien orthopédiste. L'objectif est que cette décision soit prise au bon moment, ni trop tôt ni trop tard.</p>"),
  ],
@@ -129,7 +129,7 @@ PAGES = [
   ("Le diagnostic par échographie",
    "<p>L'échographie montre l'épaisseur et la structure du tendon, d'éventuelles ruptures partielles, des calcifications ou une augmentation de la vascularisation, et permet la comparaison avec le côté sain. C'est un examen dynamique : le tendon peut être étudié en mouvement.</p>"),
   ("Le traitement",
-   "<ul><li><strong>Exercices de mise en charge progressive.</strong> Le traitement qui bénéficie du meilleur niveau de preuve scientifique : exercices isométriques et excentriques adaptés à chaque phase.</li><li><strong>Adaptation de l'activité</strong> sans repos complet.</li><li><strong>Facteurs de croissance autologues</strong> (plasma riche en plaquettes) dans des tendinopathies chroniques sélectionnées qui n'ont pas répondu à l'exercice.</li><li><strong>Infiltrations échoguidées</strong> autour du tendon lorsqu'elles sont indiquées, en évitant les corticoïdes répétés à l'intérieur du tendon.</li></ul>"),
+   "<ul><li><strong>Exercices de mise en charge progressive.</strong> Le traitement qui bénéficie du meilleur niveau de preuve scientifique : exercices isométriques et excentriques adaptés à chaque phase.</li><li><strong>Adaptation de l'activité</strong> sans repos complet.</li><li><strong>PRP (plasma riche en plaquettes)</strong> dans des tendinopathies chroniques sélectionnées qui n'ont pas répondu à l'exercice.</li><li><strong>Infiltrations échoguidées</strong> autour du tendon lorsqu'elles sont indiquées, en évitant les corticoïdes répétés à l'intérieur du tendon.</li></ul>"),
  ],
  "faq": [
   ("Tendinite et tendinopathie, est-ce la même chose ?",
@@ -159,7 +159,7 @@ PAGES = [
   ("Le diagnostic",
    "<p>L'examen clinique identifie la structure douloureuse, et l'échographie montre les tendons de la coiffe des rotateurs en mouvement, en détectant sur-le-champ les ruptures, les calcifications ou une bursite, sans attendre un autre rendez-vous.</p>"),
   ("Le traitement",
-   "<ul><li><strong>Exercice thérapeutique</strong> pour retrouver la force et le contrôle de l'épaule.</li><li><strong>Infiltrations échoguidées</strong> dans la bourse ou l'articulation lorsque la douleur empêche de progresser.</li><li><strong>Facteurs de croissance autologues</strong> (plasma riche en plaquettes) dans des tendinopathies et des ruptures partielles sélectionnées.</li><li><strong>Avis chirurgical</strong> pour les ruptures complètes chez les patients actifs ou lorsque le traitement conservateur ne donne pas de résultat.</li></ul>"),
+   "<ul><li><strong>Exercice thérapeutique</strong> pour retrouver la force et le contrôle de l'épaule.</li><li><strong>Infiltrations échoguidées</strong> dans la bourse ou l'articulation lorsque la douleur empêche de progresser.</li><li><strong>PRP (plasma riche en plaquettes)</strong> dans des tendinopathies et des ruptures partielles sélectionnées.</li><li><strong>Avis chirurgical</strong> pour les ruptures complètes chez les patients actifs ou lorsque le traitement conservateur ne donne pas de résultat.</li></ul>"),
  ],
  "faq": [
   ("Une rupture de la coiffe des rotateurs doit-elle toujours être opérée ?",
@@ -217,7 +217,7 @@ PAGES = [
   ("Le diagnostic",
    "<p>L'échographie, idéalement réalisée 24 à 72 heures après la blessure, localise la lésion, mesure son étendue et montre si le tendon est atteint. Ces informations déterminent les délais de récupération. Les lésions complexes peuvent nécessiter une imagerie par résonance magnétique (IRM).</p>"),
   ("Traitement et reprise de l'activité",
-   "<ul><li><strong>Protection initiale</strong> et contrôle de la douleur, sans repos complet.</li><li><strong>Rééducation progressive</strong> de la force, de la souplesse et de la course.</li><li><strong>Critères objectifs</strong> de retour au sport, et pas seulement un nombre de jours d'arrêt.</li><li><strong>Facteurs de croissance autologues</strong> (plasma riche en plaquettes) dans des cas sélectionnés.</li><li><strong>Prévention des récidives</strong> par des exercices spécifiques, en particulier pour les ischio-jambiers.</li></ul>"),
+   "<ul><li><strong>Protection initiale</strong> et contrôle de la douleur, sans repos complet.</li><li><strong>Rééducation progressive</strong> de la force, de la souplesse et de la course.</li><li><strong>Critères objectifs</strong> de retour au sport, et pas seulement un nombre de jours d'arrêt.</li><li><strong>PRP (plasma riche en plaquettes)</strong> dans des cas sélectionnés.</li><li><strong>Prévention des récidives</strong> par des exercices spécifiques, en particulier pour les ischio-jambiers.</li></ul>"),
  ],
  "faq": [
   ("Combien de temps met une déchirure musculaire à guérir ?",
@@ -231,27 +231,27 @@ PAGES = [
 {
  "slug": "facteurs-de-croissance-autologues",
  "es": "factores-crecimiento-autologos",
- "nav": "Facteurs de croissance autologues",
- "h1": "Facteurs de croissance autologues (plasma riche en plaquettes)",
- "seo": "Facteurs de croissance autologues (PRP) à Madrid (Pozuelo)",
- "desc": "Facteurs de croissance autologues (plasma riche en plaquettes) : indications et application échoguidée. Dr Julio De la Morena, Madrid (Pozuelo).",
+ "nav": "PRP (plasma riche en plaquettes)",
+ "h1": "PRP (plasma riche en plaquettes)",
+ "seo": "PRP (plasma riche en plaquettes) à Madrid (Pozuelo)",
+ "desc": "PRP (plasma riche en plaquettes) : indications et application échoguidée. Dr Julio De la Morena, Madrid (Pozuelo).",
  "label": "Traitements",
- "cta": "Vous voulez savoir si les facteurs de croissance sont indiqués dans votre cas ?",
+ "cta": "Vous voulez savoir si le PRP est indiqué dans votre cas ?",
  "img": "regenerativa.jpg", "img_alt": "Application d'un traitement sous guidage échographique", "img_wh": (960, 1200),
- "about": ("MedicalTherapy", "Facteurs de croissance autologues", ["Plasma riche en plaquettes", "PRP", "Injection de PRP", "Thérapie régénérative"]),
- "lead": "Les facteurs de croissance autologues sont un traitement obtenu à partir du sang du patient lui-même, également connu sous le nom de plasma riche en plaquettes (PRP). Un petit prélèvement de sang est effectué, puis traité pour concentrer les plaquettes et les protéines qu'elles contiennent ; le concentré est ensuite appliqué sur la zone lésée, généralement sous guidage échographique. Ils sont utilisés dans des cas sélectionnés d'arthrose légère ou modérée, de tendinopathies chroniques et de lésions chroniques, lorsque l'exercice et le traitement conservateur n'ont pas suffi. Chaque cas est d'abord évalué en consultation, avec un examen clinique et une échographie. Le Dr Julio De la Morena les applique à l'Unité de thérapies régénératives et de médecine du sport de l'Hospital Memorial Publio Cordón (Pozuelo de Alarcón, Madrid).",
+ "about": ("MedicalTherapy", "PRP (plasma riche en plaquettes)", ["Plasma riche en plaquettes", "PRP", "Injection de PRP", "Thérapie régénérative"]),
+ "lead": "Le PRP (plasma riche en plaquettes) est un traitement obtenu à partir du sang du patient lui-même. Un petit prélèvement de sang est effectué, puis traité pour concentrer les plaquettes et les facteurs de croissance qu'elles libèrent ; le concentré est ensuite appliqué sur la zone lésée, généralement sous guidage échographique. Il est utilisé dans des cas sélectionnés d'arthrose légère ou modérée, de tendinopathies chroniques et de lésions chroniques, lorsque l'exercice et le traitement conservateur n'ont pas suffi. Chaque cas est d'abord évalué en consultation, avec un examen clinique et une échographie. Le Dr Julio De la Morena l'applique à l'Unité de thérapies régénératives et de médecine du sport de l'Hospital Memorial Publio Cordón (Pozuelo de Alarcón, Madrid).",
  "sections": [
-  ("Dans quels cas ils sont utilisés",
-   "<ul><li><strong>Arthrose :</strong> légère ou modérée, du genou et, dans certains cas, de la hanche ou de la cheville.</li><li><strong>Tendinopathies chroniques :</strong> tennis elbow, tendon rotulien, tendon d'Achille, aponévrose plantaire et coiffe des rotateurs.</li><li><strong>Certaines lésions musculaires et ligamentaires sélectionnées.</strong></li></ul><p>Ils ne remplacent pas l'exercice thérapeutique : ils donnent les meilleurs résultats dans le cadre d'un plan de traitement complet.</p>"),
-  ("Notre façon de travailler, étape par étape", "<ol class=\"flow\"><li><span class=\"n\">1</span><div><h3>Évaluation et indication</h3><p>Une consultation avec examen clinique et échographie. Les facteurs de croissance ne sont pas la première étape : ils sont indiqués lorsque l'exercice et le traitement conservateur n'ont pas suffi, comme le recommandent les consensus européens. Nous vous expliquons pourquoi ils ont du sens dans votre cas et quelle amélioration il est réaliste d'attendre.</p></div></li><li><span class=\"n\">2</span><div><h3>Une préparation choisie pour votre lésion</h3><p>Quatre tubes de sang, environ 36 ml, sont prélevés puis traités dans un système clos et stérile. Nous travaillons avec deux systèmes : Endoret, de BTI, développé en Espagne, sans leucocytes et appuyé par plus de deux cents publications scientifiques, et le système Stryker, qui permet d'obtenir une préparation contenant des leucocytes. Dans chaque cas, nous choisissons celui qui convient le mieux à la lésion.</p></div></li><li><span class=\"n\">3</span><div><h3>Toujours sous guidage échographique</h3><p>L'injection est toujours réalisée en visualisant l'aiguille et la structure ciblée à l'écran, aux côtés du Dr Sergio Serrano, radiologue interventionnel qui travaille avec les services médicaux du Real Madrid depuis plus de dix ans. Le traitement atteint ainsi exactement la zone où il doit agir.</p></div></li><li><span class=\"n\">4</span><div><h3>Un protocole qui s'adapte</h3><p>Le protocole habituel comprend trois séances à une semaine d'intervalle, mais le calendrier est guidé par votre évolution clinique et par ce que montre l'échographie à chaque séance.</p></div></li><li><span class=\"n\">5</span><div><h3>Un traitement complet</h3><p>Selon la lésion, le traitement est associé à un programme d'exercices à domicile, à de la kinésithérapie ou à un bilan biomécanique de la marche. Nous nous coordonnons avec votre kinésithérapeute ou vous mettons en relation avec nos partenaires en kinésithérapie et en podologie.</p></div></li><li><span class=\"n\">6</span><div><h3>Bilan et étape suivante</h3><p>Nous vous revoyons à six semaines, ou plus tôt si nécessaire, en mesurant la douleur et la fonction à l'aide d'échelles validées. Si l'amélioration n'est pas celle attendue, votre cas est discuté en réunion clinique avec les spécialistes en orthopédie de l'hôpital afin de décider ensemble de l'étape suivante.</p></div></li></ol>"),
+  ("Dans quels cas il est utilisé",
+   "<ul><li><strong>Arthrose :</strong> légère ou modérée, du genou et, dans certains cas, de la hanche ou de la cheville.</li><li><strong>Tendinopathies chroniques :</strong> tennis elbow, tendon rotulien, tendon d'Achille, aponévrose plantaire et coiffe des rotateurs.</li><li><strong>Certaines lésions musculaires et ligamentaires sélectionnées.</strong></li></ul><p>Le PRP ne remplace pas l'exercice thérapeutique : il donne les meilleurs résultats dans le cadre d'un plan de traitement complet.</p>"),
+  ("Notre façon de travailler, étape par étape", "<ol class=\"flow\"><li><span class=\"n\">1</span><div><h3>Évaluation et indication</h3><p>Une consultation avec examen clinique et échographie. Le PRP n'est pas la première étape : il est indiqué lorsque l'exercice et le traitement conservateur n'ont pas suffi, comme le recommandent les consensus européens. Nous vous expliquons pourquoi il a du sens dans votre cas et quelle amélioration il est réaliste d'attendre.</p></div></li><li><span class=\"n\">2</span><div><h3>Une préparation choisie pour votre lésion</h3><p>Quatre tubes de sang, environ 36 ml, sont prélevés puis traités dans un système clos et stérile. Nous travaillons avec deux systèmes : Endoret, de BTI, développé en Espagne, sans leucocytes et appuyé par plus de deux cents publications scientifiques, et le système Stryker, qui permet d'obtenir une préparation contenant des leucocytes. Dans chaque cas, nous choisissons celui qui convient le mieux à la lésion.</p></div></li><li><span class=\"n\">3</span><div><h3>Toujours sous guidage échographique</h3><p>L'injection est toujours réalisée en visualisant l'aiguille et la structure ciblée à l'écran, aux côtés du Dr Sergio Serrano, radiologue interventionnel qui travaille avec les services médicaux du Real Madrid depuis plus de dix ans. Le traitement atteint ainsi exactement la zone où il doit agir.</p></div></li><li><span class=\"n\">4</span><div><h3>Un protocole qui s'adapte</h3><p>Le protocole habituel comprend trois séances à une semaine d'intervalle, mais le calendrier est guidé par votre évolution clinique et par ce que montre l'échographie à chaque séance.</p></div></li><li><span class=\"n\">5</span><div><h3>Un traitement complet</h3><p>Selon la lésion, le traitement est associé à un programme d'exercices à domicile, à de la kinésithérapie ou à un bilan biomécanique de la marche. Nous nous coordonnons avec votre kinésithérapeute ou vous mettons en relation avec nos partenaires en kinésithérapie et en podologie.</p></div></li><li><span class=\"n\">6</span><div><h3>Bilan et étape suivante</h3><p>Nous vous revoyons à six semaines, ou plus tôt si nécessaire, en mesurant la douleur et la fonction à l'aide d'échelles validées. Si l'amélioration n'est pas celle attendue, votre cas est discuté en réunion clinique avec les spécialistes en orthopédie de l'hôpital afin de décider ensemble de l'étape suivante.</p></div></li></ol>"),
   ("Ce que disent les études",
    "<p>L'arthrose du genou légère ou modérée est l'indication la mieux étayée : un consensus européen de 2024 et plusieurs revues d'essais cliniques montrent un soulagement plus important et plus durable qu'avec l'acide hyaluronique ou les corticoïdes. Des résultats favorables existent aussi dans la tendinopathie glutéale, le tennis elbow et la fasciite plantaire. Tous les essais n'ont pas été positifs, d'où l'importance d'une sélection rigoureuse des patients. <a href=\"/fr/blog/factores-crecimiento-evidencia.html\">Résumé des études avec leurs liens</a>.</p>"),
-  ("Quand ils ne sont pas indiqués",
-   "<p>Il existe des situations dans lesquelles ils ne doivent pas être utilisés, comme certaines maladies du sang, des infections ou certains médicaments. C'est pourquoi une évaluation préalable est toujours réalisée en consultation, avec vos antécédents médicaux et un examen clinique.</p>"),
+  ("Quand il n'est pas indiqué",
+   "<p>Il existe des situations dans lesquelles il ne doit pas être utilisé, comme certaines maladies du sang, des infections ou certains médicaments. C'est pourquoi une évaluation préalable est toujours réalisée en consultation, avec vos antécédents médicaux et un examen clinique.</p>"),
  ],
  "faq": [
-  ("Facteurs de croissance et plasma riche en plaquettes, est-ce la même chose ?",
-   "Oui. Ce sont deux noms pour le même type de traitement : un concentré de plaquettes obtenu à partir du sang du patient lui-même, dont les protéines, ou facteurs de croissance, sont appliquées sur la zone lésée."),
+  ("PRP et facteurs de croissance, est-ce la même chose ?",
+   "Pas exactement. Le PRP est un concentré de plaquettes obtenu à partir du sang du patient lui-même ; les facteurs de croissance sont les protéines que ces plaquettes libèrent sur la zone lésée, et c'est par elles que le traitement agit."),
   ("Est-ce douloureux ?",
    "Le prélèvement est comparable à une prise de sang classique. L'application provoque une gêne brève, et une douleur locale peut persister un ou deux jours."),
   ("Combien de séances sont nécessaires ?",
@@ -272,12 +272,12 @@ PAGES = [
  "cta": "On vous a proposé une infiltration ?",
  "img": "eco.jpg", "img_alt": "Infiltration échoguidée", "img_wh": (960, 1200),
  "about": ("MedicalProcedure", "Infiltration échoguidée", ["Infiltration guidée par l'image", "Infiltration articulaire", "Infiltration du genou", "Infiltration de l'épaule"]),
- "lead": "Une infiltration échoguidée est une injection au cours de laquelle le médecin voit en temps réel, sur l'écran de l'échographe, l'aiguille et la structure traitée. Le traitement atteint ainsi exactement l'articulation, la bourse ou la partie du tendon concernée, avec plus de précision qu'une infiltration à l'aveugle. Selon le cas, elle peut contenir de l'acide hyaluronique, un corticoïde, un anesthésique local ou des facteurs de croissance autologues (plasma riche en plaquettes). Le Dr Julio De la Morena les réalise à l'Hospital Memorial Publio Cordón (Pozuelo de Alarcón, Madrid).",
+ "lead": "Une infiltration échoguidée est une injection au cours de laquelle le médecin voit en temps réel, sur l'écran de l'échographe, l'aiguille et la structure traitée. Le traitement atteint ainsi exactement l'articulation, la bourse ou la partie du tendon concernée, avec plus de précision qu'une infiltration à l'aveugle. Selon le cas, elle peut contenir de l'acide hyaluronique, un corticoïde, un anesthésique local ou du PRP (plasma riche en plaquettes). Le Dr Julio De la Morena les réalise à l'Hospital Memorial Publio Cordón (Pozuelo de Alarcón, Madrid).",
  "sections": [
   ("Où elles sont utilisées",
    "<ul><li>Genou, hanche, cheville et petites articulations.</li><li>Épaule : articulation, bourse sous-acromiale et tendons.</li><li>Tendons et gaines tendineuses du coude, du poignet, du genou et de la cheville.</li><li>Aponévrose plantaire.</li></ul>"),
   ("Ce qui est injecté",
-   "<ul><li><strong>Acide hyaluronique</strong> dans l'arthrose.</li><li><strong>Corticoïde</strong> lors des poussées inflammatoires, à dose et à fréquence limitées.</li><li><strong>Facteurs de croissance autologues</strong> dans des cas sélectionnés d'arthrose et de tendinopathie.</li><li><strong>Anesthésique local</strong>, seul ou associé, à visée diagnostique ou pour soulager la douleur.</li></ul>"),
+   "<ul><li><strong>Acide hyaluronique</strong> dans l'arthrose.</li><li><strong>Corticoïde</strong> lors des poussées inflammatoires, à dose et à fréquence limitées.</li><li><strong>PRP</strong> dans des cas sélectionnés d'arthrose et de tendinopathie.</li><li><strong>Anesthésique local</strong>, seul ou associé, à visée diagnostique ou pour soulager la douleur.</li></ul>"),
   ("Comment se déroule le geste",
    "<p>Il est réalisé en consultation ou dans une salle dédiée, dans des conditions d'asepsie. L'échographie repère le point exact et guide l'aiguille tout au long du geste. Cela ne prend que quelques minutes et vous repartez en marchant. Il est conseillé d'éviter les efforts intenses les jours suivants.</p>"),
  ],
@@ -285,7 +285,7 @@ PAGES = [
   ("Quel est l'avantage de l'échographie pour une infiltration ?",
    "La précision : le médecin voit l'aiguille et la structure à l'écran, de sorte que le traitement atteint le bon endroit. Cela améliore l'efficacité et réduit la gêne et les risques."),
   ("Une infiltration fait-elle mal ?",
-   "Elle provoque une gêne légère et brève. Une douleur locale peut persister un ou deux jours, surtout avec les facteurs de croissance."),
+   "Elle provoque une gêne légère et brève. Une douleur locale peut persister un ou deux jours, surtout avec le PRP."),
   ("Combien d'infiltrations de corticoïdes peut-on faire ?",
    "Leur nombre et leur fréquence sont limités, et on les évite à l'intérieur des tendons. Chaque cas est évalué individuellement."),
  ],
@@ -313,7 +313,7 @@ PAGES = [
   ("Recevez-vous les sportifs amateurs ou seulement les professionnels ?",
    "Tout le monde. La consultation reçoit des joueurs professionnels de rugby, de padel et de football, mais aussi des sportifs amateurs et des personnes qui ne pratiquent aucun sport."),
   ("Où consulte le Dr Julio De la Morena ?",
-   "À l'Unité de thérapies régénératives et de médecine du sport de l'Hospital Memorial Publio Cordón, Paseo de la Casa de Campo, 5, 28223 Pozuelo de Alarcón (Madrid). Rendez-vous : +34 913 548 990."),
+   "À l'Unité de thérapies régénératives et de médecine du sport de l'Hospital Memorial Publio Cordón, Paseo de la Casa de Campo, 5, 28223 Pozuelo de Alarcón (Madrid). L'hôpital dispose de son propre parking. Rendez-vous : +34 913 548 990."),
   ("Puis-je être reçu en français ?",
    "Vous pouvez nous écrire en français avant et après la visite, et nous vous répondons en français. La consultation elle-même se déroule en espagnol ou en anglais ; si vous ne parlez aucune de ces deux langues, venez accompagné d'une personne qui pourra traduire pour vous."),
  ],
@@ -379,7 +379,7 @@ UI = {
  "related": "Voir aussi",
  "byline": "Rédigé et relu par le <a href=\"{{DOCTOR_URL}}\">Dr Julio De la Morena Garzón</a>, spécialiste en médecine du sport (Ordre des médecins de Madrid, n° 281903698). Dernière mise à jour : octobre 2026. Informations générales qui ne remplacent pas une consultation médicale.",
  "cta_default": "Vous souhaitez faire évaluer votre cas ?",
- "cta_ventaja": "Examen clinique et échographie lors de la même consultation : vous repartez avec un diagnostic et un plan de traitement. Première consultation sans engagement : si aucun traitement n'est indiqué, nous vous le disons.",
+ "cta_ventaja": "Une évaluation complète et un plan clair dès la première visite ; l'échographie et le traitement le jour même lorsque c'est indiqué. La première consultation ne vous engage à aucun traitement : si rien n'est indiqué, nous vous le dirons.",
  "cta_location": "Hospital Memorial Publio Cordón · Pozuelo de Alarcón (Madrid) · Écrivez-nous en français, ou appelez le {phone} (en espagnol ou en anglais), du lundi au vendredi, de 15 h à 21 h",
  "cta_btn_write": "Écrivez-nous",
  "cta_btn_call": "Appeler",
@@ -392,7 +392,7 @@ UI = {
  "form_submit": "Envoyer",
  "thanks_title": "Merci · Dr Julio De la Morena",
  "thanks_h1": "Message bien reçu",
- "thanks_p1": "Merci de nous avoir écrit. Nous vous répondrons par e-mail ou par téléphone pendant les horaires de consultation, du lundi au vendredi, de 15 h à 21 h (heure de Madrid).",
+ "thanks_p1": "Merci de nous avoir écrit. Nous vous recontacterons par e-mail ou par téléphone dans les 24 heures (le jour ouvrable suivant si votre message nous parvient un week-end ou un jour férié).",
  "thanks_p2": "En cas d'urgence, vous pouvez appeler le {phone} (en espagnol ou en anglais).",
  "thanks_back": "Retour à l'accueil",
  "so_form_title": "Demander un second avis à distance",
@@ -425,9 +425,9 @@ HOME = {
   ("Directeur médical", "de la Fédération espagnole de rugby"),
   ("Spécialiste", "en médecine du sport · N° d'inscription 281903698"),
  ],
- "clinic_label": "Tout en une seule visite",
- "clinic_h2": "Diagnostic et traitement le jour même",
- "clinic_lead": "Pas d'attente entre les examens. Lors de la même consultation, vous êtes examiné, exploré par échographie haute résolution et diagnostiqué ; si c'est indiqué, le traitement commence le jour même, en coordination avec la radiologie interventionnelle.",
+ "clinic_label": "Dès la première visite",
+ "clinic_h2": "Une évaluation complète et un plan clair",
+ "clinic_lead": "Pas d'attente entre les examens. Dès la première visite, vous êtes examiné, exploré par échographie haute résolution et vous repartez avec un plan clair ; lorsque c'est indiqué, le traitement est réalisé le jour même, en coordination avec la radiologie interventionnelle.",
  "flow": [
   ("Évaluation clinique", "Interrogatoire, examen physique et lecture des examens que vous apportez."),
   ("Échographie en consultation", "Étude dynamique des tendons, des muscles et des articulations, sur place."),
@@ -452,7 +452,7 @@ HOME = {
  "treat_p": "Chaque traitement est choisi après le diagnostic et adapté au patient. La chirurgie est réservée aux cas qui en ont réellement besoin.",
  "treat_img_alt": "Geste guidé par échographie",
  "treat_items": [
-  ("facteurs-de-croissance-autologues", "Facteurs de croissance autologues", "Plasma riche en plaquettes obtenu à partir de votre propre sang et appliqué sur la zone lésée, dans des cas sélectionnés d'arthrose et de tendinopathie."),
+  ("facteurs-de-croissance-autologues", "PRP (plasma riche en plaquettes)", "Obtenu à partir de votre propre sang et appliqué sur la zone lésée, dans des cas sélectionnés d'arthrose et de tendinopathie."),
   ("infiltrations-echoguidees", "Infiltrations échoguidées", "Un traitement déposé avec précision, l'aiguille et la cible restant visibles à l'écran."),
   ("", "Échographie musculo-squelettique", "Diagnostic en consultation et suivi de l'évolution sans attente."),
   ("", "Exercice thérapeutique", "Un programme personnalisé de renforcement et de rééducation, coordonné avec la kinésithérapie."),
@@ -468,7 +468,7 @@ HOME = {
   ("Votre venue à Madrid", "Consultation, échographie et, si c'est indiqué, traitement le même jour. Si le traitement demande plusieurs séances, vous en êtes informé avant de partir afin d'organiser votre séjour."),
   ("Suivi depuis chez vous", "Une fois rentré, le suivi se poursuit par messagerie ou en visioconférence."),
  ],
- "abroad_note": "L'hôpital se trouve à Pozuelo de Alarcón, à côté du parc de la Casa de Campo de Madrid, à environ 30 minutes en voiture de l'aéroport de Madrid-Barajas. Les consultations sont privées et ne sont pas facturées aux assurances ; le tarif vous est communiqué avant le voyage. La consultation elle-même se déroule en espagnol ou en anglais ; si vous ne parlez aucune de ces deux langues, venez accompagné d'une personne qui pourra traduire pour vous.",
+ "abroad_note": "L'hôpital se trouve à Pozuelo de Alarcón, à côté du parc de la Casa de Campo de Madrid, à environ 30 minutes en voiture de l'aéroport de Madrid-Barajas, et dispose de son propre parking. Les consultations sont privées et ne sont pas facturées aux assurances ; le tarif vous est communiqué avant le voyage. La consultation elle-même se déroule en espagnol ou en anglais ; si vous ne parlez aucune de ces deux langues, venez accompagné d'une personne qui pourra traduire pour vous.",
  "doctor_label": "Le médecin",
  "doctor_h2": "Dr Julio De la Morena Garzón",
  "doctor_quote": "« Je soigne chaque patient avec la même rigueur que les sportifs de haut niveau que je vois chaque semaine. »",
@@ -486,7 +486,7 @@ HOME = {
  "sig_sub": "Médecine du sport · Thérapies régénératives",
  "hospital_label": "L'hôpital",
  "hospital_h2": "Hospital Memorial Publio Cordón",
- "hospital_lead": "Un hôpital neuf à Pozuelo de Alarcón, à côté du parc de la Casa de Campo de Madrid, avec un plateau technique complet de diagnostic et de chirurgie à quelques pas du cabinet.",
+ "hospital_lead": "Un hôpital neuf à Pozuelo de Alarcón, à côté du parc de la Casa de Campo de Madrid, avec un plateau technique complet de diagnostic et de chirurgie à quelques pas du cabinet, et son propre parking.",
  "facts": [],
  "hospital_img_alt": "Le cabinet de consultation du médecin à l'Hospital Memorial Publio Cordón",
  "faq_label": "Questions fréquentes",
@@ -502,15 +502,15 @@ HOME = {
 
 HOME_FAQ = [
  ("Faut-il être sportif pour consulter ?", "Non. La consultation reçoit des joueurs professionnels de rugby, de padel et de football, mais aussi des personnes qui ne pratiquent aucun sport et qui souffrent d'arthrose, de tendinopathies, de mal de dos, de sciatique ou d'entorses."),
- ("Peut-on traiter l'arthrose du genou sans chirurgie ?", "Dans de nombreux cas, oui, au moins pendant un certain temps. Il existe des options entre le traitement conservateur et la prothèse de genou : exercice thérapeutique, contrôle du poids, infiltrations échoguidées et facteurs de croissance autologues lorsqu'ils sont indiqués. Chaque cas est évalué en consultation."),
- ("Que sont les facteurs de croissance autologues ?", "Un traitement obtenu à partir du sang du patient lui-même, également appelé plasma riche en plaquettes (PRP), appliqué sur la zone lésée, généralement sous guidage échographique. Il est utilisé dans des cas sélectionnés d'arthrose et de tendinopathie ; il ne convient pas à tous les patients."),
+ ("Peut-on traiter l'arthrose du genou sans chirurgie ?", "Dans de nombreux cas, oui, au moins pendant un certain temps. Il existe des options entre le traitement conservateur et la prothèse de genou : exercice thérapeutique, contrôle du poids, infiltrations échoguidées et PRP (plasma riche en plaquettes) lorsque c'est indiqué. Chaque cas est évalué en consultation."),
+ ("Qu'est-ce que le PRP ?", "Le plasma riche en plaquettes : un traitement obtenu à partir du sang du patient lui-même, appliqué sur la zone lésée, généralement sous guidage échographique. Il est utilisé dans des cas sélectionnés d'arthrose et de tendinopathie ; il ne convient pas à tous les patients."),
  ("Qu'est-ce qu'une infiltration échoguidée ?", "Une injection au cours de laquelle le médecin voit, sur l'écran de l'échographe, l'aiguille et la structure traitée, de sorte que le traitement est déposé exactement dans le tendon ou l'articulation concernés."),
  ("Puis-je écrire en français ? Dans quelle langue se déroule la consultation ?", "Vous pouvez nous écrire en français via le formulaire et nous vous répondons en français. La consultation elle-même se déroule en espagnol ou en anglais ; si vous ne parlez aucune de ces deux langues, venez accompagné d'une personne qui pourra traduire pour vous."),
  ("Je vis à l'étranger. Puis-je faire évaluer mon cas avant de me déplacer ?", "Oui. Envoyez vos comptes rendus et vos examens d'imagerie et demandez un second avis à distance : vous recevez un rapport écrit, ou une visioconférence accompagnée d'un rapport, et vous savez avant de partir si un traitement est indiqué."),
  ("Acceptez-vous les assurances santé ou les mutuelles ?", "Non. Les consultations sont privées et ne sont pas facturées aux assurances. Le tarif vous est communiqué avant la visite."),
  ("Ai-je besoin d'une ordonnance ou d'une lettre de mon médecin ?", "Non. Vous pouvez prendre rendez-vous directement."),
  ("Quels sont les horaires de consultation ?", "Du lundi au vendredi, de 15 h à 21 h (heure de Madrid), à l'Hospital Memorial Publio Cordón (Pozuelo de Alarcón, Madrid)."),
- ("Comment prendre rendez-vous ?", "Écrivez-nous à l'aide du formulaire de cette page et nous vous répondons par e-mail ou par téléphone, ou appelez le {phone} (en espagnol ou en anglais)."),
+ ("Comment prendre rendez-vous ?", "Écrivez-nous à l'aide du formulaire de cette page : nous vous recontactons par e-mail ou par téléphone dans les 24 heures (le jour ouvrable suivant s'il s'agit d'un week-end ou d'un jour férié). Vous pouvez aussi appeler le {phone} (en espagnol ou en anglais) : il vous suffit de dire que vous souhaitez un rendez-vous avec le Dr De la Morena."),
 ]
 
 # ---- Page du médecin ----
@@ -524,7 +524,7 @@ ABOUT = {
  "img_alt": "Le Dr Julio De la Morena expliquant un traitement à un patient dans son cabinet de consultation",
  "sections": [
   ("Sa façon de travailler",
-   "<p>Une prise en charge en une seule visite : lors d'une même consultation, le patient est examiné, exploré par échographie, diagnostiqué et, si c'est indiqué, le traitement commence, en coordination avec la radiologie interventionnelle, la kinésithérapie et la chirurgie orthopédique. La chirurgie est réservée aux cas qui en ont réellement besoin. Les patients venant de l'étranger peuvent faire relire leurs examens avant de se déplacer.</p>"),
+   "<p>Une évaluation complète et un plan clair dès la première visite : le patient est examiné et exploré par échographie lors de la même consultation et, si c'est indiqué, le traitement a lieu le jour même, en coordination avec la radiologie interventionnelle, la kinésithérapie et la chirurgie orthopédique. La chirurgie est réservée aux cas qui en ont réellement besoin. Les patients venant de l'étranger peuvent faire relire leurs examens avant de se déplacer.</p>"),
   ("Formation",
    "<ul class=\"cvlist\"><li><strong>Spécialiste en médecine de l'éducation physique et du sport</strong> (internat espagnol, MIR) · Université Complutense de Madrid (2006).</li><li><strong>Diplôme de médecine et de chirurgie</strong> · Université d'Alcalá (1998), major de sa promotion.</li><li><strong>Certification aux bonnes pratiques cliniques</strong> pour les essais cliniques (ICH-GCP E6 R3) · NIDA Clinical Trials Network, National Institutes of Health (2026–2029).</li><li><strong>Médecin agréé pour le contrôle antidopage</strong>, Conseil supérieur des sports d'Espagne.</li></ul>"),
   ("Parcours",
@@ -535,9 +535,9 @@ ABOUT = {
    "<div class=\"videos\"><a class=\"video\" href=\"https://www.youtube.com/watch?v=FxVOJ4pY-Y4\" target=\"_blank\" rel=\"noopener\"><img src=\"/img/videos/tve-tendones-ligamentos.jpg\" alt=\"Le Dr Julio De la Morena interviewé à la télévision publique espagnole au sujet du tendon d'Achille\" width=\"960\" height=\"540\" loading=\"lazy\"><span class=\"video-t\"><strong>Comment prévenir les lésions des tendons et des ligaments</strong><span>Entretien télévisé (La 1, télévision publique espagnole) · chaîne YouTube de Sanitas</span></span></a><a class=\"video\" href=\"https://www.youtube.com/watch?v=PCEiHsOmEHU\" target=\"_blank\" rel=\"noopener\"><img src=\"/img/videos/esradio-entrevista.jpg\" alt=\"Le Dr Julio De la Morena interviewé sur esRadio\" width=\"960\" height=\"540\" loading=\"lazy\"><span class=\"video-t\"><strong>Entretien sur esRadio</strong><span>« Es la mañana de Federico » · YouTube</span></span></a></div><p>En mai 2014, alors médecin du Real Madrid Castilla, il est entré sur le terrain pour soigner un joueur qui s'était effondré, inconscient, sans attendre l'autorisation de l'arbitre, et a été expulsé. La presse sportive espagnole a soutenu sa décision et le Comité de compétition <a href=\"https://www.libertaddigital.com/deportes/futbol/2014-05-14/competicion-anula-la-roja-al-medico-del-castilla-1276518574/\" target=\"_blank\" rel=\"noopener\">a annulé la sanction</a>.</p>"),
  ],
  "faq": [
-  ("Que traite le Dr Julio De la Morena ?", "L'arthrose, les tendinopathies, la lombalgie et la sciatique, les douleurs de l'épaule, les entorses et les lésions musculaires, chez les sportifs comme chez les personnes qui ne pratiquent aucun sport. Il utilise l'échographie lors de la même consultation, les infiltrations échoguidées et les facteurs de croissance autologues (plasma riche en plaquettes) lorsqu'ils sont indiqués."),
+  ("Que traite le Dr Julio De la Morena ?", "L'arthrose, les tendinopathies, la lombalgie et la sciatique, les douleurs de l'épaule, les entorses et les lésions musculaires, chez les sportifs comme chez les personnes qui ne pratiquent aucun sport. Il utilise l'échographie lors de la même consultation, les infiltrations échoguidées et le PRP (plasma riche en plaquettes) lorsque c'est indiqué."),
   ("Dans quelle langue se déroule la consultation ?", "En espagnol ou en anglais. Vous pouvez nous écrire en français avant et après la visite ; si vous ne parlez ni espagnol ni anglais, venez à la consultation accompagné d'une personne qui pourra traduire pour vous."),
-  ("Comment prendre rendez-vous ?", "Écrivez-nous à l'aide du formulaire sur drjuliodelamorena.com et nous vous répondons par e-mail ou par téléphone, ou appelez le {phone} (en espagnol ou en anglais)."),
+  ("Comment prendre rendez-vous ?", "Écrivez-nous à l'aide du formulaire sur drjuliodelamorena.com : nous vous recontactons par e-mail ou par téléphone dans les 24 heures (le jour ouvrable suivant s'il s'agit d'un week-end ou d'un jour férié). Vous pouvez aussi appeler le {phone} (en espagnol ou en anglais) : il vous suffit de dire que vous souhaitez un rendez-vous avec le Dr De la Morena."),
  ],
 }
 

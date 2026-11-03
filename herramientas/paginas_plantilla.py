@@ -231,7 +231,7 @@ PAGES = [
  "seo": "Autologous growth factors (platelet-rich plasma, PRP) in Madrid (Pozuelo)",
  "desc": "What autologous growth factors or platelet-rich plasma are, which injuries they are used for and how they are applied under ultrasound guidance. Dr Julio De la Morena, Hospital Memorial Publio Cordón, Pozuelo de Alarcón (Madrid).",
  "label": "Treatments",
- "cta": "¿Quiere saber si los factores de crecimiento están indicados en su caso?",  # translate from Spanish: ¿Quiere saber si los factores de crecimiento están indicados en su caso?
+ "cta": "¿Quiere saber si el PRP está indicado en su caso?",  # translate from Spanish: ¿Quiere saber si el PRP está indicado en su caso?
  "img": "regenerativa.jpg", "img_alt": "Ultrasound-guided treatment being applied", "img_wh": (960, 1200),
  "about": ("MedicalTherapy", "Autologous growth factors", ["Platelet-rich plasma", "PRP", "PRP injection", "Regenerative therapy"]),
  "lead": "Autologous growth factors are a treatment obtained from the patient's own blood, also known as platelet-rich plasma. A small blood sample is taken and processed to concentrate the platelets and the proteins they contain, which are then applied to the injured area, usually under ultrasound guidance. They are used in selected cases of mild or moderate osteoarthritis and of chronic tendinopathies and injuries, when exercise and conservative treatment have not been enough. Each case is assessed first in clinic with examination and ultrasound. Dr Julio De la Morena applies them at the Regenerative Therapies and Sports Medicine Unit of Hospital Memorial Publio Cordón (Pozuelo de Alarcón, Madrid).",

@@ -137,12 +137,12 @@ def formulario(ruta, zona="", compacto=True):
     opts = '<option value="">Elija una opción</option>' + "".join(
         f'<option{" selected" if z == zona else ""}>{z}</option>' for z in ZONAS)
     intro = ('<p class="label">Cita previa</p>\n<h2 class="h2">Solicite su cita</h2>\n'
-             '<p>Unidad de Terapias Regenerativas y Medicina Deportiva<br>Hospital Memorial Publio Cordón<br>Paseo de la Casa de Campo, 5 · 28223 Pozuelo de Alarcón (Madrid)</p>')
+             '<p>Unidad de Terapias Regenerativas y Medicina Deportiva<br>Hospital Memorial Publio Cordón<br>Paseo de la Casa de Campo, 5 · 28223 Pozuelo de Alarcón (Madrid) · Aparcamiento en el propio hospital</p>')
     return f'''<section id="contacto" class="block navy contact{" contact-compacto" if compacto else ""}">
 <div class="wrap split">
 <div class="text">
 {intro}
-<div><p class="label" style="margin-bottom: 8px">Teléfono</p><div class="phone"><a class="tel" href="tel:+34913548990">913 548 990</a></div><p class="horario">Consulta de lunes a viernes, de 15:00 a 21:00. Le llamamos en ese horario para darle cita.</p></div>
+<div><p class="label" style="margin-bottom: 8px">Teléfono</p><div class="phone"><a class="tel" href="tel:+34913548990">913 548 990</a></div><p class="horario">Consulta de lunes a viernes, de 15:00 a 21:00. Al llamar, basta con decir que quiere cita con el Dr. De la Morena.</p></div>
 <div class="hero-cta"><a class="btn solo-movil" href="tel:+34913548990">Llamar ahora</a>{whatsapp_btn()}</div>
 </div>
 <form class="f" name="contacto" method="POST" action="{CITA_URL}">
@@ -154,7 +154,7 @@ def formulario(ruta, zona="", compacto=True):
 <label for="f-tel">Teléfono<input id="f-tel" name="telefono" type="tel" autocomplete="tel" required></label>
 <label for="f-zona">¿Qué zona le duele?<select id="f-zona" name="zona" required>{opts}</select></label>
 <label for="f-motivo">Cuéntenos brevemente qué le pasa<textarea id="f-motivo" name="motivo" rows="3"></textarea></label>
-<p class="nota">Le llamamos de lunes a viernes, de 15:00 a 21:00, para darle cita.</p>
+<p class="nota">Le llamamos en menos de 24 horas para darle cita (si cae en fin de semana o festivo, el siguiente día laborable).</p>
 <label class="check" for="f-priv"><input id="f-priv" name="privacidad" type="checkbox" required><span>He leído y acepto la <a href="/privacidad.html">política de privacidad</a>. Sus datos se usan únicamente para contactarle en relación con su cita.</span></label>
 <button class="btn btn-dark" type="submit">Enviar solicitud</button>
 </form>
@@ -177,12 +177,12 @@ VIDEOS = {
 }
 REELS = {
  "factores-crecimiento-autologos": {"src": "/video/terapias-regenerativas.mp4", "poster": "/video/terapias-regenerativas.jpg",
-    "name": "Factores de crecimiento autólogos (plasma rico en plaquetas) con el Dr. Julio De la Morena",
-    "desc": "El Dr. Julio De la Morena explica en 35 segundos el tratamiento con factores de crecimiento autólogos o plasma rico en plaquetas, guiado por ecografía, en el Hospital Memorial Publio Cordón (Pozuelo de Alarcón, Madrid).",
+    "name": "PRP (plasma rico en plaquetas) con el Dr. Julio De la Morena",
+    "desc": "El Dr. Julio De la Morena explica en 35 segundos el tratamiento con PRP (plasma rico en plaquetas), guiado por ecografía, en el Hospital Memorial Publio Cordón (Pozuelo de Alarcón, Madrid).",
     "date": "2026-11-01T22:00:00+01:00", "dur": "PT35S", "cap": "El Dr. Julio De la Morena lo explica en 35 segundos."},
  "codo-de-tenista": {"src": "/video/codo-de-padel.mp4", "poster": "/video/codo-de-padel.jpg",
     "name": "Codo de pádel: exploración, ecografía y tratamiento con el Dr. Julio De la Morena",
-    "desc": "El Dr. Julio De la Morena explica en 33 segundos cómo se diagnostica y se trata el codo de tenista y de pádel: exploración, ecografía, ejercicio y, si no mejora, factores de crecimiento autólogos guiados por ecografía.",
+    "desc": "El Dr. Julio De la Morena explica en 33 segundos cómo se diagnostica y se trata el codo de tenista y de pádel: exploración, ecografía, ejercicio y, si no mejora, PRP (plasma rico en plaquetas) guiado por ecografía.",
     "date": "2026-11-01T23:40:00+01:00", "dur": "PT33S", "cap": "El Dr. Julio De la Morena lo explica en 33 segundos."},
 }
 REEL_POR_SLUG = set(REELS)
@@ -260,7 +260,7 @@ def page(p):
 {faqs}
 </div>
 <div class="cta-band">
-<div><h3>{esc(p.get("cta", "Solicite una valoración"))}</h3><p class="ventaja">Exploración y ecografía en la misma consulta: sale con diagnóstico y plan. Primera consulta sin compromiso de tratamiento: si no está indicado, se lo decimos.</p><p>Hospital Memorial Publio Cordón · Pozuelo de Alarcón · <a class="tel" href="tel:+34913548990">913 548 990</a> · lunes a viernes, de 15:00 a 21:00</p></div>
+<div><h3>{esc(p.get("cta", "Solicite una valoración"))}</h3><p class="ventaja">Exploración y ecografía en la misma consulta: sale con un plan claro. La primera consulta no le obliga a tratarse: si no está indicado ningún tratamiento, se lo decimos.</p><p>Hospital Memorial Publio Cordón · Pozuelo de Alarcón · <a class="tel" href="tel:+34913548990">913 548 990</a> · lunes a viernes, de 15:00 a 21:00</p></div>
 <a class="btn solo-movil" href="tel:+34913548990">Llamar para pedir cita</a><a class="btn solo-escritorio" href="#contacto">Pedir cita</a>
 </div>
 <div class="byline">
@@ -278,8 +278,8 @@ def page(p):
 def about_page():
     a = ABOUT; url = f"{SITE}/{a['slug']}/"
     faq = [
-     ("¿Qué trata el Dr. Julio De la Morena?", "Artrosis de rodilla y de cadera, tendinopatías (codo de tenista y de pádel, tendinitis rotuliana y de Aquiles, fascitis plantar), lumbalgia y ciática, dolor de hombro, roturas de menisco, pubalgia, esguinces y lesiones musculares, en deportistas y en personas que no hacen deporte. Utiliza ecografía en la misma consulta, infiltraciones guiadas por ecografía y factores de crecimiento autólogos cuando están indicados."),
-     ("¿Cómo pedir cita con el Dr. Julio De la Morena?", "Por teléfono en el 913 548 990 (consulta de lunes a viernes, de 15:00 a 21:00) o con el formulario de drjuliodelamorena.com, y le llamamos para darle cita."),
+     ("¿Qué trata el Dr. Julio De la Morena?", "Artrosis de rodilla y de cadera, tendinopatías (codo de tenista y de pádel, tendinitis rotuliana y de Aquiles, fascitis plantar), lumbalgia y ciática, dolor de hombro, roturas de menisco, pubalgia, esguinces y lesiones musculares, en deportistas y en personas que no hacen deporte. Utiliza ecografía en la misma consulta, infiltraciones guiadas por ecografía y PRP (plasma rico en plaquetas) cuando está indicado."),
+     ("¿Cómo pedir cita con el Dr. Julio De la Morena?", "Por teléfono en el 913 548 990 (consulta de lunes a viernes, de 15:00 a 21:00) (basta con decir que quiere cita con el Dr. De la Morena) o con el formulario de drjuliodelamorena.com; le llamamos en menos de 24 horas para darle cita, o el siguiente día laborable."),
     ]
     ld = {"@context": "https://schema.org", "@graph": [
         video_ld("tve"), video_ld("esradio"),
@@ -353,7 +353,7 @@ def about_page():
 {faqs}
 </div>
 <div class="cta-band">
-<div><h3>¿Quiere que valore su caso?</h3><p class="ventaja">Exploración y ecografía en la misma consulta: sale con diagnóstico y plan. Primera consulta sin compromiso de tratamiento: si no está indicado, se lo decimos.</p><p>Hospital Memorial Publio Cordón · Paseo de la Casa de Campo, 5 · Pozuelo de Alarcón · <a class="tel" href="tel:+34913548990">913 548 990</a> · lunes a viernes, de 15:00 a 21:00</p></div>
+<div><h3>¿Quiere que valore su caso?</h3><p class="ventaja">Exploración y ecografía en la misma consulta: sale con un plan claro. La primera consulta no le obliga a tratarse: si no está indicado ningún tratamiento, se lo decimos.</p><p>Hospital Memorial Publio Cordón · Paseo de la Casa de Campo, 5 · Pozuelo de Alarcón · <a class="tel" href="tel:+34913548990">913 548 990</a> · lunes a viernes, de 15:00 a 21:00</p></div>
 <a class="btn solo-movil" href="tel:+34913548990">Llamar para pedir cita</a><a class="btn solo-escritorio" href="#contacto">Pedir cita</a>
 </div>
 </article>

@@ -81,8 +81,8 @@ def contact_block(ruta, compacto=False):
 <div class="text">
 <p class="label">Appointments</p>
 <h2 class="h2">Request an appointment</h2>
-<p>Regenerative Therapies and Sports Medicine Unit<br>Hospital Memorial Publio Cordón<br>Paseo de la Casa de Campo, 5 · 28223 Pozuelo de Alarcón (Madrid), Spain</p>
-<div><p class="label" style="margin-bottom: 8px">Phone</p><div class="phone"><a class="tel" href="tel:+34913548990">+34 913 548 990</a></div><p class="horario">Clinic hours: Monday to Friday, 3 pm to 9 pm. We call you back within those hours.</p></div>
+<p>Regenerative Therapies and Sports Medicine Unit<br>Hospital Memorial Publio Cordón<br>Paseo de la Casa de Campo, 5 · 28223 Pozuelo de Alarcón (Madrid), Spain<br>The hospital has its own car park.</p>
+<div><p class="label" style="margin-bottom: 8px">Phone</p><div class="phone"><a class="tel" href="tel:+34913548990">+34 913 548 990</a></div><p class="horario">Clinic hours: Monday to Friday, 3 pm to 9 pm. When you call, just say you would like an appointment with Dr De la Morena. If you leave your details, we will call you back within 24 hours (or on the next working day if that falls on a weekend or a public holiday).</p></div>
 <div class="hero-cta"><a class="btn solo-movil" href="tel:+34913548990">Call now</a>{G.whatsapp_btn("Write on WhatsApp")}</div>
 </div>
 <form class="f" name="contacto-en" method="POST" action="{G.CITA_URL}">
@@ -138,7 +138,7 @@ def breadcrumb(name, url):
 
 def cta():
     return f'''<div class="cta-band">
-<div><h3>Would you like your case assessed?</h3><p class="ventaja">Examination and ultrasound in the same appointment: you leave with a diagnosis and a plan. First appointment with no commitment to treatment: if nothing is indicated, we tell you.</p><p>Hospital Memorial Publio Cordón · Pozuelo de Alarcón · <a class="tel" href="tel:+34913548990">+34 913 548 990</a> · Mon–Fri, 3 pm to 9 pm</p></div>
+<div><h3>Would you like your case assessed?</h3><p class="ventaja">A full assessment and a clear plan at your first visit; ultrasound and treatment the same day when indicated. The first consultation does not commit you to treatment: if no treatment is indicated, we will tell you.</p><p>Hospital Memorial Publio Cordón · Pozuelo de Alarcón · <a class="tel" href="tel:+34913548990">+34 913 548 990</a> · Mon–Fri, 3 pm to 9 pm</p></div>
 <a class="btn solo-movil" href="tel:+34913548990">Call to book</a><a class="btn solo-escritorio" href="#contact">Book an appointment</a>
 </div>'''
 
@@ -186,9 +186,9 @@ def page(p):
 def about_page():
     a = ABOUT_EN; url = f"{SITE}/en/{a['slug']}/"; es_url = f"{SITE}/{a['es']}/"
     faq = [
-     ("What does Dr Julio De la Morena treat?", "Osteoarthritis, tendinopathies, low back pain and sciatica, shoulder pain, sprains and muscle injuries, in athletes and in people who do no sport. He uses ultrasound in the same appointment, ultrasound-guided injections and autologous growth factors (platelet-rich plasma) when appropriate."),
+     ("What does Dr Julio De la Morena treat?", "Osteoarthritis, tendinopathies, low back pain and sciatica, shoulder pain, sprains and muscle injuries, in athletes and in people who do no sport. He uses ultrasound in the same appointment, ultrasound-guided injections and PRP (platelet-rich plasma) when appropriate."),
      ("Does Dr De la Morena speak English?", "Yes. Consultations are available in English and Spanish."),
-     ("How do I book an appointment?", f"By phone on {PHONE}, or with the contact form on drjuliodelamorena.com/en/, and we call you back."),
+     ("How do I book an appointment?", f"By phone on {PHONE}: when you call, just say you would like an appointment with Dr De la Morena. You can also use the contact form on drjuliodelamorena.com/en/ and we will call you back within 24 hours (or on the next working day if that falls on a weekend or a public holiday)."),
     ]
     ld = {"@context": "https://schema.org", "@graph": [
         {"@type": "ProfilePage", "@id": url, "url": url, "name": a["seo"], "inLanguage": "en",
@@ -224,7 +224,7 @@ def about_page():
 {I.respuesta("""Dr Julio De la Morena Garzón is a specialist in Sport and Exercise Medicine (Madrid Medical Council no. 281903698). He sees patients at the Regenerative Therapies and Sports Medicine Unit of Hospital Memorial Publio Cordón in Pozuelo de Alarcón (Madrid). He spent fourteen years with the Real Madrid CF medical services, four of them as first-team doctor, and is Chief Medical Officer of the Spanish Rugby Federation. He treats osteoarthritis, tendinopathies, back pain and musculoskeletal injuries in anyone, whether or not they play sport, with ultrasound in the same appointment and treatment without surgery whenever possible. Consultations are available in English.""", "en")}
 <img class="wide" src="/img/consulta.jpg" alt="Dr Julio De la Morena explaining a treatment to a patient in his consulting room" width="960" height="1200" style="aspect-ratio: 4 / 3; object-position: center 30%">
 <h2>How he works</h2>
-<p>One-stop consultation: in a single visit the patient is examined, studied with ultrasound, diagnosed and, when appropriate, treatment begins, in coordination with interventional radiology, physiotherapy and orthopaedic surgery. Surgery is reserved for the cases that genuinely need it. Patients from abroad can have their scans reviewed before travelling.</p>
+<p>One-stop consultation: a full assessment, with examination and ultrasound, and a clear plan at the first visit; when indicated, treatment is given the same day, in coordination with interventional radiology, physiotherapy and orthopaedic surgery. Surgery is reserved for the cases that genuinely need it. Patients from abroad can have their scans reviewed before travelling.</p>
 <h2>Training</h2>
 <ul class="cvlist"><li><strong>Specialist in Sport and Exercise Medicine</strong> (Spanish MIR residency) · Complutense University of Madrid (2006).</li><li><strong>Degree in Medicine and Surgery</strong> · University of Alcalá (1998), top of his year.</li><li><strong>Good Clinical Practice certification</strong> for clinical trials (ICH-GCP E6 R3) · NIDA Clinical Trials Network, National Institutes of Health (2026–2029).</li><li><strong>Accredited doping-control physician</strong>, Spanish Sports Council.</li></ul>
 <h2>Career</h2>
@@ -248,14 +248,14 @@ def about_page():
 
 HOME_FAQ = [
  ("Do I need to be an athlete to come to the clinic?", "No. The clinic sees professional rugby, padel and football players, and also people who do no sport and have osteoarthritis, tendinopathies, back pain, sciatica or sprains."),
- ("Can knee osteoarthritis be treated without surgery?", "In many cases, yes, at least for a time. There are options between conservative treatment and a knee replacement: therapeutic exercise, weight management, ultrasound-guided injections and autologous growth factors when appropriate. Each case is assessed in clinic."),
- ("What are autologous growth factors?", "A treatment obtained from the patient's own blood, also known as platelet-rich plasma, and applied to the injured area, usually under ultrasound guidance. It is used in selected cases of osteoarthritis and tendinopathy; it is not suitable for every patient."),
+ ("Can knee osteoarthritis be treated without surgery?", "In many cases, yes, at least for a time. There are options between conservative treatment and a knee replacement: therapeutic exercise, weight management, ultrasound-guided injections and PRP when appropriate. Each case is assessed in clinic."),
+ ("What is PRP?", "PRP (platelet-rich plasma) is a treatment obtained from the patient's own blood and applied to the injured area, usually under ultrasound guidance. It is used in selected cases of osteoarthritis and tendinopathy; it is not suitable for every patient."),
  ("What is an ultrasound-guided injection?", "An injection in which the doctor sees the needle and the structure being treated on the ultrasound screen, so the treatment is placed exactly in the affected tendon or joint."),
  ("Can I be seen in English?", "Yes. Dr De la Morena sees patients in English and Spanish."),
  ("Do you accept health insurance?", "No. Consultations are private and are not billed through insurers. You are told the fee when you book, before the visit."),
  ("Do I need a referral?", "No. You can book directly."),
  ("What are the clinic hours?", "Monday to Friday, 3 pm to 9 pm, at Hospital Memorial Publio Cordón (Pozuelo de Alarcón, Madrid)."),
- ("How do I book an appointment?", f"By phone on {PHONE}, or with the form on this page, and we call you back."),
+ ("How do I book an appointment?", f"By phone on {PHONE}: when you call, just say you would like an appointment with Dr De la Morena. You can also use the form on this page and we will call you back within 24 hours (or on the next working day if that falls on a weekend or a public holiday)."),
 ]
 
 def home():
@@ -308,8 +308,8 @@ def home():
 <div class="wrap split">
 <div class="text">
 <p class="label">One-stop consultation</p>
-<h2 class="h2">Diagnosis and treatment in a single visit</h2>
-<p class="lead">No waiting between tests. In the same appointment you are examined, studied with high-resolution ultrasound and diagnosed and, when appropriate, treatment begins, in coordination with interventional radiology.</p>
+<h2 class="h2">A full assessment and a clear plan at your first visit</h2>
+<p class="lead">No waiting between tests. At your first appointment you are examined, studied with high-resolution ultrasound and given a diagnosis and a plan; when indicated, treatment is given the same day, in coordination with interventional radiology.</p>
 <ol class="flow">
 <li><span class="n" aria-hidden="true">I</span><div><h3>Clinical assessment</h3><p>History, physical examination and review of any tests you bring.</p></div></li>
 <li><span class="n" aria-hidden="true">II</span><div><h3>Ultrasound in clinic</h3><p>Dynamic study of tendons, muscles and joints on the spot.</p></div></li>
@@ -344,7 +344,7 @@ def home():
 <img class="photo" src="/img/regenerativa.jpg" alt="Ultrasound-guided procedure" width="960" height="1200" loading="lazy" style="aspect-ratio: 16 / 11; margin-top: 12px">
 </div>
 <div class="treat">
-<div><h3><a href="/en/autologous-growth-factors/">Autologous growth factors</a></h3><p>Platelet-rich plasma obtained from your own blood and applied to the injured area, in selected cases of osteoarthritis and tendinopathy.</p></div>
+<div><h3><a href="/en/autologous-growth-factors/">PRP (platelet-rich plasma)</a></h3><p>Obtained from your own blood and applied to the injured area, in selected cases of osteoarthritis and tendinopathy.</p></div>
 <div><h3><a href="/en/ultrasound-guided-injections/">Ultrasound-guided injections</a></h3><p>Treatment placed precisely, with the needle and the target visible on screen.</p></div>
 <div><h3>Musculoskeletal ultrasound</h3><p>Diagnosis in clinic and monitoring of progress without waiting.</p></div>
 <div><h3>Therapeutic exercise</h3><p>An individual strength and rehabilitation programme, coordinated with physiotherapy.</p></div>
@@ -382,7 +382,7 @@ def home():
 <p class="label">The hospital</p>
 <h2 class="h2">Hospital Memorial Publio Cordón</h2>
 <p class="lead">A new hospital in Pozuelo de Alarcón, next to Madrid's Casa de Campo park, with full diagnostic and surgical facilities a few steps from the clinic.</p>
-<p>Paseo de la Casa de Campo, 5 · 28223 Pozuelo de Alarcón (Madrid) · about 30 minutes by car from Madrid-Barajas airport.</p>
+<p>Paseo de la Casa de Campo, 5 · 28223 Pozuelo de Alarcón (Madrid) · about 30 minutes by car from Madrid-Barajas airport. The hospital has its own car park.</p>
 <p style="margin: 0"><a class="btn btn-outline" href="{MAPA}" rel="noopener" target="_blank">Get directions</a></p>
 </div>
 <div>{X.unidad_video_html("en")}</div>
@@ -426,7 +426,7 @@ def thank_you():
 <header class="top"><div class="wrap"><a class="brand" href="/en/"><strong>Dr Julio De la Morena</strong><span>Sports Medicine · Regenerative Therapies</span></a><nav class="menu" aria-label="Main"><a href="/en/">Home</a><a class="btn solo-movil" href="tel:+34913548990">Book</a><a class="btn solo-escritorio" href="/en/#contact">Book an appointment</a></nav></div></header>
 <main class="legal"><div class="wrap">
 <h1>Received</h1>
-<p>Thank you for getting in touch. We will call you to arrange your appointment.</p>
+<p>Thank you for getting in touch. We will call you back within 24 hours (or on the next working day if that falls on a weekend or a public holiday) to arrange your appointment.</p>
 <p>If it is urgent, please call <strong>{PHONE}</strong>.</p>
 <p><a class="btn btn-dark" href="/en/">Back to home</a></p>
 </div></main>

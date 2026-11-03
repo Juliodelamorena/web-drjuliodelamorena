@@ -5,7 +5,7 @@
  "titulo": "Tendinite chronique : cinq signes qu'elle ne guérira pas toute seule",
  "resumen": "Cinq situations qui indiquent qu'une tendinite de l'épaule, du coude, du genou ou du talon a besoin de plus que du repos, et comment la traiter.",
  "descripcion": "Cinq signes qu'une tendinite de l'épaule, du coude, du genou ou du talon ne guérira pas par le repos, et son traitement. Dr Julio De la Morena, Madrid.",
- "entradilla": "Une tendinite qui dure depuis plus de trois mois, qui fait mal au début de l'effort puis s'atténue, qui gêne pour porter des charges ou qui réveille la nuit guérit rarement par le seul repos. Elle nécessite un diagnostic précis par échographie, un programme d'exercices de mise en charge progressive et, lorsque c'est indiqué, des facteurs de croissance autologues. Le Dr Julio De la Morena la traite à l'Unité de thérapies régénératives et de médecine du sport de l'Hospital Memorial Publio Cordón (Pozuelo de Alarcón, Madrid).",
+ "entradilla": "Une tendinite qui dure depuis plus de trois mois, qui fait mal au début de l'effort puis s'atténue, qui gêne pour porter des charges ou qui réveille la nuit guérit rarement par le seul repos. Elle nécessite un diagnostic précis par échographie, un programme d'exercices de mise en charge progressive et, lorsque c'est indiqué, un traitement par PRP (plasma riche en plaquettes). Le Dr Julio De la Morena la traite à l'Unité de thérapies régénératives et de médecine du sport de l'Hospital Memorial Publio Cordón (Pozuelo de Alarcón, Madrid).",
  "imagen": "blog-tendinitis-cronica.jpg",
  "imagen_wh": [
   1080,
@@ -46,7 +46,7 @@
   ],
   [
    "Ce que nous faisons en consultation",
-   "<p>Une tendinite chronique se traite. La prise en charge repose sur trois piliers :</p><ul><li><strong>Examen clinique et échographie lors de la même visite.</strong> L'échographie montre l'épaisseur et la structure du tendon, d'éventuelles ruptures partielles ou calcifications, permet la comparaison avec le côté sain et l'étude du tendon en mouvement.</li><li><strong>Exercices de mise en charge progressive.</strong> C'est le traitement qui bénéficie du meilleur niveau de preuve scientifique : exercices isométriques et excentriques adaptés à chaque phase, avec une adaptation de l'activité qui évite le repos complet.</li><li><strong>Facteurs de croissance autologues lorsqu'ils sont indiqués</strong>, dans des tendinopathies chroniques sélectionnées qui n'ont pas répondu à l'exercice. Ils sont obtenus à partir du sang du patient lui-même (c'est le traitement également connu sous le nom de plasma riche en plaquettes) et injectés sous guidage échographique, sans chirurgie ni hospitalisation.</li></ul><p>L'amélioration se fait généralement sentir en quelques semaines, même si la récupération complète d'un tendon peut prendre plusieurs mois. Chaque cas est évalué individuellement et tous les patients ne répondent pas de la même façon. Pour en savoir plus, consultez les pages <a href=\"/tendinopatias/\">tendinites et tendinopathies</a> et <a href=\"/factores-crecimiento-autologos/\">facteurs de croissance autologues</a>.</p>"
+   "<p>Une tendinite chronique se traite. La prise en charge repose sur trois piliers :</p><ul><li><strong>Examen clinique et échographie lors de la même visite.</strong> L'échographie montre l'épaisseur et la structure du tendon, d'éventuelles ruptures partielles ou calcifications, permet la comparaison avec le côté sain et l'étude du tendon en mouvement.</li><li><strong>Exercices de mise en charge progressive.</strong> C'est le traitement qui bénéficie du meilleur niveau de preuve scientifique : exercices isométriques et excentriques adaptés à chaque phase, avec une adaptation de l'activité qui évite le repos complet.</li><li><strong>PRP (plasma riche en plaquettes) lorsqu'il est indiqué</strong>, dans des tendinopathies chroniques sélectionnées qui n'ont pas répondu à l'exercice. Il est obtenu à partir du sang du patient lui-même et injecté sous guidage échographique, sans chirurgie ni hospitalisation.</li></ul><p>L'amélioration se fait généralement sentir en quelques semaines, même si la récupération complète d'un tendon peut prendre plusieurs mois. Chaque cas est évalué individuellement et tous les patients ne répondent pas de la même façon. Pour en savoir plus, consultez les pages <a href=\"/tendinopatias/\">tendinites et tendinopathies</a> et <a href=\"/factores-crecimiento-autologos/\">PRP</a>.</p>"
   ],
   [
    "Quand demander une évaluation",
@@ -67,8 +67,8 @@
    "Les corticoïdes soulagent à court terme, mais répétés, ils peuvent affaiblir le tendon. Si la douleur revient après plusieurs infiltrations, il vaut mieux revoir le traitement."
   ],
   [
-   "Le plasma riche en plaquettes est-il utile pour la tendinite ?",
-   "Les facteurs de croissance autologues, également appelés plasma riche en plaquettes, sont utilisés dans des tendinopathies chroniques sélectionnées qui n'ont pas répondu à l'exercice. L'indication est décidée après l'évaluation en consultation."
+   "Le PRP (plasma riche en plaquettes) est-il utile pour la tendinite ?",
+   "Le PRP est utilisé dans des tendinopathies chroniques sélectionnées qui n'ont pas répondu à l'exercice. L'indication est décidée après l'évaluation en consultation."
   ]
  ],
  "relacionadas": [

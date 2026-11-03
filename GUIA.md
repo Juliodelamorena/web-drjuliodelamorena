@@ -11,7 +11,7 @@ El último paso (imagenes.py) recomprime las fotos, crea los .webp y envuelve ca
 ## Reglas de contenido (obligatorias)
 - Trato de usted al lector. Tono de clínica privada, sobrio.
 - Código de Deontología Médica: sin precios, sin testimonios ni pacientes reconocibles, sin famosos como reclamo, sin prometer resultados ("siempre que sea posible", "en casos seleccionados", "cuando está indicado").
-- La terapia biológica se llama "factores de crecimiento autólogos" (se puede mencionar "plasma rico en plaquetas" como sinónimo de búsqueda).
+- La terapia biológica se llama "PRP (plasma rico en plaquetas)": la primera vez en cada página así, luego "PRP". Decisión de Julio del 3 nov 2026; ya no se usa "factores de crecimiento autólogos" como nombre del tratamiento (se puede explicar una vez que el PRP libera factores de crecimiento de la propia sangre). La dirección /factores-crecimiento-autologos/ se mantiene.
 - Nada de diapositivas ni apartados de "señales de alarma" de alteraciones urinarias.
 - La web se dirige a cualquier persona, haga deporte o no; los deportistas de élite solo como prueba de nivel.
 - Ilustraciones anatómicas siempre propias; nunca dibujos sacados de internet ni retocados.
@@ -48,7 +48,7 @@ Origen: planes genéricos de Julio en Google Drive, carpeta "01 Clinica y pacien
 - Orden al regenerar todo: `generar_i18n.py all`, `generar.py`, `generar_en.py`, `articulos.py`, `planes.py` (los dos primeros ponen el hreflang de cinco idiomas en las páginas españolas e inglesas; `articulos.py` mete los idiomas en el sitemap).
 - `herramientas/idiomas.py` es el registro común: parejas de slugs por idioma, enlaces hreflang, menú desplegable de idiomas (`<details class="lang-menu">`, sin JavaScript) y enlaces de idioma del pie. `index.html` lleva el menú y el hreflang a mano.
 - En estos idiomas el botón principal es "escríbanos" (formulario), no "llamar": la recepción del hospital atiende en español e inglés. En los textos se dice que puede escribirse en su idioma y que se responde en su idioma (Julio responde con ayuda de Claude), y que la consulta es en español o inglés (que vengan acompañados si no hablan ninguno). Nada de precios ni promesas.
-- El nombre del doctor va en alfabeto latino en marca, títulos SEO y descripciones, y transliterado en el cuerpo del texto (ხულიო დე ლა მორენა / Хулио де ла Морена). "Factores de crecimiento autólogos" es el término principal; "plasma rico en plaquetas" solo como sinónimo entre paréntesis.
+- El nombre del doctor va en alfabeto latino en marca, títulos SEO y descripciones, y transliterado en el cuerpo del texto (ხულიო დე ლა მორენა / Хулио де ла Морена). El tratamiento se llama "PRP" con su traducción entre paréntesis la primera vez (en: platelet-rich plasma; fr: plasma riche en plaquettes; ru: плазма, обогащённая тромбоцитами; ka: თრომბოციტებით მდიდარი პლაზმა).
 - Georgiano: las fuentes Manrope y Cormorant no tienen alfabeto georgiano; el paquete `paginas_ka.py` añade Noto Sans Georgian y Noto Serif Georgian (`META["extra_fonts"]` y `META["font_css"]`).
 - Pendiente: que un paciente georgiano de confianza revise la versión georgiana antes de difundirla.
 
@@ -106,3 +106,10 @@ Hecho a raíz de una revisión con ojos de paciente (móvil y escritorio):
 ## Aviso a buscadores (IndexNow)
 
 Cada publicación avisa automáticamente a Bing (y a los buscadores que usan IndexNow) de las páginas .html cambiadas en ese commit. La clave es el archivo `<clave>.txt` de la raíz: no borrarlo. Si el mensaje del commit lleva `[indexnow-todo]`, se avisan todas las direcciones del sitemap.
+
+## Cita y contacto (3 nov 2026)
+- Al llamar al 913 548 990 basta con decir que quieren cita con el Dr. De la Morena.
+- Compromiso de devolución de llamada: en menos de 24 horas (si cae en fin de semana o festivo, el siguiente día laborable).
+- El hospital tiene aparcamiento propio.
+- No prometer "diagnóstico y tratamiento en una sola visita": valoración completa y plan claro en la primera visita; ecografía y tratamiento el mismo día cuando está indicado.
+- No escribir "sin compromiso" (parece gratis): "la primera consulta no le obliga a tratarse".
