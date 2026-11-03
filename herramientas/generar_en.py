@@ -168,6 +168,7 @@ def page(p):
 {I.respuesta(esc(p["lead"]), "en")}
 {X.reel_html("en", p["es"]) if p["es"] in X.REELS else f'<img class="wide" src="/img/{p["img"]}" alt="{esc(p["img_alt"])}" width="{w}" height="{h}">'}
 {secs}
+{X.evidencia_html("en", p["es"])}
 <h2>Frequently asked questions</h2>
 <div class="faq">
 {faqs}

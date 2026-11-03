@@ -3,6 +3,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 from paginas import PAGES, ABOUT
 from paginas_en import SLUG_ES_TO_EN
 import idiomas as I
+import extras as X
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = "https://drjuliodelamorena.com"
@@ -254,6 +255,7 @@ def page(p):
 {I.respuesta(esc(p["lead"]), "es")}
 {reel_html(p["slug"]) if p["slug"] in REEL_POR_SLUG else f'<img class="wide" src="/img/{p["img"]}" alt="{esc(alt)}" width="{w}" height="{h}">'}
 {secs}
+{X.evidencia_html("es", p["slug"])}
 {extra}
 {('<h2>En vídeo</h2>' + chr(10) + '<div class="videos uno">' + video_card(vk) + '</div>') if vk else ''}
 <h2>Preguntas frecuentes</h2>

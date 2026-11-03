@@ -208,6 +208,7 @@ class Builder:
 {I.respuesta(esc(p["lead"]), self.L)}
 {X.reel_html(self.L, p["es"]) if p["es"] in X.REELS else f'<img class="wide" src="/img/{p["img"]}" alt="{esc(p["img_alt"])}" width="{w}" height="{h}">'}
 {secs}
+{X.evidencia_html(self.L, p["es"])}
 <h2>{esc(UI["faq_title"])}</h2>
 <div class="faq">
 {faqs}

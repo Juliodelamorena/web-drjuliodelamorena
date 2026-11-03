@@ -66,6 +66,7 @@ def articulo(a):
 <p class="answer">{esc(a['entradilla'])}</p>
 <img class="wide" src="/img/{a['imagen']}" alt="{esc(a['imagen_alt'])}" width="{w}" height="{h}">
 {secs}
+{__import__("extras").evidencia_html("es", a["slug"])}
 {faq}
 <div class="cta-band">
 <div><h3>{esc(__import__("extras").art_cta("es", a["slug"], "¿Se reconoce en lo que acaba de leer? " + __import__("extras").CIERRE["es"]))}</h3><p class="ventaja">Valoración completa y un plan claro desde la primera visita; ecografía y tratamiento el mismo día cuando está indicado. La primera consulta no le obliga a tratarse: si no está indicado ningún tratamiento, se lo decimos.</p><p>Hospital Memorial Publio Cordón · Pozuelo de Alarcón · <a class="tel" href="tel:+34913548990">913 548 990</a> · lunes a viernes, de 15:00 a 21:00</p></div>

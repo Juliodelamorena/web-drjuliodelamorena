@@ -101,3 +101,35 @@ def art_cta(lang, slug, default):
 
 def privada_html(lang):
     return f'<p class="privada">{esc(PRIVADA[lang])}</p>'
+
+
+# --- Vídeo "El PRP en la literatura médica": siete estudios reales, una versión por idioma (3 nov 2026) ---
+EVID_SLUGS = {"factores-crecimiento-autologos", "factores-crecimiento-evidencia"}
+EVID_REFS = [
+ ("Laver L, Filardo G, Sanchez M, et al.", "The use of injectable orthobiologics for knee osteoarthritis: A European ESSKA-ORBIT consensus. Part 1-Blood-derived products (platelet-rich plasma).", "Knee Surg Sports Traumatol Arthrosc. 2024;32(4):783-797", "10.1002/ksa.12077"),
+ ("Li YF, Xing HH, Wei CK, et al.", "Platelet-Rich Plasma Is More Effective Than Hyaluronic Acid Injections for Osteoarthritis of the Knee: A Meta-analysis Based on Randomized, Double-Blinded, Controlled Clinical Trials.", "Arthroscopy. 2025;41(12):5304-5318", "10.1016/j.arthro.2025.06.033"),
+ ("A Hamid MS, Sazlina SG.", "Platelet-rich plasma for rotator cuff tendinopathy: A systematic review and meta-analysis.", "PLoS One. 2021;16(5):e0251111", "10.1371/journal.pone.0251111"),
+ ("Pei X, Liu C, Wang J, et al.", "Platelet-rich plasma therapy for low back pain: A comprehensive systematic review and meta-analysis.", "J Back Musculoskelet Rehabil. 2026;39(6):1830-1844", "10.1177/10538127261448983"),
+ ("Fitzpatrick J, Bulsara MK, O'Donnell J, et al.", "The Effectiveness of Platelet-Rich Plasma Injections in Gluteal Tendinopathy: A Randomized, Double-Blind Controlled Trial Comparing a Single Platelet-Rich Plasma Injection With a Single Corticosteroid Injection.", "Am J Sports Med. 2018;46(4):933-939", "10.1177/0363546517745525"),
+ ("Hohmann E, Tetsworth K, Glatt V.", "Corticosteroid injections for the treatment of lateral epicondylitis are superior to platelet-rich plasma at 1 month but platelet-rich plasma is more effective at 6 months: an updated systematic review and meta-analysis of level 1 and 2 studies.", "J Shoulder Elbow Surg. 2023;32(9):1770-1783", "10.1016/j.jse.2023.04.018"),
+ ("Herber A, Covarrubias O, Daher M, et al.", "Platelet rich plasma therapy versus other modalities for treatment of plantar fasciitis: A systematic review and meta-analysis.", "Foot Ankle Surg. 2024;30(4):285-293", "10.1016/j.fas.2024.02.004"),
+]
+EVID_TXT = {
+ "es": ("Qué dice la literatura médica sobre el PRP", "Siete estudios publicados sobre el PRP (plasma rico en plaquetas) en rodilla, hombro, espalda, cadera, codo y pie.", "Los siete estudios del vídeo (fuente: PubMed)"),
+ "en": ("What the medical literature says about PRP", "Seven published studies on PRP (platelet-rich plasma) for the knee, shoulder, lower back, hip, elbow and foot.", "The seven studies in the video (source: PubMed)"),
+ "fr": ("Ce que dit la littérature médicale sur le PRP", "Sept études publiées sur le PRP (plasma riche en plaquettes) pour le genou, l'épaule, le dos, la hanche, le coude et le pied.", "Les sept études de la vidéo (source : PubMed)"),
+ "ru": ("Что говорит медицинская литература о PRP", "Семь опубликованных исследований PRP (плазмы, обогащённой тромбоцитами) при болях в колене, плече, пояснице, бедре, локте и стопе.", "Семь исследований из видео (источник: PubMed)"),
+ "ka": ("რას ამბობს სამედიცინო ლიტერატურა PRP-ზე", "შვიდი გამოქვეყნებული კვლევა PRP-ზე (თრომბოციტებით მდიდარი პლაზმა): მუხლი, მხარი, წელი, თეძო, იდაყვი და ტერფი.", "ვიდეოში ნაჩვენები შვიდი კვლევა (წყარო: PubMed)"),
+}
+
+def evidencia_html(lang, slug):
+    if slug not in EVID_SLUGS or lang not in EVID_TXT: return ""
+    h2, cap, lista = EVID_TXT[lang]; n = f"prp-evidencia.{lang}"
+    refs = "".join(f'<li>{esc(a)} {esc(t)} <em>{esc(c)}</em>. <a href="https://doi.org/{d}" rel="noopener" target="_blank">doi:{d}</a></li>' for a, t, c, d in EVID_REFS)
+    ld = {"@context": "https://schema.org", "@type": "VideoObject", "name": h2, "description": cap,
+          "thumbnailUrl": f"{SITE}/video/{n}.jpg", "uploadDate": "2026-11-03T03:00:00+01:00", "duration": "PT60S",
+          "contentUrl": f"{SITE}/video/{n}.mp4", "inLanguage": lang}
+    return (f'<h2>{esc(h2)}</h2>\n<figure class="reel"><video controls playsinline preload="none" poster="/video/{n}.jpg" width="720" height="1280">'
+            f'<source src="/video/{n}.mp4" type="video/mp4"></video><figcaption>{esc(cap)}</figcaption></figure>\n'
+            f'<details class="refs"><summary>{esc(lista)}</summary><ol>{refs}</ol></details>\n'
+            f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>\n')

@@ -134,6 +134,7 @@ def articulo(C, u, a):
 <p class="answer">{esc(a['entradilla'])}</p>
 <img class="wide" src="/img/{a['imagen']}" alt="{esc(a['imagen_alt'])}" width="{w}" height="{h}">
 {secs}
+{X.evidencia_html(C.L, a["slug"])}
 {faq}
 {cta_band(u, "#contact", C.L, a["slug"])}
 {byline(C, u["art_byline"])}
