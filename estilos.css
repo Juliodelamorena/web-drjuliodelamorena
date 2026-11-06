@@ -208,7 +208,8 @@ form.f { background: #fff; color: var(--ink); padding: 36px; display: flex; flex
 .article ul, .article ol { margin: 0; padding-left: 22px; display: flex; flex-direction: column; gap: 8px; }
 .article .faq summary { font-size: 21px; }
 .byline { display: flex; gap: 16px; align-items: center; padding-top: 22px; border-top: 1px solid var(--line); }
-.byline img { width: 64px; height: 64px; border-radius: 50%; object-fit: cover; flex: none; }
+.byline picture { flex: none; display: block; width: 96px; height: 96px; }
+.byline img { width: 96px; height: 96px; border-radius: 50%; object-fit: cover; object-position: 50% 20%; flex: none; display: block; }
 .byline p { margin: 0; font-size: 14.5px; color: var(--muted); line-height: 1.55; }
 .related { display: flex; flex-direction: column; gap: 0; }
 .related .label { margin-bottom: 12px; }
