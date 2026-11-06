@@ -86,6 +86,8 @@ ART_CTA = {
     "fr": "Une tendinite qui ne guérit pas depuis des mois ?", "ru": "Тендинит не проходит уже несколько месяцев?", "ka": "ტენდინიტი თვეების განმავლობაში არ გიქრებათ?"},
  "terapias-regenerativas-que-son": {"es": "¿Quiere saber si una terapia regenerativa puede ayudarle?", "en": "Would you like to know whether a regenerative therapy could help you?",
     "fr": "Vous voulez savoir si une thérapie régénérative peut vous aider ?", "ru": "Хотите узнать, может ли Вам помочь регенеративная терапия?", "ka": "გსურთ გაიგოთ, დაგეხმარებათ თუ არა რეგენერაციული თერაპია?"},
+ "ciatica-dolor-espalda-baja-pierna": {"es": "¿Le baja el dolor de la espalda a la pierna?", "en": "Does your back pain run down your leg?",
+    "fr": "Votre douleur de dos descend-elle dans la jambe ?", "ru": "Боль в спине отдает в ногу?", "ka": "ზურგის ტკივილი ფეხში გადადის?"},
  "lumbalgia-5-cosas": {"es": "¿Lleva tiempo con dolor lumbar o le baja a la pierna?", "en": "Have you had low back pain for a while, or pain running down your leg?",
     "fr": "Mal de dos depuis un moment, ou une douleur qui descend dans la jambe ?", "ru": "Давно болит поясница или боль отдает в ногу?", "ka": "დიდი ხანია წელი გტკივათ ან ტკივილი ფეხში გადადის?"},
 }

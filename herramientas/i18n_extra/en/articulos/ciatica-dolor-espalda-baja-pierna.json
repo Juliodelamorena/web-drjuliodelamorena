@@ -1,0 +1,70 @@
+{
+ "slug": "ciatica-dolor-espalda-baja-pierna",
+ "fecha": "2026-11-06",
+ "categoria": "Spine",
+ "titulo": "Sciatica: when back pain runs down your leg",
+ "resumen": "What sciatica is, why it happens, how the affected nerve is identified and why most cases improve without surgery.",
+ "descripcion": "Sciatica: what it is, why the pain runs down the leg and how most cases are treated without surgery. Dr Julio De la Morena, Madrid.",
+ "entradilla": "Sciatica is pain of nerve origin: a nerve root in the lower back becomes irritated or compressed, almost always by a disc herniation, and the pain runs down the buttock and leg. Around nine in ten cases improve without surgery, with tailored exercise, pain control and, when indicated, ultrasound-guided injections. Dr Julio De la Morena treats it at the Regenerative Therapies and Sports Medicine Unit of Hospital Memorial Publio Cordón (Pozuelo de Alarcón, Madrid).",
+ "imagen": "ciatica.jpg",
+ "imagen_wh": [
+  1200,
+  800
+ ],
+ "imagen_alt": "Examination of a patient's straightened leg to assess sciatic pain",
+ "temas": [
+  "Sciatica",
+  "Lumbar radiculopathy",
+  "Lumbar disc herniation",
+  "Lumbar spinal stenosis"
+ ],
+ "secciones": [
+  [
+   "Does this sound like you?",
+   "<p>Many people live for weeks with back pain that gradually starts to spread down the leg. These are the situations most often described in clinic:</p><ul><li>The pain runs down the back or the outside of the thigh, sometimes as far as the foot.</li><li>You notice tingling, burning or an electric-shock feeling in the leg.</li><li>It gets worse after sitting for a long time, or when you cough or sneeze.</li><li>It has been like this for more than six weeks.</li></ul><p>If you recognise two of them, it is worth having it assessed. It does not mean something serious is going on, but it is useful to know which nerve is involved and why, so it can be treated properly from the start.</p>"
+  ],
+  [
+   "What sciatica is",
+   "<p>Sciatica is the pain that arises when a <strong>nerve root in the lower back becomes irritated or compressed</strong> and runs down the buttock and leg. Its medical name is <strong>lumbar radiculopathy</strong>.</p><p>It is not muscle pain: it is pain of nerve origin. That is why it behaves differently from ordinary low back pain, in which the pain stays in the back. In sciatica the pain follows the path of the nerve, often comes with tingling, burning or numbness and, in some cases, loss of strength. Telling one from the other changes the treatment. You will find more detail on this difference on the <a href=\"/lumbalgia-ciatica/\">low back pain and sciatica</a> page.</p>"
+  ],
+  [
+   "Each root has its own territory",
+   "<p>Each nerve root of the lumbar and sacral spine supplies a strip of skin on the leg, its <strong>dermatome</strong>. When a root is irritated, the pain and tingling follow that path. That is why knowing exactly where the pain runs points to which root is affected, even before looking at the MRI scan.</p><figure class=\"fig\"><a href=\"/img/dermatomas-miembro-inferior.jpg\" target=\"_blank\" rel=\"noopener\"><img src=\"/img/dermatomas-miembro-inferior.jpg\" alt=\"Map of the dermatomes of the lower limb in anterior, medial, lateral and posterior views, from L1 to S5\" width=\"1008\" height=\"1112\" loading=\"lazy\"></a><figcaption>Dermatomes of the lower limb. L4: inner side of the leg. L5: outer side of the leg, top of the foot and big toe. S1: calf, heel and outer edge of the foot. Click the image to enlarge it.</figcaption></figure>"
+  ],
+  [
+   "Why it happens",
+   "<ol><li><strong>A disc herniation or bulge</strong> pressing on the nerve root. This is the most common cause.</li><li><strong>Narrowing of the canal</strong> through which the nerves exit (lumbar spinal stenosis), more common from the age of 50.</li><li><strong>Other causes</strong>, less frequent, that need to be ruled out in clinic.</li></ol><p>It is worth knowing that many people with no pain at all have herniations or wear on their MRI scan. An image alone does not explain the pain: it is always interpreted together with the examination.</p>"
+  ],
+  [
+   "How it is diagnosed",
+   "<p>The most important part is the <strong>physical and neurological examination</strong>: strength, reflexes, sensation and manoeuvres that stretch the nerve. A good examination shows which root is affected. If you already have an MRI scan, it is reviewed in the same appointment together with the examination findings; if not, one is requested when its result will change the treatment.</p><p>An ultrasound scan can be done in the same visit when it is useful. You leave the first appointment with a full assessment and a clear plan.</p>"
+  ],
+  [
+   "How it is treated",
+   "<p>Most cases of sciatica are treated without surgery. Depending on each case, treatment combines:</p><ul><li><strong>Tailored exercise</strong>: the foundation of treatment. Staying active, as far as the pain allows, helps recovery; prolonged rest delays it.</li><li><strong>Medication for nerve pain</strong>, carefully prescribed during the phase of intense pain.</li><li><strong>Ultrasound-guided injections</strong>, when indicated, to relieve the irritated root. You can read more on the <a href=\"/infiltraciones-ecoguiadas/\">ultrasound-guided injections</a> page.</li></ul><p><strong>Surgical assessment</strong> is reserved for cases with progressive loss of strength or pain that does not respond to well-conducted treatment. If you have already been offered an operation and have doubts, you can ask for a <a href=\"/segunda-opinion/\">second opinion</a>.</p><p>If your pain stays in your back and does not run down your leg, you may also be interested in the article <a href=\"/blog/lumbalgia-5-cosas.html\">Low back pain: five key points and when the pain runs down the leg</a>.</p>"
+  ]
+ ],
+ "faq": [
+  [
+   "Which doctor treats sciatica in Madrid?",
+   "Dr Julio De la Morena, specialist in Sport and Exercise Medicine, assesses and treats sciatica at the Regenerative Therapies and Sports Medicine Unit of Hospital Memorial Publio Cordón, in Pozuelo de Alarcón (Madrid). Patients also travel to Madrid from other cities and countries. In the same appointment he carries out the examination, reviews the MRI scan and, when useful, performs an ultrasound scan."
+  ],
+  [
+   "Can sciatica get better without surgery?",
+   "In the great majority of cases, yes: around nine in ten cases of sciatica improve without surgery, with tailored exercise, pain control and, when indicated, ultrasound-guided injections. Surgery is reserved for progressive loss of strength or pain that does not respond to treatment."
+  ],
+  [
+   "How do I know whether my back pain is sciatica?",
+   "It usually is when the pain runs down the back or the outside of the thigh, sometimes as far as the foot, comes with tingling or burning and gets worse when sitting, coughing or sneezing. The examination in clinic confirms which nerve root is affected."
+  ],
+  [
+   "Is rest or movement better if I have sciatica?",
+   "Movement, as far as the pain allows. Tailored exercise is the foundation of treatment, and prolonged rest delays recovery."
+  ]
+ ],
+ "relacionadas": [
+  "lumbalgia-ciatica",
+  "infiltraciones-ecoguiadas",
+  "segunda-opinion"
+ ]
+}
