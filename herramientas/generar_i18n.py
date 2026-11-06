@@ -23,6 +23,7 @@ PHONE = "+34 913 548 990"
 TEL = "tel:+34913548990"
 MAPA = "https://maps.google.com/?cid=4492723553507247190"   # ficha de Google del doctor (enlace neutro: Cómo llegar)
 WHATSAPP_TXT = {"ka": "მოგვწერეთ WhatsApp-ში", "ru": "Написать в WhatsApp", "fr": "Écrire sur WhatsApp"}
+HOSP_TXT = {"en": "Hospital", "fr": "Hôpital", "ru": "Госпиталь", "ka": "საავადმყოფო"}
 MENU_TXT = {"ka": "მენიუ", "ru": "Меню", "fr": "Menu"}   # etiqueta del menú desplegable del móvil
 MAPA_TXT = {"ka": "როგორ მივიდეთ", "ru": "Как добраться", "fr": "Itinéraire"}   # etiqueta del enlace al mapa
 
@@ -72,9 +73,11 @@ class Builder:
 <a href="{b}#conditions">{esc(UI["menu_conditions"])}</a>
 <a href="{b}#treatments">{esc(UI["menu_treatments"])}</a>
 <a href="{self.about_path}">{esc(UI["menu_doctor"])}</a>
+<a href="{b}#hospital">{esc(HOSP_TXT[self.L])}</a>
+<a href="{b}blog/">{esc(X.ui(self.L)["blog_label"])}</a>
 {I.menu(self.L, es_slug, UI["lang_menu"])}
 <a class="btn" href="#contact">{esc(UI["menu_write"])}</a>
-{I.nav_movil([(f"{b}#conditions", UI["menu_conditions"]), (f"{b}#treatments", UI["menu_treatments"]), (self.about_path, UI["menu_doctor"])], MENU_TXT.get(self.L, "Menu"), [(TEL, self.t("bar_call")), ("#contact", UI["menu_write"])])}
+{I.nav_movil([(f"{b}#conditions", UI["menu_conditions"]), (f"{b}#treatments", UI["menu_treatments"]), (self.about_path, UI["menu_doctor"]), (f"{b}#hospital", HOSP_TXT[self.L]), (f"{b}blog/", X.ui(self.L)["blog_label"])], MENU_TXT.get(self.L, "Menu"), [(TEL, self.t("bar_call")), ("#contact", UI["menu_write"])])}
 </nav>
 </div>
 </header>'''

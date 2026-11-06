@@ -21,7 +21,7 @@ DOCTOR_REF = G.DOCTOR_REF
 PHONE = "+34 913 548 990"
 MAPA = "https://maps.google.com/?cid=4492723553507247190"   # ficha de Google del doctor (enlace neutro: Cómo llegar)
 
-MENU_EN = [("/en/#conditions", "Conditions"), ("/en/#treatments", "Treatments"), ("/en/dr-julio-de-la-morena/", "The doctor")]
+MENU_EN = [("/en/#conditions", "Conditions"), ("/en/#treatments", "Treatments"), ("/en/dr-julio-de-la-morena/", "The doctor"), ("/en/#hospital", "Hospital"), ("/en/blog/", "Articles")]
 
 def header(es_slug="", form=True):
     cita = "#contact" if form else "/en/#contact"
@@ -39,6 +39,8 @@ def header(es_slug="", form=True):
 <a href="/en/#conditions">Conditions</a>
 <a href="/en/#treatments">Treatments</a>
 <a href="/en/dr-julio-de-la-morena/">The doctor</a>
+<a href="/en/#hospital">Hospital</a>
+<a href="/en/blog/">Articles</a>
 {I.menu("en", es_slug, "Language")}
 <a class="btn solo-movil" href="tel:+34913548990">Book</a><a class="btn solo-escritorio" href="{cita}">Book an appointment</a>
 {I.nav_movil(MENU_EN, "Menu", [("tel:+34913548990", "Call +34 913 548 990"), (cita, "Book an appointment")])}
