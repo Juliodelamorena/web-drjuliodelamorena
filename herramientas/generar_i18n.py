@@ -348,7 +348,7 @@ class Builder:
 <p class="label">{esc(H["treat_label"])}</p>
 <h2 class="h2">{esc(H["treat_h2"])}</h2>
 <p>{esc(H["treat_p"])}</p>
-<img class="photo" src="/img/regenerativa.jpg" alt="{esc(H["treat_img_alt"])}" width="960" height="1200" loading="lazy" style="aspect-ratio: 16 / 11; margin-top: 12px">
+{X.reel_html(self.L, "factores-crecimiento-autologos").replace('class="reel"', 'class="reel reel-portada"', 1)}
 </div>
 <div class="treat">
 {treats}

@@ -36,16 +36,20 @@ def _tracks(lang, name):
         out[0] = out[0].replace(">", " default>", 1)
     return "".join(out)
 
+def vsrc(name, lang):
+    """Vídeo doblado al idioma de la página si existe (voz clonada de Julio); si no, el original."""
+    return f"/video/{name}.{lang}.mp4" if os.path.isfile(os.path.join(ROOT, "video", f"{name}.{lang}.mp4")) else f"/video/{name}.mp4"
+
 def reel_html(lang, es_slug):
     r = REELS[es_slug]; n = r["file"]; u = ui(lang)
     return (f'<figure class="reel"><video controls playsinline preload="none" crossorigin="anonymous" poster="/video/{n}.jpg" width="720" height="1280">'
-            f'<source src="/video/{n}.mp4" type="video/mp4">{_tracks(lang, n)}</video>'
+            f'<source src="{vsrc(n, lang)}" type="video/mp4">{_tracks(lang, n)}</video>'
             f'<figcaption>{esc(u.get(r["cap"], ""))}</figcaption></figure>')
 
 def reel_ld(lang, es_slug, name, desc):
     r = REELS[es_slug]; n = r["file"]
     return {"@type": "VideoObject", "name": name, "description": desc, "thumbnailUrl": f"{SITE}/video/{n}.jpg",
-            "uploadDate": r["date"], "duration": r["dur"], "contentUrl": f"{SITE}/video/{n}.mp4", "inLanguage": "es"}
+            "uploadDate": r["date"], "duration": r["dur"], "contentUrl": f"{SITE}{vsrc(n, lang)}", "inLanguage": lang if vsrc(n, lang) != f"/video/{n}.mp4" else "es"}
 
 def galeria_html(lang):
     g = galeria(lang)
@@ -60,7 +64,7 @@ def unidad(lang): return _load(lang, "unidad.json")
 def unidad_video_html(lang):
     u = unidad(lang)
     return (f'<figure class="reel"><video controls playsinline preload="none" crossorigin="anonymous" poster="/video/unidad.jpg" width="720" height="1280">'
-            f'<source src="/video/unidad.mp4" type="video/mp4">{_tracks(lang, "unidad")}</video>'
+            f'<source src="{vsrc("unidad", lang)}" type="video/mp4">{_tracks(lang, "unidad")}</video>'
             f'<figcaption>{esc(u.get("caption", ""))}</figcaption></figure>')
 
 def unidad_fotos_html(lang):
@@ -68,7 +72,7 @@ def unidad_fotos_html(lang):
     figs = "".join(f'<figure><picture><source srcset="/img/unidad/{f}.webp" type="image/webp"><img src="/img/unidad/{f}.jpg" alt="{esc(a)}" width="800" height="1000" loading="lazy"></picture><figcaption>{esc(c)}</figcaption></figure>' for f, a, c in u["fotos"])
     ld = {"@context": "https://schema.org", "@type": "VideoObject", "name": u["caption"], "description": u["caption"],
           "thumbnailUrl": f"{SITE}/video/unidad.jpg", "uploadDate": "2026-11-02T14:00:00+01:00", "duration": "PT34S",
-          "contentUrl": f"{SITE}/video/unidad.mp4", "inLanguage": lang}
+          "contentUrl": f"{SITE}{vsrc('unidad', lang)}", "inLanguage": lang}
     return (f'<div class="wrap unidad"><h3 class="h3">{esc(u["titulo"])}</h3><div class="galeria">{figs}</div></div>\n'
             f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>')
 

@@ -348,7 +348,7 @@ def home():
 <p class="label">Treatments</p>
 <h2 class="h2">Regenerative medicine and image-guided procedures</h2>
 <p>Every treatment is chosen after diagnosis and tailored to the patient. Surgery is reserved for the cases that genuinely need it.</p>
-<img class="photo" src="/img/regenerativa.jpg" alt="Ultrasound-guided procedure" width="960" height="1200" loading="lazy" style="aspect-ratio: 16 / 11; margin-top: 12px">
+{X.reel_html("en", "factores-crecimiento-autologos").replace('class="reel"', 'class="reel reel-portada"', 1)}
 </div>
 <div class="treat">
 <div><h3><a href="/en/autologous-growth-factors/">PRP (platelet-rich plasma)</a></h3><p>Obtained from your own blood and applied to the injured area, in selected cases of osteoarthritis and tendinopathy.</p></div>
