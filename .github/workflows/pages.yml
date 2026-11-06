@@ -25,7 +25,7 @@ jobs:
       - name: Preparar la carpeta pública (sin herramientas, originales ni material de Instagram)
         run: |
           mkdir -p _sitio
-          rsync -a --exclude '.git' --exclude '.github' --exclude 'herramientas' --exclude 'ig' --exclude '_sitio' --exclude 'netlify.toml' --exclude 'GUIA.md' --exclude 'README.md' ./ _sitio/
+          rsync -a --exclude '.git' --exclude '.github' --exclude 'herramientas' --exclude 'ig' --exclude '_sitio' --exclude 'netlify.toml' --exclude 'GUIA.md' --exclude 'README.md' --exclude 'video/*-1080*.mp4' --exclude 'video/*.voz.mp4' --exclude 'video/unidad-google.mp4' ./ _sitio/
           touch _sitio/.nojekyll
           ls _sitio | head -40
       - uses: actions/configure-pages@v5
@@ -34,6 +34,8 @@ jobs:
           path: _sitio
       - id: deploy
         uses: actions/deploy-pages@v4
+        with:
+          timeout: 1800000
       - name: Avisar a Bing y otros buscadores (IndexNow) de las páginas cambiadas
         if: success()
         continue-on-error: true
