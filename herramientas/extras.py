@@ -129,11 +129,11 @@ EVID_TXT = {
 }
 
 CAUTELA = {
- "es": "Importante: los resultados de estos estudios varían según la lesión y el paciente. El PRP no funciona en todos los casos ni está indicado en todas las personas; se valora de forma individual.",
- "en": "Please note: results in these studies vary by condition and by patient. PRP does not work in every case and is not suitable for every patient; it is assessed individually.",
- "fr": "À noter : les résultats de ces études varient selon la lésion et le patient. Le PRP ne fonctionne pas dans tous les cas et n'est pas indiqué chez tous les patients ; il est évalué individuellement.",
- "ru": "Важно: результаты этих исследований различаются в зависимости от травмы и пациента. PRP помогает не во всех случаях и подходит не всем пациентам; показания определяются индивидуально.",
- "ka": "მნიშვნელოვანია: ამ კვლევების შედეგები განსხვავდება დაზიანებისა და პაციენტის მიხედვით. PRP-ი ყველა შემთხვევაში არ მოქმედებს და ყველა ადამიანისთვის არ არის ნაჩვენები; ის ინდივიდუალურად ფასდება.",
+ "es": "Los resultados de estos estudios varían según la lesión y la persona; por eso hacemos un análisis detallado e individualizado para valorar si el PRP es lo indicado en su caso y, si lo es, aplicarlo de la forma más eficaz posible.",
+ "en": "Results in these studies vary by condition and by person, which is why we carry out a detailed, individual assessment to decide whether PRP is right for you and, if it is, to apply it in the way that is most effective for your case.",
+ "fr": "Les résultats de ces études varient selon la lésion et la personne ; c'est pourquoi nous réalisons une évaluation détaillée et individualisée afin de déterminer si le PRP vous convient et, le cas échéant, de l'appliquer de la manière la plus efficace pour votre cas.",
+ "ru": "Результаты этих исследований различаются в зависимости от травмы и человека, поэтому мы проводим подробную индивидуальную оценку, чтобы определить, подходит ли вам PRP, и, если подходит, применить его наиболее эффективным для вашего случая образом.",
+ "ka": "ამ კვლევების შედეგები განსხვავდება დაზიანებისა და ადამიანის მიხედვით, ამიტომ ვატარებთ დეტალურ, ინდივიდუალურ შეფასებას, რათა განვსაზღვროთ, არის თუ არა PRP-ი თქვენთვის შესაფერისი და, თუ არის, გამოვიყენოთ ის თქვენი შემთხვევისთვის ყველაზე ეფექტიანად.",
 }
 
 def evidencia_html(lang, slug):
