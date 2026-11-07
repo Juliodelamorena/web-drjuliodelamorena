@@ -23,6 +23,10 @@ T = 4.6
 FRASE = {"lunes": "Nos vemos el próximo lunes", "martes": "Nos vemos el próximo martes", "miercoles": "Nos vemos el próximo miércoles",
          "jueves": "Nos vemos el próximo jueves", "viernes": "Nos vemos el próximo viernes", "sabado": "Nos vemos el próximo sábado"}
 
+def manana(dia, tema):
+    """Cierre con gancho para el día siguiente (auditoría nov 2026): 'Mañana: <tema>' en lugar de 'Nos vemos el próximo…'."""
+    FRASE[dia] = f"Mañana: {tema}"
+
 def fondo():
     im = Image.new("RGB", (W, H), NAVY); g = Image.new("L", (W, H), 0); gd = ImageDraw.Draw(g)
     gd.ellipse((-300, 100, W + 300, 1300), fill=90); g = g.filter(ImageFilter.GaussianBlur(170))
