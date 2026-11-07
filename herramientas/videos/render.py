@@ -104,7 +104,7 @@ def strike(d, x0, x1, y, p, col=RED, wdt=10):
 
 def panel(d, i, lt):
     """Gráfico de la mitad de arriba para la frase i (lt = segundos desde que empieza)."""
-    a = int(255 * ease(lt / 0.4))
+    a = 255 if i == 0 else int(255 * ease(lt / 0.4))
     if i == 0:
         s = "TENDINITIS"; w_, _ = tw(d, s, F_K); d.text(((W - w_) // 2, 400), s, font=F_K, fill=WHITE + (a,))
         ctext(d, 560, "¿seguro?", F_S, GOLD + (int(255 * ease((lt - 1.0) / 0.4)),))
@@ -148,11 +148,12 @@ def cuerpo(t):
     top = BG.crop((0, 200, W, 1160)); fr.paste(top, (0, 0))
     lay = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(lay)
     # banda de la serie
-    d.rectangle((0, 0, W, 110), fill=(8, 18, 36, 255))
-    s = BANDA; w_, _ = tw(d, s, F_TAG); d.text(((W - w_) // 2, 40), s, font=F_TAG, fill=GOLD + (255,))
+    # zona segura de Instagram: banda a 215-285 px y gráficos 90 px más abajo
+    d.rectangle((0, 215, W, 285), fill=(8, 18, 36, 255))
+    s = BANDA; w_, _ = tw(d, s, F_TAG); d.text(((W - w_) // 2, 235), s, font=F_TAG, fill=GOLD + (255,))
     d.rectangle((0, 955, W, 965), fill=GOLD + (255,))
     i = max([k for k, m in enumerate(marks) if m[0] <= lt_all] or [0])
-    panel(d, i, lt_all - marks[i][0])
+    pl = Image.new("RGBA", (W, H), (0, 0, 0, 0)); panel(ImageDraw.Draw(pl), i, lt_all - marks[i][0]); lay.alpha_composite(pl, (0, 90))
     # subtítulo sobre la foto
     s0, s1, txt = marks[i]
     txt = txt.replace('dos mil dos', '2002')
@@ -167,8 +168,7 @@ def cuerpo(t):
             w_, h_ = tw(d, ln, F_SUB)
             d.rounded_rectangle(((W - w_) // 2 - 22, y - 8, (W + w_) // 2 + 22, y + 66), 14, fill=(0, 0, 0, 165))
             d.text(((W - w_) // 2, y), ln, font=F_SUB, fill=WHITE + (255,)); y += 82
-    if lt_all < 0.35:
-        d.rectangle((0, 0, W, H), fill=NAVY + (int(255 * (1 - ease(lt_all / 0.35))),))
+    # sin velo de entrada: el primer fotograma ya muestra la serie y el gancho escrito
     fr = fr.convert("RGBA"); fr.alpha_composite(lay); return fr.convert("RGB")
 
 def cierre(t):

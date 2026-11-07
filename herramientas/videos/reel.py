@@ -18,7 +18,7 @@ partes = [("h0.wav", "La tendinitis… casi nunca es una inflamación."),
           ("f2.wav", "En dos mil dos, el British Medical Journal ya pidió dejar de llamarla tendinitis."),
           ("f3.wav", "Por eso los antiinflamatorios no la curan: alivian el dolor, pero el tendón sigue igual."),
           ("f4.wav", "Lo que de verdad lo recupera es cargarlo de forma progresiva, con ejercicio bien dosificado."),
-          ("f5.wav", "El nombre sigue porque es fácil de decir… y de recetar.")]
+          ]
 marks, t, lst = [], 0.2, []
 for i, (f, txt) in enumerate(partes):
     d_ = dur(os.path.join(D, f)); marks.append([t, t + d_ - 0.35, txt]); lst.append((t, f)); t += d_
@@ -43,12 +43,21 @@ def sello(lt):
     if lt < 0.1: out = Image.blend(out, Image.new("RGB", (R.W, R.H), (255, 245, 225)), 0.35 * (1 - lt / 0.1))
     return out
 
+C.manana("lunes", "cómo se diagnostica")
 C_INI = 1.2
 T_CIERRE = C.T - C_INI
 TOTAL = VOZ + T_CIERRE
 
+def gancho(im, t):
+    from PIL import ImageDraw
+    lay = Image.new("RGBA", im.size, (0, 0, 0, 0)); d = ImageDraw.Draw(lay)
+    a = 255 if t < HOOK_END - 0.3 else int(255 * max(0, (HOOK_END - t) / 0.3))
+    R.ctext(d, 760, "casi nunca es una inflamación", R.cor(62, 700), R.GOLD + (a,))
+    out = im.convert("RGBA"); out.alpha_composite(lay); return out.convert("RGB")
+
 def frame(t):
     if HOOK_END <= t < HOOK_END + STING: return sello(t - HOOK_END)
+    if t < HOOK_END: return gancho(R.cuerpo(t), t)
     if t < VOZ: return R.cuerpo(t)
     return C.frame(t - VOZ + C_INI, "lunes")
 
