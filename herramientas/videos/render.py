@@ -35,6 +35,7 @@ def ctext(d, y, s, f, fill, maxw=940, lh=1.18, spacing=0):
     return y
 
 marks = json.load(open(os.path.join(D, "marks.json")))
+BANDA = "LO QUE CASI NADIE TE CUENTA"
 T_IN, T_OUT = 4.2, 3.6
 VOZ = marks[-1][1] + 0.6
 TOTAL = T_IN + VOZ + T_OUT
@@ -148,7 +149,7 @@ def cuerpo(t):
     lay = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(lay)
     # banda de la serie
     d.rectangle((0, 0, W, 110), fill=(8, 18, 36, 255))
-    s = "LO QUE CASI NADIE TE CUENTA"; w_, _ = tw(d, s, F_TAG); d.text(((W - w_) // 2, 40), s, font=F_TAG, fill=GOLD + (255,))
+    s = BANDA; w_, _ = tw(d, s, F_TAG); d.text(((W - w_) // 2, 40), s, font=F_TAG, fill=GOLD + (255,))
     d.rectangle((0, 955, W, 965), fill=GOLD + (255,))
     i = max([k for k, m in enumerate(marks) if m[0] <= lt_all] or [0])
     panel(d, i, lt_all - marks[i][0])
