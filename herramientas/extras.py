@@ -128,6 +128,13 @@ EVID_TXT = {
  "ka": ("რას ამბობს სამედიცინო ლიტერატურა PRP-ზე", "შვიდი გამოქვეყნებული კვლევა PRP-ზე (თრომბოციტებით მდიდარი პლაზმა): მუხლი, მხარი, წელი, თეძო, იდაყვი და ტერფი.", "ვიდეოში ნაჩვენები შვიდი კვლევა (წყარო: PubMed)"),
 }
 
+CAUTELA = {
+ "es": "Importante: los resultados de estos estudios varían según la lesión y el paciente. El PRP no funciona en todos los casos ni está indicado en todas las personas; se valora de forma individual.",
+ "en": "Please note: results in these studies vary by condition and by patient. PRP does not work in every case and is not suitable for every patient; it is assessed individually.",
+ "fr": "À noter : les résultats de ces études varient selon la lésion et le patient. Le PRP ne fonctionne pas dans tous les cas et n'est pas indiqué chez tous les patients ; il est évalué individuellement.",
+ "ru": "Важно: результаты этих исследований различаются в зависимости от травмы и пациента. PRP помогает не во всех случаях и подходит не всем пациентам; показания определяются индивидуально.",
+}
+
 def evidencia_html(lang, slug):
     if slug not in EVID_SLUGS or lang not in EVID_TXT: return ""
     h2, cap, lista = EVID_TXT[lang]; n = f"prp-evidencia.{lang}"
@@ -136,6 +143,7 @@ def evidencia_html(lang, slug):
           "thumbnailUrl": f"{SITE}/video/{n}.jpg", "uploadDate": "2026-11-03T03:00:00+01:00", "duration": "PT60S",
           "contentUrl": f"{SITE}/video/{n}.mp4", "inLanguage": lang}
     return (f'<h2>{esc(h2)}</h2>\n<figure class="reel"><video controls playsinline preload="none" poster="/video/{n}.jpg" width="720" height="1280">'
-            f'<source src="/video/{n}.mp4" type="video/mp4"></video><figcaption>{esc(cap)}</figcaption></figure>\n'
+            f'<source src="/video/{n}.mp4" type="video/mp4"></video><figcaption>{esc(cap)}</figcaption></figure>\n' +
+            (f'<p class="cautela"><strong>{esc(CAUTELA[lang])}</strong></p>\n' if lang in CAUTELA else '') +
             f'<details class="refs"><summary>{esc(lista)}</summary><ol>{refs}</ol></details>\n'
             f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>\n')

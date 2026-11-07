@@ -2,7 +2,7 @@ import json, urllib.request, subprocess, os
 KEY=open('../dub/.key').read().strip(); V="FMUNJCsKXSdEGNKTCd7w"
 F=["Lo que casi nadie te cuenta sobre la tendinitis.",
 "En un tendón que lleva meses doliendo, casi nunca hay inflamación. Lo que hay es un tendón degenerado, que ha perdido calidad.",
-"En mil novecientos noventa y nueve, el British Medical Journal ya pidió dejar de llamarla tendinitis.",
+"En dos mil dos, el British Medical Journal ya pidió dejar de llamarla tendinitis.",
 "Por eso los antiinflamatorios no la curan: alivian el dolor, pero el tendón sigue igual.",
 "Lo que de verdad lo recupera es cargarlo de forma progresiva, con ejercicio bien dosificado.",
 "El nombre sigue porque es fácil de decir… y de recetar."]

@@ -179,6 +179,15 @@
 
 
 
+<aside class="primera" aria-label="Su primera consulta">
+<h2>Su primera consulta</h2>
+<ul>
+<li><strong>Qué ocurre:</strong> el Dr. De la Morena le escucha, le explora y, si hace falta, le hace una ecografía en la misma visita. Sale con un plan explicado con claridad.</li>
+<li><strong>Qué traer:</strong> informes y pruebas que tenga (mejor con las imágenes) y la lista de tratamientos que ya ha probado. Si no tiene pruebas, no importa.</li>
+<li><strong>Sin compromiso:</strong> la primera consulta no le obliga a tratarse. Si no está indicado ningún tratamiento, se lo decimos.</li>
+<li><strong>Dónde y cuándo:</strong> Hospital Memorial Publio Cordón, en Pozuelo de Alarcón (Madrid), de lunes a viernes, de 15:00 a 21:00. Pida cita en el <a class="tel" href="tel:+34913548990">913 548 990</a> o deje su teléfono en el formulario y le llamamos.</li>
+</ul>
+</aside>
 <h2>Preguntas frecuentes</h2>
 <div class="faq">
 <details><summary>¿Cuánto tarda en curarse el codo de tenista?</summary><p>Depende del tiempo de evolución. Muchos casos mejoran en semanas con un tratamiento bien hecho; los crónicos pueden necesitar varios meses. Cuanto antes se aborda, más fácil es.</p></details>
@@ -213,8 +222,10 @@
 <h3>Le llamamos</h3>
 <label for="f-nombre">Nombre y apellidos<input id="f-nombre" name="nombre" type="text" autocomplete="name" required></label>
 <label for="f-tel">Teléfono<input id="f-tel" name="telefono" type="tel" autocomplete="tel" required></label>
-<label for="f-zona">¿Qué zona le duele?<select id="f-zona" name="zona" required><option value="">Elija una opción</option><option>Rodilla</option><option>Hombro</option><option>Espalda o ciática</option><option>Cadera</option><option selected>Codo</option><option>Tobillo o pie</option><option>Lesión muscular</option><option>Otra</option></select></label>
+<details class="opc" open><summary>Añadir detalles (opcional)</summary>
+<label for="f-zona">¿Qué zona le duele?<select id="f-zona" name="zona"><option value="">Elija una opción</option><option>Rodilla</option><option>Hombro</option><option>Espalda o ciática</option><option>Cadera</option><option selected>Codo</option><option>Tobillo o pie</option><option>Lesión muscular</option><option>Otra</option></select></label>
 <label for="f-motivo">Cuéntenos brevemente qué le pasa<textarea id="f-motivo" name="motivo" rows="3"></textarea></label>
+</details>
 <p class="nota">Le llamamos en menos de 24 horas para darle cita (si cae en fin de semana o festivo, el siguiente día laborable).</p>
 <label class="check" for="f-priv"><input id="f-priv" name="privacidad" type="checkbox" required><span>He leído y acepto la <a href="/privacidad.html">política de privacidad</a>. Sus datos se usan únicamente para contactarle en relación con su cita.</span></label>
 <button class="btn btn-dark" type="submit">Enviar solicitud</button>

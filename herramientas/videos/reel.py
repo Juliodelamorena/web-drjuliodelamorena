@@ -15,7 +15,7 @@ def dur(f): return float(subprocess.run(["ffprobe", "-v", "error", "-show_entrie
 # frases: gancho + resto (reutiliza f2..f5 del ejemplo)
 partes = [("h0.wav", "La tendinitis… casi nunca es una inflamación."),
           ("h1.wav", "En un tendón que lleva meses doliendo, lo que hay es un tendón degenerado, que ha perdido calidad."),
-          ("f2.wav", "En mil novecientos noventa y nueve, el British Medical Journal ya pidió dejar de llamarla tendinitis."),
+          ("f2.wav", "En dos mil dos, el British Medical Journal ya pidió dejar de llamarla tendinitis."),
           ("f3.wav", "Por eso los antiinflamatorios no la curan: alivian el dolor, pero el tendón sigue igual."),
           ("f4.wav", "Lo que de verdad lo recupera es cargarlo de forma progresiva, con ejercicio bien dosificado."),
           ("f5.wav", "El nombre sigue porque es fácil de decir… y de recetar.")]

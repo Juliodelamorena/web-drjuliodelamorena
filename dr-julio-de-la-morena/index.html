@@ -404,8 +404,10 @@
 <h3>Le llamamos</h3>
 <label for="f-nombre">Nombre y apellidos<input id="f-nombre" name="nombre" type="text" autocomplete="name" required></label>
 <label for="f-tel">Teléfono<input id="f-tel" name="telefono" type="tel" autocomplete="tel" required></label>
-<label for="f-zona">¿Qué zona le duele?<select id="f-zona" name="zona" required><option value="">Elija una opción</option><option>Rodilla</option><option>Hombro</option><option>Espalda o ciática</option><option>Cadera</option><option>Codo</option><option>Tobillo o pie</option><option>Lesión muscular</option><option>Otra</option></select></label>
+<details class="opc"><summary>Añadir detalles (opcional)</summary>
+<label for="f-zona">¿Qué zona le duele?<select id="f-zona" name="zona"><option value="">Elija una opción</option><option>Rodilla</option><option>Hombro</option><option>Espalda o ciática</option><option>Cadera</option><option>Codo</option><option>Tobillo o pie</option><option>Lesión muscular</option><option>Otra</option></select></label>
 <label for="f-motivo">Cuéntenos brevemente qué le pasa<textarea id="f-motivo" name="motivo" rows="3"></textarea></label>
+</details>
 <p class="nota">Le llamamos en menos de 24 horas para darle cita (si cae en fin de semana o festivo, el siguiente día laborable).</p>
 <label class="check" for="f-priv"><input id="f-priv" name="privacidad" type="checkbox" required><span>He leído y acepto la <a href="/privacidad.html">política de privacidad</a>. Sus datos se usan únicamente para contactarle en relación con su cita.</span></label>
 <button class="btn btn-dark" type="submit">Enviar solicitud</button>

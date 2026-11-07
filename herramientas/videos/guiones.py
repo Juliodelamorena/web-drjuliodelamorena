@@ -85,14 +85,14 @@ T_PRP = [0.2, 3.2, 9.8, 16.4, 23.0, 29.6, 36.2, 42.8, 49.5, 54.5]
 def prp(f): return {"fondo": M, "frases": list(zip(T_PRP, f))}
 GUIONES["es"]["prp-evidencia"] = prp([
  "¿Funciona el PRP? Esto dice la literatura médica.",
- "Rodilla. El consenso europeo da la máxima recomendación al PRP en la artrosis leve y moderada.",
- "En la artrosis de rodilla, el PRP es más eficaz que el ácido hialurónico: menos dolor y mejor función al año.",
- "Hombro. En la tendinopatía del manguito rotador, es eficaz y seguro a largo plazo.",
+ "Rodilla. Un consenso europeo lo considera apropiado en casos seleccionados de artrosis leve y moderada.",
+ "En artrosis de rodilla, varios estudios muestran menos dolor y mejor función al año que con ácido hialurónico.",
+ "Hombro. En la tendinopatía del manguito rotador, los resultados publicados son favorables y sin problemas de seguridad a largo plazo.",
  "Espalda. En el dolor lumbar, menos dolor y menos discapacidad hasta seis meses.",
  "Cadera. En la tendinopatía glútea, mejoría clara en el ochenta y dos por ciento, frente al cincuenta y siete con corticoide.",
  "Codo de tenista. El corticoide alivia antes, pero el PRP da mejores resultados a los seis meses.",
- "Pie. En la fascitis plantar, más alivio del dolor que el corticoide y que el placebo.",
- "El PRP tiene respaldo científico. Le valoramos para saber si es lo indicado en su caso.",
+ "Pie. En la fascitis plantar, algunos estudios muestran más alivio del dolor que con corticoide o placebo.",
+ "Los resultados varían según la lesión y la persona, y el PRP no sirve en todos los casos. Le valoramos para saber si es lo indicado en el suyo.",
  "Doctor Julio De la Morena, en Pozuelo, Madrid. Pida cita."])
 GUIONES["en"]["prp-evidencia"] = prp([
  "Does PRP work? Here's what the medical literature says.",
@@ -146,5 +146,5 @@ def _tu(nombre, cambios):
     GUIONES["es_ig"][nombre]["frases"] = [(t, cambios.get(x, x)) for t, x in fr]
 _tu("unidad", {"Un hospital nuevo, pensado para su comodidad.": "Un hospital nuevo, pensado para tu comodidad.",
                "Aquí le escucho, le exploro y le explico qué le pasa.": "Aquí te escucho, te exploro y te explico qué te pasa."})
-_tu("prp-evidencia", {"El PRP tiene respaldo científico. Le valoramos para saber si es lo indicado en su caso.": "El PRP tiene respaldo científico. Te valoramos para saber si es lo indicado en tu caso.",
+_tu("prp-evidencia", {"Los resultados varían según la lesión y la persona, y el PRP no sirve en todos los casos. Le valoramos para saber si es lo indicado en el suyo.": "El PRP tiene respaldo científico. Te valoramos para saber si es lo indicado en tu caso.",
                       "Doctor Julio De la Morena, en Pozuelo, Madrid. Pida cita.": "Doctor Julio De la Morena, en Pozuelo, Madrid. Pide cita."})

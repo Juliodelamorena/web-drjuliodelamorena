@@ -115,7 +115,7 @@ def panel(d, i, lt):
         d.text(((W - w_) // 2, 500), s, font=F_K2, fill=GOLD + (b,))
         ctext(d, 640, "el tendón pierde calidad", F_S, SOFT + (b,))
     elif i == 2:
-        ctext(d, 250, "British Medical Journal · 1999", F_S, GOLD + (a,))
+        ctext(d, 250, "British Medical Journal · 2002", F_S, GOLD + (a,))
         s = "TENDINITIS"; w_, _ = tw(d, s, F_K2); x = (W - w_) // 2
         d.text((x, 360), s, font=F_K2, fill=WHITE + (a,)); strike(d, x - 10, x + w_ + 10, 420, ease((lt - 2.0) / 0.5))
         b = int(255 * ease((lt - 2.8) / 0.5)); s = "TENDINOPATÍA"; w_, _ = tw(d, s, F_K2)
@@ -155,7 +155,7 @@ def cuerpo(t):
     panel(d, i, lt_all - marks[i][0])
     # subtítulo sobre la foto
     s0, s1, txt = marks[i]
-    txt = txt.replace('mil novecientos noventa y nueve', '1999')
+    txt = txt.replace('dos mil dos', '2002')
     if s0 <= lt_all <= s1 + 0.3:
         lines = wrap(d, txt, F_SUB, 900)
         # trocea frases largas en dos mitades según el tiempo
