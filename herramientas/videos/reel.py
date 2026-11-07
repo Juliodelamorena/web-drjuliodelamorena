@@ -7,7 +7,7 @@ import render as R
 import entradas as E
 import cierre as C
 
-STING = 1.0
+STING = 1.5
 GAP = 0.15
 
 def dur(f): return float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", f], capture_output=True, text=True).stdout)
