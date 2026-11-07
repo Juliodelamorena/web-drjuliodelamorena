@@ -133,6 +133,7 @@ CAUTELA = {
  "en": "Please note: results in these studies vary by condition and by patient. PRP does not work in every case and is not suitable for every patient; it is assessed individually.",
  "fr": "À noter : les résultats de ces études varient selon la lésion et le patient. Le PRP ne fonctionne pas dans tous les cas et n'est pas indiqué chez tous les patients ; il est évalué individuellement.",
  "ru": "Важно: результаты этих исследований различаются в зависимости от травмы и пациента. PRP помогает не во всех случаях и подходит не всем пациентам; показания определяются индивидуально.",
+ "ka": "მნიშვნელოვანია: ამ კვლევების შედეგები განსხვავდება დაზიანებისა და პაციენტის მიხედვით. PRP-ი ყველა შემთხვევაში არ მოქმედებს და ყველა ადამიანისთვის არ არის ნაჩვენები; ის ინდივიდუალურად ფასდება.",
 }
 
 def evidencia_html(lang, slug):
