@@ -6,12 +6,9 @@
  "resumen": "Ce qu'est la sciatique, pourquoi elle apparaît, comment on identifie le nerf touché et pourquoi la plupart des cas s'améliorent sans chirurgie.",
  "descripcion": "Sciatique : ce que c'est, pourquoi la douleur descend dans la jambe et comment elle se traite le plus souvent sans chirurgie. Dr Julio De la Morena.",
  "entradilla": "La sciatique est une douleur d'origine nerveuse : une racine nerveuse de la région lombaire est irritée ou comprimée, presque toujours par une hernie discale, et la douleur descend dans la fesse et la jambe. Environ neuf cas sur dix s'améliorent sans chirurgie, grâce à des exercices adaptés, au contrôle de la douleur et, lorsqu'elles sont indiquées, à des infiltrations échoguidées. Le Dr Julio De la Morena la traite à l'Unité de thérapies régénératives et de médecine du sport de l'Hospital Memorial Publio Cordón (Pozuelo de Alarcón, Madrid).",
- "imagen": "ciatica.jpg",
- "imagen_wh": [
-  1200,
-  800
- ],
- "imagen_alt": "Examen de la jambe tendue d'un patient pour évaluer une douleur sciatique",
+ "imagen": "blog-ciatica-consulta.jpg",
+ "imagen_wh": [960, 640],
+ "imagen_alt": "Le Dr Julio De la Morena montre une IRM dans son cabinet de l'Hôpital Memorial Publio Cordón",
  "temas": [
   "Sciatique",
   "Radiculopathie lombaire",
