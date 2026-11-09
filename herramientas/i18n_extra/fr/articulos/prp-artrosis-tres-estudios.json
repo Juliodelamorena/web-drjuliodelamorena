@@ -1,0 +1,68 @@
+{
+ "slug": "prp-artrosis-tres-estudios",
+ "fecha": "2026-11-10",
+ "categoria": "Thérapies régénératives",
+ "titulo": "Le PRP dans l'arthrose : trois études où il fonctionne",
+ "resumen": "Trois études publiées sur le PRP (plasma riche en plaquettes) dans l'arthrose du genou et de la hanche, résumées et accompagnées de leur lien.",
+ "descripcion": "Ce que dit la littérature médicale sur le PRP dans l'arthrose du genou et de la hanche : trois études résumées, avec leur lien et leurs limites.",
+ "entradilla": "Le PRP (plasma riche en plaquettes) est obtenu à partir du sang du patient et injecté dans l'articulation sous guidage échographique. Dans l'arthrose du genou, les méta-analyses d'essais randomisés le placent, en moyenne, au-dessus de l'acide hyaluronique et des corticoïdes ; pour la hanche, les études sont moins nombreuses, mais également favorables. Le Dr Julio De la Morena l'indique à l'Hospital Memorial Publio Cordón (Pozuelo de Alarcón, Madrid) après un examen clinique et un examen d'imagerie. Nous résumons ici trois de ces études.",
+ "imagen": "rodilla.jpg",
+ "imagen_wh": [
+  960,
+  1200
+ ],
+ "imagen_alt": "Examen du genou en consultation",
+ "temas": [
+  "Arthrose du genou",
+  "Arthrose de la hanche"
+ ],
+ "secciones": [
+  [
+   "La vidéo",
+   "<figure class=\"reel\"><video controls playsinline preload=\"none\" poster=\"/video/prp-artrosis.fr.jpg\" width=\"720\" height=\"1280\"><source src=\"/video/prp-artrosis.fr.mp4\" type=\"video/mp4\"></video><figcaption>Trois études sur le PRP dans l'arthrose du genou et de la hanche.</figcaption></figure><script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"VideoObject\", \"name\": \"Le PRP dans l'arthrose : trois études où il fonctionne\", \"description\": \"Trois études sur le PRP dans l'arthrose du genou et de la hanche.\", \"thumbnailUrl\": \"https://drjuliodelamorena.com/video/prp-artrosis.fr.jpg\", \"uploadDate\": \"2026-11-10T10:00:00+01:00\", \"duration\": \"PT46S\", \"contentUrl\": \"https://drjuliodelamorena.com/video/prp-artrosis.fr.mp4\", \"inLanguage\": \"fr\"}</script>"
+  ],
+  [
+   "Genou : dix-huit essais randomisés",
+   "<p>Une méta-analyse de dix-huit essais cliniques randomisés, portant sur 1 608 patients, a comparé le PRP à l'acide hyaluronique dans l'arthrose du genou. Le PRP a amélioré la douleur et la fonction d'environ 45 %, contre 13 % avec l'acide hyaluronique (<em>American Journal of Sports Medicine</em>, 2021).</p>"
+  ],
+  [
+   "Genou : quarante-huit études et plus de neuf mille genoux",
+   "<p>Une méta-analyse en réseau de 48 études, portant sur plus de 9 000 genoux, a comparé différentes infiltrations. À six mois ou plus, le PRP a amélioré la douleur et la fonction davantage que le placebo et s'est placé au-dessus des corticoïdes (<em>Arthroscopy</em>, 2024).</p>"
+  ],
+  [
+   "Hanche : un essai portant sur 105 patients",
+   "<p>Dans un essai clinique randomisé portant sur 105 patients atteints d'arthrose de la hanche, les infiltrations de PRP guidées par échographie ont donné, à six mois, une amélioration supérieure à celle de l'acide hyaluronique (<em>BMC Musculoskeletal Disorders</em>, 2022). Il s'agit d'un seul essai : d'autres études sont nécessaires.</p>"
+  ],
+  [
+   "Ce que ces études ne disent pas",
+   "<p>Ce sont des résultats moyens : tous les patients ne répondent pas de la même façon, et certains essais bien conçus n'ont pas trouvé de différence par rapport au placebo. C'est pourquoi la sélection du patient est essentielle.</p>"
+  ],
+  [
+   "Comment décide-t-on si le PRP est indiqué",
+   "<p>Tout dépend d'un bon diagnostic et d'une bonne indication. Pour cela, l'articulation est examinée et étudiée par une échographie ou une IRM, selon le cas. Si le PRP n'est pas indiqué, nous vous le disons.</p>"
+  ],
+  [
+   "Études citées",
+   "<p>Source : PubMed. Chaque étude renvoie à sa publication d'origine.</p><ol class=\"refs-list\"><li>Belk JW, Kraeutler MJ, Houck DA, Goodrich JA, Dragoo JL, et al. Platelet-Rich Plasma Versus Hyaluronic Acid for Knee Osteoarthritis: A Systematic Review and Meta-analysis of Randomized Controlled Trials. <em>Am J Sports Med. 2021;49(1):249-260</em>. <a href=\"https://doi.org/10.1177/0363546520909397\" rel=\"noopener\" target=\"_blank\">doi:10.1177/0363546520909397</a></li><li>Jawanda H, Khan ZA, Warrier AA, Acuña AJ, Allahabadi S, et al. Platelet-Rich Plasma, Bone Marrow Aspirate Concentrate, and Hyaluronic Acid Injections Outperform Corticosteroids in Pain and Function Scores at a Minimum of 6 Months as Intra-Articular Injections for Knee Osteoarthritis. <em>Arthroscopy. 2024;40(5):1623-1636</em>. <a href=\"https://doi.org/10.1016/j.arthro.2024.01.037\" rel=\"noopener\" target=\"_blank\">doi:10.1016/j.arthro.2024.01.037</a></li><li>Nouri F, Babaee M, Peydayesh P, Esmaily H, Raeissadat SA. Comparison between the effects of ultrasound guided intra-articular injections of platelet-rich plasma (PRP), high molecular weight hyaluronic acid, and their combination in hip osteoarthritis: a randomized clinical trial. <em>BMC Musculoskelet Disord. 2022;23(1):856</em>. <a href=\"https://doi.org/10.1186/s12891-022-05787-8\" rel=\"noopener\" target=\"_blank\">doi:10.1186/s12891-022-05787-8</a></li></ol>"
+  ]
+ ],
+ "faq": [
+  [
+   "Le PRP fonctionne-t-il dans l'arthrose du genou ?",
+   "Les revues d'essais randomisés montrent, en moyenne, une meilleure amélioration de la douleur et de la fonction qu'avec l'acide hyaluronique et, à partir de six mois, qu'avec les corticoïdes. Tous les patients ne répondent pas de la même façon."
+  ],
+  [
+   "Et dans l'arthrose de la hanche ?",
+   "Il y a moins d'études. Un essai portant sur 105 patients a trouvé plus d'amélioration avec le PRP qu'avec l'acide hyaluronique à six mois ; d'autres essais sont nécessaires pour le confirmer."
+  ],
+  [
+   "Quels examens faut-il avant d'indiquer le PRP ?",
+   "Un examen clinique et l'étude de l'articulation par une échographie ou une IRM, selon le cas."
+  ]
+ ],
+ "relacionadas": [
+  "artrosis-rodilla",
+  "artrosis-cadera",
+  "factores-crecimiento-autologos"
+ ]
+}
