@@ -1,0 +1,68 @@
+{
+ "slug": "prp-artrosis-tres-estudios",
+ "fecha": "2026-11-10",
+ "categoria": "Terapias regenerativas",
+ "titulo": "PRP en la artrosis: tres estudios donde sí funciona",
+ "resumen": "Tres estudios publicados sobre el PRP (plasma rico en plaquetas) en la artrosis de rodilla y de cadera, resumidos y con su enlace.",
+ "descripcion": "Qué dice la literatura médica sobre el PRP en la artrosis de rodilla y de cadera: tres estudios resumidos, con su enlace y sus límites.",
+ "entradilla": "El PRP (plasma rico en plaquetas) se obtiene de la propia sangre del paciente y se infiltra con ecografía en la articulación. En la artrosis de rodilla, los metaanálisis de ensayos aleatorizados lo sitúan, de media, por encima del ácido hialurónico y de los corticoides; en la cadera hay menos estudios, pero también favorables. El Dr. Julio De la Morena lo indica en el Hospital Memorial Publio Cordón (Pozuelo de Alarcón, Madrid) tras una exploración y una prueba de imagen. Resumimos tres de esos estudios.",
+ "imagen": "rodilla.jpg",
+ "imagen_wh": [
+  960,
+  1200
+ ],
+ "imagen_alt": "Exploración de la rodilla en consulta",
+ "temas": [
+  "Artrosis de rodilla",
+  "Artrosis de cadera"
+ ],
+ "secciones": [
+  [
+   "El vídeo",
+   "<figure class=\"reel\"><video controls playsinline preload=\"none\" poster=\"/video/prp-artrosis.es.jpg\" width=\"720\" height=\"1280\"><source src=\"/video/prp-artrosis.es.mp4\" type=\"video/mp4\"></video><figcaption>Tres estudios sobre el PRP en la artrosis de rodilla y de cadera.</figcaption></figure><script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"VideoObject\", \"name\": \"PRP en la artrosis: tres estudios donde sí funciona\", \"description\": \"Tres estudios sobre el PRP en la artrosis de rodilla y de cadera.\", \"thumbnailUrl\": \"https://drjuliodelamorena.com/video/prp-artrosis.es.jpg\", \"uploadDate\": \"2026-11-10T10:00:00+01:00\", \"duration\": \"PT46S\", \"contentUrl\": \"https://drjuliodelamorena.com/video/prp-artrosis.es.mp4\", \"inLanguage\": \"es\"}</script>"
+  ],
+  [
+   "Rodilla: dieciocho ensayos aleatorizados",
+   "<p>Un metaanálisis de dieciocho ensayos clínicos aleatorizados, con 1.608 pacientes, comparó el PRP con el ácido hialurónico en la artrosis de rodilla. El PRP mejoró el dolor y la función en torno a un 45 %, frente a un 13 % con ácido hialurónico (<em>American Journal of Sports Medicine</em>, 2021).</p>"
+  ],
+  [
+   "Rodilla: cuarenta y ocho estudios y más de nueve mil rodillas",
+   "<p>Un metaanálisis en red de 48 estudios, con más de 9.000 rodillas, comparó distintas infiltraciones. A los seis meses o más, el PRP mejoró el dolor y la función más que el placebo y quedó por encima de los corticoides (<em>Arthroscopy</em>, 2024).</p>"
+  ],
+  [
+   "Cadera: un ensayo con 105 pacientes",
+   "<p>En un ensayo clínico aleatorizado con 105 pacientes con artrosis de cadera, las infiltraciones de PRP guiadas por ecografía lograron, a los seis meses, una mejoría mayor que las de ácido hialurónico (<em>BMC Musculoskeletal Disorders</em>, 2022). Es un único ensayo: hacen falta más estudios.</p>"
+  ],
+  [
+   "Lo que estos estudios no dicen",
+   "<p>Son resultados medios: no todos los pacientes responden igual, y algunos ensayos bien diseñados no han encontrado diferencias frente a placebo. Por eso la selección del paciente es clave.</p>"
+  ],
+  [
+   "Cómo se decide si el PRP es lo indicado",
+   "<p>Todo depende de un buen diagnóstico y de una buena indicación. Para ello se explora la articulación y se estudia con una ecografía o con una resonancia, según el caso. Si el PRP no es lo indicado, se lo decimos.</p>"
+  ],
+  [
+   "Estudios citados",
+   "<p>Fuente: PubMed. Cada estudio enlaza a su publicación original.</p><ol class=\"refs-list\"><li>Belk JW, Kraeutler MJ, Houck DA, Goodrich JA, Dragoo JL, et al. Platelet-Rich Plasma Versus Hyaluronic Acid for Knee Osteoarthritis: A Systematic Review and Meta-analysis of Randomized Controlled Trials. <em>Am J Sports Med. 2021;49(1):249-260</em>. <a href=\"https://doi.org/10.1177/0363546520909397\" rel=\"noopener\" target=\"_blank\">doi:10.1177/0363546520909397</a></li><li>Jawanda H, Khan ZA, Warrier AA, Acuña AJ, Allahabadi S, et al. Platelet-Rich Plasma, Bone Marrow Aspirate Concentrate, and Hyaluronic Acid Injections Outperform Corticosteroids in Pain and Function Scores at a Minimum of 6 Months as Intra-Articular Injections for Knee Osteoarthritis. <em>Arthroscopy. 2024;40(5):1623-1636</em>. <a href=\"https://doi.org/10.1016/j.arthro.2024.01.037\" rel=\"noopener\" target=\"_blank\">doi:10.1016/j.arthro.2024.01.037</a></li><li>Nouri F, Babaee M, Peydayesh P, Esmaily H, Raeissadat SA. Comparison between the effects of ultrasound guided intra-articular injections of platelet-rich plasma (PRP), high molecular weight hyaluronic acid, and their combination in hip osteoarthritis: a randomized clinical trial. <em>BMC Musculoskelet Disord. 2022;23(1):856</em>. <a href=\"https://doi.org/10.1186/s12891-022-05787-8\" rel=\"noopener\" target=\"_blank\">doi:10.1186/s12891-022-05787-8</a></li></ol>"
+  ]
+ ],
+ "faq": [
+  [
+   "¿Funciona el PRP en la artrosis de rodilla?",
+   "Las revisiones de ensayos aleatorizados muestran, de media, más mejoría del dolor y de la función que con ácido hialurónico y, a partir de los seis meses, que con corticoides. No todos los pacientes responden igual."
+  ],
+  [
+   "¿Y en la artrosis de cadera?",
+   "Hay menos estudios. Un ensayo con 105 pacientes encontró más mejoría con PRP que con ácido hialurónico a los seis meses; hacen falta más ensayos para confirmarlo."
+  ],
+  [
+   "¿Qué pruebas se necesitan antes de indicar el PRP?",
+   "Una exploración clínica y el estudio de la articulación con una ecografía o con una resonancia, según el caso."
+  ]
+ ],
+ "relacionadas": [
+  "artrosis-rodilla",
+  "artrosis-cadera",
+  "factores-crecimiento-autologos"
+ ]
+}

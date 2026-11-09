@@ -1,0 +1,68 @@
+{
+ "slug": "prp-artrosis-tres-estudios",
+ "fecha": "2026-11-10",
+ "categoria": "Regenerative therapies",
+ "titulo": "PRP for osteoarthritis: three studies where it works",
+ "resumen": "Three published studies on PRP (platelet-rich plasma) in knee and hip osteoarthritis, summarised with their links.",
+ "descripcion": "What the medical literature says about PRP in knee and hip osteoarthritis: three studies summarised, with their links and their limits.",
+ "entradilla": "PRP (platelet-rich plasma) is obtained from the patient's own blood and injected into the joint under ultrasound guidance. In knee osteoarthritis, meta-analyses of randomised trials place it, on average, above hyaluronic acid and corticosteroids; for the hip there are fewer studies, but they are also favourable. Dr Julio De la Morena prescribes it at Hospital Memorial Publio Cordón (Pozuelo de Alarcón, Madrid) after an examination and an imaging test. Here we summarise three of those studies.",
+ "imagen": "rodilla.jpg",
+ "imagen_wh": [
+  960,
+  1200
+ ],
+ "imagen_alt": "Knee examination in the consulting room",
+ "temas": [
+  "Knee osteoarthritis",
+  "Hip osteoarthritis"
+ ],
+ "secciones": [
+  [
+   "The video",
+   "<figure class=\"reel\"><video controls playsinline preload=\"none\" poster=\"/video/prp-artrosis.en.jpg\" width=\"720\" height=\"1280\"><source src=\"/video/prp-artrosis.en.mp4\" type=\"video/mp4\"></video><figcaption>Three studies on PRP in knee and hip osteoarthritis.</figcaption></figure><script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"VideoObject\", \"name\": \"PRP for osteoarthritis: three studies where it works\", \"description\": \"Three studies on PRP in knee and hip osteoarthritis.\", \"thumbnailUrl\": \"https://drjuliodelamorena.com/video/prp-artrosis.en.jpg\", \"uploadDate\": \"2026-11-10T10:00:00+01:00\", \"duration\": \"PT46S\", \"contentUrl\": \"https://drjuliodelamorena.com/video/prp-artrosis.en.mp4\", \"inLanguage\": \"en\"}</script>"
+  ],
+  [
+   "Knee: eighteen randomised trials",
+   "<p>A meta-analysis of eighteen randomised clinical trials, with 1,608 patients, compared PRP with hyaluronic acid in knee osteoarthritis. PRP improved pain and function by about 45%, compared with 13% for hyaluronic acid (<em>American Journal of Sports Medicine</em>, 2021).</p>"
+  ],
+  [
+   "Knee: forty-eight studies and more than nine thousand knees",
+   "<p>A network meta-analysis of 48 studies, with more than 9,000 knees, compared different injections. At six months or more, PRP improved pain and function more than placebo and came out ahead of corticosteroids (<em>Arthroscopy</em>, 2024).</p>"
+  ],
+  [
+   "Hip: one trial with 105 patients",
+   "<p>In a randomised clinical trial of 105 patients with hip osteoarthritis, ultrasound-guided PRP injections produced, at six months, a greater improvement than hyaluronic acid injections (<em>BMC Musculoskeletal Disorders</em>, 2022). It is a single trial: more studies are needed.</p>"
+  ],
+  [
+   "What these studies do not say",
+   "<p>These are average results: not every patient responds in the same way, and some well-designed trials have found no difference compared with placebo. That is why patient selection is key.</p>"
+  ],
+  [
+   "How we decide whether PRP is the right option",
+   "<p>It all depends on a good diagnosis and a good indication. To get there, the joint is examined and studied with an ultrasound scan or an MRI, depending on the case. If PRP is not the right option, we tell you.</p>"
+  ],
+  [
+   "Studies cited",
+   "<p>Source: PubMed. Each study links to its original publication.</p><ol class=\"refs-list\"><li>Belk JW, Kraeutler MJ, Houck DA, Goodrich JA, Dragoo JL, et al. Platelet-Rich Plasma Versus Hyaluronic Acid for Knee Osteoarthritis: A Systematic Review and Meta-analysis of Randomized Controlled Trials. <em>Am J Sports Med. 2021;49(1):249-260</em>. <a href=\"https://doi.org/10.1177/0363546520909397\" rel=\"noopener\" target=\"_blank\">doi:10.1177/0363546520909397</a></li><li>Jawanda H, Khan ZA, Warrier AA, Acuña AJ, Allahabadi S, et al. Platelet-Rich Plasma, Bone Marrow Aspirate Concentrate, and Hyaluronic Acid Injections Outperform Corticosteroids in Pain and Function Scores at a Minimum of 6 Months as Intra-Articular Injections for Knee Osteoarthritis. <em>Arthroscopy. 2024;40(5):1623-1636</em>. <a href=\"https://doi.org/10.1016/j.arthro.2024.01.037\" rel=\"noopener\" target=\"_blank\">doi:10.1016/j.arthro.2024.01.037</a></li><li>Nouri F, Babaee M, Peydayesh P, Esmaily H, Raeissadat SA. Comparison between the effects of ultrasound guided intra-articular injections of platelet-rich plasma (PRP), high molecular weight hyaluronic acid, and their combination in hip osteoarthritis: a randomized clinical trial. <em>BMC Musculoskelet Disord. 2022;23(1):856</em>. <a href=\"https://doi.org/10.1186/s12891-022-05787-8\" rel=\"noopener\" target=\"_blank\">doi:10.1186/s12891-022-05787-8</a></li></ol>"
+  ]
+ ],
+ "faq": [
+  [
+   "Does PRP work in knee osteoarthritis?",
+   "Reviews of randomised trials show, on average, more improvement in pain and function than with hyaluronic acid and, from six months onwards, than with corticosteroids. Not every patient responds in the same way."
+  ],
+  [
+   "And in hip osteoarthritis?",
+   "There are fewer studies. One trial of 105 patients found more improvement with PRP than with hyaluronic acid at six months; more trials are needed to confirm it."
+  ],
+  [
+   "What tests are needed before PRP is prescribed?",
+   "A clinical examination and a study of the joint with an ultrasound scan or an MRI, depending on the case."
+  ]
+ ],
+ "relacionadas": [
+  "artrosis-rodilla",
+  "artrosis-cadera",
+  "factores-crecimiento-autologos"
+ ]
+}
