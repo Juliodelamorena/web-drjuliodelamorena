@@ -1,0 +1,68 @@
+{
+ "slug": "infiltraciones-que-son-y-por-que-con-ecografia",
+ "fecha": "2026-11-11",
+ "categoria": "Terapias regenerativas",
+ "titulo": "Infiltraciones: qué son y por qué deben hacerse con ecografía",
+ "resumen": "Qué es una infiltración, qué se puede infiltrar, si duele y qué dicen los estudios sobre hacerla guiada por ecografía.",
+ "descripcion": "Qué es una infiltración, qué se puede infiltrar, si duele y qué dicen los estudios sobre hacerla guiada por ecografía, con sus enlaces y sus límites.",
+ "entradilla": "Una infiltración consiste en inyectar un tratamiento directamente en la zona que duele. Cuando se hace guiada por ecografía, se ve la aguja en tiempo real y el tratamiento llega al punto exacto. Esto es lo que dicen los estudios, con sus enlaces y también con sus límites.",
+ "imagen": "eco.jpg",
+ "imagen_wh": [
+  960,
+  1200
+ ],
+ "imagen_alt": "Infiltración guiada por ecografía en la consulta",
+ "temas": [
+  "Infiltraciones",
+  "Ecografía"
+ ],
+ "secciones": [
+  [
+   "El vídeo",
+   "<figure class=\"reel\"><video controls playsinline preload=\"none\" poster=\"/video/infiltraciones.es.jpg\" width=\"720\" height=\"1280\"><source src=\"/video/infiltraciones.es.mp4\" type=\"video/mp4\"></video><figcaption>Qué es una infiltración, qué se puede infiltrar y por qué debe hacerse guiada por ecografía.</figcaption></figure><script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"VideoObject\", \"name\": \"Infiltraciones: qué son y por qué con ecografía\", \"description\": \"Qué es una infiltración, qué se puede infiltrar y por qué debe hacerse guiada por ecografía.\", \"thumbnailUrl\": \"https://drjuliodelamorena.com/video/infiltraciones.es.jpg\", \"uploadDate\": \"2026-11-11T10:00:00+01:00\", \"duration\": \"PT47S\", \"contentUrl\": \"https://drjuliodelamorena.com/video/infiltraciones.es.mp4\", \"inLanguage\": \"es\"}</script>"
+  ],
+  [
+   "Qué es una infiltración",
+   "<p>Una infiltración consiste en inyectar un tratamiento directamente en la zona que duele: una articulación, un tendón, un ligamento o un músculo.</p>"
+  ],
+  [
+   "Qué se puede infiltrar",
+   "<p>Lo más habitual es el PRP (plasma rico en plaquetas), el ácido hialurónico, los corticoides y el anestésico local. Menos a menudo se utilizan el concentrado de médula ósea, la proloterapia o la toxina botulínica. La elección depende del diagnóstico y de la indicación en cada caso.</p>"
+  ],
+  [
+   "¿Duele?",
+   "<p>La molestia es leve y parecida a la de una extracción de sangre. Después, el paciente vuelve a casa caminando.</p>"
+  ],
+  [
+   "Por qué debe hacerse guiada por ecografía",
+   "<p>Con el ecógrafo se ve en tiempo real la aguja y la estructura que se trata, de modo que el tratamiento llega exactamente donde tiene que llegar y se evitan los vasos sanguíneos y los nervios.</p><p>Una revisión de 12 ensayos aleatorizados concluyó que las infiltraciones articulares y periarticulares guiadas por ecografía son más precisas que las realizadas por referencias anatómicas (odds ratio 0,36) y reducen el dolor a las 2 y a las 6 semanas; a las 12 semanas la diferencia ya no fue significativa (<em>American Journal of Physical Medicine &amp; Rehabilitation</em>, 2015). Otra revisión de cuatro ensayos en artrosis de rodilla, con 338 pacientes, encontró mejor dolor y mejor función con la guía ecográfica (<em>Australasian Journal of Ultrasound in Medicine</em>, 2024).</p>"
+  ],
+  [
+   "Lo que estos estudios no dicen",
+   "<p>En el hombro, una revisión Cochrane de cinco ensayos con corticoides no encontró ventaja clínica de la ecografía frente a la infiltración por referencias anatómicas (2012). La mayor precisión es consistente; que se traduzca en un beneficio clínico mayor y duradero depende de la zona y del tratamiento, y sigue en estudio.</p>"
+  ],
+  [
+   "Estudios citados",
+   "<p>Fuente: PubMed. Cada estudio enlaza a su publicación original.</p><ol class=\"refs-list\"><li>Huang Z, Du S, Qi Y, Chen G, Yan W. Effectiveness of Ultrasound Guidance on Intraarticular and Periarticular Joint Injections: Systematic Review and Meta-analysis of Randomized Trials. <em>Am J Phys Med Rehabil. 2015;94(10):775-783</em>. <a href=\"https://doi.org/10.1097/PHM.0000000000000260\" rel=\"noopener\" target=\"_blank\">doi:10.1097/PHM.0000000000000260</a></li><li>Oo WM, Linklater J, Siddiq MAB, Fu K, Hunter DJ. Comparison of ultrasound guidance with landmark guidance for symptomatic benefits in knee, hip and hand osteoarthritis: systematic review and meta-analysis of randomised controlled trials. <em>Australas J Ultrasound Med. 2024;27(2):97-105</em>. <a href=\"https://doi.org/10.1002/ajum.12386\" rel=\"noopener\" target=\"_blank\">doi:10.1002/ajum.12386</a></li><li>Bloom JE, Rischin A, Johnston RV, Buchbinder R. Image-guided versus blind glucocorticoid injection for shoulder pain. <em>Cochrane Database Syst Rev. 2012;(8):CD009147</em>. <a href=\"https://doi.org/10.1002/14651858.CD009147.pub2\" rel=\"noopener\" target=\"_blank\">doi:10.1002/14651858.CD009147.pub2</a></li></ol>"
+  ]
+ ],
+ "faq": [
+  [
+   "¿Qué es una infiltración?",
+   "Es la inyección de un tratamiento directamente en la zona que duele: una articulación, un tendón, un ligamento o un músculo."
+  ],
+  [
+   "¿Duele una infiltración?",
+   "La molestia es leve, parecida a la de una extracción de sangre, y el paciente vuelve a casa caminando."
+  ],
+  [
+   "¿Por qué debe hacerse con ecografía?",
+   "Porque permite ver la aguja y la estructura en tiempo real. Una revisión de 12 ensayos aleatorizados encontró que las infiltraciones guiadas por ecografía son más precisas que las realizadas por referencias anatómicas."
+  ]
+ ],
+ "relacionadas": [
+  "infiltraciones-ecoguiadas",
+  "factores-crecimiento-autologos",
+  "artrosis-rodilla"
+ ]
+}
