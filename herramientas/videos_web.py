@@ -22,10 +22,16 @@ CATALOGO = [
  dict(f="prp-evidencia", art="blog/factores-crecimiento-evidencia.html", poster="{f}.{l}.jpg", dur="PT60S", fecha="2026-11-03T03:00:00+01:00",
       t=dict(es="Qué dice la literatura médica sobre el PRP", en="What the medical literature says about PRP", fr="Ce que dit la littérature médicale sur le PRP",
              ru="Что говорит медицинская литература о PRP", ka="რას ამბობს სამედიცინო ლიტერატურა PRP-ზე")),
- dict(f="unidad", art="", poster="{f}.jpg", dur="PT34S", fecha="2026-11-02T14:00:00+01:00",
+ dict(f="unidad", es_file="unidad.es.mp4", art="", poster="{f}.jpg", dur="PT34S", fecha="2026-11-02T14:00:00+01:00",
       t=dict(es="Recorrido por la unidad en el Hospital Memorial Publio Cordón (Pozuelo, Madrid)", en="A walk through the unit at Hospital Memorial Publio Cordón (Pozuelo, Madrid)",
              fr="Visite de l'unité à l'Hôpital Memorial Publio Cordón (Pozuelo, Madrid)", ru="Прогулка по отделению в больнице Memorial Publio Cordón (Посуэло, Мадрид)",
              ka="განყოფილების დათვალიერება საავადმყოფო Memorial Publio Cordón-ში (პოსუელო, მადრიდი)")),
+ dict(f="terapias-regenerativas", es_file="terapias-regenerativas.mp4", art="factores-crecimiento-autologos", poster="{f}.jpg", dur="PT35S", fecha="2026-11-01T22:00:00+01:00",
+      t=dict(es="PRP (plasma rico en plaquetas) con el Dr. Julio De la Morena", en="PRP (platelet-rich plasma)", fr="PRP (plasma riche en plaquettes)",
+             ru="PRP (плазма, обогащённая тромбоцитами)", ka="PRP (თრომბოციტებით მდიდარი პლაზმა)")),
+ dict(f="codo-de-padel", es_file="codo-de-padel.mp4", art="codo-de-tenista", poster="{f}.jpg", dur="PT33S", fecha="2026-11-01T23:40:00+01:00",
+      t=dict(es="Codo de pádel: exploración, ecografía y tratamiento", en="Tennis and padel elbow (lateral epicondylitis)", fr="Coude du tennisman et du joueur de padel (épicondylite latérale)",
+             ru="Локоть теннисиста и паделиста (латеральный эпикондилит)", ka="ჩოგბურთელისა და პადელის მოთამაშის იდაყვი (ლატერალური ეპიკონდილიტი)")),
 ]
 
 UI = {
@@ -43,7 +49,10 @@ UI = {
 
 
 def _poster(v, l): return "/video/" + v["poster"].format(f=v["f"], l=l)
-def _src(v, l): return f"/video/{v['f']}.{l}.mp4"
+N = {"es": "Español", "en": "English", "fr": "Français", "ru": "Русский", "ka": "ქართული"}
+def _src(v, l):
+    if l == "es" and v.get("es_file"): return "/video/" + v["es_file"]
+    return f"/video/{v['f']}.{l}.mp4"
 
 
 def _disponible(v, l):
@@ -60,10 +69,12 @@ def pagina(l):
                        "uploadDate": v["fecha"], "duration": v["dur"], "contentUrl": SITE + _src(v, l), "inLanguage": l} for v in vs]}
     cards = []
     for v in vs:
-        href = base + v["art"] if v["art"] else base
+        href = (I.path_for(l, v["art"]) or base) if v["art"] else base
         txt = u["art"] if v["art"] else u["more"]
+        tracks = "".join(f'<track kind="subtitles" src="/video/subs/{v["f"]}.{c}.vtt" srclang="{c}" label="{N[c]}"{" default" if c == l else ""}>'
+                         for c in LANGS if os.path.isfile(os.path.join(ROOT, "video", "subs", f"{v['f']}.{c}.vtt")))
         cards.append(f'<div class="vcard"><figure class="reel"><video controls playsinline preload="none" poster="{_poster(v, l)}" width="720" height="1280">'
-                     f'<source src="{_src(v, l)}" type="video/mp4"></video></figure>'
+                     f'<source src="{_src(v, l)}" type="video/mp4">{tracks}</video></figure>'
                      f'<h3>{esc(v["t"][l])}</h3><a href="{href}">{esc(txt)} →</a></div>')
     body = f'''<main class="block">
 <div class="wrap">
