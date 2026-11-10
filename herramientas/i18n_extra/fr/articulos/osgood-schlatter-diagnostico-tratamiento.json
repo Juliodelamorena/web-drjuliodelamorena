@@ -1,0 +1,68 @@
+{
+ "slug": "osgood-schlatter-diagnostico-tratamiento",
+ "fecha": "2026-11-14",
+ "categoria": "Genou",
+ "titulo": "Osgood-Schlatter : diagnostic et traitement",
+ "resumen": "Ce qu'est la maladie d'Osgood-Schlatter, ce que montre l'échographie Doppler et pourquoi le traitement conservateur réussit dans la majorité des cas.",
+ "descripcion": "Osgood-Schlatter chez l'adolescent : ce que montre l'échographie Doppler, le traitement conservateur et la durée possible.",
+ "entradilla": "La maladie d'Osgood-Schlatter est une apophysite de traction de la tubérosité tibiale, première cause de douleur du genou chez le jeune sportif en croissance. Elle se diagnostique par l'examen et une échographie, sans radiation, et le traitement conservateur résout plus de neuf cas sur dix. Le Dr Julio De la Morena la prend en charge à l'Hôpital Memorial Publio Cordón (Pozuelo de Alarcón, Madrid).",
+ "imagen": "rodilla.jpg",
+ "imagen_wh": [
+  960,
+  1200
+ ],
+ "imagen_alt": "Examen du genou en consultation",
+ "temas": [
+  "Genou",
+  "Adolescents"
+ ],
+ "secciones": [
+  [
+   "La vidéo",
+   "<figure class=\"reel\"><video controls playsinline preload=\"none\" poster=\"/video/osgood-schlatter.fr.jpg\" width=\"720\" height=\"1280\"><source src=\"/video/osgood-schlatter.fr.mp4\" type=\"video/mp4\"></video><figcaption>Osgood-Schlatter : le côté sans douleur comparé au côté atteint, à l'échographie.</figcaption></figure><script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"VideoObject\", \"name\": \"Osgood-Schlatter : diagnostic et traitement\", \"description\": \"Échographie du tendon rotulien : côté sans douleur et côté atteint d'Osgood-Schlatter, et traitement conservateur.\", \"thumbnailUrl\": \"https://drjuliodelamorena.com/video/osgood-schlatter.fr.jpg\", \"uploadDate\": \"2026-11-14T10:00:00+01:00\", \"duration\": \"PT31S\", \"contentUrl\": \"https://drjuliodelamorena.com/video/osgood-schlatter.fr.mp4\", \"inLanguage\": \"fr\"}</script>"
+  ],
+  [
+   "Ce que c'est",
+   "<p>C'est une apophysite de traction de la tubérosité tibiale : le tendon rotulien tire sur une zone de l'os encore en croissance. Elle touche surtout les adolescents lors des poussées de croissance et c'est la première cause de douleur du genou chez le sportif au squelette immature (<em>Musculoskeletal Surgery</em>, 2026).</p>"
+  ],
+  [
+   "Ce que montre l'échographie",
+   "<p>On compare le tendon rotulien du côté sans douleur à celui du côté atteint. Du côté atteint, la tubérosité tibiale apparaît fragmentée et le Doppler montre davantage de signal vasculaire, ce qui correspond à une inflammation. L'échographie n'utilise pas de radiation. Les revues recommandent d'utiliser l'imagerie avec discernement : pour confirmer le diagnostic ou écarter d'autres causes (<em>Southern Medical Journal</em>, 2026).</p>"
+  ],
+  [
+   "Traitement conservateur",
+   "<p>Il associe adaptation de l'activité, rééducation progressive et contrôle de la charge d'entraînement. Avec cette approche, les résultats sont bons dans plus de neuf cas pédiatriques sur dix (<em>Musculoskeletal Surgery</em>, 2026).</p>"
+  ],
+  [
+   "Combien de temps cela peut durer",
+   "<p>Elle se résout avec la croissance, mais les symptômes peuvent durer jusqu'à 24 mois, et environ 10 % des patients gardent une gêne à l'âge adulte, surtout à genoux. D'où l'importance d'un bon contrôle de la charge pendant la croissance.</p>"
+  ],
+  [
+   "Quand consulter",
+   "<p>Devant une douleur sous la rotule apparaissant avec le sport, une bosse douloureuse sous la rotule, ou une douleur qui ne s'améliore pas en adaptant l'activité. Un examen et une échographie permettent de confirmer le diagnostic et d'écarter d'autres causes.</p>"
+  ],
+  [
+   "Études citées",
+   "<p>Source : PubMed. Chaque étude renvoie à sa publication d'origine.</p><ol class=\"refs-list\"><li>Colmenares-Bonilla D, Solis-Pena J. Comprehensive management of the adolescent athlete with Osgood-Schlatter disease: a multidimensional approach. <em>Musculoskelet Surg. 2026</em>. <a href=\"https://doi.org/10.1007/s12306-026-00962-9\" rel=\"noopener\" target=\"_blank\">doi:10.1007/s12306-026-00962-9</a></li><li>Archer H, McKay SD. Adolescent Sports-Related Lower Extremity Pain and Overuse Injuries. <em>South Med J. 2026;119(11):707-712</em>. <a href=\"https://doi.org/10.14423/SMJ.0000000000002031\" rel=\"noopener\" target=\"_blank\">doi:10.14423/SMJ.0000000000002031</a></li></ol>"
+  ]
+ ],
+ "faq": [
+  [
+   "Qu'est-ce que la maladie d'Osgood-Schlatter ?",
+   "Une inflammation de la zone du tibia où s'insère le tendon rotulien, fréquente chez les adolescents sportifs en croissance."
+  ],
+  [
+   "Une radiographie est-elle nécessaire ?",
+   "Pas toujours. L'examen et l'échographie, sans radiation, suffisent généralement ; l'IRM ou la radiographie sont réservées aux cas douteux."
+  ],
+  [
+   "Est-ce que cela guérit ?",
+   "Le traitement conservateur donne de bons résultats dans plus de neuf cas sur dix. Les symptômes peuvent durer jusqu'à 24 mois et disparaissent à la fin de la croissance."
+  ]
+ ],
+ "relacionadas": [
+  "tendinopatias",
+  "infiltraciones-ecoguiadas",
+  "segunda-opinion"
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "slug": "osgood-schlatter-diagnostico-tratamiento",
+ "fecha": "2026-11-14",
+ "categoria": "Knee",
+ "titulo": "Osgood-Schlatter: diagnosis and treatment",
+ "resumen": "What Osgood-Schlatter disease is, how it looks on Doppler ultrasound, and why conservative treatment works in most cases.",
+ "descripcion": "Osgood-Schlatter in teenagers: what Doppler ultrasound shows, how conservative treatment works and how long it can last.",
+ "entradilla": "Osgood-Schlatter disease is a traction apophysitis of the tibial tuberosity and the most common cause of knee pain in growing young athletes. It is diagnosed with an examination and an ultrasound, without radiation, and conservative treatment resolves more than nine out of ten cases. Dr Julio De la Morena assesses it at Hospital Memorial Publio Cordón (Pozuelo de Alarcón, Madrid).",
+ "imagen": "rodilla.jpg",
+ "imagen_wh": [
+  960,
+  1200
+ ],
+ "imagen_alt": "Knee examination in the clinic",
+ "temas": [
+  "Knee",
+  "Teenagers"
+ ],
+ "secciones": [
+  [
+   "The video",
+   "<figure class=\"reel\"><video controls playsinline preload=\"none\" poster=\"/video/osgood-schlatter.en.jpg\" width=\"720\" height=\"1280\"><source src=\"/video/osgood-schlatter.en.mp4\" type=\"video/mp4\"></video><figcaption>Osgood-Schlatter: the pain-free side compared with the affected side on ultrasound.</figcaption></figure><script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"VideoObject\", \"name\": \"Osgood-Schlatter: diagnosis and treatment\", \"description\": \"Patellar tendon ultrasound: pain-free side versus Osgood-Schlatter side, and conservative treatment.\", \"thumbnailUrl\": \"https://drjuliodelamorena.com/video/osgood-schlatter.en.jpg\", \"uploadDate\": \"2026-11-14T10:00:00+01:00\", \"duration\": \"PT31S\", \"contentUrl\": \"https://drjuliodelamorena.com/video/osgood-schlatter.en.mp4\", \"inLanguage\": \"en\"}</script>"
+  ],
+  [
+   "What it is",
+   "<p>It is a traction apophysitis of the tibial tuberosity: the patellar tendon pulls on an area of bone that is still growing. It mainly affects teenagers during periods of rapid growth and is the most common cause of knee pain in skeletally immature athletes (<em>Musculoskeletal Surgery</em>, 2026).</p>"
+  ],
+  [
+   "What the ultrasound shows",
+   "<p>The patellar tendon of the pain-free side is compared with the affected side. On the affected side the tibial tuberosity appears fragmented and Doppler shows more vascular signal, which corresponds to inflammation. Ultrasound uses no radiation. Reviews recommend using imaging judiciously: to confirm the diagnosis or rule out other causes (<em>Southern Medical Journal</em>, 2026).</p>"
+  ],
+  [
+   "Conservative treatment",
+   "<p>It consists of adjusting activity, progressive rehabilitation and control of training load. With this approach, outcomes are good in more than nine out of ten paediatric cases (<em>Musculoskeletal Surgery</em>, 2026).</p>"
+  ],
+  [
+   "How long it can last",
+   "<p>It resolves with growth, but symptoms can last up to 24 months, and around 10% of those affected keep some discomfort as adults, especially when kneeling. That is why good load control during growth matters.</p>"
+  ],
+  [
+   "When to seek an assessment",
+   "<p>For pain below the kneecap that appears with sport, a painful bump under the kneecap, or pain that does not improve when activity is adjusted. An examination and an ultrasound can confirm the diagnosis and rule out other causes.</p>"
+  ],
+  [
+   "Studies cited",
+   "<p>Source: PubMed. Each study links to its original publication.</p><ol class=\"refs-list\"><li>Colmenares-Bonilla D, Solis-Pena J. Comprehensive management of the adolescent athlete with Osgood-Schlatter disease: a multidimensional approach. <em>Musculoskelet Surg. 2026</em>. <a href=\"https://doi.org/10.1007/s12306-026-00962-9\" rel=\"noopener\" target=\"_blank\">doi:10.1007/s12306-026-00962-9</a></li><li>Archer H, McKay SD. Adolescent Sports-Related Lower Extremity Pain and Overuse Injuries. <em>South Med J. 2026;119(11):707-712</em>. <a href=\"https://doi.org/10.14423/SMJ.0000000000002031\" rel=\"noopener\" target=\"_blank\">doi:10.14423/SMJ.0000000000002031</a></li></ol>"
+  ]
+ ],
+ "faq": [
+  [
+   "What is Osgood-Schlatter disease?",
+   "An inflammation of the area of the tibia where the patellar tendon attaches, common in teenagers who play sport while growing."
+  ],
+  [
+   "Is an X-ray needed?",
+   "Not always. Examination and ultrasound, which uses no radiation, are usually enough; MRI or X-ray are kept for doubtful cases."
+  ],
+  [
+   "Does it go away?",
+   "Conservative treatment gives good results in more than nine out of ten cases. Symptoms can last up to 24 months and settle when growth ends."
+  ]
+ ],
+ "relacionadas": [
+  "tendinopatias",
+  "infiltraciones-ecoguiadas",
+  "segunda-opinion"
+ ]
+}
