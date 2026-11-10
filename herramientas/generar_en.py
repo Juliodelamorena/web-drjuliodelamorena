@@ -21,7 +21,7 @@ DOCTOR_REF = G.DOCTOR_REF
 PHONE = "+34 913 548 990"
 MAPA = "https://maps.google.com/?cid=4492723553507247190"   # ficha de Google del doctor (enlace neutro: Cómo llegar)
 
-MENU_EN = [("/en/#conditions", "Conditions"), ("/en/#treatments", "Treatments"), ("/en/dr-julio-de-la-morena/", "The doctor"), ("/en/#hospital", "Hospital"), ("/en/blog/", "Articles")]
+MENU_EN = [("/en/#conditions", "Conditions"), ("/en/#treatments", "Treatments"), ("/en/dr-julio-de-la-morena/", "The doctor"), ("/en/#hospital", "Hospital"), ("/en/blog/", "Articles"), ("/en/videos/", "Videos")]
 
 def header(es_slug="", form=True):
     cita = "#contact" if form else "/en/#contact"
@@ -41,6 +41,7 @@ def header(es_slug="", form=True):
 <a href="/en/dr-julio-de-la-morena/">The doctor</a>
 <a href="/en/#hospital">Hospital</a>
 <a href="/en/blog/">Articles</a>
+<a href="/en/videos/">Videos</a>
 {I.menu("en", es_slug, "Language")}
 <a class="btn solo-movil" href="tel:+34913548990">Book</a><a class="btn solo-escritorio" href="{cita}">Book an appointment</a>
 {I.nav_movil(MENU_EN, "Menu", [("tel:+34913548990", "Call +34 913 548 990"), (cita, "Book an appointment")])}
@@ -52,6 +53,7 @@ def _extra_links(l):
     u = X.ui(l); out = ""
     if os.path.isdir(os.path.join(X.DIR, l, "planes")): out += f'<a href="/{l}/planes/">{esc(u["plans_label"])}</a>'
     if os.path.isdir(os.path.join(X.DIR, l, "articulos")): out += f'<a href="/{l}/blog/">{esc(u["blog_label"])}</a>'
+    out += f'<a href="/{l}/videos/">{esc(I.VIDEOS_LABEL[l])}</a>'
     return out
 
 def footer(es_slug="", form=True):

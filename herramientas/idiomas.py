@@ -45,6 +45,8 @@ def extra_available(code, es_slug):
     d = os.path.join(EXTRA_DIR, code)
     if es_slug in LEGAL:
         return os.path.isfile(os.path.join(d, "legal.json"))
+    if es_slug == "videos/":
+        return True
     if es_slug in ("blog/", "planes/"):
         return os.path.isdir(os.path.join(d, es_slug.rstrip("/") if es_slug == "planes/" else "articulos"))
     if es_slug.startswith("blog/") and es_slug.endswith(".html"):
@@ -54,11 +56,11 @@ def extra_available(code, es_slug):
     return False
 
 def is_extra(es_slug):
-    return es_slug in LEGAL or es_slug.startswith("blog/") or es_slug.startswith("planes/")
+    return es_slug in LEGAL or es_slug == "videos/" or es_slug.startswith("blog/") or es_slug.startswith("planes/")
 
 def path_for(code, es_slug):
     """Site-relative path of the page `es_slug` in language `code`, or None if it has no version."""
-    if es_slug in ("blog", "planes") or (es_slug.startswith("planes/") and not es_slug.endswith("/")):
+    if es_slug in ("blog", "planes", "videos") or (es_slug.startswith("planes/") and not es_slug.endswith("/")):
         es_slug += "/"
     if is_extra(es_slug):
         if code == "es":
@@ -141,3 +143,8 @@ def es_slug_from_url(url):
     """'https://site/x/' or '/x/' -> 'x'; home -> ''."""
     p = url.replace(SITE, "").strip("/")
     return p
+
+
+VIDEOS_LABEL = {"es": "Vídeos", "en": "Videos", "fr": "Vidéos", "ru": "Видео", "ka": "ვიდეოები"}
+def videos_href(code):
+    return "/videos/" if code == "es" else f"/{code}/videos/"

@@ -33,7 +33,7 @@ BY_SLUG = {p["slug"]: p for p in PAGES}
 def esc(s): return html.escape(s, quote=True)
 
 MENU_ES = [("/#areas", "Especialidades"), ("/#tratamientos", "Tratamientos"),
-           ("/dr-julio-de-la-morena/", "El doctor"), ("/blog/", "Artículos")]
+           ("/dr-julio-de-la-morena/", "El doctor"), ("/blog/", "Artículos"), ("/videos/", "Vídeos")]
 
 def header(es_slug="", form=True):
     """`form`: la página lleva su propio formulario (#contacto); si no, los botones van al de la portada."""
@@ -53,6 +53,7 @@ def header(es_slug="", form=True):
 <a href="/#tratamientos">Tratamientos</a>
 <a href="/dr-julio-de-la-morena/">El doctor</a>
 <a href="/blog/">Artículos</a>
+<a href="/videos/">Vídeos</a>
 {I.menu("es", es_slug, "Idioma")}
 <a class="btn solo-movil" href="tel:+34913548990">Pedir cita</a><a class="btn solo-escritorio" href="{cita}">Pedir cita</a>
 {I.nav_movil(MENU_ES, "Menú", [("tel:+34913548990", "Llamar · 913 548 990"), (cita, "Pedir cita")])}
@@ -73,7 +74,7 @@ def footer(form=True):
 <span>Hospital Memorial Publio Cordón · Paseo de la Casa de Campo, 5 · 28223 Pozuelo de Alarcón (Madrid) · <a href="{MAPA}" rel="noopener" target="_blank">Cómo llegar</a></span>
 <span>Cita previa: <a class="tel" href="tel:+34913548990">913 548 990</a> · Consulta lunes a viernes, de 15:00 a 21:00</span>
 </div>
-<nav class="foot-col foot-links" aria-label="Especialidades y tratamientos">{links}<a href="/dr-julio-de-la-morena/">El doctor</a><a href="/planes/">Planes de ejercicio</a><a href="/blog/">Artículos</a>{I.footer_links("es")}</nav>
+<nav class="foot-col foot-links" aria-label="Especialidades y tratamientos">{links}<a href="/dr-julio-de-la-morena/">El doctor</a><a href="/planes/">Planes de ejercicio</a><a href="/blog/">Artículos</a><a href="/videos/">Vídeos</a>{I.footer_links("es")}</nav>
 </div>
 <div class="wrap foot-legal">
 <span>Dr. Julio De la Morena Garzón · Colegiado nº 281903698 · Medicina de la Educación Física y del Deporte</span>

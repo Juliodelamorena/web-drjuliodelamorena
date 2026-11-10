@@ -455,3 +455,11 @@ details.mas[open] > summary { margin-bottom: 10px; }
   #tratamientos .reel, #hospital .reel { max-width: 240px; }
   .block { padding-top: 48px; padding-bottom: 48px; }
 }
+
+/* Apartado de vídeos */
+.vgrid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px 32px; align-items: start; }
+.vgrid .reel { margin: 0 0 14px; max-width: none; }
+.vcard h3 { margin: 0 0 8px; font-family: var(--display); font-weight: 600; font-size: 22px; line-height: 1.2; }
+.vcard a { font-size: 15.5px; }
+@media (max-width: 960px) { .vgrid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 640px) { .vgrid { grid-template-columns: minmax(0, 1fr); } .vgrid .reel { max-width: 360px; } }

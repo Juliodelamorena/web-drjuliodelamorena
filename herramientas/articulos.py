@@ -140,6 +140,7 @@ def sitemap(arts):
             continue
         urls += [(f"/{code}/", "0.8"), (f"/{code}/{pk.ABOUT['slug']}/", "0.7")] + [(f"/{code}/{q['slug']}/", "0.7") for q in pk.PAGES]
     urls += __import__("contenido_i18n").urls_sitemap()   # blog y planes traducidos
+    urls += __import__("videos_web").urls_sitemap()       # apartado de vídeos (5 idiomas)
     hoy = max([a["fecha"] for a in arts] + [G.REVISION])
     x = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + \
         "".join(f"  <url><loc>{SITE}{u}</loc><lastmod>{hoy}</lastmod><priority>{pr}</priority></url>\n" for u, pr in urls) + "</urlset>\n"
@@ -163,4 +164,5 @@ if __name__ == "__main__":
         open(os.path.join(ROOT, "blog", f"{a['slug']}.html"), "w", encoding="utf-8").write(articulo(a))
     open(os.path.join(ROOT, "blog", "index.html"), "w", encoding="utf-8").write(indice(arts))
     portada(arts); sitemap(arts); llms(arts)
+    __import__("videos_web").main()
     print("artículos:", len(arts))
