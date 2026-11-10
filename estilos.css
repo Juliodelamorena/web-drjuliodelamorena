@@ -157,6 +157,8 @@ form.f { background: #fff; color: var(--ink); padding: 36px; display: flex; flex
 .article p { margin: 0; }
 .article .intro { font-size: 21px; color: var(--muted); }
 .article .wide { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+/* Foto de la trayectoria: es casi cuadrada y el recorte 16:9 centrado cortaba la cara; se ancla arriba */
+.article .wide[src*="trayectoria"] { aspect-ratio: 4 / 3; object-position: 50% 0; }
 .box { background: var(--mist); border-left: 2px solid var(--gold); padding: 26px 28px; }
 .box h3 { margin: 0 0 8px; font-family: var(--display); font-weight: 600; font-size: 25px; }
 .box ul { margin: 0; padding-left: 22px; }
