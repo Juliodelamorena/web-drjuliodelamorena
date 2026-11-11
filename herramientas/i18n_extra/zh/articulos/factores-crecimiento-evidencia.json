@@ -1,0 +1,67 @@
+{
+ "slug": "factores-crecimiento-evidencia",
+ "fecha": "2026-10-21",
+ "categoria": "再生疗法",
+ "titulo": "PRP（富血小板血浆）：研究怎么说",
+ "resumen": "关于 PRP（富血小板血浆）治疗骨关节炎、肌腱病和肩部的最佳综述和试验，附链接的摘要。",
+ "descripcion": "研究如何看待 PRP（富血小板血浆）治疗膝关节骨关节炎、肌腱病和足底筋膜炎。",
+ "entradilla": "PRP（富血小板血浆）释放取自患者自身血液的生长因子，是研究最多的再生治疗之一。科学证据最充分的适应证是轻中度膝关节骨关节炎，临床试验的综述显示，其缓解作用比透明质酸或皮质类固醇更明显、更持久。在臀肌肌腱病、网球肘、足底筋膜炎和肩袖手术中，也有积极的研究。这里我们概述主要的研究，并附上链接。",
+ "imagen": "regenerativa.jpg",
+ "imagen_wh": [
+  960,
+  1200
+ ],
+ "imagen_alt": "正在进行的超声引导治疗",
+ "temas": [
+  "膝关节骨关节炎",
+  "肌腱病",
+  "肱骨外上髁炎",
+  "足底筋膜炎",
+  "肩袖撕裂"
+ ],
+ "secciones": [
+  [
+   "我们如何筛选研究",
+   "<p>我们优先选择质量最高的来源：汇集了许多随机临床试验的系统综述和荟萃分析、欧洲专家共识，以及双盲临床试验。每项研究都用一句话概括，并链接到其原始发表页面。结果不利的研究也一并列出，因为诚实的信息是良好适应证判断的一部分。已被期刊撤稿的综述已被排除。</p>"
+  ],
+  [
+   "膝关节骨关节炎：证据最充分的适应证",
+   "<ul><li><strong>欧洲共识（2024 年）。</strong>欧洲运动创伤学、膝关节外科和关节镜学会以最高推荐级别得出结论：有足够的证据支持在轻中度膝关节骨关节炎中使用，其效果比皮质类固醇持续更久，并且它可以作为注射治疗中的一线选择。<a href=\"https://doi.org/10.1002/ksa.12077\" rel=\"noopener\" target=\"_blank\">Laver 等，Knee Surgery, Sports Traumatology, Arthroscopy，2024 年</a>。</li><li><strong>与透明质酸对比。</strong>十五项双盲试验，1,632 名患者：12 个月时疼痛和功能的改善更大，差异具有临床意义。<a href=\"https://doi.org/10.1016/j.arthro.2025.06.033\" rel=\"noopener\" target=\"_blank\">Li 等，Arthroscopy，2025 年</a>。</li><li><strong>所有注射治疗的比较。</strong>四十八项试验，9,338 个膝关节：从 6 个月起，PRP 在疼痛和功能方面排名最佳，领先于透明质酸和皮质类固醇。<a href=\"https://doi.org/10.1016/j.arthro.2024.01.037\" rel=\"noopener\" target=\"_blank\">Jawanda 等，Arthroscopy，2024 年</a>。</li><li><strong>与皮质类固醇对比。</strong>在 3、6 和 9 个月时结果更好；每周一次、共三次注射优于单次注射。<a href=\"https://doi.org/10.1186/s12891-021-04308-3\" rel=\"noopener\" target=\"_blank\">McLarnon 和 Heron，BMC Musculoskeletal Disorders，2021 年</a>。</li><li><strong>与安慰剂对比。</strong>三十四项试验：获益超出安慰剂效应，并随时间增加，在 6 至 12 个月之间具有临床意义。<a href=\"https://doi.org/10.1177/1947603520931170\" rel=\"noopener\" target=\"_blank\">Filardo 等，Cartilage，2020 年</a>。</li></ul>"
+  ],
+  [
+   "臀肌肌腱病（髋部外侧疼痛）",
+   "<ul><li><strong>与皮质类固醇的双盲试验。</strong>单次超声引导注射，3 个月时的改善更大。<a href=\"https://doi.org/10.1177/0363546517745525\" rel=\"noopener\" target=\"_blank\">Fitzpatrick 等，American Journal of Sports Medicine，2018 年</a>。</li><li><strong>两年随访。</strong>改善在 2 年时仍然保持，而皮质类固醇的效果不超过 24 周。<a href=\"https://doi.org/10.1177/0363546519826969\" rel=\"noopener\" target=\"_blank\">Fitzpatrick 等，American Journal of Sports Medicine，2019 年</a>。</li></ul>"
+  ],
+  [
+   "网球肘、足底筋膜炎和其他肌腱病",
+   "<ul><li><strong>网球肘（肱骨外上髁炎）。</strong>皮质类固醇在第一个月缓解作用更大；PRP 在 3 和 6 个月时结果更好。<a href=\"https://doi.org/10.1016/j.jse.2023.04.018\" rel=\"noopener\" target=\"_blank\">Hohmann 等，Journal of Shoulder and Elbow Surgery，2023 年</a>。</li><li><strong>足底筋膜炎。</strong>二十一项试验：疼痛减轻程度大于皮质类固醇、冲击波治疗或安慰剂。<a href=\"https://doi.org/10.1016/j.fas.2024.02.004\" rel=\"noopener\" target=\"_blank\">Herber 等，Foot and Ankle Surgery，2024 年</a>。</li><li><strong>肌腱病总体情况。</strong>二十七项试验：在中期，疼痛和功能方面的结果优于皮质类固醇。<a href=\"https://doi.org/10.1186/s12891-025-08566-3\" rel=\"noopener\" target=\"_blank\">Ye 等，BMC Musculoskeletal Disorders，2025 年</a>。</li></ul>"
+  ],
+  [
+   "肩部手术：肩袖修复",
+   "<p>二十三项试验，1,440 名患者：在关节镜修复过程中加用 PRP，可将再撕裂率从 29% 降至 16%，并改善疼痛和功能。<a href=\"https://doi.org/10.1016/j.arthro.2021.05.023\" rel=\"noopener\" target=\"_blank\">Li 等，Arthroscopy，2021 年</a>。</p>"
+  ],
+  [
+   "您还应当知道的事",
+   "<ul><li><strong>并非所有研究都是有利的。</strong>一项澳大利亚试验纳入 288 名患者，发现在膝关节骨关节炎中 12 个月时与安慰剂没有差异。<a href=\"https://doi.org/10.1001/jama.2021.19415\" rel=\"noopener\" target=\"_blank\">Bennell 等，JAMA，2021 年</a>。</li><li><strong>在肌腱方面，证据质量较低</strong>，不及膝关节，一些综述发现与其他治疗没有明显差异。<a href=\"https://doi.org/10.2450/2022.0087-22\" rel=\"noopener\" target=\"_blank\">Masiello 等，Blood Transfusion，2022 年</a>。</li><li><strong>制剂很重要。</strong>PRP 有许多类型，并不都一样；这解释了不同研究之间的部分差异。</li><li><strong>并非对每位患者都有效。</strong>在经过良好筛选的病例中，以及与治疗性运动结合时，效果最好。</li></ul><p>因此，适应证总是在门诊经过体格检查和超声之后决定，并且从不保证一定有效果。</p>"
+  ]
+ ],
+ "faq": [
+  [
+   "PRP 对膝关节骨关节炎有效是否已经得到证实？",
+   "临床试验的综述和 2024 年欧洲共识都认为，它是轻中度骨关节炎的有效选择，缓解作用比透明质酸或皮质类固醇更明显、更持久。一些试验发现与安慰剂没有差异，因此患者的筛选是关键。"
+  ],
+  [
+   "它比皮质类固醇注射更好吗？",
+   "皮质类固醇通常见效更快，在最初几周内。PRP 在中期，即 3 至 12 个月之间，在膝关节骨关节炎、网球肘、足底筋膜炎和臀肌肌腱病中结果更好。"
+  ],
+  [
+   "PRP 和生长因子是一回事吗？",
+   "PRP 是这项治疗：取自患者自身血液的血小板浓缩物。生长因子是其血小板在受伤部位释放的蛋白质，因此这两个名称有时用来指同一种疗法。"
+  ]
+ ],
+ "relacionadas": [
+  "factores-crecimiento-autologos",
+  "artrosis-rodilla",
+  "tendinopatias"
+ ]
+}

@@ -18,7 +18,7 @@ import planes as PL
 
 ROOT, SITE = G.ROOT, G.SITE
 esc = G.esc
-LANGS = ["en", "ka", "ru", "fr"]
+LANGS = ["en", "ka", "ru", "fr", "zh"]
 PHONE_INTL = "+34 913 548 990"
 
 
@@ -120,7 +120,10 @@ def articulo(C, u, a):
             {"@type": "ListItem", "position": 3, "name": a["titulo"], "item": url}]}]}
     if a.get("faq"):
         ld["@graph"].append(G.faq_ld([tuple(x) for x in a["faq"]]))
-    secs = "\n".join(f"<h2>{esc(s[0])}</h2>\n{C.fix_links(s[1])}" for s in a["secciones"])
+    def _ok(h):  # skip sections that embed a video file not yet produced in this language
+        import re as _re
+        return all(os.path.isfile(os.path.join(ROOT, m.lstrip("/"))) for m in _re.findall(r'src="(/video/[^"]+\.mp4)"', h))
+    secs = "\n".join(f"<h2>{esc(s[0])}</h2>\n{C.fix_links(s[1])}" for s in a["secciones"] if _ok(s[1]))
     faq = ""
     if a.get("faq"):
         faq = f'<h2>{esc(u["faq"])}</h2>\n<div class="faq">\n' + "\n".join(

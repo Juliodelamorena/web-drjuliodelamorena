@@ -19,7 +19,7 @@ def ui(lang): return _load(lang, "ui.json")
 def galeria(lang): return _load(lang, "galeria.json")
 def legal(lang): return _load(lang, "legal.json")
 
-SUBS_LANGS = ["es", "en", "ka", "ru", "fr"]
+SUBS_LANGS = ["es", "en", "ka", "ru", "fr", "zh"]
 REELS = {  # slug español de la página -> vídeo
  "factores-crecimiento-autologos": {"file": "terapias-regenerativas", "date": "2026-11-01T22:00:00+01:00", "dur": "PT35S", "cap": "video_caption_factores"},
  "codo-de-tenista": {"file": "codo-de-padel", "date": "2026-11-01T23:40:00+01:00", "dur": "PT33S", "cap": "video_caption_codo"},
@@ -101,6 +101,19 @@ PRIVADA = {"es": "Consulta privada, sin intermediarios: tiempo y atención para 
            "ru": "Частный прием без посредников: время и внимание Вашему случаю.",
            "ka": "კერძო მიღება, შუამავლების გარეშე: დრო და ყურადღება თქვენს შემთხვევას."}
 
+# --- chino simplificado (zh) ---
+CIERRE["zh"] = "预约德拉莫雷纳医生的门诊。"
+for _s, _t in {
+ "esguince-tobillo-sigue-fallando": "扭伤之后，您的脚踝还是总是不稳吗？",
+ "factores-crecimiento-evidencia": "想知道 PRP 是否适合您的情况吗？",
+ "tendinitis-cronica-cuando-no-se-cura-sola": "肌腱炎已经好几个月还没有痊愈吗？",
+ "terapias-regenerativas-que-son": "想知道再生疗法能否帮到您吗？",
+ "ciatica-dolor-espalda-baja-pierna": "背部疼痛会向下放射到腿部吗？",
+ "lumbalgia-5-cosas": "腰痛已经有一段时间，或者疼痛向腿部放射吗？",
+}.items():
+    ART_CTA[_s]["zh"] = _t
+PRIVADA["zh"] = "私人门诊，无需中间机构：为您的病情留出充足的时间与关注。"
+
 def art_cta(lang, slug, default):
     q = ART_CTA.get(slug, {}).get(lang)
     return f"{q} {CIERRE[lang]}" if q else default
@@ -136,6 +149,9 @@ CAUTELA = {
  "ka": "ამ კვლევების შედეგები განსხვავდება დაზიანებისა და ადამიანის მიხედვით, ამიტომ ვატარებთ დეტალურ, ინდივიდუალურ შეფასებას, რათა განვსაზღვროთ, არის თუ არა PRP-ი თქვენთვის შესაფერისი და, თუ არის, გამოვიყენოთ ის თქვენი შემთხვევისთვის ყველაზე ეფექტიანად.",
 }
 
+EVID_TXT["zh"] = ("医学文献如何看待 PRP", "关于 PRP（富血小板血浆）的七项已发表研究，涉及膝、肩、下背、髋、肘和足。", "视频中的七项研究（来源：PubMed）")
+CAUTELA["zh"] = "这些研究的结果因损伤类型和个体而异，因此我们会进行详细的个体化评估，判断 PRP 是否适合您；如果适合，再以最有效的方式用于您的病情。"
+
 def evidencia_html(lang, slug):
     if slug not in EVID_SLUGS or lang not in EVID_TXT: return ""
     h2, cap, lista = EVID_TXT[lang]; n = f"prp-evidencia.{lang}"
@@ -143,6 +159,9 @@ def evidencia_html(lang, slug):
     ld = {"@context": "https://schema.org", "@type": "VideoObject", "name": h2, "description": cap,
           "thumbnailUrl": f"{SITE}/video/{n}.jpg", "uploadDate": "2026-11-03T03:00:00+01:00", "duration": "PT60S",
           "contentUrl": f"{SITE}/video/{n}.mp4", "inLanguage": lang}
+    if not os.path.isfile(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "video", n + ".mp4")):
+        return (f'<h2>{esc(h2)}</h2>\n<p>{esc(cap)}</p>\n' + (f'<p class="cautela"><strong>{esc(CAUTELA[lang])}</strong></p>\n' if lang in CAUTELA else '') +
+                f'<details class="refs"><summary>{esc(lista)}</summary><ol>{refs}</ol></details>\n')
     return (f'<h2>{esc(h2)}</h2>\n<figure class="reel"><video controls playsinline preload="none" poster="/video/{n}.jpg" width="720" height="1280">'
             f'<source src="/video/{n}.mp4" type="video/mp4"></video><figcaption>{esc(cap)}</figcaption></figure>\n' +
             (f'<p class="cautela"><strong>{esc(CAUTELA[lang])}</strong></p>\n' if lang in CAUTELA else '') +

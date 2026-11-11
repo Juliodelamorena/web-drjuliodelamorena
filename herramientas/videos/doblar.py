@@ -36,7 +36,38 @@ GUIONES_KA = {
     ]},
 }
 
+
+GUIONES_ZH = {
+    "codo-de-padel": {"fondo": "musica", "frases": [
+        (1.9, "打帕德尔之后，肘部疼吗？"),
+        (4.65, "这是前臂肌腱的过度负荷，仅靠休息治不好。"),
+        (10.0, "我先检查肘部，并做超声，观察肌腱。"),
+        (15.0, "然后是运动，检查球拍和技术。"),
+        (19.8, "如果没有改善，就用自体生长因子，在超声引导下进行：也就是所谓的富血小板血浆。"),
+        (26.2, "请到马德里波苏埃洛，向我预约评估。"),
+    ]},
+    "terapias-regenerativas": {"fondo": "musica", "frases": [
+        (0.0, "膝盖疼了几个月，就已经在谈关节置换了吗？"),
+        (4.95, "在许多情况下，之前还有一步。"),
+        (8.0, "富血小板血浆。"),
+        (10.4, "自体生长因子，取自您自己的血液。"),
+        (15.7, "始终在超声引导下，与介入放射科医生共同完成，并配合运动方案。"),
+        (24.4, "请向胡里奥·德拉莫雷纳医生预约评估，地点是马德里波苏埃洛的 Memorial Publio Cordón 医院。"),
+    ]},
+    "unidad": {"fondo": "musica", "frases": [
+        (0.3, "这是我的门诊：马德里波苏埃洛的 Memorial Publio Cordón 医院。"),
+        (4.2, "全新的医院，以您的舒适为设计出发点。"),
+        (8.1, "宽敞、安静的空间。"),
+        (12.0, "再生疗法与运动医学科。"),
+        (15.3, "在这里，我倾听、检查，并向您解释发生了什么。"),
+        (19.9, "同一次就诊中完成超声，无需另约时间。"),
+        (23.5, "超声引导治疗，精准到达需要治疗的部位。"),
+        (26.8, "胡里奥·德拉莫雷纳医生，曾在皇家马德里医疗团队工作十四年。"),
+    ]},
+}
+
 from guiones import GUIONES
+GUIONES["zh"] = GUIONES_ZH
 GUIONES["ka"] = {**GUIONES_KA, **GUIONES.get("ka", {})}
 MODELO = {"ka": "eleven_v3"}
 
@@ -94,6 +125,8 @@ def main(nombre, lang="ka"):
     voz = os.path.join(w, "voz.wav")
     sh(*args, "-filter_complex", filt, "-map", "[v]", "-ar", "44100", "-ac", "1", voz)
     fondo = os.path.join(D, f"musica_prp_{lang}.wav") if nombre == "prp-evidencia" else os.path.join(D, "sep/htdemucs", nombre, "no_vocals.wav")
+    if not os.path.exists(fondo):
+        fondo = os.path.join(D, "sonidos", "musica_larga.wav"); g = {**g, "fondo": "musica"}
     if g["fondo"] == "musica":
         mezcla = (f"[1]apad=whole_dur={fin},volume=0.32[m];[0]volume=1.0[v];[m][v]sidechaincompress=threshold=0.05:ratio=4:attack=20:release=400[md];"
                   f"[md][0]amix=inputs=2:normalize=0,loudnorm=I=-16:TP=-1.5[out]")

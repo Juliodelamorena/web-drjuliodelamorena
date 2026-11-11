@@ -8,7 +8,7 @@ hreflang links from idiomas.py, so run generar.py and generar_en.py after adding
 """
 from paginas_nuevas_es import NUEVAS as _NUEVAS
 NEW_ES = [p['slug'] for p in _NUEVAS]
-MAS_TXT = {"ka": "ასევე ვმკურნალობთ:", "ru": "Мы также лечим:", "fr": "Nous traitons aussi :"}
+MAS_TXT = {"ka": "ასევე ვმკურნალობთ:", "ru": "Мы также лечим:", "fr": "Nous traitons aussi :", "zh": "我们还治疗："}
 def mas_lesiones(self):
     chips = "".join(f'<a class="chip" href="{self.base}{q["slug"]}/">{esc(q["nav"])}</a>' for q in self.P.PAGES if q["es"] in NEW_ES)
     return f'<div class="mas-lesiones"><span>{MAS_TXT.get(self.L, "")}</span>{chips}</div>' if chips else ""
@@ -22,10 +22,10 @@ ROOT, SITE, FONTS, esc, REVISION, DOCTOR_REF, CITA = G.ROOT, G.SITE, G.FONTS, G.
 PHONE = "+34 913 548 990"
 TEL = "tel:+34913548990"
 MAPA = "https://maps.google.com/?cid=4492723553507247190"   # ficha de Google del doctor (enlace neutro: Cómo llegar)
-WHATSAPP_TXT = {"ka": "მოგვწერეთ WhatsApp-ში", "ru": "Написать в WhatsApp", "fr": "Écrire sur WhatsApp"}
-HOSP_TXT = {"en": "Hospital", "fr": "Hôpital", "ru": "Госпиталь", "ka": "საავადმყოფო"}
-MENU_TXT = {"ka": "მენიუ", "ru": "Меню", "fr": "Menu"}   # etiqueta del menú desplegable del móvil
-MAPA_TXT = {"ka": "როგორ მივიდეთ", "ru": "Как добраться", "fr": "Itinéraire"}   # etiqueta del enlace al mapa
+WHATSAPP_TXT = {"ka": "მოგვწერეთ WhatsApp-ში", "ru": "Написать в WhatsApp", "fr": "Écrire sur WhatsApp", "zh": "通过 WhatsApp 联系我们"}
+HOSP_TXT = {"en": "Hospital", "fr": "Hôpital", "ru": "Госпиталь", "ka": "საავადმყოფო", "zh": "医院"}
+MENU_TXT = {"ka": "მენიუ", "ru": "Меню", "fr": "Menu", "zh": "菜单"}   # etiqueta del menú desplegable del móvil
+MAPA_TXT = {"ka": "როგორ მივიდეთ", "ru": "Как добраться", "fr": "Itinéraire", "zh": "如何前往"}   # etiqueta del enlace al mapa
 
 
 class Builder:
@@ -258,7 +258,7 @@ class Builder:
 {I.respuesta(esc(a["answer"]), self.L)}
 <img class="wide" src="/img/consulta.jpg" alt="{esc(a["img_alt"])}" width="960" height="1200" style="aspect-ratio: 4 / 3; object-position: center 22%">
 {secs}
-{X.galeria_html(self.L) if self.L in ("ka", "ru", "fr") and __import__("os").path.isfile(__import__("os").path.join(X.DIR, self.L, "galeria.json")) else ""}
+{X.galeria_html(self.L) if self.L in ("ka", "ru", "fr", "zh") and __import__("os").path.isfile(__import__("os").path.join(X.DIR, self.L, "galeria.json")) else ""}
 <h2>{esc(UI["faq_title"])}</h2>
 <div class="faq">
 {faqs}
@@ -453,7 +453,7 @@ class Builder:
     def llms(self):
         p = os.path.join(ROOT, "llms.txt")
         s = open(p, encoding="utf-8").read()
-        names = {"ka": "Georgian (ქართული)", "ru": "Russian (Русский)", "fr": "French (Français)"}
+        names = {"ka": "Georgian (ქართული)", "ru": "Russian (Русский)", "fr": "French (Français)", "zh": "Chinese (中文)"}
         heading = f"## {names.get(self.L, self.M['name'])}"
         sec = [heading, "",
                f"- {self.H['desc']}",

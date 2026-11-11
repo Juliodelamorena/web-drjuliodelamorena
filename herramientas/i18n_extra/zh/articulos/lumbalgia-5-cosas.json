@@ -1,0 +1,47 @@
+{
+ "slug": "lumbalgia-5-cosas",
+ "fecha": "2026-10-21",
+ "categoria": "脊柱",
+ "titulo": "腰痛：五个要点，以及疼痛向腿部放射时怎么办",
+ "resumen": "为什么活动有帮助、磁共振到底说明什么，以及什么是神经根病。",
+ "descripcion": "腰痛与坐骨神经痛：为什么活动有帮助、何时应当就医，以及什么是神经根病。",
+ "entradilla": "十个人中有八个人一生中会有某一时刻出现腰痛。大多数在数周内好转，但也有一些情况值得仔细检查。",
+ "imagen": "lumbar.jpg",
+ "imagen_wh": [
+  1200,
+  676
+ ],
+ "imagen_alt": "腰痛患者",
+ "temas": [
+  "腰痛",
+  "坐骨神经痛",
+  "腰椎神经根病"
+ ],
+ "secciones": [
+  [
+   "1. 活动本身就是治疗的一部分",
+   "<p>长时间卧床休息会延缓恢复。在疼痛允许的范围内行走并保持日常活动，有助于背部更快恢复。</p>"
+  ],
+  [
+   "2. 大多数病例在数周内好转",
+   "<p>急性腰痛通常自己就能很好地缓解。如果六周后仍没有改善，或反复发作，就需要检查原因。</p>"
+  ],
+  [
+   "3. 磁共振并不总能解释疼痛",
+   "<p>许多完全没有疼痛的人，磁共振上也有椎间盘突出或退变。影像有帮助，但诊断来自于把您的描述、体格检查和各项检查结合起来。</p>"
+  ],
+  [
+   "4. 力量可以预防复发",
+   "<p>加强腹部、臀部和背部肌肉，是对您脊柱最好的投资。量身定制的运动方案可以减少复发。</p>"
+  ],
+  [
+   "5. 当疼痛向腿部放射时",
+   "<figure class=\"fig\"><a href=\"/img/dermatomas-miembro-inferior.jpg\" target=\"_blank\" rel=\"noopener\"><picture><source srcset=\"/img/dermatomas-miembro-inferior.webp\" type=\"image/webp\"><img src=\"/img/dermatomas-miembro-inferior.jpg\" alt=\"下肢皮节示意图，包括前面、内侧、外侧和后面观，从 L1 到 S5\" width=\"1008\" height=\"1112\" loading=\"lazy\"></picture></a><figcaption>每条神经根在腿部都有各自的区域：坐骨神经痛沿着这条路径出现。点击图片可查看大图。</figcaption></figure><p>当腰椎的一条神经根受到刺激或压迫，例如由椎间盘突出引起时，疼痛可沿臀部和腿部向下放射，有时到达足部。通常伴有刺痛、灼烧感或力量下降。</p><p>这就是我们所说的<strong>神经根病</strong>，坐骨神经痛是最广为人知的例子。它是神经源性的疼痛：通过良好的体格检查即可诊断，许多情况下无需手术即可治疗。</p><div class=\"box\"><h3>当疼痛变为慢性时</h3><ul><li>通过体格检查和超声做出准确诊断。</li><li>为您量身定制的运动方案。</li><li>有适应证时，进行超声引导注射。</li></ul></div>"
+  ]
+ ],
+ "faq": [],
+ "relacionadas": [
+  "lumbalgia-ciatica",
+  "segunda-opinion"
+ ]
+}

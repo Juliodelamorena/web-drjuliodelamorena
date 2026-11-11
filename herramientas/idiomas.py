@@ -9,10 +9,10 @@ import importlib, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 SITE = "https://drjuliodelamorena.com"
-PACKS = ["ka", "ru", "fr"]                      # built by generar_i18n.py
-ORDER = ["es", "en", "ka", "ru", "fr"]          # order in the language menu
-NAMES = {"es": "Español", "en": "English", "ka": "ქართული", "ru": "Русский", "fr": "Français"}
-SHORT = {"es": "ES", "en": "EN", "ka": "KA", "ru": "RU", "fr": "FR"}
+PACKS = ["ka", "ru", "fr", "zh"]                      # built by generar_i18n.py
+ORDER = ["es", "en", "ka", "ru", "fr", "zh"]          # order in the language menu
+NAMES = {"es": "Español", "en": "English", "ka": "ქართული", "ru": "Русский", "fr": "Français", "zh": "中文"}
+SHORT = {"es": "ES", "en": "EN", "ka": "KA", "ru": "RU", "fr": "FR", "zh": "ZH"}
 
 _cache = {}
 
@@ -93,7 +93,7 @@ def alternates(es_slug):
     return "\n".join(tags) + "\n"
 
 def og_alternates(current):
-    loc = {"es": "es_ES", "en": "en_GB", "ka": "ka_GE", "ru": "ru_RU", "fr": "fr_FR"}
+    loc = {"es": "es_ES", "en": "en_GB", "ka": "ka_GE", "ru": "ru_RU", "fr": "fr_FR", "zh": "zh_CN"}
     home = urls("")
     return "".join(f'<meta property="og:locale:alternate" content="{loc[c]}">\n' for c in ORDER if c != current and c in home)
 
@@ -124,7 +124,7 @@ def nav_movil(links, label, destacados=()):
     return (f'<details class="nav-menu"><summary aria-label="{_h.escape(label)}">{_h.escape(label)}</summary>'
             f'<div>{items}</div></details>')
 
-LEER_MAS = {"es": "Seguir leyendo", "en": "Read more", "ka": "მეტის წაკითხვა", "ru": "Читать дальше", "fr": "Lire la suite"}
+LEER_MAS = {"es": "Seguir leyendo", "en": "Read more", "ka": "მეტის წაკითხვა", "ru": "Читать дальше", "fr": "Lire la suite", "zh": "继续阅读"}
 _n = [0]
 def respuesta(texto_html, lang="es"):
     """Párrafo de respuesta directa. En el móvil se muestra recortado a seis líneas con un
@@ -145,6 +145,6 @@ def es_slug_from_url(url):
     return p
 
 
-VIDEOS_LABEL = {"es": "Vídeos", "en": "Videos", "fr": "Vidéos", "ru": "Видео", "ka": "ვიდეოები"}
+VIDEOS_LABEL = {"es": "Vídeos", "en": "Videos", "fr": "Vidéos", "ru": "Видео", "ka": "ვიდეოები", "zh": "视频"}
 def videos_href(code):
     return "/videos/" if code == "es" else f"/{code}/videos/"

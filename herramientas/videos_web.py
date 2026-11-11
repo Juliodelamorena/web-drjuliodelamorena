@@ -1,4 +1,4 @@
-"""Apartado /videos/ de la web (es, en, fr, ru, ka).
+"""Apartado /videos/ de la web (es, en, fr, ru, ka, zh).
 
 Para añadir un vídeo: poner los archivos en /video/ (<nombre>.<idioma>.mp4 y .jpg de portada;
 <nombre>.jpg si el cartel es único), añadir una entrada a CATALOGO y regenerar (articulos.py lo llama).
@@ -9,29 +9,29 @@ import generar as G
 import idiomas as I
 
 SITE, ROOT, esc = G.SITE, G.ROOT, html.escape
-LANGS = ["es", "en", "fr", "ru", "ka"]
+LANGS = ["es", "en", "fr", "ru", "ka", "zh"]
 
 # art: ruta relativa (sin idioma) de la página que amplía el vídeo; vacío = portada
 CATALOGO = [
  dict(f="osgood-schlatter", art="blog/osgood-schlatter-diagnostico-tratamiento.html", poster="{f}.{l}.jpg", dur="PT31S", fecha="2026-11-14T10:00:00+01:00",
       t=dict(es="Osgood-Schlatter: diagnóstico y tratamiento", en="Osgood-Schlatter: diagnosis and treatment", fr="Osgood-Schlatter : diagnostic et traitement",
-             ru="Осгуд — Шлаттер: диагностика и лечение", ka="ოსგუდ-შლატერი: დიაგნოსტიკა და მკურნალობა")),
+             ru="Осгуд — Шлаттер: диагностика и лечение", ka="ოსგუდ-შლატერი: დიაგნოსტიკა და მკურნალობა", zh="奥斯古德-施拉特病：诊断与治疗")),
  dict(f="prp-artrosis", art="blog/prp-artrosis-tres-estudios.html", poster="{f}.{l}.jpg", dur="PT46S", fecha="2026-11-10T10:00:00+01:00",
       t=dict(es="PRP en la artrosis: tres estudios donde sí funciona", en="PRP for osteoarthritis: three studies where it works", fr="Le PRP dans l'arthrose : trois études où il fonctionne",
-             ru="PRP при артрозе: три исследования, где он работает", ka="PRP ართროზის დროს: სამი კვლევა, სადაც ის მოქმედებს")),
+             ru="PRP при артрозе: три исследования, где он работает", ka="PRP ართროზის დროს: სამი კვლევა, სადაც ის მოქმედებს", zh="PRP 治疗骨关节炎：三项显示有效的研究")),
  dict(f="prp-evidencia", art="blog/factores-crecimiento-evidencia.html", poster="{f}.{l}.jpg", dur="PT60S", fecha="2026-11-03T03:00:00+01:00",
       t=dict(es="Qué dice la literatura médica sobre el PRP", en="What the medical literature says about PRP", fr="Ce que dit la littérature médicale sur le PRP",
-             ru="Что говорит медицинская литература о PRP", ka="რას ამბობს სამედიცინო ლიტერატურა PRP-ზე")),
+             ru="Что говорит медицинская литература о PRP", ka="რას ამბობს სამედიცინო ლიტერატურა PRP-ზე", zh="医学文献如何看待 PRP")),
  dict(f="unidad", es_file="unidad.es.mp4", art="", poster="{f}.jpg", dur="PT34S", fecha="2026-11-02T14:00:00+01:00",
       t=dict(es="Recorrido por la unidad en el Hospital Memorial Publio Cordón (Pozuelo, Madrid)", en="A walk through the unit at Hospital Memorial Publio Cordón (Pozuelo, Madrid)",
              fr="Visite de l'unité à l'Hôpital Memorial Publio Cordón (Pozuelo, Madrid)", ru="Прогулка по отделению в больнице Memorial Publio Cordón (Посуэло, Мадрид)",
-             ka="განყოფილების დათვალიერება საავადმყოფო Memorial Publio Cordón-ში (პოსუელო, მადრიდი)")),
+             ka="განყოფილების დათვალიერება საავადმყოფო Memorial Publio Cordón-ში (პოსუელო, მადრიდი)", zh="走进 Memorial Publio Cordón 医院的科室（马德里，波苏埃洛）")),
  dict(f="terapias-regenerativas", es_file="terapias-regenerativas.mp4", art="factores-crecimiento-autologos", poster="{f}.jpg", dur="PT35S", fecha="2026-11-01T22:00:00+01:00",
       t=dict(es="PRP (plasma rico en plaquetas) con el Dr. Julio De la Morena", en="PRP (platelet-rich plasma)", fr="PRP (plasma riche en plaquettes)",
-             ru="PRP (плазма, обогащённая тромбоцитами)", ka="PRP (თრომბოციტებით მდიდარი პლაზმა)")),
+             ru="PRP (плазма, обогащённая тромбоцитами)", ka="PRP (თრომბოციტებით მდიდარი პლაზმა)", zh="PRP（富血小板血浆）")),
  dict(f="codo-de-padel", es_file="codo-de-padel.mp4", art="codo-de-tenista", poster="{f}.jpg", dur="PT33S", fecha="2026-11-01T23:40:00+01:00",
       t=dict(es="Codo de pádel: exploración, ecografía y tratamiento", en="Tennis and padel elbow (lateral epicondylitis)", fr="Coude du tennisman et du joueur de padel (épicondylite latérale)",
-             ru="Локоть теннисиста и паделиста (латеральный эпикондилит)", ka="ჩოგბურთელისა და პადელის მოთამაშის იდაყვი (ლატერალური ეპიკონდილიტი)")),
+             ru="Локоть теннисиста и паделиста (латеральный эпикондилит)", ka="ჩოგბურთელისა და პადელის მოთამაშის იდაყვი (ლატერალური ეპიკონდილიტი)", zh="网球肘与帕德尔球肘（肱骨外上髁炎）")),
 ]
 
 UI = {
@@ -45,11 +45,13 @@ UI = {
             title="Видео · Д-р Хулио де ла Морена", desc="Видео доктора Хулио де ла Морена о травмах, инъекциях под контролем УЗИ и регенеративной терапии, с исследованиями, на которых они основаны.", art="Читать статью", more="Подробнее", home="Главная"),
  "ka": dict(h1="ექიმ ხულიო დე ლა მორენას ვიდეოები", lead="მოკლე ვიდეოები ტრავმებზე, ინექციებზე და რეგენერაციულ თერაპიაზე, იმ კვლევებთან ერთად, რომლებსაც ეყრდნობა.",
             title="ვიდეოები · ექიმი ხულიო დე ლა მორენა", desc="ექიმ ხულიო დე ლა მორენას ვიდეოები ტრავმებზე, ექოგრაფიით კონტროლირებად ინექციებზე და რეგენერაციულ თერაპიაზე, იმ კვლევებთან ერთად, რომლებსაც ეყრდნობა.", art="სტატიის წაკითხვა", more="დაწვრილებით", home="მთავარი"),
+ "zh": dict(h1="胡里奥·德拉莫雷纳医生的视频", lead="关于损伤、注射和再生疗法的短视频，并附有所依据的研究。",
+            title="视频 · 德拉莫雷纳医生", desc="胡里奥·德拉莫雷纳医生关于运动损伤、超声引导注射和再生疗法的视频，并附有所依据的研究。", art="阅读文章", more="了解更多", home="首页"),
 }
 
 
 def _poster(v, l): return "/video/" + v["poster"].format(f=v["f"], l=l)
-N = {"es": "Español", "en": "English", "fr": "Français", "ru": "Русский", "ka": "ქართული"}
+N = {"es": "Español", "en": "English", "fr": "Français", "ru": "Русский", "ka": "ქართული", "zh": "中文"}
 def _src(v, l):
     if l == "es" and v.get("es_file"): return "/video/" + v["es_file"]
     return f"/video/{v['f']}.{l}.mp4"
