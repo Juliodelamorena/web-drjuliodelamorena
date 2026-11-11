@@ -20,6 +20,8 @@ def back(x):
 def tw(d, s, f): b = d.textbbox((0, 0), s, font=f); return b[2] - b[0], b[3] - b[1]
 
 T = 4.6
+SUB = "Medicina Deportiva y Terapias Regenerativas"   # subtítulo de la tarjeta (otros idiomas: cambiar antes de renderizar)
+FONT_CJK = None   # función size->fuente para chino/japonés (None = fuentes latinas)
 FRASE = {"lunes": "Nos vemos el próximo lunes", "martes": "Nos vemos el próximo martes", "miercoles": "Nos vemos el próximo miércoles",
          "jueves": "Nos vemos el próximo jueves", "viernes": "Nos vemos el próximo viernes", "sabado": "Nos vemos el próximo sábado"}
 
@@ -90,7 +92,7 @@ def frame(t, dia="lunes"):
         if kk < 1: im = im.filter(ImageFilter.GaussianBlur(int(8 * (1 - kk))))
         im.putalpha(im.getchannel("A").point(lambda v: int(v * min(1, kk * 1.4))))
         lay.alpha_composite(im, ((W - im.width) // 2, 830 - (im.height - 160) // 2))
-    a = ease((t - 1.45) / 0.45); f = inter(38, "Medium"); s_ = "Medicina Deportiva y Terapias Regenerativas"
+    a = ease((t - 1.45) / 0.45); f = FONT_CJK(38) if FONT_CJK else inter(38, "Medium"); s_ = SUB
     w_, _ = tw(d, s_, f); d.text(((W - w_) // 2, 990), s_, font=f, fill=SOFT + (int(255 * a),))
     lw = int(300 * ease((t - 1.7) / 0.4)); d.rectangle(((W - lw) // 2, 1070, (W + lw) // 2, 1075), fill=GOLD + (255,))
     # web e Instagram entran deslizando desde los lados
@@ -99,7 +101,7 @@ def frame(t, dia="lunes"):
     if t > 2.3: pastilla(lay, "@drjuliodelamorena", camara, 1260, int(W * (1 - k2)), min(1, (t - 2.3) / 0.2), GOLD, GOLD)
     # frase final letra a letra
     s_ = FRASE.get(dia, FRASE["lunes"]); n = int(len(s_) * max(0, min(1, (t - 3.0) / 0.7)))
-    f = cor(64, 600); w_, _ = tw(d, s_, f); d.text(((W - w_) // 2, 1470), s_[:n], font=f, fill=SOFT + (255,))
+    f = FONT_CJK(64) if FONT_CJK else cor(64, 600); w_, _ = tw(d, s_, f); d.text(((W - w_) // 2, 1470), s_[:n], font=f, fill=SOFT + (255,))
     # destello que barre todo
     if 2.55 < t < 3.35:
         q = (t - 2.55) / 0.8; x = int(-400 + (W + 800) * q)
