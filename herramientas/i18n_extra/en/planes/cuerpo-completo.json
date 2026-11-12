@@ -1,0 +1,122 @@
+{
+  "slug": "cuerpo-completo",
+  "titulo": "Full-body exercise plan with resistance bands, bodyweight and a stick",
+  "corto": "Full body with bands, bodyweight and a stick",
+  "zona": "Full body",
+  "descripcion": "A progressive 12-week programme to build strength without weights: resistance bands, bodyweight and a stick, three short sessions and daily stretching. Dr Julio De la Morena.",
+  "fecha": "2026-11-12",
+  "intro": [
+    "A muscle with little mass and little habit of working does not fail for lack of willpower: it fails because it does not have enough fibre to share the effort. When you put a weight on it, the whole effort arrives at once at the least favourable point of the movement, the few available fibres become overloaded and the system responds with the only thing it knows to protect itself: it tightens. That is a muscle spasm. It is not weakness of character or bad technique: it is a defensive response to an effort the muscle cannot yet handle.",
+    "The resistance band solves exactly that problem. Its resistance is minimal at the start of the movement, when the muscle is in its weakest position, and increases as the movement goes on, just where the muscle is strongest. The peak tension is much lower than with a weight of the same total effort, and that is why it is tolerated without spasm. Your own bodyweight and the stick do the same job: they let you learn and repeat the movement hundreds of times before adding any resistance.",
+    "What builds muscle in this situation is not the kilo, it is the well-done repetition and consistency. Long sets, low resistance, short rest and many days a week produce more change in three months than any attempt to lift a weight the muscle cannot yet handle. Once there is enough muscle mass, weights will stop causing spasms: that is when it makes sense to consider them, not before.",
+    "The plan works the whole body spread over three short sessions that alternate, with stretching every day. No session lasts more than half an hour and it is designed to be done at home: you do not need a gym."
+  ],
+  "regla": "Finish every set feeling that you could do two or three more repetitions. Never go to failure or to shaking. And decide how to progress by how you wake up: if the next day the muscle feels loaded, hard or sore —not simply «worked»— the session was too much. Repeat that same week without increasing anything before moving on to the next. You progress by band and by range of movement, never by kilos.",
+  "elegir_titulo": "What is on each day?",
+  "elegir_texto": "Three sessions that alternate through the week. The warm-up goes before every session and stretching is done every day.",
+  "elegir_fase": [
+    ["Session A, lower body and glutes", "Monday and Thursday. 25 to 30 minutes."],
+    ["Session B, upper body and back", "Tuesday and Friday. 25 to 30 minutes."],
+    ["Session C, core, mobility and control", "Wednesday and Saturday. 20 minutes; it also works as an easy-day session."],
+    ["Stretching", "Every day, including Sunday, which is a rest day from strength work."],
+    ["Walking", "30 to 40 minutes every day. It is not an extra: it is the base everything else rests on."]
+  ],
+  "antes": [
+    ["Equipment", "A long resistance band in three strengths (light, medium and strong), a loop band for glutes and adductors, a stick or broom handle, a mat, a firm chair and a towel. The exercise ball is optional and is only used in two exercises. Everything fits in a drawer."],
+    ["Always warm up, even if only for five minutes", "Stationary bike, brisk walking or stepping up and down a stair, plus the arm circles from exercise 2. A cold muscle with little mass is exactly the one that goes into spasm."],
+    ["Do not hold your breath", "Breathe out during the effort and in on the way back. Holding your breath raises the tension of all the neck and back muscles, which is exactly where you feel it most."],
+    ["Slowly, especially on the way back", "Two seconds going and three coming back. Slow movement is what builds muscle with little resistance; fast movement only adds a jerk."],
+    ["Progress by band, never by kilos", "When a set becomes easy, first add repetitions, then one more set and only at the end change to the next band. That order is what prevents spasms."]
+  ],
+  "fases": [
+    {
+      "nombre": "Warm-up · Before every session",
+      "cuando": "5 to 10 minutes before any of the three sessions",
+      "texto": "It prepares the body to work. It is the part most often skipped and the one that protects most.",
+      "ejercicios": [
+        ["Stationary bike or brisk walking", "General warm-up", "Five or ten minutes at a comfortable pace, enough to feel warm and for your breathing to rise a little without running out of breath. If you have no bike, brisk walking or stepping up and down a stair works just as well.", "5-10 minutes · before every session"],
+        ["Arm circles without weight", "Shoulder and neck area", "Standing, make controlled circles forwards and backwards, without going above shoulder height. It wakes up the shoulder and neck muscles before asking effort of them.", "2 × 10 in each direction"]
+      ]
+    },
+    {
+      "nombre": "Session A · Lower body and glutes",
+      "cuando": "Two days a week · 25 to 30 minutes · 45 seconds rest between sets",
+      "texto": "The lower body has the most muscle mass and responds fastest. All the work is with bodyweight and band: no barbell, no dumbbells and no machines.",
+      "ejercicios": [
+        ["Squat to a chair", "Quadriceps and glutes", "Standing in front of a chair, feet hip-width apart. Push your hips back as if you were going to sit down, lower until your glutes just touch the seat and stand up without fully sitting. Your knees follow the direction of your feet and do not go past your toes. If it is hard at first, sit down fully and stand up: it is the same exercise.", "3 × 12 · lowering in 3 seconds"],
+        ["Glute bridge", "Gluteus maximus and hamstrings", "Lie on your back with knees bent and feet flat. Lift your hips squeezing your glutes until knees, hips and shoulders form a straight line, hold two seconds at the top and lower slowly. Do not arch your lower back: the movement comes from the glute, not the back.", "3 × 15 · hold 2 seconds at the top"],
+        ["Clamshell with band", "Gluteus medius", "Lie on your side with knees bent and the loop band just above them. Open the top knee without your pelvis rolling backwards, and come back slowly. The gluteus medius is the stabiliser of the hip: when it falls short, the effort goes to the lower back.", "3 × 15 each side"],
+        ["Lateral band walk", "Gluteus medius, standing", "Loop band above your knees or ankles, feet hip-width apart and knees slightly bent. Take ten steps sideways in one direction and ten back, keeping tension on the band throughout and your trunk upright. Do not bring your feet fully together between steps.", "3 × 10 steps in each direction"],
+        ["Hamstring curl with exercise ball", "Hamstrings", "Lie on your back in a bridge position with your heels on the ball. Bring the ball towards your glutes by bending your knees and return it very slowly, in three seconds, without letting your hips drop. If you have no ball, replace it with the next exercise.", "3 × 10 · return in 3 seconds"],
+        ["Isometric hamstring hold", "Hamstrings · alternative without a ball", "Lie on your back with the knee bent about 30 degrees. Dig your heel into the floor as if you wanted to drag it towards you, at 50 per cent of your strength, without the leg actually moving. It is the safest way to work the hamstring when it goes into spasm easily.", "4 × 20 seconds each leg"],
+        ["Adduction with resistance band", "Adductors", "Standing, with the band anchored at ankle height on the outside of the working leg. Take the leg inwards, crossing the midline slightly, and return slowly, without moving your trunk. The adductors are among the muscles that spasm most often when they are weak.", "3 × 15 each side"],
+        ["Heel raises", "Calf and soleus", "Standing, with your hands resting on a wall or on the back of a chair so you do not lose balance. Rise onto your toes as high as you can, hold for one second and lower very slowly. When it becomes easy, move on to doing it on one leg.", "3 × 20 · lowering in 3 seconds"]
+      ]
+    },
+    {
+      "nombre": "Session B · Upper body and back",
+      "cuando": "Two days a week · 25 to 30 minutes · 45 seconds rest between sets",
+      "texto": "All the upper-body work is done with resistance band and bodyweight. The order matters: first the shoulder blade, then the back, and the arms last. Working the arm without having stabilised the shoulder blade first is the quickest way to end up with a tight trapezius.",
+      "ejercicios": [
+        ["Scapular control", "Lower trapezius and serratus", "Sitting or standing, draw your shoulder blades down and inwards, as if you wanted to tuck them into your back pockets, without shrugging your neck or lifting your shoulders towards your ears. It is the movement you do before every repetition of the rest of the session.", "3 × 10 · hold 5 seconds"],
+        ["Low row with band", "Latissimus, middle trapezius and rhomboids", "Band anchored in front at chest height, or looped round a fixed point. Pull with your elbows close to your body and squeeze your shoulder blades together at the end of the movement. Return slowly, controlling the band: the way back is half of the exercise.", "3 × 15 · return in 3 seconds"],
+        ["Face pull with band", "Lower trapezius and shoulder rotators", "Band anchored at face height. Pull towards your forehead, separating your hands and taking your elbows high and back. A good exercise to counter the forward-shoulder posture and to relieve the neck.", "3 × 15"],
+        ["Horizontal press with band", "Pectoral and serratus anterior", "Band passed behind your back, at armpit height. Push forward at chest height and, at the end of the movement, reach your shoulders forward a little without arching your back. Return slowly until your hands are at chest level, without letting your elbows go behind your trunk.", "3 × 12"],
+        ["Prone T", "Middle trapezius and rhomboids", "Lie face down on the mat or on a treatment table, with your arms hanging. Open your arms out to the sides to trunk height, squeezing your shoulder blades together, without lifting your shoulders towards your ears. No weight at all: the arm weighs enough.", "3 × 12 · no weight"],
+        ["External rotation with band", "Rotator cuff", "Elbow tucked against your side, with a rolled-up towel between the elbow and your body, and the band anchored in front at navel height. Take your hand outwards without separating the elbow and return slowly. It protects the shoulder in everything else you do.", "3 × 15 each side"],
+        ["Assisted chair dip", "Triceps and shoulder", "Sitting on the edge of a firm chair, hands gripping the seat beside your hips. Slide your glutes forward and lower by bending your elbows only a few centimetres, with your feet well planted and knees bent to take weight off. Push back up with your arms. Do not go lower than you can come back up without help.", "3 × 10 · short range"],
+        ["Triceps extension with band", "Triceps", "Band anchored above your head. With your elbows close to your body and fixed, straighten your forearms downwards and return slowly. Only the elbow moves: if the shoulder moves, the band is too strong.", "3 × 15"]
+      ]
+    },
+    {
+      "nombre": "Session C · Core, mobility and control",
+      "cuando": "One or two days a week · 20 minutes · It also works as an easy-day session",
+      "texto": "The core is not doing sit-ups: it is the ability to keep the trunk still while the arms and legs move. A core that does its job relieves the lower back and the neck, the two areas where muscle spasm is felt most.",
+      "ejercicios": [
+        ["Dead bug", "Deep core", "Lie on your back, hips and knees at 90 degrees in the air and arms towards the ceiling. With your lower back pressed to the floor, lower one heel until it brushes the floor and come back. Alternate. If you feel your back lifting, reduce the range: the key is not to go low, it is that the trunk does not move.", "3 × 8 each side"],
+        ["Bird dog", "Core and back muscles", "On all fours. Stretch out one arm and the opposite leg at the same time without your pelvis rotating or your back arching. Hold three seconds and switch. Imagine you are carrying a glass of water on your lower back and cannot spill it.", "3 × 10 each side · hold 3 seconds"],
+        ["Front plank on knees", "Anterior core", "Supported on your forearms and knees, with your body in a straight line from head to knees and your abdomen engaged. Do not let your hips drop or lift them. When you can hold 45 seconds easily, move on to resting on your feet.", "3 × 20-30 seconds"],
+        ["Side plank", "Lateral core and gluteus medius", "Supported on your forearm and the lower knee, with your body aligned and your hip raised. It is the accessible version; when you control it, rest on the side of your foot instead of the knee.", "3 × 20 seconds each side"],
+        ["Cat-camel", "Spinal mobility", "On all fours, round your back towards the ceiling as you breathe out and then arch it gently as you breathe in. Slowly, following your breathing. It is the first thing to do when your back wakes up feeling loaded.", "2 × 10 · slow"],
+        ["Mobility with a stick, lying down", "Shoulder and thoracic spine mobility", "Lie on your back holding the stick with both hands at shoulder width. Raise your arms above your head as far as you can without your lower back lifting from the floor, and come back slowly. It opens the chest and gives the shoulder back its range without adding weight.", "2 × 10 · hold 3 seconds at the top"]
+      ]
+    },
+    {
+      "nombre": "Stretching · Every day",
+      "cuando": "At the end of the session and also on rest days",
+      "texto": "Stretching does not replace strength work, but in this programme it is half of the treatment: a muscle that goes into spasm needs to recover length every day. Every stretch is held for 30 seconds, without bouncing and without reaching pain: the tension should be comfortable.",
+      "ejercicios": [
+        ["Hamstring stretch with towel", "Hamstrings", "Lie on your back, pass a towel under the sole of your foot and raise the straight leg until you feel tension at the back of the thigh, without pain. The other leg stays straight on the floor.", "3 × 30 seconds each leg"],
+        ["Butterfly adductor stretch", "Adductors", "Sit with your back straight, bring the soles of your feet together and let your knees fall to the sides. With your elbows, gently push your knees towards the floor.", "3 × 30 seconds"],
+        ["Knees to chest and rotations", "Lower back", "Lie on your back and hug your knees to your chest. Then, with your feet flat, let your knees fall together to one side and the other. It opens and relaxes the low back.", "30 seconds + 10 rotations each side"],
+        ["Pectoral stretch in a doorway", "Pectoral and front of the shoulder", "Forearm resting on the door frame with the elbow at shoulder height, and turn your body to the opposite side until you feel tension in the chest. It makes up for hours of forward posture.", "3 × 30 seconds each side"],
+        ["Internal rotation stretch with towel", "Shoulder · internal rotation", "Standing, pass a towel over your shoulder and hold the other end behind you with the opposite hand. Pull gently upwards with the top hand to raise the lower hand up your back, until you feel tension.", "3 × 30 seconds each side"],
+        ["Foam roller", "Muscle release", "Slowly roll the back and inner side of the thigh over the roller, stopping for a few seconds on the most tender points. If you have no roller, a full water bottle will do. Never over a joint or over an area of sharp pain.", "60-90 seconds per area · once a day"]
+      ]
+    }
+  ],
+  "progresion_titulo": "How to progress",
+  "progresion_texto": "Twelve weeks, three steps. Do not skip any.",
+  "progresion": [
+    ["Weeks 1 to 4: learn the movement", "Two sets of every exercise, light band, without seeking effort. The aim of this month is not to gain strength, it is for the body to get used to working four days a week without becoming overloaded."],
+    ["Weeks 5 to 8: build", "Three sets, medium band and a two-second pause at the point of maximum effort. This is where muscle starts to appear."],
+    ["Weeks 9 to 12: consolidate", "Three sets of 15 to 20 repetitions or a strong band, and a move to single-leg work in the squat, the bridge and the heel raise."],
+    ["If one week leaves you overloaded, you do not advance", "Repeat the previous week in full before going up again. Going back a step never costs time; forcing does."]
+  ],
+  "evitar": [
+    "Free weights and machines with a load. They are not forbidden for ever, but until there is enough muscle mass they are exactly what triggers the spasm.",
+    "Going to failure or seeking shaking. In a muscle with little mass, failure is not a stimulus, it is a small injury.",
+    "Training on top of a spasm. If an area is loaded, that day you work the rest of the body and only stretch and warm up that area.",
+    "Skipping the warm-up for lack of time. It is better to do half a session warmed up than the whole session cold.",
+    "Stretching hard right after an acute spasm. First heat and gentle movement; deep stretching comes when the muscle has already eased."
+  ],
+  "complementario": "",
+  "consultar": [
+    "A muscle spasm that does not ease in five to seven days despite reducing the effort, applying heat and stretching.",
+    "Frequent cramps or tiredness out of proportion to the work you are doing: it is worth checking iron, vitamin D, magnesium and thyroid function before going up any further.",
+    "Joint pain —not muscle pain— in the knee, hip or shoulder, or swelling of a joint.",
+    "Tingling, numbness or loss of strength in an arm or a leg."
+  ],
+  "normal": "It is normal to have a diffuse ache in the 24-48 hours after a new session or a change of band, and for the first weeks to feel harder than they should because of the time without training. Improvement in muscle mass is measured in months, not weeks.",
+  "relacionadas": ["lesiones-musculares", "medicina-deportiva"]
+}

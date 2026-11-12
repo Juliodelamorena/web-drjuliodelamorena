@@ -21,7 +21,7 @@ DOCTOR_REF = G.DOCTOR_REF
 PHONE = "+34 913 548 990"
 MAPA = "https://maps.google.com/?cid=4492723553507247190"   # ficha de Google del doctor (enlace neutro: Cómo llegar)
 
-MENU_EN = [("/en/#conditions", "Conditions"), ("/en/#treatments", "Treatments"), ("/en/dr-julio-de-la-morena/", "The doctor"), ("/en/#hospital", "Hospital"), ("/en/blog/", "Articles"), ("/en/videos/", "Videos")]
+MENU_EN = [("/en/#conditions", "Conditions"), ("/en/#treatments", "Treatments"), ("/en/dr-julio-de-la-morena/", "The doctor"), ("/en/planes/", "Exercise plans"), ("/en/#hospital", "Hospital"), ("/en/blog/", "Articles"), ("/en/videos/", "Videos")]
 
 def header(es_slug="", form=True):
     cita = "#contact" if form else "/en/#contact"
@@ -39,6 +39,7 @@ def header(es_slug="", form=True):
 <a href="/en/#conditions">Conditions</a>
 <a href="/en/#treatments">Treatments</a>
 <a href="/en/dr-julio-de-la-morena/">The doctor</a>
+<a href="/en/planes/">Exercise plans</a>
 <a href="/en/#hospital">Hospital</a>
 <a href="/en/blog/">Articles</a>
 <a href="/en/videos/">Videos</a>

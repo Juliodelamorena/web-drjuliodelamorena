@@ -193,7 +193,7 @@ def plan(C, u, p):
         for e in f["ejercicios"]:
             n += 1
             foto = f"img/planes/{p['slug']}/{n}.jpg"
-            img = f'<img src="/{foto}" alt="{esc(e[0])}" loading="lazy" width="760" height="570">' if os.path.isfile(os.path.join(ROOT, foto)) else ""
+            img = f'<img src="/{foto}" alt="{esc(e[0])}" loading="lazy" width="760" height="506">' if os.path.isfile(os.path.join(ROOT, foto)) else ""
             exs.append(f'''<li class="ex">
 <label class="ex-head" for="e{n}"><input type="checkbox" id="e{n}"><span class="ex-n">{n}</span><span><strong>{esc(e[0])}</strong><small>{esc(e[1])}</small></span></label>
 {img}<p>{esc(e[2])}</p>

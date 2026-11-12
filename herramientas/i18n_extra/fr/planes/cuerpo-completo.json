@@ -1,0 +1,122 @@
+{
+  "slug": "cuerpo-completo",
+  "titulo": "Programme d'exercices pour tout le corps avec bandes élastiques, poids du corps et bâton",
+  "corto": "Tout le corps avec bandes, poids du corps et bâton",
+  "zona": "Corps entier",
+  "descripcion": "Programme progressif de 12 semaines pour développer la force sans charges : bandes élastiques, poids du corps et bâton, trois séances courtes et des étirements quotidiens. Dr Julio De la Morena.",
+  "fecha": "2026-11-12",
+  "intro": [
+    "Un muscle qui a peu de masse et peu d'habitude de travailler ne cède pas par manque de volonté : il cède parce qu'il n'a pas assez de fibres pour se partager l'effort. Lorsqu'on lui impose une charge, tout l'effort arrive d'un coup au point le moins favorable du mouvement, les rares fibres disponibles se surchargent et le système répond par la seule chose qu'il sait faire pour se protéger : il se contracte. C'est le spasme musculaire. Ce n'est ni une faiblesse de caractère ni une mauvaise technique : c'est une réponse défensive face à un effort que le muscle ne sait pas encore supporter.",
+    "La bande élastique résout précisément ce problème. Sa résistance est minimale au début du mouvement, lorsque le muscle est dans sa position la plus faible, et augmente au fil du mouvement, là où le muscle est le plus fort. La tension maximale est bien inférieure à celle d'une charge de même effort total, et c'est pourquoi elle est tolérée sans spasme. Le poids du corps et le bâton remplissent la même fonction : ils permettent d'apprendre et de répéter le mouvement des centaines de fois avant d'ajouter une résistance.",
+    "Ce qui construit du muscle dans cette situation, ce n'est pas le kilo, c'est la répétition bien faite et la régularité. Des séries longues, avec peu de résistance, peu de repos et de nombreux jours par semaine, produisent en trois mois plus de changement que n'importe quelle tentative de soulever une charge que le muscle ne supporte pas encore. Quand il y aura suffisamment de masse musculaire, les charges ne provoqueront plus de spasmes : c'est alors qu'on peut envisager de les introduire, pas avant.",
+    "Le programme travaille tout le corps réparti en trois séances courtes qui alternent, avec des étirements chaque jour. Aucune séance ne dépasse une demi-heure et il est conçu pour être fait à la maison : aucune salle de sport n'est nécessaire."
+  ],
+  "regla": "Terminez chaque série avec la sensation de pouvoir faire deux ou trois répétitions de plus. N'allez jamais jusqu'à l'échec ni jusqu'aux tremblements. Et décidez comment progresser selon votre réveil : si le lendemain le muscle est chargé, dur ou douloureux —et pas simplement « travaillé »—, la séance a été excessive. Répétez cette même semaine sans rien augmenter avant de passer à la suivante. On progresse par la bande et par l'amplitude du mouvement, jamais par les kilos.",
+  "elegir_titulo": "Que faire chaque jour ?",
+  "elegir_texto": "Trois séances qui alternent dans la semaine. L'échauffement précède chaque séance et les étirements se font tous les jours.",
+  "elegir_fase": [
+    ["Séance A, bas du corps et fessiers", "Lundi et jeudi. 25 à 30 minutes."],
+    ["Séance B, haut du corps et dos", "Mardi et vendredi. 25 à 30 minutes."],
+    ["Séance C, tronc, mobilité et contrôle", "Mercredi et samedi. 20 minutes ; elle sert aussi de séance légère."],
+    ["Étirements", "Tous les jours, y compris le dimanche, jour de repos du travail de force."],
+    ["Marche", "30 à 40 minutes chaque jour. Ce n'est pas un supplément : c'est la base sur laquelle tout le reste repose."]
+  ],
+  "antes": [
+    ["Matériel", "Une longue bande élastique en trois résistances (légère, moyenne et forte), une bande en boucle pour les fessiers et les adducteurs, un bâton ou un manche à balai, un tapis, une chaise stable et une serviette. Le ballon est facultatif et ne sert que dans deux exercices. Tout tient dans un tiroir."],
+    ["Toujours s'échauffer, même cinq minutes", "Vélo d'appartement, marche rapide ou montée et descente d'une marche, plus les cercles de bras de l'exercice 2. Un muscle froid et peu volumineux est précisément celui qui se contracte en spasme."],
+    ["Ne pas retenir sa respiration", "Expirez pendant l'effort et inspirez au retour. Retenir son souffle augmente la tension de tous les muscles du cou et du dos, exactement là où on le ressent le plus."],
+    ["Lentement, surtout au retour", "Deux secondes à l'aller et trois au retour. C'est le mouvement lent qui construit du muscle avec peu de résistance ; le mouvement rapide n'ajoute qu'une secousse."],
+    ["Progresser par la bande, jamais par les kilos", "Quand une série devient facile, ajoutez d'abord des répétitions, puis une série, et seulement à la fin passez à la bande suivante. Cet ordre évite les spasmes."]
+  ],
+  "fases": [
+    {
+      "nombre": "Échauffement · Avant chaque séance",
+      "cuando": "5 à 10 minutes avant n'importe laquelle des trois séances",
+      "texto": "Il prépare le corps au travail. C'est la partie la plus souvent omise et celle qui protège le plus.",
+      "ejercicios": [
+        ["Vélo d'appartement ou marche rapide", "Échauffement général", "Cinq ou dix minutes à allure confortable, suffisantes pour avoir chaud et sentir la respiration monter un peu sans être essoufflé. Sans vélo, la marche rapide ou la montée et descente d'une marche sont tout aussi efficaces.", "5-10 minutes · avant chaque séance"],
+        ["Cercles de bras sans poids", "Zone de l'épaule et du cou", "Debout, faites des cercles contrôlés vers l'avant puis vers l'arrière, sans dépasser la hauteur des épaules. Cela réveille les muscles de l'épaule et du cou avant de leur demander un effort.", "2 × 10 dans chaque sens"]
+      ]
+    },
+    {
+      "nombre": "Séance A · Bas du corps et fessiers",
+      "cuando": "Deux jours par semaine · 25 à 30 minutes · 45 secondes de repos entre les séries",
+      "texto": "Le bas du corps concentre la plus grande masse musculaire et répond le plus vite. Tout le travail se fait avec le poids du corps et la bande : ni barre, ni haltères, ni machines.",
+      "ejercicios": [
+        ["Squat vers une chaise", "Quadriceps et fessiers", "Debout devant une chaise, les pieds écartés à la largeur des hanches. Reculez le bassin comme pour vous asseoir, descendez jusqu'à effleurer l'assise avec les fessiers et relevez-vous sans vous asseoir complètement. Les genoux suivent la direction des pieds et ne dépassent pas les orteils. Si c'est difficile au début, asseyez-vous complètement puis levez-vous : c'est le même exercice.", "3 × 12 · descente en 3 secondes"],
+        ["Pont fessier", "Grand fessier et ischio-jambiers", "Allongé sur le dos, genoux fléchis et pieds à plat. Soulevez le bassin en serrant les fessiers jusqu'à aligner genoux, hanches et épaules, maintenez deux secondes en haut et redescendez lentement. Ne cambrez pas le bas du dos : le mouvement vient du fessier, pas du dos.", "3 × 15 · maintien de 2 secondes en haut"],
+        ["Coquille avec bande", "Moyen fessier", "Allongé sur le côté, genoux fléchis et bande en boucle juste au-dessus des genoux. Ouvrez le genou supérieur sans que le bassin bascule en arrière, et revenez lentement. Le moyen fessier est le stabilisateur de la hanche : quand il est insuffisant, l'effort se reporte sur le bas du dos.", "3 × 15 de chaque côté"],
+        ["Marche latérale avec bande", "Moyen fessier, en position debout", "Bande en boucle au-dessus des genoux ou des chevilles, pieds écartés à la largeur des hanches et genoux légèrement fléchis. Faites dix pas latéraux dans un sens puis dix en sens inverse, en gardant la bande tendue et le tronc droit. Ne rapprochez pas complètement les pieds entre les pas.", "3 × 10 pas dans chaque sens"],
+        ["Flexion des jambes avec ballon", "Ischio-jambiers", "Allongé sur le dos en position de pont, talons posés sur le ballon. Ramenez le ballon vers les fessiers en fléchissant les genoux et ramenez-le très lentement, en trois secondes, sans laisser tomber le bassin. Sans ballon, remplacez par l'exercice suivant.", "3 × 10 · retour en 3 secondes"],
+        ["Maintien isométrique des ischio-jambiers", "Ischio-jambiers · alternative sans ballon", "Allongé sur le dos, le genou fléchi à environ 30 degrés. Poussez le talon contre le sol comme si vous vouliez le tirer vers vous, à 50 pour cent de votre force, sans que la jambe bouge. C'est la façon la plus sûre de travailler l'ischio-jambier quand il se contracte facilement en spasme.", "4 × 20 secondes chaque jambe"],
+        ["Adduction avec bande élastique", "Adducteurs", "Debout, la bande fixée à hauteur de cheville du côté extérieur de la jambe qui travaille. Ramenez la jambe vers l'intérieur en croisant légèrement la ligne médiane, puis revenez lentement, sans bouger le tronc. Les adducteurs font partie des muscles qui se contractent le plus souvent en spasme lorsqu'ils sont faibles.", "3 × 15 de chaque côté"],
+        ["Montées sur la pointe des pieds", "Mollet et soléaire", "Debout, les mains appuyées contre un mur ou sur le dossier d'une chaise pour ne pas perdre l'équilibre. Montez sur la pointe des pieds aussi haut que possible, maintenez une seconde et redescendez très lentement. Quand cela devient facile, passez à l'exécution sur une seule jambe.", "3 × 20 · descente en 3 secondes"]
+      ]
+    },
+    {
+      "nombre": "Séance B · Haut du corps et dos",
+      "cuando": "Deux jours par semaine · 25 à 30 minutes · 45 secondes de repos entre les séries",
+      "texto": "Tout le travail du haut du corps se fait avec la bande élastique et le poids du corps. L'ordre compte : d'abord l'omoplate, ensuite le dos, et les bras en dernier. Travailler le bras sans avoir stabilisé l'omoplate est le moyen le plus rapide de se retrouver avec un trapèze contracté.",
+      "ejercicios": [
+        ["Contrôle de l'omoplate", "Trapèze inférieur et dentelé", "Assis ou debout, abaissez les omoplates vers le bas et vers l'intérieur, comme si vous vouliez les glisser dans les poches arrière du pantalon, sans hausser le cou ni monter les épaules vers les oreilles. C'est le mouvement à faire avant chaque répétition du reste de la séance.", "3 × 10 · maintien de 5 secondes"],
+        ["Tirage bas avec bande", "Grand dorsal, trapèze moyen et rhomboïdes", "Bande fixée devant vous à hauteur de poitrine, ou passée autour d'un point fixe. Tirez en gardant les coudes près du corps et serrez les omoplates l'une contre l'autre en fin de mouvement. Revenez lentement en contrôlant la bande : le retour représente la moitié de l'exercice.", "3 × 15 · retour en 3 secondes"],
+        ["Tirage visage avec bande", "Trapèze inférieur et rotateurs de l'épaule", "Bande fixée à hauteur du visage. Tirez vers le front en écartant les mains et en amenant les coudes en haut et en arrière. Un bon exercice pour contrebalancer la posture d'épaules en avant et soulager le cou.", "3 × 15"],
+        ["Poussée horizontale avec bande", "Pectoral et dentelé antérieur", "Bande passée derrière le dos, à hauteur des aisselles. Poussez vers l'avant à hauteur de poitrine et, en fin de mouvement, avancez un peu les épaules sans cambrer le dos. Revenez lentement jusqu'à ce que les mains soient au niveau de la poitrine, sans laisser les coudes passer derrière le tronc.", "3 × 12"],
+        ["T en procubitus", "Trapèze moyen et rhomboïdes", "Allongé sur le ventre sur le tapis ou sur une table, les bras pendants. Ouvrez les bras sur les côtés jusqu'à la hauteur du tronc en serrant les omoplates, sans monter les épaules vers les oreilles. Sans aucun poids : le bras pèse déjà assez.", "3 × 12 · sans poids"],
+        ["Rotation externe avec bande", "Coiffe des rotateurs", "Coude collé contre le flanc, avec une serviette roulée entre le coude et le corps, et la bande fixée devant vous à hauteur du nombril. Ramenez la main vers l'extérieur sans décoller le coude et revenez lentement. Elle protège l'épaule dans tout le reste de ce que vous faites.", "3 × 15 de chaque côté"],
+        ["Flexions de triceps sur chaise assistées", "Triceps et épaule", "Assis au bord d'une chaise stable, les mains agrippées à l'assise à côté des hanches. Faites glisser les fessiers vers l'avant et descendez en fléchissant les coudes de quelques centimètres seulement, les pieds bien posés et les genoux fléchis pour alléger la charge. Remontez en poussant avec les bras. N'allez pas plus bas que ce dont vous pouvez remonter sans aide.", "3 × 10 · petite amplitude"],
+        ["Extension du triceps avec bande", "Triceps", "Bande fixée au-dessus de la tête. Les coudes près du corps et fixes, tendez les avant-bras vers le bas puis revenez lentement. Seul le coude bouge : si l'épaule bouge, la bande est trop forte.", "3 × 15"]
+      ]
+    },
+    {
+      "nombre": "Séance C · Tronc, mobilité et contrôle",
+      "cuando": "Un ou deux jours par semaine · 20 minutes · Sert aussi de séance légère",
+      "texto": "Le tronc ne se travaille pas avec des abdominaux : c'est la capacité de garder le tronc immobile pendant que les bras et les jambes bougent. Un tronc qui fait son travail soulage le bas du dos et le cou, les deux zones où le spasme musculaire se ressent le plus.",
+      "ejercicios": [
+        ["Dead bug", "Tronc profond", "Allongé sur le dos, hanches et genoux à 90 degrés en l'air et bras tendus vers le plafond. Le bas du dos collé au sol, abaissez un talon jusqu'à effleurer le sol puis revenez. Alternez. Si vous sentez que le dos se décolle, réduisez l'amplitude : l'important n'est pas de descendre bas, c'est que le tronc ne bouge pas.", "3 × 8 de chaque côté"],
+        ["Bird dog", "Tronc et muscles du dos", "À quatre pattes. Tendez en même temps un bras et la jambe opposée sans que le bassin pivote ni que le dos se creuse. Maintenez trois secondes et changez. Imaginez que vous portez un verre d'eau sur le bas du dos et que vous ne pouvez pas le renverser.", "3 × 10 de chaque côté · maintien de 3 secondes"],
+        ["Planche frontale sur les genoux", "Tronc antérieur", "Appuyé sur les avant-bras et les genoux, le corps en ligne droite de la tête aux genoux et l'abdomen engagé. Ne laissez pas le bassin tomber ni monter. Quand vous tenez 45 secondes sans difficulté, passez à l'appui sur les pieds.", "3 × 20-30 secondes"],
+        ["Planche latérale", "Tronc latéral et moyen fessier", "Appuyé sur l'avant-bras et le genou du bas, le corps aligné et la hanche haute. C'est la version accessible ; quand vous la maîtrisez, appuyez-vous sur le bord du pied au lieu du genou.", "3 × 20 secondes de chaque côté"],
+        ["Chat-vache", "Mobilité de la colonne", "À quatre pattes, arrondissez le dos vers le plafond en expirant puis creusez-le doucement en inspirant. Lentement, en suivant la respiration. C'est la première chose à faire quand le dos se réveille chargé.", "2 × 10 · lent"],
+        ["Mobilité avec bâton, allongé", "Mobilité de l'épaule et de la colonne dorsale", "Allongé sur le dos, tenant le bâton à deux mains à la largeur des épaules. Montez les bras au-dessus de la tête aussi loin que possible sans que le bas du dos se décolle du sol, puis revenez lentement. Cela ouvre la poitrine et rend sa liberté à l'épaule sans ajouter de charge.", "2 × 10 · maintien de 3 secondes en haut"]
+      ]
+    },
+    {
+      "nombre": "Étirements · Tous les jours",
+      "cuando": "À la fin de la séance et aussi les jours de repos",
+      "texto": "Les étirements ne remplacent pas le travail de force, mais dans ce programme ils sont la moitié du traitement : un muscle qui se contracte en spasme a besoin de retrouver sa longueur chaque jour. Chaque étirement se maintient 30 secondes, sans rebond et sans atteindre la douleur : la tension doit rester confortable.",
+      "ejercicios": [
+        ["Étirement des ischio-jambiers avec serviette", "Ischio-jambiers", "Allongé sur le dos, passez une serviette sous la plante du pied et montez la jambe tendue jusqu'à sentir une tension à l'arrière de la cuisse, sans douleur. L'autre jambe reste tendue sur le sol.", "3 × 30 secondes chaque jambe"],
+        ["Étirement des adducteurs en papillon", "Adducteurs", "Assis le dos droit, rapprochez les plantes des pieds et laissez les genoux tomber sur les côtés. Avec les coudes, poussez doucement les genoux vers le sol.", "3 × 30 secondes"],
+        ["Genoux à la poitrine et rotations", "Bas du dos", "Allongé sur le dos, ramenez les genoux contre la poitrine. Puis, pieds à plat, laissez les genoux tomber ensemble d'un côté puis de l'autre. Cela ouvre et détend le bas du dos.", "30 secondes + 10 rotations de chaque côté"],
+        ["Étirement du pectoral dans l'encadrement d'une porte", "Pectoral et face antérieure de l'épaule", "Avant-bras appuyé contre le montant de la porte, coude à hauteur d'épaule, puis tournez le corps du côté opposé jusqu'à sentir la tension dans la poitrine. Il compense des heures de posture penchée en avant.", "3 × 30 secondes de chaque côté"],
+        ["Étirement en rotation interne avec serviette", "Épaule · rotation interne", "Debout, passez une serviette par-dessus l'épaule et tenez l'autre extrémité derrière vous avec l'autre main. Tirez doucement vers le haut avec la main supérieure pour faire monter la main inférieure le long du dos, jusqu'à sentir la tension.", "3 × 30 secondes de chaque côté"],
+        ["Rouleau de massage", "Relâchement musculaire", "Faites rouler lentement l'arrière et l'intérieur de la cuisse sur le rouleau, en vous arrêtant quelques secondes sur les points les plus sensibles. Sans rouleau, une bouteille d'eau pleine convient. Jamais sur une articulation ni sur une zone de douleur aiguë.", "60-90 secondes par zone · une fois par jour"]
+      ]
+    }
+  ],
+  "progresion_titulo": "Comment progresser",
+  "progresion_texto": "Douze semaines, trois étapes. N'en sautez aucune.",
+  "progresion": [
+    ["Semaines 1 à 4 : apprendre le mouvement", "Deux séries de chaque exercice, bande légère, sans chercher l'effort. L'objectif de ce mois n'est pas de gagner en force, c'est que le corps s'habitue à travailler quatre jours par semaine sans se surcharger."],
+    ["Semaines 5 à 8 : construire", "Trois séries, bande moyenne et pause de deux secondes au point d'effort maximal. C'est ici que le muscle commence à apparaître."],
+    ["Semaines 9 à 12 : consolider", "Trois séries de 15 à 20 répétitions ou une bande forte, et passage au travail sur une seule jambe dans le squat, le pont et les montées sur la pointe des pieds."],
+    ["Si une semaine vous laisse surchargé, vous n'avancez pas", "Répétez intégralement la semaine précédente avant de monter. Reculer d'un pas ne fait jamais perdre de temps ; forcer, si."]
+  ],
+  "evitar": [
+    "Les poids libres et les machines avec charge. Ils ne sont pas interdits pour toujours, mais tant qu'il n'y a pas assez de masse musculaire, ce sont exactement eux qui déclenchent le spasme.",
+    "Aller jusqu'à l'échec ou chercher les tremblements. Dans un muscle peu volumineux, l'échec n'est pas un stimulus, c'est une petite lésion.",
+    "S'entraîner sur un spasme. Si une zone est chargée, ce jour-là on travaille le reste du corps et on ne fait qu'échauffer et étirer cette zone.",
+    "Sauter l'échauffement par manque de temps. Mieux vaut une demi-séance échauffée que la séance entière à froid.",
+    "S'étirer fort juste après un spasme aigu. D'abord la chaleur et le mouvement doux ; l'étirement profond vient quand le muscle s'est déjà relâché."
+  ],
+  "complementario": "",
+  "consultar": [
+    "Un spasme musculaire qui ne cède pas en cinq à sept jours malgré la réduction de l'effort, la chaleur et les étirements.",
+    "Des crampes fréquentes ou une fatigue disproportionnée par rapport au travail réalisé : il vaut la peine de contrôler le fer, la vitamine D, le magnésium et la fonction thyroïdienne avant d'augmenter davantage.",
+    "Une douleur articulaire —pas musculaire— au genou, à la hanche ou à l'épaule, ou un gonflement d'une articulation.",
+    "Des fourmillements, un engourdissement ou une perte de force dans un bras ou une jambe."
+  ],
+  "normal": "Il est normal de ressentir une gêne diffuse dans les 24 à 48 heures qui suivent une nouvelle séance ou un changement de bande, et que les premières semaines semblent plus dures qu'elles ne devraient à cause du temps passé sans s'entraîner. L'amélioration de la masse musculaire se mesure en mois, pas en semaines.",
+  "relacionadas": ["lesiones-musculares", "medicina-deportiva"]
+}

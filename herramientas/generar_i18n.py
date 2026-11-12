@@ -73,12 +73,13 @@ class Builder:
 <a href="{b}#conditions">{esc(UI["menu_conditions"])}</a>
 <a href="{b}#treatments">{esc(UI["menu_treatments"])}</a>
 <a href="{self.about_path}">{esc(UI["menu_doctor"])}</a>
+<a href="{b}planes/">{esc(X.ui(self.L)["plans_label"])}</a>
 <a href="{b}#hospital">{esc(HOSP_TXT[self.L])}</a>
 <a href="{b}blog/">{esc(X.ui(self.L)["blog_label"])}</a>
 <a href="{b}videos/">{esc(I.VIDEOS_LABEL[self.L])}</a>
 {I.menu(self.L, es_slug, UI["lang_menu"])}
 <a class="btn" href="#contact">{esc(UI["menu_write"])}</a>
-{I.nav_movil([(f"{b}#conditions", UI["menu_conditions"]), (f"{b}#treatments", UI["menu_treatments"]), (self.about_path, UI["menu_doctor"]), (f"{b}#hospital", HOSP_TXT[self.L]), (f"{b}blog/", X.ui(self.L)["blog_label"]), (f"{b}videos/", I.VIDEOS_LABEL[self.L])], MENU_TXT.get(self.L, "Menu"), [(TEL, self.t("bar_call")), ("#contact", UI["menu_write"])])}
+{I.nav_movil([(f"{b}#conditions", UI["menu_conditions"]), (f"{b}#treatments", UI["menu_treatments"]), (self.about_path, UI["menu_doctor"]), (f"{b}planes/", X.ui(self.L)["plans_label"]), (f"{b}#hospital", HOSP_TXT[self.L]), (f"{b}blog/", X.ui(self.L)["blog_label"]), (f"{b}videos/", I.VIDEOS_LABEL[self.L])], MENU_TXT.get(self.L, "Menu"), [(TEL, self.t("bar_call")), ("#contact", UI["menu_write"])])}
 </nav>
 </div>
 </header>'''
