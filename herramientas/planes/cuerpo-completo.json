@@ -1,0 +1,122 @@
+{
+  "slug": "cuerpo-completo",
+  "titulo": "Plan de ejercicios de cuerpo completo con gomas, peso corporal y pica",
+  "corto": "Cuerpo completo con gomas, peso corporal y pica",
+  "zona": "Cuerpo completo",
+  "descripcion": "Programa progresivo de 12 semanas para ganar fuerza sin pesas: bandas elásticas, peso corporal y pica, tres sesiones cortas y estiramientos diarios. Dr. Julio De la Morena.",
+  "fecha": "2026-11-12",
+  "intro": [
+    "Un músculo con poca masa y poca costumbre de trabajar no falla por falta de ganas: falla porque no tiene fibra suficiente para repartir el esfuerzo. Cuando le pones una pesa, todo el esfuerzo llega de golpe en el punto más desfavorable del recorrido, las pocas fibras disponibles se saturan y el sistema responde con lo único que sabe hacer para protegerse: contraerse. Eso es la contractura. No es debilidad de carácter ni mala técnica: es una respuesta de defensa ante un esfuerzo que el músculo todavía no puede asumir.",
+    "La banda elástica resuelve exactamente ese problema. Su resistencia es mínima al principio del movimiento, cuando el músculo está en su posición más débil, y va aumentando conforme el recorrido avanza, justo donde el músculo es más fuerte. El pico de tensión es mucho más bajo que con una pesa del mismo esfuerzo total, y por eso se tolera sin contracturarse. El peso del propio cuerpo y la pica cumplen la misma función: permiten aprender y repetir el gesto cientos de veces antes de añadir resistencia.",
+    "Lo que construye músculo en esta situación no es el kilo, es la repetición bien hecha y la constancia. Series largas, resistencia baja, descanso corto y muchos días a la semana producen más cambio en tres meses que cualquier intento de levantar un peso que el músculo aún no soporta. Cuando haya masa suficiente, las pesas dejarán de contracturar: entonces tendrá sentido plantearlas, no antes.",
+    "El plan trabaja todo el cuerpo repartido en tres sesiones cortas que se van alternando, con estiramientos todos los días. Ninguna sesión pasa de media hora y está pensado para hacerse en casa: no necesitas gimnasio."
+  ],
+  "regla": "Termina cada serie con la sensación de que podrías hacer dos o tres repeticiones más. Nunca llegues al fallo ni al temblor. Y decide la progresión por cómo amaneces: si al día siguiente notas el músculo cargado, duro o dolorido —no simplemente «trabajado»— la sesión fue excesiva. Repite esa misma semana sin subir nada antes de pasar a la siguiente. Se progresa por goma y por recorrido, nunca por kilos.",
+  "elegir_titulo": "¿Qué toca cada día?",
+  "elegir_texto": "Tres sesiones que se alternan durante la semana. El calentamiento va antes de cada sesión y los estiramientos se hacen todos los días.",
+  "elegir_fase": [
+    ["Sesión A, tren inferior y glúteo", "Lunes y jueves. De 25 a 30 minutos."],
+    ["Sesión B, tren superior y espalda", "Martes y viernes. De 25 a 30 minutos."],
+    ["Sesión C, core, movilidad y control", "Miércoles y sábado. 20 minutos; también sirve como sesión de día flojo."],
+    ["Estiramientos", "Todos los días, incluido el domingo, que es de descanso de fuerza."],
+    ["Caminar", "Entre 30 y 40 minutos cada día. No es un extra: es la base sobre la que se sostiene todo lo demás."]
+  ],
+  "antes": [
+    ["Material", "Banda elástica larga en tres resistencias (suave, media y fuerte), banda circular para glúteo y aductores, una pica o palo de escoba, esterilla, una silla firme y una toalla. El balón de fitball es opcional y solo se usa en dos ejercicios. Todo cabe en un cajón."],
+    ["Calienta siempre, aunque sean cinco minutos", "Bicicleta estática, caminar rápido o subir y bajar un escalón, más los círculos de brazo del ejercicio 2. Un músculo frío y con poca masa es exactamente el que se contractura."],
+    ["No aguantes la respiración", "Suelta el aire durante el esfuerzo y cógelo al volver. Bloquear la respiración sube la tensión de toda la musculatura del cuello y la espalda, que es justo donde más se nota."],
+    ["Despacio, sobre todo en la vuelta", "Dos segundos para ir y tres para volver. El movimiento lento es el que construye músculo con poca resistencia; el movimiento rápido solo añade tirón."],
+    ["Sube por goma, nunca por kilos", "Cuando una serie te resulte fácil, primero añade repeticiones, después una serie más y solo al final cambia a la goma siguiente. Ese orden es el que evita la contractura."]
+  ],
+  "fases": [
+    {
+      "nombre": "Calentamiento · Antes de cada sesión",
+      "cuando": "De 5 a 10 minutos antes de cualquiera de las tres sesiones",
+      "texto": "Prepara el cuerpo para trabajar. Es la parte que más se tiende a saltar y la que más protege.",
+      "ejercicios": [
+        ["Bicicleta estática o caminar rápido", "Calentamiento general", "Cinco o diez minutos a ritmo cómodo, el suficiente para notar calor y que la respiración suba un poco sin llegar a faltarte el aire. Si no tienes bicicleta, caminar rápido o subir y bajar un escalón sirven igual.", "5-10 minutos · antes de cada sesión"],
+        ["Círculos de brazo sin peso", "Hombro y zona cervical", "De pie, haz círculos controlados hacia delante y hacia atrás, sin pasar de la altura del hombro. Despierta la musculatura del hombro y del cuello antes de exigirle esfuerzo.", "2 × 10 en cada sentido"]
+      ]
+    },
+    {
+      "nombre": "Sesión A · Tren inferior y glúteo",
+      "cuando": "Dos días por semana · De 25 a 30 minutos · Descanso de 45 segundos entre series",
+      "texto": "El tren inferior es el que más masa muscular tiene y el que más rápido responde. Todo el trabajo es con peso corporal y banda: sin barra, sin mancuernas y sin máquinas.",
+      "ejercicios": [
+        ["Sentadilla a la silla", "Cuádriceps y glúteo", "De pie delante de una silla, con los pies a la anchura de las caderas. Lleva la cadera hacia atrás como si fueras a sentarte, baja hasta rozar el asiento con el glúteo y sube sin llegar a sentarte del todo. Las rodillas siguen la dirección de los pies y no pasan de la punta. Si al principio te cuesta, siéntate del todo y levántate: es el mismo ejercicio.", "3 × 12 · bajada en 3 segundos"],
+        ["Puente de glúteos", "Glúteo mayor e isquiotibiales", "Boca arriba con las rodillas dobladas y los pies apoyados. Sube la cadera apretando los glúteos hasta formar una línea recta entre rodillas, cadera y hombros, mantén dos segundos arriba y baja despacio. No arquees la zona lumbar: el movimiento lo hace el glúteo, no la espalda.", "3 × 15 · mantener 2 segundos arriba"],
+        ["Almeja con banda", "Glúteo medio", "Tumbado de lado con las rodillas dobladas y la banda circular por encima de ellas. Abre la rodilla de arriba sin que la pelvis gire hacia atrás, y vuelve despacio. El glúteo medio es el estabilizador de la cadera: cuando no llega, el esfuerzo se va a la zona lumbar.", "3 × 15 por lado"],
+        ["Paso lateral con banda circular", "Glúteo medio de pie", "Banda circular por encima de las rodillas o de los tobillos, pies a la anchura de las caderas y rodillas ligeramente dobladas. Da diez pasos laterales en una dirección y diez de vuelta, manteniendo la tensión de la banda todo el recorrido y el tronco erguido. No juntes los pies del todo entre paso y paso.", "3 × 10 pasos en cada dirección"],
+        ["Curl femoral con fitball", "Isquiotibiales", "Boca arriba, en posición de puente, con los talones sobre el balón. Acerca el balón hacia el glúteo doblando las rodillas y devuélvelo muy despacio, en tres segundos, sin dejar caer la cadera. Si no tienes balón, sustitúyelo por el ejercicio siguiente.", "3 × 10 · vuelta en 3 segundos"],
+        ["Isométrico de isquiotibiales", "Isquiotibiales · alternativa sin balón", "Boca arriba con la rodilla doblada unos 30 grados. Clava el talón contra el suelo como si quisieras arrastrarlo hacia ti, al 50 por ciento de tu fuerza, sin que la pierna llegue a moverse. Es la forma más segura de trabajar el isquiotibial cuando se contractura con facilidad.", "4 × 20 segundos por pierna"],
+        ["Aducción con banda elástica", "Aductores", "De pie, con la banda anclada a la altura del tobillo por fuera de la pierna que trabaja. Lleva la pierna hacia dentro cruzando ligeramente la línea media y vuelve despacio, sin mover el tronco. Los aductores son de los músculos que más se contracturan cuando están débiles.", "3 × 15 por lado"],
+        ["Elevación de talones", "Gemelo y sóleo", "De pie, con las manos apoyadas en una pared o en el respaldo de una silla para no perder el equilibrio. Sube sobre las puntas de los pies todo lo que puedas, mantén un segundo arriba y baja muy despacio. Cuando te resulte fácil, pasa a hacerlo sobre una sola pierna.", "3 × 20 · bajada en 3 segundos"]
+      ]
+    },
+    {
+      "nombre": "Sesión B · Tren superior y espalda",
+      "cuando": "Dos días por semana · De 25 a 30 minutos · Descanso de 45 segundos entre series",
+      "texto": "Todo el trabajo del tren superior se hace con banda elástica y con el peso del cuerpo. El orden importa: primero la escápula, después la espalda y al final los brazos. Trabajar el brazo sin haber estabilizado antes la escápula es la forma más rápida de acabar con el trapecio cargado.",
+      "ejercicios": [
+        ["Control escapular", "Trapecio inferior y serrato", "Sentado o de pie, lleva los omóplatos hacia abajo y hacia dentro, como si quisieras metértelos en los bolsillos de atrás, sin encoger el cuello ni subir los hombros hacia las orejas. Es el gesto que hay que hacer antes de cada repetición del resto de la sesión.", "3 × 10 · mantener 5 segundos"],
+        ["Remo bajo con banda", "Dorsal, trapecio medio y romboides", "Banda anclada al frente a la altura del pecho, o pasada alrededor de un punto fijo. Tira llevando los codos pegados al cuerpo y junta los omóplatos al final del recorrido. Vuelve despacio, controlando la banda: la vuelta es la mitad del ejercicio.", "3 × 15 · vuelta en 3 segundos"],
+        ["Face pull con banda", "Trapecio inferior y rotadores del hombro", "Banda anclada a la altura de la cara. Tira hacia la frente separando las manos y llevando los codos altos y hacia atrás. Es un buen ejercicio para compensar la postura adelantada de hombros y para descargar el cuello.", "3 × 15"],
+        ["Press horizontal con banda", "Pectoral y serrato anterior", "Banda pasada por detrás de la espalda, a la altura de las axilas. Empuja hacia delante a la altura del pecho y, al final del recorrido, adelanta un poco los hombros sin arquear la espalda. Vuelve despacio hasta que las manos queden a la altura del pecho, sin dejar que los codos pasen por detrás del tronco.", "3 × 12"],
+        ["T en prono", "Trapecio medio y romboides", "Tumbado boca abajo sobre la esterilla o sobre una camilla, con los brazos colgando. Abre los brazos en cruz hasta la altura del tronco juntando los omóplatos, sin subir los hombros hacia las orejas. Sin peso ninguno: el brazo pesa lo suficiente.", "3 × 12 · sin peso"],
+        ["Rotación externa con banda", "Manguito rotador", "Codo pegado al costado, con una toalla enrollada entre el codo y el cuerpo, y la banda anclada al frente a la altura del ombligo. Lleva la mano hacia fuera sin separar el codo y vuelve despacio. Protege el hombro en todo lo demás que hagas.", "3 × 15 por lado"],
+        ["Fondo en silla asistido", "Tríceps y hombro", "Sentado en el borde de una silla firme, con las manos agarradas al asiento a los lados de la cadera. Desliza el glúteo hacia delante y baja doblando los codos solo unos centímetros, con los pies bien apoyados y las rodillas dobladas para quitarte peso. Sube empujando con los brazos. No bajes más de lo que puedas subir sin ayuda.", "3 × 10 · recorrido corto"],
+        ["Extensión de tríceps con banda", "Tríceps", "Banda anclada por encima de la cabeza. Con los codos pegados al cuerpo y fijos, estira los antebrazos hacia abajo y vuelve despacio. Solo se mueve el codo: si se mueve el hombro, la goma es demasiado fuerte.", "3 × 15"]
+      ]
+    },
+    {
+      "nombre": "Sesión C · Core, movilidad y control",
+      "cuando": "Uno o dos días por semana · 20 minutos · También sirve como sesión de día flojo",
+      "texto": "El core no es hacer abdominales: es la capacidad de mantener el tronco quieto mientras se mueven los brazos y las piernas. Un core que cumple su función descarga la zona lumbar y el cuello, que son las dos zonas donde más se nota la contractura.",
+      "ejercicios": [
+        ["Bicho muerto", "Core profundo", "Boca arriba, caderas y rodillas a 90 grados en el aire y brazos hacia el techo. Con la zona lumbar pegada al suelo, baja un talón hasta rozar el suelo y vuelve. Alterna. Si notas que la espalda se despega, reduce el recorrido: la clave no es bajar mucho, es que el tronco no se mueva.", "3 × 8 por lado"],
+        ["Pájaro-perro", "Core y musculatura de la espalda", "A cuatro patas. Estira a la vez un brazo y la pierna contraria sin que la pelvis gire ni la espalda se arquee. Mantén tres segundos y cambia. Imagina que llevas un vaso de agua en la zona lumbar y no puedes derramarlo.", "3 × 10 por lado · mantener 3 segundos"],
+        ["Plancha frontal sobre rodillas", "Core anterior", "Apoyado sobre los antebrazos y las rodillas, con el cuerpo en línea recta desde la cabeza hasta las rodillas y el abdomen activado. No dejes caer la cadera ni la subas. Cuando aguantes 45 segundos con facilidad, pasa a apoyarte sobre los pies.", "3 × 20-30 segundos"],
+        ["Plancha lateral", "Core lateral y glúteo medio", "Apoyado sobre el antebrazo y la rodilla de abajo, con el cuerpo alineado y la cadera elevada. Es la versión accesible; cuando la controles, apoya el lateral del pie en vez de la rodilla.", "3 × 20 segundos por lado"],
+        ["Gato-camello", "Movilidad de la columna", "A cuatro patas, redondea la espalda hacia el techo soltando el aire y después arquéala suavemente cogiendo aire. Lento, siguiendo la respiración. Es lo primero que conviene hacer cuando la espalda amanece cargada.", "2 × 10 · lento"],
+        ["Movilidad con pica tumbado", "Movilidad de hombro y columna dorsal", "Tumbado boca arriba, sujeta la pica con las dos manos a la anchura de los hombros. Sube los brazos por encima de la cabeza hasta donde llegues sin que la zona lumbar se despegue del suelo, y vuelve despacio. Abre el pecho y devuelve recorrido al hombro sin añadir peso.", "2 × 10 · mantener 3 segundos arriba"]
+      ]
+    },
+    {
+      "nombre": "Estiramientos · Todos los días",
+      "cuando": "Al terminar la sesión y también en los días de descanso",
+      "texto": "Los estiramientos no sustituyen al trabajo de fuerza, pero en este programa son la mitad del tratamiento: un músculo que se contractura necesita recuperar longitud a diario. Todos se mantienen 30 segundos, sin rebotes y sin llegar al dolor: la tensión tiene que ser cómoda.",
+      "ejercicios": [
+        ["Estiramiento de isquiotibiales con toalla", "Isquiotibiales", "Tumbado boca arriba, pasa una toalla por la planta del pie y sube la pierna estirada hasta notar tensión en la parte de atrás del muslo, sin dolor. La otra pierna, estirada en el suelo.", "3 × 30 segundos por pierna"],
+        ["Estiramiento de aductores en mariposa", "Aductores", "Sentado con la espalda recta, junta las plantas de los pies y deja caer las rodillas hacia los lados. Con los codos, empuja suavemente las rodillas hacia el suelo.", "3 × 30 segundos"],
+        ["Rodillas al pecho y rotaciones", "Zona lumbar", "Boca arriba, abraza las rodillas contra el pecho. Después, con los pies apoyados, deja caer las rodillas juntas a un lado y al otro. Abre y relaja la zona lumbar baja.", "30 segundos + 10 rotaciones por lado"],
+        ["Estiramiento de pectoral en marco de puerta", "Pectoral y parte delantera del hombro", "Antebrazo apoyado en el marco con el codo a la altura del hombro, y gira el cuerpo hacia el lado contrario hasta notar tensión en el pecho. Compensa las horas de postura adelantada.", "3 × 30 segundos por lado"],
+        ["Estiramiento de rotación interna con toalla", "Hombro · rotación interna", "De pie, pasa una toalla por encima del hombro y sujeta el otro extremo por detrás con la mano contraria. Tira suavemente hacia arriba con la mano de arriba para subir la de abajo por la espalda, hasta notar tensión.", "3 × 30 segundos por lado"],
+        ["Rodillo de espuma", "Liberación muscular", "Rueda lentamente la parte de atrás y la cara interna del muslo sobre el rodillo, deteniéndote unos segundos en los puntos más sensibles. Si no tienes rodillo, una botella de agua llena sirve. Nunca sobre una articulación ni sobre una zona con dolor agudo.", "60-90 segundos por zona · 1 vez al día"]
+      ]
+    }
+  ],
+  "progresion_titulo": "Cómo progresar",
+  "progresion_texto": "Doce semanas, tres escalones. No saltes ninguno.",
+  "progresion": [
+    ["Semanas 1 a 4: aprender el gesto", "Dos series de cada ejercicio, goma suave, sin buscar esfuerzo. El objetivo de este mes no es ganar fuerza, es que el cuerpo se acostumbre a trabajar cuatro días por semana sin cargarse."],
+    ["Semanas 5 a 8: construir", "Tres series, goma media y pausa de dos segundos en el punto de máximo esfuerzo. Aquí es donde empieza a aparecer el músculo."],
+    ["Semanas 9 a 12: consolidar", "Tres series de 15 a 20 repeticiones o goma fuerte, y paso al trabajo sobre una sola pierna en la sentadilla, el puente y la elevación de talones."],
+    ["Si una semana te cargas, no avanzas", "Repite la semana anterior completa antes de volver a subir. Retroceder un escalón nunca cuesta tiempo; forzar sí."]
+  ],
+  "evitar": [
+    "Las pesas libres y las máquinas con carga. No están prohibidas para siempre, pero hasta que no haya masa muscular suficiente son justo lo que dispara la contractura.",
+    "Llegar al fallo o buscar el temblor. En un músculo con poca masa el fallo no es un estímulo, es una lesión pequeña.",
+    "Entrenar encima de una contractura. Si una zona está cargada, ese día se trabaja el resto del cuerpo y esa zona solo se estira y se calienta.",
+    "Saltarse el calentamiento por falta de tiempo. Es preferible hacer media sesión calentada que la sesión entera en frío.",
+    "Estirar fuerte justo después de una contractura aguda. Primero calor y movimiento suave; el estiramiento profundo llega cuando el músculo ya ha cedido."
+  ],
+  "complementario": "",
+  "consultar": [
+    "Una contractura que no cede en cinco o siete días pese a bajar el esfuerzo, aplicar calor y estirar.",
+    "Calambres frecuentes o cansancio desproporcionado para el trabajo que estás haciendo: conviene revisar hierro, vitamina D, magnesio y función tiroidea antes de seguir subiendo.",
+    "Dolor articular —no muscular— en rodilla, cadera u hombro, o hinchazón de una articulación.",
+    "Hormigueo, adormecimiento o pérdida de fuerza en un brazo o una pierna."
+  ],
+  "normal": "Es normal una molestia difusa en las 24-48 horas siguientes a una sesión nueva o a un cambio de goma, y que las primeras semanas cueste más de lo que parece por el tiempo sin entrenar. La mejoría en masa muscular se mide en meses, no en semanas.",
+  "relacionadas": ["lesiones-musculares", "medicina-deportiva"]
+}

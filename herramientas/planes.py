@@ -26,9 +26,64 @@ SCRIPT = """<script>
   tabs.forEach(function(t,i){t.addEventListener('click',function(){tabs.forEach(function(x){x.setAttribute('aria-selected','false')});panes.forEach(function(p){p.hidden=true});t.setAttribute('aria-selected','true');panes[i].hidden=false;try{localStorage.setItem(key+':fase',i)}catch(e){}});});
   try{var f=localStorage.getItem(key+':fase');if(f!==null&&tabs[f])tabs[f].click()}catch(e){}
   var pr=document.getElementById('imprimir');if(pr)pr.addEventListener('click',function(){panes.forEach(function(p){p.hidden=false});window.print();});
+
+  var g=document.getElementById('guia'),ini=document.getElementById('guia-ini');
+  if(g&&ini){
+    var D=g.dataset,body=g.querySelector('.guia-body'),pos=g.querySelector('.guia-pos'),barra=g.querySelector('.guia-bar i'),ok=g.querySelector('.guia-ok'),prev=g.querySelector('.guia-prev'),lista=[],i=0,lock=null;
+    function pane(){var v=null;panes.forEach(function(p){if(!p.hidden)v=p});return v||panes[0];}
+    function pinta(){
+      if(i>=lista.length){
+        body.innerHTML='<div class="guia-fin"><p class="guia-hecho">'+D.fin+'</p></div>';pos.textContent=lista.length+' / '+lista.length;barra.style.width='100%';ok.textContent=D.cerrar;prev.hidden=false;return;}
+      var ex=lista[i],im=ex.querySelector('img'),nom=ex.querySelector('strong').textContent,mus=ex.querySelector('small').textContent,ps=ex.querySelectorAll('p');
+      body.innerHTML=(im?'<img src="'+im.getAttribute('src')+'" alt="'+nom.replace(/"/g,'&quot;')+'" width="760" height="506">':'')+'<h2>'+nom+'</h2><p class="guia-mus">'+mus+'</p><p class="guia-dosis">'+ps[1].textContent+'</p><p>'+ps[0].textContent+'</p>';
+      pos.textContent=(i+1)+' / '+lista.length;barra.style.width=(i/lista.length*100)+'%';ok.textContent=D.hecho;prev.hidden=(i===0);g.scrollTop=0;}
+    function abre(){lista=[].slice.call(pane().querySelectorAll('.ex'));i=0;for(var k=0;k<lista.length;k++){if(!lista[k].querySelector('input').checked){i=k;break;}}
+      g.hidden=false;document.body.style.overflow='hidden';pinta();
+      try{if(navigator.wakeLock)navigator.wakeLock.request('screen').then(function(l){lock=l}).catch(function(){})}catch(e){}}
+    function cierra(){g.hidden=true;document.body.style.overflow='';try{if(lock)lock.release();lock=null}catch(e){}ini.scrollIntoView({block:'center'});}
+    ini.addEventListener('click',abre);
+    g.querySelector('.guia-x').addEventListener('click',cierra);
+    prev.addEventListener('click',function(){if(i>0){i--;pinta();}});
+    ok.addEventListener('click',function(){
+      if(i>=lista.length){cierra();return;}
+      var b=lista[i].querySelector('input');if(!b.checked){b.checked=true;b.dispatchEvent(new Event('change'));}
+      i++;pinta();});
+    g.querySelector('.guia-skip').addEventListener('click',function(){if(i<lista.length){i++;pinta();}});
+    document.addEventListener('keydown',function(e){if(!g.hidden&&e.key==='Escape')cierra();});
+  }
   window.addEventListener('afterprint',function(){var s=document.querySelector('.tab[aria-selected=true]');if(s)s.click();});
 })();
 </script>"""
+
+
+def guia_html(L):
+    """Pantalla del modo guía (un ejercicio cada vez). L: etiquetas ya traducidas."""
+    a = lambda k: esc(L[k])
+    return (f'<p class="no-print guia-ini"><button class="btn btn-dark" id="guia-ini" type="button">{a("empezar")}</button></p>'
+            f'<div id="guia" class="guia" hidden role="dialog" aria-modal="true" aria-label="{a("empezar")}" data-hecho="{a("hecho")}" data-fin="{a("fin")}" data-cerrar="{a("cerrar")}">'
+            f'<div class="guia-top"><span class="guia-pos"></span><button class="guia-x" type="button" aria-label="{a("salir")}">{a("salir")} ✕</button></div>'
+            '<div class="guia-bar"><i></i></div><div class="guia-body"></div>'
+            f'<div class="guia-nav"><button class="guia-prev" type="button">‹ {a("anterior")}</button><button class="guia-ok btn" type="button"></button></div>'
+            f'<p class="guia-saltar"><button class="guia-skip" type="button">{a("saltar")}</button></p></div>')
+
+
+GUIA_ES = {"empezar": "Empezar guía paso a paso", "hecho": "Hecho ✓ · Siguiente", "fin": "¡Sesión completada! Buen trabajo.", "cerrar": "Cerrar",
+           "salir": "Salir", "anterior": "Anterior", "saltar": "Saltar este ejercicio"}
+
+
+GUIA_EN = {"empezar": "Start step-by-step guide", "hecho": "Done ✓ · Next", "fin": "Session complete! Well done.", "cerrar": "Close",
+           "salir": "Exit", "anterior": "Back", "saltar": "Skip this exercise"}
+
+
+def bloques_extra(p, t_elegir, h_elegir, t_prog, t_comp, li2):
+    """Bloques opcionales de un plan: elección de fase/sesión, progresión y tratamiento complementario."""
+    elegir = (f'<details class="bloque"><summary>{esc(p.get("elegir_titulo") or t_elegir)}</summary><p>{esc(p.get("elegir_texto") or h_elegir)}</p><ul>{li2(p["elegir_fase"])}</ul></details>'
+              if p.get("elegir_fase") else "")
+    prog = (f'<details class="bloque"><summary>{esc(p.get("progresion_titulo") or t_prog)}</summary>'
+            + (f'<p>{esc(p["progresion_texto"])}</p>' if p.get("progresion_texto") else "")
+            + f'<ul>{li2(p["progresion"])}</ul></details>') if p.get("progresion") else ""
+    comp = (f'<details class="bloque"><summary>{esc(t_comp)}</summary><p>{esc(p["complementario"])}</p></details>' if p.get("complementario") else "")
+    return elegir, prog, comp
 
 
 def plan(p):
@@ -41,7 +96,7 @@ def plan(p):
         for e in f["ejercicios"]:
             n += 1
             foto = f"img/planes/{p['slug']}/{n}.jpg"
-            img = f'<img src="/{foto}" alt="{esc(e[0])}" loading="lazy" width="760" height="570">' if os.path.isfile(os.path.join(ROOT, foto)) else ""
+            img = f'<img src="/{foto}" alt="{esc(e[0])}" loading="lazy" width="760" height="506">' if os.path.isfile(os.path.join(ROOT, foto)) else ""
             exs.append(f'''<li class="ex">
 <label class="ex-head" for="e{n}"><input type="checkbox" id="e{n}"><span class="ex-n">{n}</span><span><strong>{esc(e[0])}</strong><small>{esc(e[1])}</small></span></label>
 {img}<p>{esc(e[2])}</p>
@@ -53,7 +108,8 @@ def plan(p):
 <p>{esc(f["texto"])}</p>
 <ol class="exs">{"".join(exs)}</ol>
 </section>''')
-    fases_txt = "".join(f"<li><strong>{esc(a)}.</strong> {esc(b)}</li>" for a, b in p["elegir_fase"])
+    li2 = lambda xs: "".join(f"<li><strong>{esc(a)}.</strong> {esc(b)}</li>" for a, b in xs)
+    elegir, prog, comp = bloques_extra(p, "¿En qué fase estás?", "Elige la fase por cómo está hoy la zona, no por el tiempo que llevas.", "Cómo progresar", "Tratamiento complementario", li2)
     antes = "".join(f"<li><strong>{esc(a)}.</strong> {esc(b)}</li>" for a, b in p["antes"])
     evitar = "".join(f"<li>{esc(x)}</li>" for x in p["evitar"])
     consultar = "".join(f"<li>{esc(x)}</li>" for x in p["consultar"])
@@ -78,12 +134,14 @@ def plan(p):
 <div class="aviso"><strong>Plan orientativo.</strong> No sustituye una valoración médica ni el criterio de tu fisioterapeuta. Si el dolor aumenta de forma clara, para y consulta.</div>
 <details class="bloque"><summary>Por qué este plan</summary>{intro}</details>
 <div class="regla"><p class="label">La regla de oro</p><p>{esc(p['regla'])}</p></div>
-<details class="bloque"><summary>¿En qué fase estás?</summary><p>Elige la fase por cómo está hoy el hombro, no por el tiempo que llevas.</p><ul>{fases_txt}</ul></details>
+{elegir}
 <details class="bloque"><summary>Antes de empezar</summary><ul>{antes}</ul></details>
+{guia_html(GUIA_ES)}
 <div class="plan-bar"><div class="tabs" role="tablist">{"".join(tabs)}</div><span class="cuenta" data-cuenta></span></div>
 {"".join(panes)}
+{prog}
 <details class="bloque"><summary>Qué evitar</summary><ul>{evitar}</ul></details>
-<details class="bloque"><summary>Tratamiento complementario</summary><p>{esc(p['complementario'])}</p></details>
+{comp}
 <div class="box"><h3>Cuándo consultar antes de la revisión</h3><ul>{consultar}</ul><p style="margin-top:12px">{esc(p['normal'])}</p></div>
 <p class="no-print"><button class="btn btn-dark" id="imprimir" type="button">Imprimir o guardar en PDF</button></p>
 <div class="cta-band no-print"><div><h3>¿No mejora como esperabas?</h3><p>Solicita una revisión · Hospital Memorial Publio Cordón · <a class="tel" href="tel:+34913548990">913 548 990</a> · lunes a viernes, de 15:00 a 21:00</p></div><a class="btn solo-movil" href="tel:+34913548990">Llamar para pedir cita</a><a class="btn solo-escritorio" href="/#contacto">Pedir cita</a></div>

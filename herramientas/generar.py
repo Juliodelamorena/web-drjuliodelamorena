@@ -33,7 +33,7 @@ BY_SLUG = {p["slug"]: p for p in PAGES}
 def esc(s): return html.escape(s, quote=True)
 
 MENU_ES = [("/#areas", "Especialidades"), ("/#tratamientos", "Tratamientos"),
-           ("/dr-julio-de-la-morena/", "El doctor"), ("/blog/", "Artículos"), ("/videos/", "Vídeos")]
+           ("/dr-julio-de-la-morena/", "El doctor"), ("/planes/", "Planes de ejercicio"), ("/blog/", "Artículos"), ("/videos/", "Vídeos")]
 
 def header(es_slug="", form=True):
     """`form`: la página lleva su propio formulario (#contacto); si no, los botones van al de la portada."""
@@ -52,6 +52,7 @@ def header(es_slug="", form=True):
 <a href="/#areas">Especialidades</a>
 <a href="/#tratamientos">Tratamientos</a>
 <a href="/dr-julio-de-la-morena/">El doctor</a>
+<a href="/planes/">Planes de ejercicio</a>
 <a href="/blog/">Artículos</a>
 <a href="/videos/">Vídeos</a>
 {I.menu("es", es_slug, "Idioma")}

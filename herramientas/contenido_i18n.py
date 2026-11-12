@@ -217,6 +217,8 @@ def plan(C, u, p):
             {"@type": "ListItem", "position": 1, "name": u["home"], "item": SITE + C.base},
             {"@type": "ListItem", "position": 2, "name": u["plans_label"], "item": f"{SITE}{C.base}planes/"},
             {"@type": "ListItem", "position": 3, "name": p["corto"], "item": url}]}]}
+    elegir, prog, comp = PL.bloques_extra(p, u["plan_phase_q"], u["plan_phase_hint"], u.get("plan_progress", "Progression"), u["plan_extra"], li2)
+    guia = {k: u.get("guide_" + k, v) for k, v in PL.GUIA_ES.items()} if u.get("guide_empezar") else dict(PL.GUIA_EN)
     script = PL.SCRIPT.replace("n+' de '+boxes.length+' hechos hoy'",
                                "'" + u["plan_count"].replace("'", "\\'").replace("{n}", "'+n+'").replace("{t}", "'+boxes.length+'") + "'")
     body = f'''<main class="article plan">
@@ -227,12 +229,14 @@ def plan(C, u, p):
 <div class="aviso">{u["plan_notice"]}</div>
 <details class="bloque"><summary>{esc(u["plan_why"])}</summary>{"".join(f"<p>{esc(x)}</p>" for x in p["intro"])}</details>
 <div class="regla"><p class="label">{esc(u["plan_rule"])}</p><p>{esc(p['regla'])}</p></div>
-<details class="bloque"><summary>{esc(u["plan_phase_q"])}</summary><p>{esc(u["plan_phase_hint"])}</p><ul>{li2(p["elegir_fase"])}</ul></details>
+{elegir}
 <details class="bloque"><summary>{esc(u["plan_before"])}</summary><ul>{li2(p["antes"])}</ul></details>
+{PL.guia_html(guia)}
 <div class="plan-bar"><div class="tabs" role="tablist">{"".join(tabs)}</div><span class="cuenta" data-cuenta></span></div>
 {"".join(panes)}
+{prog}
 <details class="bloque"><summary>{esc(u["plan_avoid"])}</summary><ul>{li(p["evitar"])}</ul></details>
-<details class="bloque"><summary>{esc(u["plan_extra"])}</summary><p>{esc(p['complementario'])}</p></details>
+{comp}
 <div class="box"><h3>{esc(u["plan_when"])}</h3><ul>{li(p["consultar"])}</ul><p style="margin-top:12px">{esc(p['normal'])}</p></div>
 <p class="no-print"><button class="btn btn-dark" id="imprimir" type="button">{esc(u["plan_print"])}</button></p>
 <div class="cta-band no-print"><div><h3>{esc(u["plan_cta_h"])}</h3><p>{esc(u["plan_cta_p"])} · <a class="tel" href="tel:+34913548990">{PHONE_INTL}</a> · {esc(u["hours"])}</p></div><a class="btn solo-movil" href="tel:+34913548990">{esc(u["cta_call"])}</a><a class="btn solo-escritorio" href="{C.base}#contact">{esc(u["cta_book"])}</a></div>
