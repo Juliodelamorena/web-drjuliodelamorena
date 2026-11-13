@@ -19,7 +19,7 @@
  "secciones": [
   [
    "视频",
-   "<figure class=\"reel\"><video controls playsinline preload=\"none\" poster=\"/video/osgood-schlatter.zh.jpg\" width=\"720\" height=\"1280\"><source src=\"/video/osgood-schlatter.zh.mp4\" type=\"video/mp4\"></video><figcaption>奥斯古德-施拉特病：超声下无痛一侧与患侧的对比。</figcaption></figure><script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"VideoObject\", \"name\": \"奥斯古德-施拉特病：诊断与治疗\", \"description\": \"髌腱超声：无痛一侧与奥斯古德-施拉特病一侧的对比，以及保守治疗。\", \"thumbnailUrl\": \"https://drjuliodelamorena.com/video/osgood-schlatter.zh.jpg\", \"uploadDate\": \"2026-11-14T10:00:00+01:00\", \"duration\": \"PT31S\", \"contentUrl\": \"https://drjuliodelamorena.com/video/osgood-schlatter.zh.mp4\", \"inLanguage\": \"zh\"}</script>"
+   "<figure class=\"reel\"><video controls playsinline preload=\"none\" poster=\"/video/osgood-schlatter.zh.jpg\" width=\"720\" height=\"1280\"><source src=\"/video/osgood-schlatter.zh.mp4\" type=\"video/mp4\"></video><figcaption>胡里奥·德拉莫雷纳医生讲解奥斯古德-施拉特病：为什么会出现，以及为什么不一定要放弃运动。</figcaption></figure><script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"VideoObject\", \"name\": \"奥斯古德-施拉特病：一定要停止运动吗？\", \"description\": \"胡里奥·德拉莫雷纳医生讲解奥斯古德-施拉特病：为什么会出现，以及为什么不一定要放弃运动。\", \"thumbnailUrl\": \"https://drjuliodelamorena.com/video/osgood-schlatter.zh.jpg\", \"uploadDate\": \"2026-11-13T10:00:00+01:00\", \"duration\": \"PT27S\", \"contentUrl\": \"https://drjuliodelamorena.com/video/osgood-schlatter.zh.mp4\", \"inLanguage\": \"zh\"}</script>"
   ],
   [
    "这是什么病",
