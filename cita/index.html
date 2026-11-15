@@ -4,6 +4,9 @@
 <meta name="robots" content="noindex">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="canonical" href="https://drjuliodelamorena.com/#contacto">
-<meta http-equiv="refresh" content="0;url=/#contacto">
-<script>location.replace("/#contacto");</script>
+<script>
+/* Lleva al formulario de cita de la portada conservando la marca de origen (?origen=instagram, ?origen=anuncio-nombre). Si el enlace no trae marca, la deduce del sitio desde el que se llega. */
+(function(){var q=location.search||"";try{if(!/[?&]origen=/.test(q)){var r=document.referrer||"",g=/instagram/i.test(r)?"instagram":/facebook|fb\.com|fb\.me/i.test(r)?"facebook":/youtu/i.test(r)?"youtube":"";if(g)q=(q?q+"&":"?")+"origen="+g}}catch(e){}location.replace("/"+q+"#contacto")})();
+</script>
+<noscript><meta http-equiv="refresh" content="0;url=/#contacto"></noscript>
 </head><body><p><a href="/#contacto">Pedir cita</a></p></body></html>

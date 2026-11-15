@@ -94,10 +94,12 @@ def contact_block(ruta, compacto=False):
 <form class="f" name="contacto-en" method="POST" action="{G.CITA_URL}">
 <input type="hidden" name="form-name" value="contacto-en">
 <input type="hidden" name="pagina" value="{esc(ruta)}">
+{X.ORIGEN_OCULTO}
 <p class="hidden"><label>Do not fill in <input name="web"></label></p>
 <h3>We will call you</h3>
 <label for="f-nombre">Full name<input id="f-nombre" name="nombre" type="text" autocomplete="name" required></label>
 <label for="f-tel">Phone<input id="f-tel" name="telefono" type="tel" autocomplete="tel" required></label>
+{X.como_html("en")}
 <label for="f-motivo">Reason for your visit<textarea id="f-motivo" name="motivo" rows="4"></textarea></label>
 <label class="check" for="f-priv"><input id="f-priv" name="privacidad" type="checkbox" required><span>I have read and accept the <a href="/en/privacidad.html">privacy policy</a>. Your details are used only to contact you about your appointment.</span></label>
 <button class="btn btn-dark" type="submit">Send request</button>

@@ -5,7 +5,8 @@ Web estática del Dr. Julio De la Morena Garzón (drjuliodelamorena.com), public
 **Formularios**: ya no son de Netlify. Todos (`contacto`, `contacto-<lang>`, `segunda-opinion`, `segunda-opinion-<lang>`) envían por POST a la función de Supabase `cita` (`generar.CITA_URL`), que guarda en `public.solicitudes` (RLS activado, solo clave de servicio) y redirige a la página de gracias del idioma. Campo trampa `web` para robots. La tarea programada "Web: avisar de solicitudes de cita" (cada hora, 8–22 h) manda por Gmail a Julio las filas con `notificada` vacío y las marca.
 
 **Orden para regenerar (siempre completo y en este orden):**
-`python3 herramientas/generar.py && python3 herramientas/generar_en.py && python3 herramientas/generar_i18n.py && python3 herramientas/articulos.py && python3 herramientas/planes.py && python3 herramientas/imagenes.py`
+`python3 herramientas/generar.py && python3 herramientas/generar_en.py && python3 herramientas/generar_i18n.py && python3 herramientas/contenido_i18n.py && python3 herramientas/articulos.py && python3 herramientas/planes.py && python3 herramientas/imagenes.py`
+`contenido_i18n.py` (artículos, planes y páginas legales traducidos) va antes de `articulos.py`: si se omite, esas 70 páginas se quedan con la cabecera, el formulario y el contador antiguos. Comprobado el 15 nov 2026: con este orden, regenerar sin cambios no modifica ningún archivo.
 El último paso (imagenes.py) recomprime las fotos, crea los .webp y envuelve cada `<img src="/img/…jpg">` en `<picture>`; si se olvida, las páginas regeneradas salen sin WebP. Las páginas manuales (index.html, gracias.html, aviso-legal.html, privacidad.html, blog/lumbalgia-5-cosas.html, 404.html) no las toca ningún generador salvo imagenes.py: la cabecera se les pega a mano desde `generar.header()`.
 
 ## Reglas de contenido (obligatorias)
@@ -64,6 +65,19 @@ Origen: planes genéricos de Julio en Google Drive, carpeta "01 Clinica y pacien
 - La política de privacidad (`privacidad.html`) explica la medición; si cambia lo que se guarda, actualizarla.
 - Supabase gratuito pausa el proyecto tras una semana sin peticiones: si el contador deja de registrar, comprobar que el proyecto está activo.
 - Para qué sirve: Julio no quiere informes de visitas. Los datos son para decidir, y así está puesto en las dos tareas semanales (lunes, Instagram; viernes, artículos): mirar qué páginas atraen gente y cuáles no, de dónde llegan las visitas (instagram, google, asistentes de inteligencia artificial, directo) y qué idiomas se usan, y a partir de ahí elegir los temas de los carruseles y de los artículos, reforzar o enlazar mejor lo que nadie ve, y ajustar a qué página se lleva desde Instagram. En los mensajes a Julio, como mucho una frase si hay algo que deba saber; nunca tablas de visitas.
+
+## Origen de las visitas y de las solicitudes (15 nov 2026)
+
+Sirve para saber si Instagram, un anuncio concreto o la propia web traen solicitudes de cita.
+
+- **Marca de origen**: un enlace puede llevar `?origen=<marca>` (minúsculas, cifras y guiones, 40 caracteres como mucho). Convención: `instagram` (enlace del perfil), `anuncio-<nombre-del-reel>` (un enlace por anuncio), `youtube`, `facebook`. Ejemplos: `https://drjuliodelamorena.com/cita?origen=instagram`, `https://drjuliodelamorena.com/cita?origen=anuncio-rodilla-escalon`.
+- **/cita/** redirige al formulario de la portada conservando la marca. Si el enlace no trae marca, la deduce del sitio desde el que se llega (instagram, facebook, youtube).
+- **Contador** (`generar.CONTADOR`): lee la marca de la dirección, la envía con cada página vista y con cada evento (columna `visitas.marca`), rellena el campo oculto `origen` de los formularios y añade la marca a los enlaces internos para que no se pierda al cambiar de página. No guarda nada en el dispositivo (ni cookies ni almacenamiento): la marca viaja en la dirección. Si no hay marca y se llega desde otro sitio, el campo oculto lleva `ref-<dominio>` (por ejemplo `ref-l.instagram.com`).
+- **Formularios**: todos llevan `<input type="hidden" name="origen">` (`extras.ORIGEN_OCULTO`); los de contacto, además, el desplegable opcional «¿Cómo nos ha conocido?» (`extras.como_html(idioma)`, campo `como`, mismos valores en todos los idiomas: instagram, buscador, youtube, paciente, profesional, ya-paciente, otro). En español va dentro de «Añadir detalles (opcional)» para no alargar el formulario. `index.html` y `blog/lumbalgia-5-cosas.html` lo llevan a mano.
+- **Servidor** (Supabase `visitas-drjuliodelamorena`): función `cita` versión 2 guarda `solicitudes.origen` y `solicitudes.como_conocio`; función `visita` versión 3 guarda `visitas.marca` y, en la primera página de la visita, clasifica el origen por la marca (`anuncio-…` = `anuncio`). De paso se corrigió que los formularios en chino (`contacto-zh`, `segunda-opinion-zh`) se descartaban sin guardarse y que las páginas /zh/ se contaban como español.
+- **Antes del 15 nov 2026** las visitas que entraban por /cita/ (el enlace del perfil de Instagram) se registraban como `interno` y sin `nueva_visita`: al comparar con fechas anteriores, tenerlo en cuenta.
+- **Privacidad**: `privacidad.html` y los `legal.json` de cada idioma explican que con la solicitud se guarda cómo nos ha conocido y el enlace de llegada. Si cambia lo que se guarda, actualizarlos.
+- **Dónde se resume**: hoja de Drive «Origen de pacientes» (carpeta «Reels @drjuliodelamorena»), sin nombres ni teléfonos.
 
 ## Captación (24 oct 2026)
 - Teléfono siempre pulsable (`<a class="tel" href="tel:+34913548990">`) y barra fija en el móvil (`.cta-fija`, la añade `footer()` en generar.py y generar_en.py; index.html y blog/lumbalgia-5-cosas.html la llevan a mano).

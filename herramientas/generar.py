@@ -123,8 +123,8 @@ def head(title, desc, url, img, ld, en_url=None, form=True):
 '''
 
 CONTADOR = """<script>
-/* Contador de visitas propio: sin cookies, sin identificadores y sin direcciones IP. Registra la página vista y, aparte, los toques en "Llamar" y los envíos del formulario. */
-(function(){try{if(navigator.webdriver)return;var h=location.hostname;if(h.indexOf("drjuliodelamorena")<0&&h.indexOf("netlify")<0)return;var u="https://nwbipjfhfumgkmdvoltc.supabase.co/functions/v1/visita";function m(e){var d=JSON.stringify({ruta:location.pathname,ref:document.referrer,ancho:window.innerWidth,evento:e||""});if(navigator.sendBeacon){navigator.sendBeacon(u,new Blob([d],{type:"text/plain;charset=UTF-8"}))}else{fetch(u,{method:"POST",body:d,keepalive:true})}}m();document.addEventListener("click",function(ev){var a=ev.target&&ev.target.closest&&ev.target.closest("a[href]");if(!a)return;var f=a.getAttribute("href")||"";if(f.indexOf("tel:")===0)m("llamada");else if(f.indexOf("wa.me")>=0||f.indexOf("whatsapp")>=0)m("whatsapp")},true);document.addEventListener("submit",function(ev){var f=ev.target;if(f&&f.classList&&f.classList.contains("f"))m("formulario")},true)}catch(e){}})();
+/* Contador de visitas propio: sin cookies, sin identificadores y sin direcciones IP. Registra la página vista y, aparte, los toques en "Llamar" y los envíos del formulario. Si el enlace de llegada trae una marca de origen (?origen=instagram, ?origen=anuncio-nombre), la anota, la pasa al formulario de cita y la mantiene en los enlaces internos; no guarda nada en el dispositivo. */
+(function(){try{if(navigator.webdriver)return;var h=location.hostname;if(h.indexOf("drjuliodelamorena")<0&&h.indexOf("netlify")<0)return;var u="https://nwbipjfhfumgkmdvoltc.supabase.co/functions/v1/visita";var k=(/[?&]origen=([a-z0-9-]{1,40})(?:&|$)/.exec(location.search)||[])[1]||"";var rf=document.referrer||"";if(rf.indexOf(location.host+"/cita")>=0)rf="";function m(e){var d=JSON.stringify({ruta:location.pathname,ref:rf,ancho:window.innerWidth,evento:e||"",marca:k});if(navigator.sendBeacon){navigator.sendBeacon(u,new Blob([d],{type:"text/plain;charset=UTF-8"}))}else{fetch(u,{method:"POST",body:d,keepalive:true})}}m();var o=k;if(!o&&rf){try{var r=new URL(rf).hostname;if(r.indexOf("drjuliodelamorena")<0)o=("ref-"+r.replace("www.","")).slice(0,60)}catch(e){}}var c=document.querySelectorAll('form.f input[name="origen"]');for(var i=0;i<c.length;i++)c[i].value=o;if(k){var a=document.querySelectorAll('a[href^="/"]');for(var j=0;j<a.length;j++){var f=a[j].getAttribute("href");if(f.indexOf("//")===0||f.indexOf("origen=")>=0)continue;var p=f.indexOf("#"),b=p<0?f:f.slice(0,p),t=p<0?"":f.slice(p);a[j].setAttribute("href",b+(b.indexOf("?")<0?"?":"&")+"origen="+k+t)}}document.addEventListener("click",function(ev){var a=ev.target&&ev.target.closest&&ev.target.closest("a[href]");if(!a)return;var f=a.getAttribute("href")||"";if(f.indexOf("tel:")===0)m("llamada");else if(f.indexOf("wa.me")>=0||f.indexOf("whatsapp")>=0)m("whatsapp")},true);document.addEventListener("submit",function(ev){var f=ev.target;if(f&&f.classList&&f.classList.contains("f"))m("formulario")},true)}catch(e){}})();
 </script>"""
 
 ZONAS = ["Rodilla", "Hombro", "Espalda o ciática", "Cadera", "Codo", "Tobillo o pie", "Lesión muscular", "Otra"]
@@ -162,6 +162,7 @@ def formulario(ruta, zona="", compacto=True):
 <form class="f" name="contacto" method="POST" action="{CITA_URL}">
 <input type="hidden" name="form-name" value="contacto">
 <input type="hidden" name="pagina" value="{esc(ruta)}">
+{__import__("extras").ORIGEN_OCULTO}
 <p class="hidden"><label>No rellenar <input name="web"></label></p>
 <h3>Le llamamos</h3>
 <label for="f-nombre">Nombre y apellidos<input id="f-nombre" name="nombre" type="text" autocomplete="name" required></label>
@@ -169,6 +170,7 @@ def formulario(ruta, zona="", compacto=True):
 <details class="opc"{" open" if zona else ""}><summary>Añadir detalles (opcional)</summary>
 <label for="f-zona">¿Qué zona le duele?<select id="f-zona" name="zona">{opts}</select></label>
 <label for="f-motivo">Cuéntenos brevemente qué le pasa<textarea id="f-motivo" name="motivo" rows="3"></textarea></label>
+{__import__("extras").como_html("es")}
 </details>
 <p class="nota">Le llamamos en menos de 24 horas para darle cita (si cae en fin de semana o festivo, el siguiente día laborable).</p>
 <label class="check" for="f-priv"><input id="f-priv" name="privacidad" type="checkbox" required><span>He leído y acepto la <a href="/privacidad.html">política de privacidad</a>. Sus datos se usan únicamente para contactarle en relación con su cita.</span></label>

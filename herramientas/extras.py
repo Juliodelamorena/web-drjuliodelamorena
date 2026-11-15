@@ -167,3 +167,38 @@ def evidencia_html(lang, slug):
             (f'<p class="cautela"><strong>{esc(CAUTELA[lang])}</strong></p>\n' if lang in CAUTELA else '') +
             f'<details class="refs"><summary>{esc(lista)}</summary><ol>{refs}</ol></details>\n'
             f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>\n')
+
+
+# --- «¿Cómo nos ha conocido?» y marca de origen (15 nov 2026) ---
+# Desplegable opcional del formulario de cita. Los valores que se envían son los mismos en todos los idiomas
+# (los guarda la función `cita` en `solicitudes.como_conocio`). El campo oculto `origen` lo rellena el
+# contador (generar.CONTADOR) con la marca del enlace de llegada (?origen=instagram, ?origen=anuncio-nombre)
+# o, si no hay marca, con el dominio desde el que se llegó (ref-dominio); se guarda en `solicitudes.origen`.
+ORIGEN_OCULTO = '<input type="hidden" name="origen" value="">'
+COMO_VALORES = ["instagram", "buscador", "youtube", "paciente", "profesional", "ya-paciente", "otro"]
+COMO = {
+ "es": ("¿Cómo nos ha conocido?", "Elija una opción",
+        ["Instagram", "Google u otro buscador", "YouTube", "Me lo recomendó un paciente o un familiar",
+         "Me envió un médico o un fisioterapeuta", "Ya soy paciente", "Otro"]),
+ "en": ("How did you hear about us? (optional)", "Choose an option",
+        ["Instagram", "Google or another search engine", "YouTube", "Recommended by a patient or a relative",
+         "Referred by a doctor or a physiotherapist", "I am already a patient", "Other"]),
+ "fr": ("Comment nous avez-vous connus ? (facultatif)", "Choisissez une option",
+        ["Instagram", "Google ou un autre moteur de recherche", "YouTube", "Recommandé par un patient ou un proche",
+         "Adressé par un médecin ou un kinésithérapeute", "Je suis déjà patient", "Autre"]),
+ "ru": ("Как Вы о нас узнали? (необязательно)", "Выберите вариант",
+        ["Instagram", "Google или другая поисковая система", "YouTube", "По рекомендации пациента или родственника",
+         "По направлению врача или физиотерапевта", "Я уже пациент", "Другое"]),
+ "ka": ("როგორ შეიტყვეთ ჩვენ შესახებ? (არასავალდებულო)", "აირჩიეთ ვარიანტი",
+        ["Instagram", "Google ან სხვა საძიებო სისტემა", "YouTube", "პაციენტის ან ახლობლის რეკომენდაციით",
+         "ექიმის ან ფიზიოთერაპევტის მიმართვით", "უკვე პაციენტი ვარ", "სხვა"]),
+ "zh": ("您是如何了解到我们的？（选填）", "请选择",
+        ["Instagram", "Google 或其他搜索引擎", "YouTube", "患者或亲友推荐",
+         "医生或物理治疗师转介", "我已是患者", "其他"]),
+}
+
+def como_html(lang):
+    etiqueta, elija, textos = COMO[lang]
+    opts = f'<option value="">{esc(elija)}</option>' + "".join(
+        f'<option value="{v}">{esc(t)}</option>' for v, t in zip(COMO_VALORES, textos))
+    return f'<label for="f-como">{esc(etiqueta)}<select id="f-como" name="como">{opts}</select></label>'
