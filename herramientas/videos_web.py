@@ -32,6 +32,9 @@ CATALOGO = [
  dict(f="codo-de-padel", es_file="codo-de-padel.mp4", art="codo-de-tenista", poster="{f}.jpg", dur="PT33S", fecha="2026-11-01T23:40:00+01:00",
       t=dict(es="Codo de pádel: exploración, ecografía y tratamiento", en="Tennis and padel elbow (lateral epicondylitis)", fr="Coude du tennisman et du joueur de padel (épicondylite latérale)",
              ru="Локоть теннисиста и паделиста (латеральный эпикондилит)", ka="ჩოგბურთელისა და პადელის მოთამაშის იდაყვი (ლატერალური ეპიკონდილიტი)", zh="网球肘与帕德尔球肘（肱骨外上髁炎）")),
+ dict(f="infiltraciones", art="infiltraciones-ecoguiadas", poster="{f}.{l}.jpg", dur="PT26S", fecha="2026-11-19T10:00:00+01:00",
+      t=dict(es="Por qué se infiltra con ecografía", en="Why ultrasound guides injections", fr="Pourquoi s'infiltrer sous échographie",
+             ru="Зачем делать инъекции под контролем УЗИ", ka="რატომ კეთდება ინექცია ექოსკოპიით")),
 ]
 
 UI = {
