@@ -35,6 +35,18 @@ CATALOGO = [
  dict(f="infiltraciones", art="infiltraciones-ecoguiadas", poster="{f}.{l}.jpg", dur="PT26S", fecha="2026-11-19T10:00:00+01:00",
       t=dict(es="Por qué se infiltra con ecografía", en="Why ultrasound guides injections", fr="Pourquoi s'infiltrer sous échographie",
              ru="Зачем делать инъекции под контролем УЗИ", ka="რატომ კეთდება ინექცია ექოსკოპიით")),
+ dict(f="codo-de-tenista", unico=True, quemados="es", art="codo-de-tenista", poster="{f}.jpg", dur="PT27S", fecha="2026-11-16T10:00:00+01:00",
+      t=dict(es="El codo de tenista no es una inflamación", en="Tennis elbow is not an inflammation", fr="Le coude du tennisman n'est pas une inflammation",
+             ru="Локоть теннисиста — это не воспаление", ka="ჩოგბურთელის იდაყვი ანთება არ არის", zh="网球肘不是炎症")),
+ dict(f="menisco-roto", unico=True, quemados="es", art="rotura-menisco", poster="{f}.jpg", dur="PT37S", fecha="2026-11-17T10:00:00+01:00",
+      t=dict(es="Menisco roto: operar no gana al ejercicio", en="Torn meniscus: surgery does not beat exercise", fr="Ménisque déchiré : opérer ne fait pas mieux que l'exercice",
+             ru="Разрыв мениска: операция не лучше упражнений", ka="გახეული მენისკი: ოპერაცია ვარჯიშს არ სჯობს", zh="半月板撕裂：手术并不比运动更好")),
+ dict(f="estirar-antes-de-entrenar", unico=True, quemados="es", art="", poster="{f}.jpg", dur="PT39S", fecha="2026-11-19T10:00:00+01:00",
+      t=dict(es="Estirar antes de entrenar: ¿mito o verdad?", en="Stretching before training: myth or truth?", fr="S'étirer avant l'entraînement : mythe ou vérité ?",
+             ru="Растяжка перед тренировкой: миф или правда?", ka="ვარჯიშამდე გაჭიმვა: მითი თუ ჭეშმარიტება?", zh="训练前拉伸：是迷思还是事实？")),
+ dict(f="resonancia-sin-dolor", unico=True, quemados="es", art="", poster="{f}.jpg", dur="PT42S", fecha="2026-11-20T10:00:00+01:00",
+      t=dict(es="Resonancia con hallazgos y sin dolor: el estudio que lo demuestra", en="MRI findings without pain: the study that shows it", fr="Des anomalies à l'IRM sans douleur : l'étude qui le montre",
+             ru="Изменения на МРТ без боли: исследование, которое это показывает", ka="ცვლილებები MRI-ზე ტკივილის გარეშე: კვლევა, რომელიც ამას ადასტურებს", zh="核磁共振有异常却没有疼痛：研究如此证明")),
 ]
 
 UI = {
@@ -56,6 +68,7 @@ UI = {
 def _poster(v, l): return "/video/" + v["poster"].format(f=v["f"], l=l)
 N = {"es": "Español", "en": "English", "fr": "Français", "ru": "Русский", "ka": "ქართული", "zh": "中文"}
 def _src(v, l):
+    if v.get("unico"): return f"/video/{v['f']}.mp4"  # un solo archivo para todos los idiomas (subtítulos aparte)
     if l == "es" and v.get("es_file"): return "/video/" + v["es_file"]
     return f"/video/{v['f']}.{l}.mp4"
 
@@ -66,7 +79,7 @@ def _disponible(v, l):
 
 def pagina(l):
     u = UI[l]; base = "/" if l == "es" else f"/{l}/"
-    vs = [v for v in CATALOGO if _disponible(v, l)]
+    vs = sorted((v for v in CATALOGO if _disponible(v, l)), key=lambda v: v["fecha"], reverse=True)
     url = f"{SITE}{base}videos/"
     ld = {"@context": "https://schema.org", "@type": "CollectionPage", "@id": url, "url": url, "name": u["title"], "inLanguage": l,
           "author": G.DOCTOR_REF,
@@ -76,7 +89,7 @@ def pagina(l):
     for v in vs:
         href = (I.path_for(l, v["art"]) or base) if v["art"] else base
         txt = u["art"] if v["art"] else u["more"]
-        tracks = "".join(f'<track kind="subtitles" src="/video/subs/{v["f"]}.{c}.vtt" srclang="{c}" label="{N[c]}"{" default" if c == l else ""}>'
+        tracks = "".join(f'<track kind="subtitles" src="/video/subs/{v["f"]}.{c}.vtt" srclang="{c}" label="{N[c]}"{" default" if c == l and not (c == "es" and v.get("quemados")) else ""}>'
                          for c in LANGS if os.path.isfile(os.path.join(ROOT, "video", "subs", f"{v['f']}.{c}.vtt")))
         cards.append(f'<div class="vcard"><figure class="reel"><video controls playsinline preload="none" poster="{_poster(v, l)}" width="720" height="1280">'
                      f'<source src="{_src(v, l)}" type="video/mp4">{tracks}</video></figure>'
