@@ -357,6 +357,8 @@ def about_page():
 <li><strong>2007 – 2021 · Real Madrid C. F.</strong> Catorce años en los servicios médicos del club: fútbol base (2007–2013), Real Madrid Castilla (2013–2017) y médico del primer equipo (2017–2021).</li>
 <li><strong>2012 – 2019 · Hospital Sanitas La Moraleja</strong> (Madrid). Unidad de Medicina del Deporte.</li>
 </ul>
+<h2>Colegiación y datos comprobables</h2>
+<ul class="cvlist"><li><strong>Colegiado nº 281903698</strong> · Ilustre Colegio Oficial de Médicos de Madrid. <a href="https://www.icomem.es/ventanilla-unica/buscador-colegiados" target="_blank" rel="noopener">Comprobar la colegiación en el buscador público del Colegio</a>: escriba el número 281903698 en la casilla «Núm. Col.» y pulse el botón de búsqueda.</li><li><strong>Hospital Memorial Publio Cordón.</strong> <a href="https://www.memorialpubliocordon.com/medicos/dr-julio-de-la-morena-garzon/" target="_blank" rel="noopener">Ficha del Dr. De la Morena en la web del hospital</a>.</li></ul>
 <h2>Docencia e idiomas</h2>
 <ul class="cvlist">
 <li><strong>Premio «Manuel Clavel Nolla»</strong> (Jornadas Nacionales de Traumatología del Deporte, 2007) por un estudio ecográfico del tendón cuadricipital en halterofilia de élite.</li>
