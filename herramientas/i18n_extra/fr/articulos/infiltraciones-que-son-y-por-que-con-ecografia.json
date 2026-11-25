@@ -1,0 +1,68 @@
+{
+ "slug": "infiltraciones-que-son-y-por-que-con-ecografia",
+ "fecha": "2026-11-11",
+ "categoria": "Thérapies régénératives",
+ "titulo": "Infiltrations : ce que c'est et pourquoi les faire sous échographie",
+ "resumen": "Ce qu'est une infiltration, ce que l'on peut infiltrer, si cela fait mal et ce que disent les études sur le guidage échographique.",
+ "descripcion": "Ce qu'est une infiltration, ce que l'on peut infiltrer, si cela fait mal et ce que disent les études sur le guidage échographique.",
+ "entradilla": "Une infiltration consiste à injecter un traitement directement dans la zone douloureuse. Lorsqu'elle est guidée par échographie, on voit l'aiguille en temps réel et le traitement arrive au point exact. Voici ce que disent les études, avec leurs liens et aussi leurs limites.",
+ "imagen": "eco.jpg",
+ "imagen_wh": [
+  960,
+  1200
+ ],
+ "imagen_alt": "Infiltration guidée par échographie en consultation",
+ "temas": [
+  "Infiltrations",
+  "Échographie"
+ ],
+ "secciones": [
+  [
+   "La vidéo",
+   "<figure class=\"reel\"><video controls playsinline preload=\"none\" poster=\"/video/infiltraciones.fr.jpg\" width=\"720\" height=\"1280\"><source src=\"/video/infiltraciones.fr.mp4\" type=\"video/mp4\"></video><figcaption>Ce qu'est une infiltration, ce que l'on peut infiltrer et pourquoi elle doit être guidée par échographie.</figcaption></figure><script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"VideoObject\", \"name\": \"Infiltrations : ce que c'est et pourquoi sous échographie\", \"description\": \"Ce qu'est une infiltration, ce que l'on peut infiltrer et pourquoi elle doit être guidée par échographie.\", \"thumbnailUrl\": \"https://drjuliodelamorena.com/video/infiltraciones.fr.jpg\", \"uploadDate\": \"2026-11-11T10:00:00+01:00\", \"duration\": \"PT26S\", \"contentUrl\": \"https://drjuliodelamorena.com/video/infiltraciones.fr.mp4\", \"inLanguage\": \"fr\"}</script>"
+  ],
+  [
+   "Qu'est-ce qu'une infiltration",
+   "<p>Une infiltration consiste à injecter un traitement directement dans la zone douloureuse : une articulation, un tendon, un ligament ou un muscle.</p>"
+  ],
+  [
+   "Ce que l'on peut infiltrer",
+   "<p>Les plus courants sont le PRP (plasma riche en plaquettes), l'acide hyaluronique, les corticoïdes et l'anesthésique local. Plus rarement, on utilise le concentré de moelle osseuse, la prolothérapie ou la toxine botulique. Le choix dépend du diagnostic et de l'indication dans chaque cas.</p>"
+  ],
+  [
+   "Est-ce douloureux ?",
+   "<p>La gêne est légère, comparable à celle d'une prise de sang. Ensuite, le patient rentre chez lui en marchant.</p>"
+  ],
+  [
+   "Pourquoi la faire sous guidage échographique",
+   "<p>Avec l'échographe, on voit en temps réel l'aiguille et la structure traitée : le traitement arrive exactement là où il doit arriver et l'on évite les vaisseaux sanguins et les nerfs.</p><p>Une revue de 12 essais randomisés a conclu que les infiltrations articulaires et périarticulaires guidées par échographie sont plus précises que celles réalisées selon les repères anatomiques (odds ratio 0,36) et réduisent la douleur à 2 et à 6 semaines ; à 12 semaines, la différence n'était plus significative (<em>American Journal of Physical Medicine &amp; Rehabilitation</em>, 2015). Une autre revue de quatre essais dans l'arthrose du genou, portant sur 338 patients, a observé une amélioration de la douleur et de la fonction avec le guidage échographique (<em>Australasian Journal of Ultrasound in Medicine</em>, 2024).</p>"
+  ],
+  [
+   "Ce que ces études ne disent pas",
+   "<p>À l'épaule, une revue Cochrane de cinq essais avec des corticoïdes n'a pas trouvé d'avantage clinique de l'échographie par rapport à l'infiltration selon les repères anatomiques (2012). Le gain de précision est constant ; qu'il se traduise par un bénéfice clinique plus important et durable dépend de la zone et du traitement, et reste à l'étude.</p>"
+  ],
+  [
+   "Études citées",
+   "<p>Source : PubMed. Chaque étude renvoie à sa publication d'origine.</p><ol class=\"refs-list\"><li>Huang Z, Du S, Qi Y, Chen G, Yan W. Effectiveness of Ultrasound Guidance on Intraarticular and Periarticular Joint Injections: Systematic Review and Meta-analysis of Randomized Trials. <em>Am J Phys Med Rehabil. 2015;94(10):775-783</em>. <a href=\"https://doi.org/10.1097/PHM.0000000000000260\" rel=\"noopener\" target=\"_blank\">doi:10.1097/PHM.0000000000000260</a></li><li>Oo WM, Linklater J, Siddiq MAB, Fu K, Hunter DJ. Comparison of ultrasound guidance with landmark guidance for symptomatic benefits in knee, hip and hand osteoarthritis: systematic review and meta-analysis of randomised controlled trials. <em>Australas J Ultrasound Med. 2024;27(2):97-105</em>. <a href=\"https://doi.org/10.1002/ajum.12386\" rel=\"noopener\" target=\"_blank\">doi:10.1002/ajum.12386</a></li><li>Bloom JE, Rischin A, Johnston RV, Buchbinder R. Image-guided versus blind glucocorticoid injection for shoulder pain. <em>Cochrane Database Syst Rev. 2012;(8):CD009147</em>. <a href=\"https://doi.org/10.1002/14651858.CD009147.pub2\" rel=\"noopener\" target=\"_blank\">doi:10.1002/14651858.CD009147.pub2</a></li></ol>"
+  ]
+ ],
+ "faq": [
+  [
+   "Qu'est-ce qu'une infiltration ?",
+   "C'est l'injection d'un traitement directement dans la zone douloureuse : une articulation, un tendon, un ligament ou un muscle."
+  ],
+  [
+   "Une infiltration fait-elle mal ?",
+   "La gêne est légère, comparable à celle d'une prise de sang, et le patient rentre chez lui en marchant."
+  ],
+  [
+   "Pourquoi la faire sous échographie ?",
+   "Parce qu'elle permet de voir l'aiguille et la structure en temps réel. Une revue de 12 essais randomisés a montré que les infiltrations guidées par échographie sont plus précises que celles réalisées selon les repères anatomiques."
+  ]
+ ],
+ "relacionadas": [
+  "infiltraciones-ecoguiadas",
+  "factores-crecimiento-autologos",
+  "artrosis-rodilla"
+ ]
+}

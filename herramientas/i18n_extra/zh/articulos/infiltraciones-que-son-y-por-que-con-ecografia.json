@@ -1,0 +1,68 @@
+{
+ "slug": "infiltraciones-que-son-y-por-que-con-ecografia",
+ "fecha": "2026-11-11",
+ "categoria": "再生疗法",
+ "titulo": "注射治疗：是什么，为什么应在超声引导下进行",
+ "resumen": "什么是注射治疗、可以注射哪些药物、是否疼痛，以及研究对超声引导注射的结论。",
+ "descripcion": "什么是注射治疗、可以注射哪些药物、是否疼痛，以及研究对超声引导注射的结论，附文献链接和局限性说明。",
+ "entradilla": "注射治疗是把药物直接注入疼痛部位。在超声引导下进行时，可以实时看到针头，药物能准确到达目标位置。以下是相关研究的结论，附有链接，也说明了它们的局限。",
+ "imagen": "eco.jpg",
+ "imagen_wh": [
+  960,
+  1200
+ ],
+ "imagen_alt": "诊室中进行的超声引导注射",
+ "temas": [
+  "注射治疗",
+  "超声检查"
+ ],
+ "secciones": [
+  [
+   "视频",
+   "<figure class=\"reel\"><video controls playsinline preload=\"none\" poster=\"/video/infiltraciones.zh.jpg\" width=\"720\" height=\"1280\"><source src=\"/video/infiltraciones.zh.mp4\" type=\"video/mp4\"></video><figcaption>什么是注射治疗、可以注射哪些药物，以及为什么应在超声引导下进行。</figcaption></figure><script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"VideoObject\", \"name\": \"注射治疗：是什么，为什么要用超声引导\", \"description\": \"什么是注射治疗、可以注射哪些药物，以及为什么应在超声引导下进行。\", \"thumbnailUrl\": \"https://drjuliodelamorena.com/video/infiltraciones.zh.jpg\", \"uploadDate\": \"2026-11-11T10:00:00+01:00\", \"duration\": \"PT26S\", \"contentUrl\": \"https://drjuliodelamorena.com/video/infiltraciones.zh.mp4\", \"inLanguage\": \"zh\"}</script>"
+  ],
+  [
+   "什么是注射治疗",
+   "<p>注射治疗是把药物直接注入疼痛部位：关节、肌腱、韧带或肌肉。</p>"
+  ],
+  [
+   "可以注射哪些药物",
+   "<p>最常用的是 PRP（富血小板血浆）、透明质酸、糖皮质激素和局部麻醉药。较少使用的有骨髓浓缩物、增生疗法或肉毒毒素。具体选择取决于诊断和每位患者的适应证。</p>"
+  ],
+  [
+   "疼吗？",
+   "<p>不适感很轻，与抽血相似。治疗结束后，患者可以自行步行回家。</p>"
+  ],
+  [
+   "为什么应在超声引导下进行",
+   "<p>借助超声仪，可以实时看到针头和所治疗的结构，使药物准确到达目标位置，并避开血管和神经。</p><p>一项纳入 12 项随机试验的综述得出结论：超声引导下的关节内和关节周围注射比依靠解剖标志的注射更准确（比值比 0.36），并能在第 2 周和第 6 周减轻疼痛；到第 12 周时差异已不再显著（<em>American Journal of Physical Medicine &amp; Rehabilitation</em>，2015）。另一项针对膝关节骨关节炎的综述纳入 4 项试验、338 名患者，发现超声引导下疼痛和功能的改善更好（<em>Australasian Journal of Ultrasound in Medicine</em>，2024）。</p>"
+  ],
+  [
+   "这些研究没有说明的问题",
+   "<p>在肩部，一项纳入 5 项糖皮质激素试验的 Cochrane 综述未发现超声引导相比依靠解剖标志的注射有临床优势（2012）。准确性更高这一点是一致的；但它能否转化为更大、更持久的临床获益，取决于部位和所用药物，目前仍在研究中。</p>"
+  ],
+  [
+   "引用的研究",
+   "<p>来源：PubMed。每项研究均链接到其原始出版物。</p><ol class=\"refs-list\"><li>Huang Z, Du S, Qi Y, Chen G, Yan W. Effectiveness of Ultrasound Guidance on Intraarticular and Periarticular Joint Injections: Systematic Review and Meta-analysis of Randomized Trials. <em>Am J Phys Med Rehabil. 2015;94(10):775-783</em>. <a href=\"https://doi.org/10.1097/PHM.0000000000000260\" rel=\"noopener\" target=\"_blank\">doi:10.1097/PHM.0000000000000260</a></li><li>Oo WM, Linklater J, Siddiq MAB, Fu K, Hunter DJ. Comparison of ultrasound guidance with landmark guidance for symptomatic benefits in knee, hip and hand osteoarthritis: systematic review and meta-analysis of randomised controlled trials. <em>Australas J Ultrasound Med. 2024;27(2):97-105</em>. <a href=\"https://doi.org/10.1002/ajum.12386\" rel=\"noopener\" target=\"_blank\">doi:10.1002/ajum.12386</a></li><li>Bloom JE, Rischin A, Johnston RV, Buchbinder R. Image-guided versus blind glucocorticoid injection for shoulder pain. <em>Cochrane Database Syst Rev. 2012;(8):CD009147</em>. <a href=\"https://doi.org/10.1002/14651858.CD009147.pub2\" rel=\"noopener\" target=\"_blank\">doi:10.1002/14651858.CD009147.pub2</a></li></ol>"
+  ]
+ ],
+ "faq": [
+  [
+   "什么是注射治疗？",
+   "就是把药物直接注入疼痛部位：关节、肌腱、韧带或肌肉。"
+  ],
+  [
+   "注射疼吗？",
+   "不适感很轻，与抽血相似，患者可以自行步行回家。"
+  ],
+  [
+   "为什么要在超声引导下进行？",
+   "因为可以实时看到针头和所治疗的结构。一项纳入 12 项随机试验的综述发现，超声引导下的注射比依靠解剖标志的注射更准确。"
+  ]
+ ],
+ "relacionadas": [
+  "infiltraciones-ecoguiadas",
+  "factores-crecimiento-autologos",
+  "artrosis-rodilla"
+ ]
+}

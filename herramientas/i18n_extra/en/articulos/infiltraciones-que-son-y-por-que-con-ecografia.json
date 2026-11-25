@@ -1,0 +1,68 @@
+{
+ "slug": "infiltraciones-que-son-y-por-que-con-ecografia",
+ "fecha": "2026-11-11",
+ "categoria": "Regenerative therapies",
+ "titulo": "Injections: what they are and why they should be ultrasound-guided",
+ "resumen": "What an injection is, what can be injected, whether it hurts and what the studies say about doing it under ultrasound guidance.",
+ "descripcion": "What an injection is, what can be injected, whether it hurts and what studies say about ultrasound guidance, with links and limits.",
+ "entradilla": "An injection means delivering a treatment directly into the area that hurts. When it is guided by ultrasound, the needle is seen in real time and the treatment reaches the exact spot. This is what the studies say, with their links and also their limits.",
+ "imagen": "eco.jpg",
+ "imagen_wh": [
+  960,
+  1200
+ ],
+ "imagen_alt": "Ultrasound-guided injection in the consulting room",
+ "temas": [
+  "Injections",
+  "Ultrasound"
+ ],
+ "secciones": [
+  [
+   "The video",
+   "<figure class=\"reel\"><video controls playsinline preload=\"none\" poster=\"/video/infiltraciones.en.jpg\" width=\"720\" height=\"1280\"><source src=\"/video/infiltraciones.en.mp4\" type=\"video/mp4\"></video><figcaption>What an injection is, what can be injected and why it should be guided by ultrasound.</figcaption></figure><script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"VideoObject\", \"name\": \"Injections: what they are and why with ultrasound\", \"description\": \"What an injection is, what can be injected and why it should be guided by ultrasound.\", \"thumbnailUrl\": \"https://drjuliodelamorena.com/video/infiltraciones.en.jpg\", \"uploadDate\": \"2026-11-11T10:00:00+01:00\", \"duration\": \"PT26S\", \"contentUrl\": \"https://drjuliodelamorena.com/video/infiltraciones.en.mp4\", \"inLanguage\": \"en\"}</script>"
+  ],
+  [
+   "What an injection is",
+   "<p>An injection means delivering a treatment directly into the area that hurts: a joint, a tendon, a ligament or a muscle.</p>"
+  ],
+  [
+   "What can be injected",
+   "<p>The most common are PRP (platelet-rich plasma), hyaluronic acid, corticosteroids and local anaesthetic. Less often, bone marrow concentrate, prolotherapy or botulinum toxin are used. The choice depends on the diagnosis and on what is indicated in each case.</p>"
+  ],
+  [
+   "Does it hurt?",
+   "<p>The discomfort is mild and similar to that of a blood test. Afterwards, the patient walks home.</p>"
+  ],
+  [
+   "Why it should be ultrasound-guided",
+   "<p>With the ultrasound machine, the needle and the structure being treated are seen in real time, so the treatment reaches exactly where it needs to go and blood vessels and nerves are avoided.</p><p>A review of 12 randomised trials concluded that ultrasound-guided intra-articular and periarticular injections are more accurate than those guided by anatomical landmarks (odds ratio 0.36) and reduce pain at 2 and 6 weeks; at 12 weeks the difference was no longer significant (<em>American Journal of Physical Medicine &amp; Rehabilitation</em>, 2015). Another review of four trials in knee osteoarthritis, with 338 patients, found better pain and better function with ultrasound guidance (<em>Australasian Journal of Ultrasound in Medicine</em>, 2024).</p>"
+  ],
+  [
+   "What these studies do not say",
+   "<p>In the shoulder, a Cochrane review of five trials with corticosteroids found no clinical advantage of ultrasound over landmark-guided injection (2012). The greater accuracy is consistent; whether it translates into a greater and lasting clinical benefit depends on the area and the treatment, and is still being studied.</p>"
+  ],
+  [
+   "Studies cited",
+   "<p>Source: PubMed. Each study links to its original publication.</p><ol class=\"refs-list\"><li>Huang Z, Du S, Qi Y, Chen G, Yan W. Effectiveness of Ultrasound Guidance on Intraarticular and Periarticular Joint Injections: Systematic Review and Meta-analysis of Randomized Trials. <em>Am J Phys Med Rehabil. 2015;94(10):775-783</em>. <a href=\"https://doi.org/10.1097/PHM.0000000000000260\" rel=\"noopener\" target=\"_blank\">doi:10.1097/PHM.0000000000000260</a></li><li>Oo WM, Linklater J, Siddiq MAB, Fu K, Hunter DJ. Comparison of ultrasound guidance with landmark guidance for symptomatic benefits in knee, hip and hand osteoarthritis: systematic review and meta-analysis of randomised controlled trials. <em>Australas J Ultrasound Med. 2024;27(2):97-105</em>. <a href=\"https://doi.org/10.1002/ajum.12386\" rel=\"noopener\" target=\"_blank\">doi:10.1002/ajum.12386</a></li><li>Bloom JE, Rischin A, Johnston RV, Buchbinder R. Image-guided versus blind glucocorticoid injection for shoulder pain. <em>Cochrane Database Syst Rev. 2012;(8):CD009147</em>. <a href=\"https://doi.org/10.1002/14651858.CD009147.pub2\" rel=\"noopener\" target=\"_blank\">doi:10.1002/14651858.CD009147.pub2</a></li></ol>"
+  ]
+ ],
+ "faq": [
+  [
+   "What is an injection?",
+   "It is the delivery of a treatment directly into the area that hurts: a joint, a tendon, a ligament or a muscle."
+  ],
+  [
+   "Does an injection hurt?",
+   "The discomfort is mild, similar to that of a blood test, and the patient walks home."
+  ],
+  [
+   "Why should it be done with ultrasound?",
+   "Because it allows the needle and the structure to be seen in real time. A review of 12 randomised trials found that ultrasound-guided injections are more accurate than those guided by anatomical landmarks."
+  ]
+ ],
+ "relacionadas": [
+  "infiltraciones-ecoguiadas",
+  "factores-crecimiento-autologos",
+  "artrosis-rodilla"
+ ]
+}

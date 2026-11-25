@@ -138,7 +138,7 @@ PRIMERA_CONSULTA = """<aside class="primera" aria-label="Su primera consulta">
 <ul>
 <li><strong>Qué ocurre:</strong> el Dr. De la Morena le escucha, le explora y, si hace falta, le hace una ecografía en la misma visita. Sale con un plan explicado con claridad.</li>
 <li><strong>Qué traer:</strong> informes y pruebas que tenga (mejor con las imágenes) y la lista de tratamientos que ya ha probado. Si no tiene pruebas, no importa.</li>
-<li><strong>Sin compromiso:</strong> la primera consulta no le obliga a tratarse. Si no está indicado ningún tratamiento, se lo decimos.</li>
+<li><strong>Usted decide:</strong> la primera consulta no le obliga a tratarse. Si no está indicado ningún tratamiento, se lo decimos.</li>
 <li><strong>Dónde y cuándo:</strong> Hospital Memorial Publio Cordón, en Pozuelo de Alarcón (Madrid), de lunes a viernes, de 15:00 a 21:00. Pida cita en el <a class="tel" href="tel:+34913548990">913 548 990</a> o deje su teléfono en el formulario y le llamamos.</li>
 </ul>
 </aside>"""
@@ -329,7 +329,7 @@ def about_page():
            {"@type": "NewsArticle", "headline": "El Comité de Competición anula la roja al médico del Castilla", "url": "https://www.libertaddigital.com/deportes/futbol/2014-05-14/competicion-anula-la-roja-al-medico-del-castilla-1276518574/", "datePublished": "2014-05-14", "publisher": {"@type": "Organization", "name": "Libertad Digital"}}
          ],
          "hasCredential": [{"@type": "EducationalOccupationalCredential", "name": "Especialista en Medicina de la Educación Física y del Deporte (MIR)", "recognizedBy": {"@type": "CollegeOrUniversity", "name": "Universidad Complutense de Madrid"}}, {"@type": "EducationalOccupationalCredential", "name": "Certificación ICH-GCP E6(R3) Buenas Prácticas Clínicas", "recognizedBy": {"@type": "Organization", "name": "NIDA Clinical Trials Network, National Institutes of Health"}}],
-         "identifier": {"@type": "PropertyValue", "propertyID": "Número de colegiado (Colegio de Médicos de Madrid)", "value": "281903698"},
+         "identifier": {"@type": "PropertyValue", "propertyID": "Número de colegiado (Colegio de Médicos de Madrid)", "value": "281903698", "url": "https://www.icomem.es/ventanilla-unica/buscador-colegiados"},
          "sameAs": ["https://www.instagram.com/drjuliodelamorena/", "https://www.youtube.com/channel/UCGJv0UcLm0GJpaZOdWRCauA", CITA]},
         breadcrumb("El doctor", url), faq_ld(faq)]}
     faqs = "\n".join(f'<details><summary>{esc(q)}</summary><p>{esc(x)}</p></details>' for q, x in faq)
