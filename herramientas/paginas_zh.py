@@ -3,7 +3,7 @@
 import copy, importlib, sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import paginas_plantilla as T
-from zh_src import p1, p2, p3, p4, p5, p6
+from zh_src import p1, p2, p3, p4, p5, p6, p7
 
 META = {
  "lang": "zh", "locale": "zh_CN", "name": "中文", "thanks": "xiexie.html",
@@ -13,7 +13,7 @@ META = {
 SLUGS = dict(T.SLUGS)
 
 _TEXT = {}
-for m in (p1, p2, p3, p6): _TEXT.update(m.T)
+for m in (p1, p2, p3, p6, p7): _TEXT.update(m.T)
 _TEXT.update(p4.T)
 
 PAGES = []

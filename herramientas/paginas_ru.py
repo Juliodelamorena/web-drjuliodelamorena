@@ -35,6 +35,10 @@ SLUGS = {
  "rotura-menisco": "razryv-meniska",
  "artrosis-cadera": "artroz-tazobedrennogo-sustava",
  "pubalgia": "pubalgiya",
+ "ecografia-musculoesqueletica": "uzi-oporno-dvigatelnogo-apparata",
+ "prp-rodilla": "prp-v-koleno",
+ "hombro-congelado": "zamorozhennoe-plecho",
+ "trocanteritis": "trokhanterit",
 }
 
 _EN2ES0 = {v: k for k, v in _T.SLUGS.items()}

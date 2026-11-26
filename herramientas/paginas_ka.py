@@ -35,6 +35,10 @@ SLUGS = {
  "rotura-menisco": "meniscus-tear",
  "artrosis-cadera": "hip-osteoarthritis",
  "pubalgia": "groin-pain",
+ "ecografia-musculoesqueletica": "musculoskeletal-ultrasound",
+ "prp-rodilla": "prp-knee",
+ "hombro-congelado": "frozen-shoulder",
+ "trocanteritis": "greater-trochanteric-pain",
 }
 
 _EN2ES0 = {v: k for k, v in _T.SLUGS.items()}

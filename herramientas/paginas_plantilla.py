@@ -37,6 +37,10 @@ SLUGS = {
  "rotura-menisco": "meniscus-tear",
  "artrosis-cadera": "hip-osteoarthritis",
  "pubalgia": "groin-pain",
+ "ecografia-musculoesqueletica": "musculoskeletal-ultrasound",
+ "prp-rodilla": "prp-knee",
+ "hombro-congelado": "frozen-shoulder",
+ "trocanteritis": "greater-trochanteric-pain",
 }
 
 PAGES = [

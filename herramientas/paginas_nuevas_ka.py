@@ -178,3 +178,8 @@ NEW_PAGES = [
  "related": ["muscle-injuries", "sports-medicine", "hip-osteoarthritis"],
 },
 ]
+
+
+# Cuatro páginas añadidas el 26 de noviembre de 2026 (paginas_nuevas26_ka.py)
+from paginas_nuevas26_ka import PAGES_26 as _P26
+NEW_PAGES.extend(_P26)
