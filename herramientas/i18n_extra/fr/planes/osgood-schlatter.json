@@ -1,0 +1,94 @@
+{
+ "slug": "osgood-schlatter",
+ "titulo": "Programme d'étirements pour la maladie d'Osgood-Schlatter",
+ "corto": "Osgood-Schlatter",
+ "zona": "Genou",
+ "descripcion": "Étirements quotidiens, froid et chaleur et gestion de la charge pour la maladie d'Osgood-Schlatter chez le sportif en croissance. Dr Julio De la Morena.",
+ "fecha": "2026-11-26",
+ "intro": [
+  "Pendant la croissance, l'os grandit plus vite que le muscle, et le quadriceps, puissant et peu élastique, devient trop court. Si en plus tu t'entraînes beaucoup, ce muscle tire fort sur le tendon rotulien juste là où il s'insère, sur la bosse que tu as sous le genou (la tubérosité tibiale). À cet endroit, l'os est encore en croissance, et la traction répétée irrite sa surface. C'est la maladie d'Osgood-Schlatter.",
+  "Parfois s'ajoute une douleur sur la face externe de la cheville : en prenant appui autrement pour protéger le genou, tu surcharges les muscles fibulaires. Ce n'est pas dangereux et ça guérit tout seul quand tu as fini de grandir. Le but est que ça arrête de faire mal plus tôt pour que tu puisses continuer à jouer : allonger et détendre ces muscles, calmer le tendon avec du froid et ne pas forcer sur la charge."
+ ],
+ "regla": "Joue et entraîne-toi avec une douleur inférieure à 3 sur 10, et décide selon l'état du genou le lendemain matin. S'il est moins bien au réveil, ce jour-là baisse l'intensité ou saute l'entraînement. Mieux vaut enlever une demi-heure de sport chaque jour, ou sauter un entraînement en semaine, que devoir s'arrêter deux semaines d'affilée.",
+ "antes": [
+  [
+   "Chaleur sur le muscle",
+   "Sur l'avant de la cuisse et la face externe de la jambe, au-dessus de la cheville. Avant d'étirer, le soir et les jours où tu sens la cuisse chargée : couverture chauffante, bouillotte sèche ou compresse chaude, 15 à 20 minutes. Jamais sur la zone douloureuse sous le genou ni juste après un coup"
+  ],
+  [
+   "Froid sur le tendon et l'os",
+   "Sur la bosse douloureuse sous la rotule et, si elle fait mal, derrière et sous la cheville. Après chaque entraînement et chaque match : glace enveloppée dans un linge, jamais directement sur la peau, 15 minutes. Tu peux répéter 2 à 3 fois par jour"
+  ],
+  [
+   "Kinésithérapie",
+   "Deux séances par semaine au début puis en entretien, avec un vrai travail manuel pour détendre le quadriceps et les fibulaires"
+  ],
+  [
+   "Entraînements",
+   "Tu peux continuer ton sport. Si un jour tu arrives très chargé, baisse l'intensité ou saute cet entraînement pour arriver en forme au match. Pendant les périodes où tu grandis plus vite, tu le sentiras davantage : c'est normal"
+  ]
+ ],
+ "fases": [
+  {
+   "nombre": "Étirements · Tous les jours",
+   "cuando": "Le soir et après l'entraînement · 15 minutes · jamais d'étirements longs juste avant de jouer",
+   "texto": "Étire-toi toujours doucement et en maintenant, sans à-coups. Tu dois sentir une tension dans le muscle, jamais de douleur au genou ni au tendon. Mets du chaud sur le muscle quelques minutes avant d'étirer.",
+   "ejercicios": [
+    [
+     "Quadriceps en fente, sans plier le genou",
+     "Quadriceps",
+     "Mets-toi à genoux, la jambe douloureuse en arrière, le genou sur un coussin et l'autre jambe en avant. Avant de bouger, rentre le bassin, comme si tu voulais aplatir le bas du dos et serrer les fesses. Sans perdre cette position, avance un peu le corps jusqu'à sentir la tension à l'avant de la cuisse. N'amène pas le talon à la fesse : le genou reste plié à angle droit, pour étirer le muscle depuis la hanche sans tirer sur le tendon ni sur la tubérosité.",
+     "3 × 30-40 secondes par jambe · tous les jours"
+    ],
+    [
+     "Quadriceps debout avec serviette, à distance",
+     "Quadriceps",
+     "Debout, appuyé contre un mur. Passe une serviette ou une sangle autour de la cheville de la jambe à étirer et tiens les extrémités avec la main du même côté. Rentre le bassin comme dans l'exercice 1 et emmène la cuisse vers l'arrière, derrière l'autre jambe, en utilisant la serviette pour garder le pied loin de la fesse. La sensation d'étirement doit être dans la cuisse, pas dans le genou. Utilise-le quand tu n'as pas d'endroit où te mettre à genoux.",
+     "3 × 30 secondes par jambe · alternative à l'exercice 1"
+    ],
+    [
+     "Fessier assis",
+     "Fessier et piriforme",
+     "Assis par terre, croise la jambe à étirer par-dessus l'autre, pied posé à l'extérieur du genou. Enlace le genou et amène-le vers l'épaule opposée en gardant le dos droit, jusqu'à sentir une tension dans la fesse.",
+     "3 × 30 secondes de chaque côté"
+    ],
+    [
+     "Ischio-jambiers avec serviette",
+     "Arrière de la cuisse",
+     "Sur le dos, une serviette autour de la plante du pied. Monte la jambe genou tendu jusqu'à sentir une tension à l'arrière de la cuisse ; l'autre jambe tendue et collée au sol. Maintiens sans à-coups.",
+     "3 × 30 secondes par jambe"
+    ],
+    [
+     "Fibulaires assis",
+     "Fibulaires",
+     "Assis, croise la jambe du pied douloureux sur l'autre genou. Avec la main, tourne la plante du pied vers l'intérieur et vers le bas, comme si tu voulais la regarder, jusqu'à sentir une tension sur la face externe de la cheville et de la jambe. Maintiens doucement, sans douleur au tendon.",
+     "3 × 30 secondes · les deux jambes, plus longtemps sur celle qui fait mal"
+    ],
+    [
+     "Mollet contre le mur",
+     "Mollet",
+     "Debout face à un mur, mains en appui. Recule la jambe à étirer, talon au sol et genou tendu, pointe du pied vers l'avant. Avance la hanche jusqu'à sentir une tension dans le mollet. Un mollet court augmente la charge sur les fibulaires.",
+     "3 × 30 secondes par jambe"
+    ]
+   ]
+  }
+ ],
+ "evitar": [
+  "Étirer fort juste avant de jouer : les étirements longs, le soir et après l'entraînement.",
+  "Mettre du chaud sur la bosse douloureuse sous le genou.",
+  "T'entraîner avec une douleur supérieure à 3 sur 10.",
+  "Amener le talon à la fesse en étirant le quadriceps : ça tire sur le tendon et la tubérosité."
+ ],
+ "complementario": "Si après un mois de programme ça fait encore mal, on évalue en consultation s'il faut un autre traitement, toujours avec l'échographie pour voir l'état du tendon et de l'os.",
+ "consultar": [
+  "Une douleur qui t'empêche de poser le pied ou qui te réveille la nuit.",
+  "Un gonflement ou une chaleur importante au genou.",
+  "Une boiterie qui ne passe pas en un ou deux jours.",
+  "Une douleur qui s'aggrave nettement malgré une semaine de charge réduite."
+ ],
+ "normal": "Il est normal que la bosse sous le genou reste visible et qu'elle gêne davantage pendant les périodes de croissance rapide.",
+ "relacionadas": [
+  "tendinitis-rotuliana",
+  "medicina-deportiva"
+ ]
+}

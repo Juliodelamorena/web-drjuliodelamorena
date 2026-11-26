@@ -1,0 +1,239 @@
+{
+ "slug": "manguito-rotador-subescapular",
+ "titulo": "Programme d'exercices pour la coiffe des rotateurs",
+ "corto": "Coiffe des rotateurs et sous-scapulaire",
+ "zona": "Épaule",
+ "descripcion": "12 semaines pour l'épaule douloureuse liée à la coiffe des rotateurs, axées sur le sous-scapulaire : isométriques, élastique, charge. Dr Julio De la Morena.",
+ "fecha": "2026-11-26",
+ "intro": [
+  "L'épaule n'est pas une articulation profondément emboîtée comme la hanche : c'est une boule posée sur une surface presque plate. Ce qui la maintient centrée, c'est un groupe de quatre petits muscles qui l'entourent, la coiffe des rotateurs : sus-épineux, sous-épineux, petit rond et sous-scapulaire. Ce ne sont pas des muscles de force, mais de contrôle.",
+  "Le sous-scapulaire est le seul des quatre situé à l'avant, et c'est lui qui retient la tête de l'humérus pour qu'elle ne parte pas vers l'avant à chaque mouvement. Quand il manque de force, ce travail revient au sus-épineux, situé au-dessus, qui passe dans un espace étroit. C'est pourquoi beaucoup d'épaules qui font mal « en haut » ont en réalité un problème de contrôle « à l'avant ».",
+  "La séquence est presque toujours la même : un jour, vous demandez à l'épaule plus qu'elle n'est prête à donner, le muscle se contracture, tire sur le tendon, et le tendon s'enflamme pour vous faire arrêter. Calmer la douleur n'est pas le traitement, c'est la permission de le commencer. Le repos n'aide pas : une épaule protégée pendant des semaines est plus faible et refait mal avec moins de charge. Le renforcement est le traitement principal."
+ ],
+ "regla": "La charge s'ajuste selon la douleur du lendemain, pas celle du jour même. Si le lendemain matin l'épaule fait plus mal qu'avant la séance, vous en avez trop fait : reposez-vous ce jour-là et faites la moitié à la séance suivante. Si c'est pareil ou mieux, continuez et augmentez. Cela vaut pour le programme, la salle de sport et la vie quotidienne.",
+ "elegir_fase": [
+  [
+   "Phase 0",
+   "Seulement si vous venez d'avoir une infiltration : cinq jours de vie normale sans exercices programmés, avec le pendule et une mobilité douce"
+  ],
+  [
+   "Phase 1",
+   "Jours 5 à 14, ou le début s'il n'y a pas eu d'infiltration : isométriques pour retrouver le contrôle"
+  ],
+  [
+   "Phase 2",
+   "Semaines 3 à 6 : élastique à tempo lent"
+  ],
+  [
+   "Phase 3",
+   "Semaines 6 à 12, après deux semaines de phase 2 sans douleur le lendemain : charge et gestes réels"
+  ]
+ ],
+ "elegir_texto": "Choisissez la phase selon l'état de votre épaule aujourd'hui et les critères de chaque phase, pas seulement selon le calendrier.",
+ "antes": [
+  [
+   "Échauffez-vous toujours, au moins 5 minutes",
+   "Vélo d'appartement, marche rapide ou grands cercles de bras sans poids. Un tendon froid tolère beaucoup moins de charge"
+  ],
+  [
+   "Tant qu'il y a une gêne, gardez la main dans votre champ de vision",
+   "Une élévation pendant laquelle la main reste dans votre champ de vision ne comprime pas le sus-épineux. Dès que vous ne voyez plus la main, la compression commence. C'est votre repère des premières semaines"
+  ],
+  [
+   "Jamais au-dessus de 4 sur 10",
+   "Une gêne légère est acceptable. Une douleur qui vous fait modifier le geste ou retenir votre souffle ne l'est pas : réduisez la charge ou l'amplitude"
+  ],
+  [
+   "La régularité avant l'intensité",
+   "Cinq séances courtes par semaine rapportent bien plus que deux longues. Si un jour vous n'avez que dix minutes, faites les trois premiers exercices"
+  ]
+ ],
+ "fases": [
+  {
+   "nombre": "Phase 0 · Les 5 premiers jours",
+   "cuando": "Seulement si vous venez d'avoir une infiltration · jours 1 à 5",
+   "texto": "Vie normale : travailler, conduire, cuisiner, marcher. Pendant ces cinq jours, on évite seulement les exercices programmés. Il est normal que la gêne revienne trois ou quatre jours, le temps que les muscles se relâchent. S'il n'y a pas eu d'infiltration, commencez par la phase 1.",
+   "ejercicios": [
+    [
+     "Pendule de Codman",
+     "",
+     "Debout, penchez-vous en avant en appuyant la main saine sur une table ou un lit. Laissez pendre le bras relâché et bougez le corps, pas le bras : le bras se balance tout seul. Cercles et balancements avant-arrière et latéraux.",
+     "1 × 30-60 s dans chaque direction · 2 fois par jour, jours 1 à 5"
+    ],
+    [
+     "Mobilité libre sans douleur",
+     "",
+     "Bougez le bras dans toute l'amplitude non douloureuse, sans forcer la fin du mouvement. N'essayez pas de gagner des degrés : l'important est que l'articulation ne s'enraidisse pas.",
+     "1 × 10 dans chaque direction · 2 fois par jour, jours 1 à 5"
+    ]
+   ]
+  },
+  {
+   "nombre": "Phase 1 · Activation et contrôle",
+   "cuando": "Jours 5 à 14 · tous les jours · 10-12 minutes",
+   "texto": "Le but de cette phase n'est pas de gagner de la force, mais de retrouver la « commande ». Une épaule qui évite certains gestes depuis des semaines n'active plus correctement les petits muscles, et si l'on passe directement à l'élastique, le deltoïde prend le relais et la coiffe reste « endormie ». Tout ici est isométrique : vous poussez contre quelque chose qui ne bouge pas. Sans amplitude, pas de frottement, et sans frottement le tendon ne s'irrite pas. Intensité des isométriques : environ 20 à 30 % de votre force maximale. Vous devez pouvoir parler pendant l'effort. Si vous tremblez, c'est trop.",
+   "ejercicios": [
+    [
+     "Isométrique de rotation interne",
+     "Sous-scapulaire",
+     "Debout dans l'encadrement d'une porte, le bras atteint contre le montant. Coude collé au corps et plié à 90º, une serviette roulée entre le coude et le corps. Poussez le dos de la main contre le montant vers l'intérieur, comme pour amener l'avant-bras vers le nombril. Le bras ne bouge pas.",
+     "5 × 10 s (10 s de repos) · 2 fois par jour"
+    ],
+    [
+     "Belly press isométrique",
+     "Sous-scapulaire",
+     "Debout, paume à plat sur le ventre, coude devant le corps. Appuyez la main contre le ventre sans laisser le coude partir en arrière. C'est le geste le plus « pur » du sous-scapulaire : si le coude recule, le muscle a cessé de travailler.",
+     "5 × 10 s · 2 fois par jour"
+    ],
+    [
+     "Isométrique de rotation externe",
+     "",
+     "Même encadrement, cette fois avec le côté opposé. Coude collé et plié à 90º, poussez la paume contre le montant vers l'extérieur. Le sous-épineux et le petit rond travaillent : le contrepoids du sous-scapulaire.",
+     "5 × 10 s · 2 fois par jour"
+    ],
+    [
+     "Isométrique d'abduction à 20º",
+     "",
+     "Debout contre un mur, bras le long du corps et écarté d'environ 20º (la largeur d'un poing). Poussez le coude contre le mur vers l'extérieur. Cela active le sus-épineux sans l'amener dans l'arc où se produit la compression.",
+     "5 × 10 s · 2 fois par jour"
+    ],
+    [
+     "Contrôle de l'omoplate",
+     "",
+     "Assis ou debout, bras relâchés. Abaissez les omoplates et ramenez-les en arrière, comme pour les glisser dans les poches arrière. Tenez 5 secondes et relâchez. Ne montez pas les épaules vers les oreilles.",
+     "2 × 10 · tous les jours"
+    ],
+    [
+     "Étirement du pectoral dans l'encadrement",
+     "",
+     "Avant-bras sur le montant, coude à hauteur d'épaule. Avancez le corps jusqu'à sentir une tension dans la poitrine, jamais de douleur dans l'épaule. Un pectoral court tire l'épaule vers l'avant et réduit l'espace où passe le sus-épineux.",
+     "3 × 20-30 s · tous les jours"
+    ]
+   ]
+  },
+  {
+   "nombre": "Phase 2 · Renforcement à l'élastique",
+   "cuando": "Semaines 3 à 6 · 4-5 jours par semaine · 15-20 minutes",
+   "texto": "C'est ici que commence le travail qui change vraiment l'épaule. Il vous faut un élastique (une résistance moyenne suffit pour commencer) et une petite serviette roulée. Le tempo compte autant que les répétitions : 2 secondes pour l'effort, 1 de pause, 3 pour le retour. C'est ce retour lent et contrôlé qui remodèle le tendon.",
+   "ejercicios": [
+    [
+     "Rotation interne à l'élastique",
+     "Sous-scapulaire · l'essentiel",
+     "Élastique fixé à hauteur du coude, vous êtes de profil. Une serviette roulée entre le coude et le flanc, qui ne doit pas tomber pendant tout l'exercice. Coude à 90º, amenez l'avant-bras vers le nombril et revenez lentement. L'épaule ne part pas en avant et le coude ne s'écarte pas.",
+     "3 × 12 · tempo 2-1-3 · 4-5 jours/semaine"
+    ],
+    [
+     "Rotation externe à l'élastique",
+     "",
+     "Même position, dans le sens opposé : l'avant-bras s'éloigne du corps. Gardez la serviette. Cet exercice équilibre le précédent ; la rotation interne seule déséquilibre l'épaule.",
+     "3 × 12 · tempo 2-1-3 · 4-5 jours/semaine"
+    ],
+    [
+     "Tirage bas à l'élastique",
+     "",
+     "Élastique fixé devant à hauteur de poitrine. Tirez les coudes en arrière, près du corps, en serrant les omoplates à la fin. Poitrine ouverte ; les épaules ne montent pas.",
+     "3 × 12 · 4-5 jours/semaine"
+    ],
+    [
+     "Poussée horizontale à l'élastique",
+     "Sous-scapulaire fonctionnel",
+     "Élastique fixé derrière vous à hauteur de poitrine. Poussez vers l'avant jusqu'à tendre le coude en gardant l'omoplate collée aux côtes. À la fin, poussez encore deux centimètres en « avançant » l'épaule.",
+     "3 × 12 · 4-5 jours/semaine"
+    ],
+    [
+     "Élévation dans le plan de l'omoplate",
+     "",
+     "Debout, bras tendu, pouce vers le haut, montez en diagonale à environ 30º devant le corps — ni droit devant ni sur le côté — et seulement jusqu'à hauteur d'épaule. D'abord sans poids ; ensuite avec une petite bouteille d'eau.",
+     "3 × 10 · 3 jours/semaine · seulement si c'est indolore"
+    ],
+    [
+     "Sleeper stretch (capsule postérieure)",
+     "",
+     "Couché sur le côté atteint, épaule et coude à 90º. De la main libre, poussez doucement l'avant-bras vers le sol. Tension à l'arrière de l'épaule, jamais de pincement à l'avant. Une capsule postérieure raide pousse la tête de l'humérus vers le haut et l'avant.",
+     "3 × 30 s · tous les jours"
+    ],
+    [
+     "Étirement du pectoral",
+     "",
+     "L'étirement de la phase 1 reste, maintenant en fin de séance.",
+     "3 × 30 s · tous les jours"
+    ]
+   ]
+  },
+  {
+   "nombre": "Phase 3 · Charge et retour à la normale",
+   "cuando": "Semaines 6 à 12 · 3 jours par semaine · 20-25 minutes",
+   "texto": "Le but de cette phase est que l'épaule supporte ce que vous lui demanderez dans la vie réelle, qui n'est presque jamais un geste « propre » coude collé. La charge augmente, l'angle de travail s'élargit et on ajoute le travail excentrique. On entre dans cette phase selon un critère, pas selon le calendrier : au moins deux semaines de phase 2 sans douleur le lendemain.",
+   "ejercicios": [
+    [
+     "Rotation interne avec abduction à 45º",
+     "Sous-scapulaire",
+     "Comme en phase 2, mais bras écarté du corps à 45º et sans serviette. Un angle bien plus exigeant, beaucoup plus proche des gestes réels.",
+     "3 × 12 · tempo 2-1-3 · 3 jours/semaine"
+    ],
+    [
+     "Rotation externe à 90º",
+     "",
+     "Bras écarté à hauteur d'épaule, coude à 90º, élastique devant. Amenez la main vers le haut et l'arrière. Veillez à ce que le coude ne descende pas.",
+     "3 × 12 · 3 jours/semaine"
+    ],
+    [
+     "Rotation interne excentrique",
+     "Sous-scapulaire",
+     "Amenez l'avant-bras vers le nombril avec l'aide de l'autre main et revenez avec le seul bras atteint, en comptant 4 secondes. La phase de freinage est le stimulus le plus puissant pour remodeler le tendon.",
+     "3 × 8 · descente en 4 s · 2 jours/semaine"
+    ],
+    [
+     "Développé couché avec haltère légère",
+     "",
+     "Allongé, avec une charge permettant de faire 10 répétitions confortablement. Amplitude contrôlée : ne descendez pas le coude sous la ligne du corps, là où l'épaule part en avant.",
+     "3 × 10 · 2 jours/semaine"
+    ],
+    [
+     "Rowing à l'haltère",
+     "",
+     "En appui d'une main sur un banc ou une chaise, tirez la charge vers la hanche en gardant le coude près du corps. Il équilibre les exercices de poussée et stabilise l'omoplate.",
+     "3 × 10 · 2 jours/semaine"
+    ],
+    [
+     "Push-up plus pour l'omoplate",
+     "",
+     "En planche contre le mur ou au sol, selon la tolérance. Coudes déjà tendus, poussez encore en écartant les omoplates, puis laissez-les se rapprocher. Petit geste, beaucoup de travail.",
+     "3 × 10 · 2 jours/semaine"
+    ],
+    [
+     "Élévation complète dans le plan de l'omoplate",
+     "",
+     "Comme en phase 2, mais maintenant au-dessus de la tête, avec un poids léger si l'amplitude est indolore.",
+     "3 × 10 · 3 jours/semaine"
+    ],
+    [
+     "Étirements d'entretien",
+     "",
+     "Sleeper stretch et étirement du pectoral. Ne les abandonnez pas : ce sont eux qui maintiennent le résultat du renforcement.",
+     "3 × 30 s · tous les jours"
+    ]
+   ]
+  }
+ ],
+ "evitar": [
+  "Travailler au-dessus de la tête tant qu'il y a de la douleur.",
+  "Passer directement à l'élastique sans faire les isométriques : le deltoïde prend le relais et la coiffe reste « endormie ».",
+  "Garder l'épaule au repos complet pendant des semaines.",
+  "Dans les cinq jours après une infiltration, les exercices programmés, la salle de sport ou le Pilates."
+ ],
+ "complementario": "Une infiltration échoguidée ou le travail manuel du kinésithérapeute ouvrent une fenêtre sans douleur ; ce qui soigne, c'est ce que vous faites dans cette fenêtre. Pour les tendons qui ne répondent pas, le PRP (plasma riche en plaquettes) peut être envisagé en consultation.",
+ "consultar": [
+  "Une douleur qui vous réveille la nuit de façon répétée, pas seulement une gêne pour trouver la position.",
+  "Une perte de force : vous n'arrivez plus à tenir un objet que vous teniez avant, ou le bras « lâche ».",
+  "Une douleur qui descend le long du bras jusqu'à la main, avec fourmillements ou engourdissement.",
+  "Une perte progressive de mobilité : chaque semaine, le bras va moins loin.",
+  "Une douleur qui augmente de séance en séance pendant plus d'une semaine malgré la baisse de la charge."
+ ],
+ "normal": "Il est normal d'avoir une gêne diffuse 24 à 48 heures après une nouvelle séance ou une hausse de charge, une épaule fatiguée en fin de journée et qu'un geste précis gêne encore pendant des semaines. L'amélioration se fait par paliers, avec des plateaux d'une ou deux semaines.",
+ "relacionadas": [
+  "hombro-doloroso",
+  "tendinopatias",
+  "infiltraciones-ecoguiadas"
+ ]
+}

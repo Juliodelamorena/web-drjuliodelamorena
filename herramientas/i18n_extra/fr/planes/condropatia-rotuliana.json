@@ -1,0 +1,238 @@
+{
+ "slug": "condropatia-rotuliana",
+ "titulo": "Programme d'exercices pour la chondropathie rotulienne",
+ "corto": "Chondropathie rotulienne (fémoro-patellaire)",
+ "zona": "Genou",
+ "descripcion": "12 semaines pour la douleur de rotule liée à la chondropathie : quadriceps et hanche dans les amplitudes qui épargnent la rotule. Dr Julio De la Morena.",
+ "fecha": "2026-11-26",
+ "intro": [
+  "La rotule n'est pas un os isolé : c'est une poulie. Elle glisse dans une gorge du fémur chaque fois que vous pliez et tendez le genou, recouverte du cartilage le plus épais du corps. Ce cartilage ne fait pas mal, car il n'a pas de nerfs, mais quand il se ramollit il répartit moins bien la pression, et cette pression atteint l'os situé dessous et les tissus voisins, qui eux font mal. C'est pourquoi la gêne apparaît en descendant les escaliers ou les pentes, en se levant d'une chaise basse, en s'accroupissant ou après être resté longtemps assis genou plié.",
+  "Ce que montre une IRM ne décide pas de l'intensité de la douleur : ce qui la décide, c'est la quantité de charge qui passe par là et avec quel contrôle. L'exercice est aujourd'hui le traitement le mieux étayé pour ce problème. Un quadriceps fort absorbe la charge et guide la rotule au centre de la gorge. Et un fessier fort empêche le genou de rentrer vers l'intérieur à chaque pas, ce qui décentre la rotule. Les programmes qui travaillent la hanche et le genou ensemble donnent de meilleurs résultats que ceux qui ne travaillent que le genou.",
+  "Le cartilage ne s'améliore pas avec le repos, et le muscle perdu en trois semaines de protection met des mois à se récupérer. La douleur n'est pas le signe que vous vous abîmez, mais que cette charge, aujourd'hui, est trop forte. Le but est de travailler sous le seuil et de le remonter peu à peu."
+ ],
+ "regla": "La charge s'ajuste selon la douleur du lendemain, pas celle du jour même. Pendant l'exercice, une gêne allant jusqu'à 4 sur 10 est acceptable. Si le lendemain matin le genou va moins bien qu'avant la séance, vous en avez trop fait : reposez-vous ce jour-là et faites la moitié à la séance suivante. Si c'est pareil ou mieux, continuez et augmentez.",
+ "antes": [
+  [
+   "Respectez les amplitudes de travail",
+   "Pied en appui (squat, presse, fente) : entre 0 et 45 degrés de flexion ; au-delà, la pression sur la rotule s'envole. Jambe libre (extension assis) : l'inverse, de 90 à 45 degrés, sans tendre complètement"
+  ],
+  [
+   "La charge doit augmenter",
+   "À partir de la quatrième semaine, chaque exercice de force se fait avec une charge pour laquelle les deux dernières répétitions coûtent vraiment. Si vous en faites 15 sans effort, la charge est trop légère"
+  ],
+  [
+   "Trois séances par semaine, pas cinq",
+   "C'est la fréquence des études, et le muscle a besoin du jour intermédiaire pour s'adapter. Plus n'est pas mieux : c'est ce qui provoque la rechute"
+  ],
+  [
+   "Douze semaines",
+   "La vraie amélioration commence avec la phase de force. Abandonner à la quatrième semaine parce que ça ne fait plus mal est la cause la plus fréquente du retour du problème"
+  ],
+  [
+   "Cardio dès le premier jour",
+   "Vélo d'appartement selle haute et faible résistance, elliptique douce, natation sans brasse et marche sur le plat. Le cartilage se nourrit du mouvement"
+  ]
+ ],
+ "fases": [
+  {
+   "nombre": "Phase 1 · Activation et contrôle de la douleur",
+   "cuando": "Semaines 1 à 3 · 5 jours par semaine · 15 minutes",
+   "texto": "Le but de cette phase n'est pas de gagner de la force, mais de réveiller le quadriceps et de faire assez baisser la douleur pour pouvoir s'entraîner. Un genou douloureux depuis longtemps inhibe le quadriceps par réflexe : le muscle est là, mais ne s'active pas au bon moment. Tout se fait ici presque sans mouvement articulaire, ce qui permet de charger le muscle sans comprimer la rotule.",
+   "ejercicios": [
+    [
+     "Isométrique du quadriceps avec serviette",
+     "Le premier de la journée",
+     "Assis ou allongé, jambe tendue, une serviette roulée sous le genou. Écrasez la serviette avec le genou jusqu'à sentir la cuisse durcir et la rotule remonter un peu. Maintenez et relâchez lentement. C'est l'exercice qui réactive le quadriceps inhibé et qui, en plus, calme la douleur.",
+     "5 × 45 s (15 s de repos) · 2 fois par jour, tous les jours"
+    ],
+    [
+     "Élévation jambe tendue",
+     "",
+     "Allongé sur le dos, un genou plié pied au sol et l'autre jambe tendue. Contractez d'abord le quadriceps de la jambe tendue et montez-la d'environ 30 cm, sans jamais plier le genou. Descendez en comptant 3 secondes. Dès la deuxième semaine, avec un lest de cheville de 1 à 2 kg.",
+     "3 × 10 · tempo 2-1-3 · 5 jours/semaine"
+    ],
+    [
+     "Chaise isométrique contre le mur",
+     "",
+     "Dos au mur, pieds à 40 cm de celui-ci, glissez jusqu'à ce que les genoux soient à 30-45º — sans descendre à hauteur de chaise — et maintenez. Les genoux ne rentrent pas vers l'intérieur et le poids est réparti sur les deux pieds. Si ça fait mal, remontez de quelques centimètres.",
+     "5 × 30 s, jusqu'à 5 × 45 s · 5 jours/semaine"
+    ],
+    [
+     "Clam shell (coquillage)",
+     "Hanche",
+     "Couché sur le côté, hanches et genoux pliés, pieds joints ; dès la deuxième semaine, avec un élastique au-dessus des genoux. Ouvrez le genou du dessus sans que le bassin bascule en arrière : si le corps part en arrière, le fessier a cessé de travailler. Tenez 2 secondes en haut.",
+     "3 × 15 · 5 jours/semaine"
+    ],
+    [
+     "Abduction couché sur le côté",
+     "Hanche",
+     "Couché sur le côté comme sur la photo, jambe du dessous pliée et celle du dessus tendue et légèrement en arrière, pied tourné vers l'avant ou un peu vers le sol. Montez la jambe d'environ 30º et descendez lentement, sans que le bassin bascule en arrière. Avec un lest de 1 à 2 kg dès le début. Il travaille le moyen fessier, celui qui empêche le genou de rentrer vers l'intérieur à la marche.",
+     "3 × 12 · 5 jours/semaine"
+    ],
+    [
+     "Pont fessier",
+     "Hanche",
+     "Sur le dos, genoux pliés et pieds à plat à la largeur des hanches. Montez le bassin en serrant les fessiers jusqu'à aligner genou, hanche et épaule ; tenez 2 secondes en haut et redescendez vertèbre par vertèbre. Ne cambrez pas les lombaires pour monter plus haut.",
+     "3 × 12 · 5 jours/semaine"
+    ],
+    [
+     "Étirement des ischio-jambiers",
+     "",
+     "Debout, posez le talon sur une marche ou un banc bas, jambe tendue et pied relâché. Penchez le tronc en avant en pliant à la hanche, dos droit, jusqu'à sentir une tension à l'arrière de la cuisse, jamais de douleur au genou. Des ischio-jambiers courts augmentent la pression de la rotule contre le fémur à chaque pas.",
+     "3 × 30 s · tous les jours"
+    ],
+    [
+     "Étirement du tenseur du fascia lata",
+     "",
+     "Debout, croisez la jambe atteinte derrière l'autre et déplacez la hanche de ce côté en inclinant le tronc de l'autre. Tendue, la bandelette tire la rotule vers l'extérieur ; c'est la structure qui la décentre le plus.",
+     "3 × 30 s · tous les jours"
+    ],
+    [
+     "Étirement du mollet et du soléaire",
+     "",
+     "Debout face à un mur, jambe à étirer en arrière, talon au sol. D'abord genou tendu (gastrocnémien), puis genou un peu plié (soléaire). Un mollet court oblige le pied à pronater et le genou finit par rentrer vers l'intérieur.",
+     "3 × 30 s chacun · tous les jours"
+    ]
+   ]
+  },
+  {
+   "nombre": "Phase 2 · Force (le cœur du programme)",
+   "cuando": "Semaines 4 à 8 · 3 jours non consécutifs par semaine · 30-35 minutes",
+   "texto": "C'est la phase qui change vraiment le genou, et elle reprend le programme qui a donné les meilleurs résultats dans les essais cliniques : travail du genou et de la hanche dans la même séance, trois jours par semaine. La règle d'or est le tempo et la charge : 2 secondes pour monter, 1 de pause, 3 pour descendre, et une charge pour laquelle les deux dernières répétitions de chaque série coûtent. Vérifiez la charge chaque semaine : si les 10 répétitions ne coûtent plus, augmentez.",
+   "ejercicios": [
+    [
+     "Extension du genou assis, de 90º à 45º",
+     "L'exercice central",
+     "Assis sur une machine ou avec un lest, tendez le genou depuis 90º et arrêtez-vous à 45º : ne terminez pas le mouvement en tendant complètement, c'est là que la rotule reçoit le plus de pression jambe libre. Charge : celle qui vous permet tout juste 10 répétitions, environ 70 à 80 % de votre maximum. Descendez en comptant 3 secondes. Regardez la photo : le genou reste à mi-chemin, sans se tendre complètement.",
+     "3 × 10 · tempo 2-1-3 · 3 jours/semaine"
+    ],
+    [
+     "Squat sur plan incliné ou presse, de 0º à 45º",
+     "",
+     "Sur plan incliné, mains sur la nuque et poids réparti sur tout le pied, descendez seulement jusqu'à 45º de flexion du genou et remontez. À la presse, même amplitude, pieds à la largeur des hanches et sans que les hanches décollent du dossier. Les deux options sont équivalentes : le plan incliné charge un peu moins la rotule. La photo montre le geste complet ; vous, vous vous arrêtez à mi-chemin, à 45º.",
+     "3 × 10 · tempo 2-1-3 · 3 jours/semaine"
+    ],
+    [
+     "Squat avec élastique derrière les genoux",
+     "",
+     "Debout sur le plan incliné, un élastique épais fixé au mur derrière les genoux les tire vers l'arrière. Descendez jusqu'à 45º en gardant le tronc vertical et remontez. L'élastique soulage la rotule et concentre le travail sur le quadriceps : c'est la version la mieux tolérée par un genou irritable. Sans élastique, refaites le squat sur plan incliné.",
+     "3 × 10 · 3 jours/semaine"
+    ],
+    [
+     "Soulevé de terre sur une jambe",
+     "",
+     "Debout sur la jambe atteinte, genou légèrement fléchi, penchez le tronc en avant pendant que l'autre jambe monte en arrière dans le même alignement, dos droit. Descendez en comptant 4 secondes et revenez. Il travaille à la fois l'ischio-jambier et le contrôle de la hanche : les ischio-jambiers équilibrent la traction du quadriceps sur le genou.",
+     "3 × 8 par jambe · descente en 4 s · 2 jours/semaine"
+    ],
+    [
+     "Planche latérale avec élévation de jambe",
+     "Hanche",
+     "Progression de l'abduction de la phase 1. En appui sur l'avant-bras et le genou ou le pied, montez la hanche jusqu'à aligner cheville, hanche et épaule et levez la jambe du dessus d'environ 30º. La hanche est la moitié du traitement : les programmes qui ne travaillent que le genou perdent leur effet à un an. Si vous ne la contrôlez pas encore, gardez l'abduction couché avec un lest de 3 à 4 kg.",
+     "3 × 10 de chaque côté · 3 jours/semaine"
+    ],
+    [
+     "Pas latéraux à l'élastique",
+     "Hanche",
+     "Élastique au-dessus des genoux ou aux chevilles, demi-squat, déplacez-vous latéralement sans joindre les pieds et sans que les genoux rentrent vers l'intérieur. Le tronc ne s'incline pas.",
+     "3 × 12 pas de chaque côté · 3 jours/semaine"
+    ],
+    [
+     "Extension de hanche debout à l'élastique",
+     "Hanche",
+     "Debout et tenu à un appui, amenez la jambe tendue en arrière en serrant le fessier, sans cambrer le dos pour gagner de l'amplitude. Revenez lentement. Quand le geste devient facile, ajoutez un élastique à la cheville.",
+     "3 × 10 · 3 jours/semaine"
+    ],
+    [
+     "Pont unilatéral",
+     "Hanche",
+     "Pont fessier sur un seul pied, l'autre jambe tendue en l'air. Le bassin ne doit pas tomber du côté libre. C'est l'étape intermédiaire avant le travail sur une jambe de la phase 3.",
+     "3 × 10 de chaque côté · 3 jours/semaine"
+    ],
+    [
+     "Étirements d'entretien",
+     "",
+     "Ischio-jambiers, mollet et soléaire, et tenseur du fascia lata. À faire en fin de séance, jamais avant la partie force.",
+     "3 × 30 s chacun · tous les jours"
+    ]
+   ]
+  },
+  {
+   "nombre": "Phase 3 · Force avancée et contrôle du geste",
+   "cuando": "Semaines 9 à 12 · 3 jours par semaine · 35-40 minutes",
+   "texto": "Le but est maintenant que le genou supporte ce que lui demande la vie réelle : escaliers, côtes, se lever chargé et, le cas échéant, recommencer à courir. La charge augmente, on passe au travail sur une jambe et on récupère peu à peu l'amplitude qui avait été limitée. On n'entre pas dans cette phase selon le calendrier mais selon un critère : deux semaines de phase 2 complète sans que le genou s'aggrave le lendemain.",
+   "ejercicios": [
+    [
+     "Extension du genou à charge élevée",
+     "",
+     "Même amplitude de 90º à 45º, maintenant avec une charge qui ne permet que 8 répétitions propres, environ 80 % de votre maximum. C'est l'exercice qui fait gagner le plus de force et qu'il ne faut pas abandonner à la fin du programme.",
+     "4 × 8 · tempo 2-1-3 · 3 jours/semaine"
+    ],
+    [
+     "Squat chargé, de 0º à 60º",
+     "",
+     "Le même squat sur plan incliné, maintenant avec des haltères et une amplitude portée à 60º tant que c'est indolore. Si la douleur apparaît à 60º, revenez à 45º une semaine de plus et réessayez.",
+     "4 × 8 · 3 jours/semaine"
+    ],
+    [
+     "Fente contrôlée",
+     "",
+     "Pas en avant en descendant le genou arrière, sans que le genou avant dépasse 60º ni rentre vers l'intérieur. Commencez sur sol ferme ; la surface instable de la photo est la progression, seulement quand le geste est parfait.",
+     "3 × 8 par jambe · 3 jours/semaine"
+    ],
+    [
+     "Pas en V",
+     "Hanche",
+     "En demi-squat, pas en diagonale vers l'avant et l'arrière en dessinant un V, genou aligné sur le pied à chaque appui et sans redresser le tronc. Quand vous le maîtrisez, ajoutez un élastique au-dessus des genoux.",
+     "3 × 10 de chaque côté · 3 jours/semaine"
+    ],
+    [
+     "Pont unilatéral avec progression",
+     "Hanche",
+     "Maintenant le pied sur une surface surélevée ou avec un poids sur le bassin. Tenez 2 secondes en haut.",
+     "3 × 10 de chaque côté · 3 jours/semaine"
+    ],
+    [
+     "Soulevé de terre sur une jambe chargé",
+     "",
+     "Il se poursuit, maintenant avec une haltère dans la main opposée et une descente plus lente.",
+     "3 × 8 par jambe · 2 jours/semaine"
+    ]
+   ]
+  }
+ ],
+ "progresion": [
+  [
+   "Reprendre la course",
+   "À partir de la semaine 9, si vous descendez les escaliers sans douleur et supportez la phase 3 sans aggravation. Alternez 1 minute de course et 2 de marche jusqu'à 20 minutes, sur le plat et un jour sur deux, et augmentez de 10 % par semaine"
+  ],
+  [
+   "La cadence",
+   "Des pas plus courts et plus fréquents, de 5 à 10 % en plus, réduisent aussitôt la charge sur la rotule"
+  ],
+  [
+   "Deux détails",
+   "Si votre pied prone beaucoup, une semelle du commerce les premières semaines aide pendant que vous gagnez en force. Et chaque kilo en moins, c'est quatre kilos de pression en moins sur la rotule en montant les escaliers"
+  ]
+ ],
+ "progresion_titulo": "Reprendre la course",
+ "evitar": [
+  "Les premières semaines : descendre escaliers et pentes, le squat profond, rester longtemps assis genou plié et courir. Ils reviennent quand la force les soutient.",
+  "Travailler en dehors des amplitudes de chaque exercice.",
+  "Faire du renforcement plusieurs jours de suite.",
+  "Garder le même exercice pendant des mois sans augmenter la charge."
+ ],
+ "complementario": "Si, après les phases de force, la douleur reste limitante, l'examen et l'échographie en consultation aident à décider s'il convient de faire une infiltration échoguidée ou du PRP (plasma riche en plaquettes). Ils ne remplacent jamais le travail de force.",
+ "consultar": [
+  "Blocage du genou : il se coince et vous ne pouvez pas le tendre complètement.",
+  "Gonflement qui apparaît après les séances et ne disparaît pas en 24 heures.",
+  "Sensation que le genou « lâche », surtout en descendant les escaliers.",
+  "Douleur qui vous réveille la nuit de façon répétée.",
+  "Douleur qui augmente de séance en séance pendant plus d'une semaine malgré la baisse de la charge."
+ ],
+ "normal": "Il est normal d'avoir une gêne diffuse 24 à 48 heures après une nouvelle séance ou une hausse de charge, des courbatures dans le quadriceps et des craquements indolores en pliant le genou : le bruit seul n'indique pas de lésion. L'amélioration se fait par paliers, avec des plateaux d'une ou deux semaines.",
+ "relacionadas": [
+  "artrosis-rodilla",
+  "tendinitis-rotuliana",
+  "rotura-menisco"
+ ]
+}

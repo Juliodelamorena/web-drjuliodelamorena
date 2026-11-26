@@ -1,0 +1,156 @@
+{
+ "slug": "rotura-isquiotibiales",
+ "titulo": "Programme de réathlétisation après déchirure des ischio-jambiers",
+ "corto": "Déchirure des ischio-jambiers",
+ "zona": "Cuisse",
+ "descripcion": "Reprendre le sport après une déchirure des ischio-jambiers, par phases : isométriques, concentriques, excentriques et course. Dr Julio De la Morena.",
+ "fecha": "2026-11-26",
+ "intro": [
+  "Un muscle qui cicatrise a besoin d'une charge progressive pour que la cicatrice s'oriente bien et reste élastique. Trop peu de charge laisse une cicatrice faible, et trop de charge trop tôt la rouvre. C'est pourquoi on procède par phases : d'abord la force sans mouvement, puis avec mouvement et enfin en freinant la charge.",
+  "On commence quand l'échographie confirme que les bords de la déchirure se sont rejoints. Jusque-là, compression, glace plusieurs fois par jour et aucun travail des ischio-jambiers. Chaque phase a un critère pour passer à la suivante : on avance selon un critère, pas selon le calendrier."
+ ],
+ "regla": "Une gêne allant jusqu'à 3 sur 10 pendant l'exercice est acceptable si le lendemain vous êtes pareil ou mieux. Un pincement, une douleur supérieure à 4 ou un nouveau gonflement : arrêtez, revenez au niveau précédent et consultez.",
+ "antes": [
+  [
+   "Quand commencer",
+   "Seulement quand l'échographie confirme que la déchirure se referme. Avant, cuissard de compression, glace et aucun travail des ischio-jambiers"
+  ],
+  [
+   "Vélo d'appartement",
+   "15 à 20 minutes sans résistance dès la première phase"
+  ],
+  [
+   "Pour changer de phase",
+   "Phase 1 → 2 : isométriques à effort maximal sans douleur. Phase 2 → 3 : leg curl au ballon et soulevé de terre sans douleur, et étirement avec la même amplitude que la jambe saine"
+  ],
+  [
+   "Échauffez-vous avant de courir",
+   "Au moins 15 minutes de course progressive et d'accélérations avant tout sprint"
+  ]
+ ],
+ "fases": [
+  {
+   "nombre": "Phase 1 · Isométrique",
+   "cuando": "Semaine 1 après l'échographie · tous les jours",
+   "texto": "Contraction sans bouger la jambe, plus vélo d'appartement sans résistance 15 à 20 minutes.",
+   "ejercicios": [
+    [
+     "Isométrique des ischio-jambiers au talon",
+     "Ischio-jambiers",
+     "Assis ou allongé, genou légèrement plié. Enfoncez le talon dans le sol ou la table sans bouger la jambe. Commencez doucement.",
+     "5 répétitions · 30-45 secondes · intensité 50-70 %"
+    ],
+    [
+     "Isométrique à différents angles",
+     "Ischio-jambiers",
+     "Le même exercice en changeant la flexion du genou. Augmentez l'intensité seulement si ça ne fait pas mal.",
+     "3 répétitions de 30 secondes à 30, 60 et 90 degrés de genou"
+    ],
+    [
+     "Pont fessier sur deux pieds",
+     "Fessiers et ischio-jambiers",
+     "Allongé, genoux pliés. Montez le bassin en serrant les fessiers, sans cambrer le dos.",
+     "3 × 10 · tenir 5 secondes en haut"
+    ]
+   ]
+  },
+  {
+   "nombre": "Phase 2 · Concentrique",
+   "cuando": "Semaine 2 · un jour sur deux",
+   "texto": "Mouvement contrôlé, sans à-coups. Étirement doux à la fin.",
+   "ejercicios": [
+    [
+     "Pont talons sur ballon",
+     "Ischio-jambiers",
+     "Talons sur le ballon, montez le bassin et tenez 3 secondes.",
+     "3 × 10"
+    ],
+    [
+     "Leg curl au ballon",
+     "Ischio-jambiers",
+     "Bassin levé, ramenez le ballon en pliant les genoux et revenez lentement.",
+     "3 × 8-10"
+    ],
+    [
+     "Soulevé de terre roumain aux haltères",
+     "Ischio-jambiers et fessiers",
+     "Genoux légèrement fléchis et dos droit. Reculez les hanches et descendez les haltères le long des jambes jusqu'à sentir une tension, pas plus.",
+     "3 × 10 · charge légère"
+    ],
+    [
+     "Étirement des ischio-jambiers avec serviette",
+     "Étirement",
+     "Allongé, serviette sous la plante du pied. Montez la jambe tendue jusqu'à sentir une tension douce.",
+     "3 × 30 secondes · sans douleur"
+    ]
+   ]
+  },
+  {
+   "nombre": "Phase 3 · Excentrique et course",
+   "cuando": "Semaines 3 et 4 · un jour sur deux pour la force",
+   "texto": "Les jours intermédiaires, course progressive.",
+   "ejercicios": [
+    [
+     "Excentrique des ischio-jambiers",
+     "Travail excentrique",
+     "À plat ventre avec un lest à la cheville ou un élastique : montez avec les deux jambes et descendez avec la seule jambe blessée en 4 secondes.",
+     "3 × 8"
+    ],
+    [
+     "Nordic assisté",
+     "Travail excentrique",
+     "À genoux, chevilles tenues, laissez-vous tomber vers l'avant le plus lentement possible. Freinez avec les ischio-jambiers.",
+     "3 × 5 · avec l'aide d'un élastique ou d'un partenaire"
+    ],
+    [
+     "Soulevé de terre roumain sur une jambe",
+     "Ischio-jambiers et contrôle",
+     "En appui sur la jambe blessée, penchez le tronc vers l'avant, l'autre jambe en arrière et le dos droit.",
+     "3 × 8 par jambe"
+    ],
+    [
+     "Leg curl à la machine",
+     "Ischio-jambiers",
+     "Montez en 1 seconde et descendez en 3. Augmentez la charge quand la dernière série devient facile.",
+     "3 × 10"
+    ]
+   ]
+  }
+ ],
+ "progresion": [
+  [
+   "Course progressive",
+   "Les jours intermédiaires de la phase 3 : footing doux de 10 à 15 minutes et, sans douleur, lignes droites à 60, 70 et 80 % de la vitesse. Pas encore de sprint ni de frappe"
+  ],
+  [
+   "Retour au sport",
+   "À partir de la semaine 5 et après contrôle : sprint progressif deux jours par semaine, changements de direction et frappes de plus en plus fortes, et entraînement avec l'équipe, d'abord sans contact"
+  ],
+  [
+   "Avant le premier match",
+   "Au moins deux entraînements complets sans gêne"
+  ],
+  [
+   "Entretien",
+   "Le nordic et le soulevé de terre sur une jambe deux fois par semaine toute la saison : c'est la meilleure protection contre une nouvelle déchirure"
+  ]
+ ],
+ "progresion_titulo": "Retour au sport",
+ "evitar": [
+  "Étirer fort ou travailler les ischio-jambiers avant que la déchirure soit refermée.",
+  "Les sprints et les frappes avant de faire des lignes droites à 80 % sans douleur.",
+  "Sauter des phases parce que vous vous sentez bien.",
+  "Abandonner le nordic en reprenant la compétition."
+ ],
+ "complementario": "L'échographie en consultation permet de voir comment la déchirure se referme et de décider du moment de chaque phase. Dans certaines lésions musculaires, on envisage le PRP (plasma riche en plaquettes) échoguidé.",
+ "consultar": [
+  "Vous sentez un pincement pendant un exercice ou une course.",
+  "Un nouvel hématome apparaît ou la zone gonfle.",
+  "La douleur ne cède pas en 48 heures."
+ ],
+ "normal": "Il est normal de sentir le muscle fatigué ou tendu après les nouvelles séances et d'avoir quelques courbatures en commençant les excentriques.",
+ "relacionadas": [
+  "lesiones-musculares",
+  "medicina-deportiva"
+ ]
+}

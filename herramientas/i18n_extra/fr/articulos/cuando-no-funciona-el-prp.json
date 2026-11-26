@@ -1,0 +1,70 @@
+{
+ "slug": "cuando-no-funciona-el-prp",
+ "fecha": "2026-11-26",
+ "categoria": "Thérapies régénératives",
+ "titulo": "Dans quels cas le PRP ne fonctionne-t-il pas ?",
+ "resumen": "Le PRP (plasma riche en plaquettes) aide dans des cas sélectionnés. Voici les situations dans lesquelles il vaut mieux ne pas l'indiquer.",
+ "descripcion": "Quand le PRP (plasma riche en plaquettes) n'est pas le bon traitement : arthrose avancée, douleur d'une autre origine ou sans exercice. Dr Julio De la Morena.",
+ "entradilla": "Le PRP (plasma riche en plaquettes) est étayé dans l'arthrose légère et modérée du genou et dans certaines tendinopathies chroniques. Mais il ne fonctionne pas de la même façon dans tous les cas, et savoir quand ne pas l'indiquer est aussi important que savoir quand l'indiquer. Voici les situations dans lesquelles le Dr Julio De la Morena, à l'Hospital Memorial Publio Cordón (Pozuelo de Alarcón, Madrid), le déconseille généralement.",
+ "imagen": "blog-prp-cuando-no.jpg",
+ "imagen_wh": [
+  1080,
+  560
+ ],
+ "imagen_alt": "Échographie d'un tendon pendant la consultation du Dr Julio De la Morena",
+ "temas": [
+  "Plasma riche en plaquettes",
+  "Arthrose",
+  "Tendinopathie",
+  "Médecine régénérative"
+ ],
+ "secciones": [
+  [
+   "1. Quand l'arthrose est très avancée",
+   "<p>Dans une articulation où le cartilage a pratiquement disparu, où l'os frotte contre l'os et où le genou ou la hanche s'est déformé, le bénéfice attendu du PRP est bien moindre. Les études qui montrent de bons résultats portent surtout sur l'arthrose légère et modérée. Dans l'arthrose très avancée, il vaut mieux parler clairement d'autres options.</p>"
+  ],
+  [
+   "2. Quand la douleur vient d'ailleurs",
+   "<p>Une douleur du genou peut venir de la hanche ; une douleur de l'épaule, du cou ; une douleur de la fesse, de la colonne lombaire. Si l'on infiltre la mauvaise articulation, le traitement ne peut pas fonctionner. C'est pourquoi le PRP s'indique après un examen complet et une échographie, et non à partir d'une IRM lue à distance.</p>"
+  ],
+  [
+   "3. Quand il y a un problème mécanique",
+   "<p>Un ménisque déplacé qui bloque le genou, un corps étranger dans l'articulation ou une rupture complète d'un tendon sont des problèmes mécaniques. Le PRP ne remet pas un fragment en place et ne réunit pas un tendon complètement rompu.</p>"
+  ],
+  [
+   "4. Quand il est utilisé à la place de l'exercice",
+   "<p>Dans les tendinopathies, le traitement de fond est la mise en charge progressive du tendon. Le PRP peut aider dans les cas qui ne répondent pas, mais il fonctionne mieux intégré à un plan qui comprend de l'exercice, pas en remplacement. Sans force, le problème a tendance à revenir. Le site propose des <a href=\"/planes/\">programmes d'exercices par phases</a> pour les blessures les plus fréquentes.</p>"
+  ],
+  [
+   "5. Quand on attend des miracles",
+   "<p>Rien ne prouve que le PRP régénère un cartilage perdu ni qu'il évite une prothèse déjà indiquée. Ce que montrent les études dans des cas sélectionnés, c'est une amélioration de la douleur et de la fonction pendant des mois. Ajuster les attentes avant de commencer évite les déceptions.</p>"
+  ],
+  [
+   "Quand il a du sens",
+   "<p>Dans l'arthrose légère ou modérée qui reste douloureuse malgré l'exercice, et dans les tendinopathies chroniques qui n'ont pas répondu à un programme de charge bien mené, le PRP échoguidé est une option raisonnable. Vous pouvez en lire davantage sur la page consacrée au <a href=\"/factores-crecimiento-autologos/\">PRP (plasma riche en plaquettes)</a> et sur celle du <a href=\"/prp-rodilla/\">PRP dans le genou</a>.</p>"
+  ]
+ ],
+ "faq": [
+  [
+   "Le PRP fonctionne-t-il dans l'arthrose du genou ?",
+   "Dans l'arthrose légère et modérée, plusieurs études montrent moins de douleur et une meilleure fonction pendant des mois. Dans l'arthrose très avancée, le bénéfice est bien moindre."
+  ],
+  [
+   "Pourquoi le PRP ne fonctionne-t-il pas chez certaines personnes ?",
+   "Les causes les plus fréquentes sont une arthrose trop avancée, une douleur qui vient en réalité d'une autre structure, un problème mécanique ou l'absence de programme d'exercices associé."
+  ],
+  [
+   "Comment savoir si je suis candidat au PRP ?",
+   "Par un examen complet et une échographie en consultation. Si le PRP n'est pas indiqué dans votre cas, on vous explique quelles alternatives existent."
+  ],
+  [
+   "Qui indique le PRP à Madrid ?",
+   "Le Dr Julio De la Morena, spécialiste en médecine du sport, à l'Unité de thérapies régénératives et de médecine du sport de l'Hospital Memorial Publio Cordón (Pozuelo de Alarcón, Madrid). Rendez-vous : +34 913 548 990."
+  ]
+ ],
+ "relacionadas": [
+  "factores-crecimiento-autologos",
+  "prp-rodilla",
+  "artrosis-rodilla"
+ ]
+}

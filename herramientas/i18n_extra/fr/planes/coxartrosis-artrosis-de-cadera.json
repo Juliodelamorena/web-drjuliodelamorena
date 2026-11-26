@@ -1,0 +1,203 @@
+{
+ "slug": "coxartrosis-artrosis-de-cadera",
+ "titulo": "Programme d'exercices pour l'arthrose de la hanche",
+ "corto": "Arthrose de la hanche (coxarthrose)",
+ "zona": "Hanche",
+ "descripcion": "12 semaines pour l'arthrose de hanche douloureuse : activer les fessiers, force sans charge, charge debout, force fonctionnelle. Dr Julio De la Morena.",
+ "fecha": "2026-11-26",
+ "intro": [
+  "Dans l'arthrose de la hanche, la douleur est souvent plus forte que ce qu'explique l'imagerie. Cet écart est une bonne nouvelle : une grande partie de la douleur ne vient pas de l'os, mais des muscles qui entourent la hanche et qui travaillent mal depuis des mois pour la protéger. Le moyen fessier s'affaiblit, le psoas et les muscles de l'aine se contractent pour « tenir » l'articulation, et cette tension permanente est ce qui vous réveille la nuit et vous fait boiter.",
+  "Tout traitement qui calme la douleur, comme une infiltration, ouvre une fenêtre de plusieurs semaines avec moins de douleur. Cette fenêtre est l'occasion : si vous en profitez pour renforcer les fessiers et les adducteurs, la hanche est mieux tenue et le soulagement dure beaucoup plus longtemps. Sinon, la douleur revient quand l'effet s'estompe. C'est pourquoi ce programme n'est pas un complément : c'est la moitié du traitement."
+ ],
+ "regla": "La charge s'ajuste selon la douleur du lendemain, pas celle du jour même. Si le lendemain matin la hanche fait plus mal qu'avant la séance, vous en avez trop fait : reposez-vous ce jour-là et faites la moitié à la séance suivante. Si c'est pareil ou mieux, continuez et augmentez. Une gêne allant jusqu'à 3 sur 10 pendant l'exercice est acceptable si elle disparaît à la fin.",
+ "antes": [
+  [
+   "Échauffez-vous sur un vélo d'appartement",
+   "8 à 10 minutes à faible résistance, selle haute, de sorte que le genou soit presque tendu en bas : une selle basse ferme la hanche. Le mouvement circulaire sans charge lubrifie l'articulation"
+  ],
+  [
+   "Les phases se chevauchent",
+   "En passant à une nouvelle phase, les exercices de la précédente servent d'échauffement. On avance selon un critère, pas selon le calendrier : une ou deux semaines sans aggravation le lendemain"
+  ],
+  [
+   "Marchez tous les jours",
+   "Sur terrain plat et sans chercher la fatigue. Les jours sans renforcement, 30 à 40 minutes de vélo ou de piscine sans brasse"
+  ],
+  [
+   "Rehaussez le siège",
+   "Si le genou est plus haut que la hanche quand vous êtes assis, l'articulation se ferme et se coince. Utilisez un coussin sur les chaises et canapés bas"
+  ]
+ ],
+ "fases": [
+  {
+   "nombre": "Phase 0 · Calmer et activer",
+   "cuando": "Semaine 0 · tous les jours · 10-15 minutes",
+   "texto": "Si vous avez eu une intervention sur la hanche, les 3 à 4 jours suivants seulement une vie normale et de courtes promenades. Ensuite, commencez ici : contractions maintenues, sans bouger l'articulation. Elles ont un effet antalgique immédiat et réveillent des muscles inhibés depuis un moment.",
+   "ejercicios": [
+    [
+     "Respiration diaphragmatique",
+     "Relâchement du psoas et contrôle du tronc",
+     "Allongé sur le dos, genoux pliés. Inspirez en dirigeant l'air vers le ventre et les côtés ; en expirant, rentrez doucement le nombril vers la colonne. Cela aide à relâcher la tension de l'aine.",
+     "5 minutes · tous les jours"
+    ],
+    [
+     "Genoux d'un côté à l'autre",
+     "Mobilité lombo-pelvienne douce",
+     "Sur le dos, genoux pliés et serrés. Laissez-les tomber lentement d'un côté puis de l'autre, sans décoller les épaules. Petite amplitude : si vous sentez un pincement dans l'aine, réduisez.",
+     "2 × 10 de chaque côté · tous les jours"
+    ],
+    [
+     "Isométrique d'abduction à l'élastique",
+     "Moyen et petit fessiers",
+     "Sur le dos, genoux pliés, élastique juste au-dessus des genoux. Poussez les genoux vers l'extérieur contre l'élastique sans les bouger et maintenez. Intensité modérée, sans trembler.",
+     "5 × 30-45 s · 1 min de repos · tous les jours"
+    ],
+    [
+     "Isométrique des adducteurs avec ballon",
+     "Adducteurs",
+     "Même position, avec un ballon ou un coussin entre les genoux. Serrez-le de façon soutenue à 50 % de votre force. Si l'aine proteste, diminuez la pression.",
+     "5 × 20-30 s · tous les jours"
+    ]
+   ]
+  },
+  {
+   "nombre": "Phase 1 · Force sans charge",
+   "cuando": "Semaines 1 et 2 · 5 jours par semaine · 20 minutes",
+   "texto": "L'articulation commence à bouger, allongé et sans poids. Mouvements lents : 2 secondes pour monter, 1 de pause, 3 pour descendre. Les isométriques de la phase 0 servent d'échauffement. Critère d'entrée : une semaine de phase 0 sans aggravation le lendemain.",
+   "ejercicios": [
+    [
+     "Pont fessier",
+     "Grand et moyen fessiers",
+     "Sur le dos, genoux pliés, élastique au-dessus des genoux. Poussez les genoux contre l'élastique et montez le bassin jusqu'à aligner genoux, hanches et épaules. Pause en haut et descendez lentement, sans cambrer le dos.",
+     "3 × 10 · pause de 3 s en haut"
+    ],
+    [
+     "Clam shell (coquillage)",
+     "Moyen fessier et rotateurs externes",
+     "Couché sur le côté de la hanche non douloureuse, coussin entre les genoux, hanches et genoux pliés à environ 45°. Talons joints, ouvrez le genou du dessus sans que le bassin ne bascule en arrière. Ajoutez un élastique quand 15 répétitions sont faciles.",
+     "3 × 12-15 de chaque côté"
+    ],
+    [
+     "Extension de hanche à plat ventre",
+     "Grand fessier",
+     "À plat ventre, un coussin sous le ventre. Genou plié à 90°, décollez la cuisse de quelques centimètres en serrant le fessier, sans cambrer les lombaires.",
+     "3 × 10 de chaque côté"
+    ],
+    [
+     "Adduction couché sur le côté",
+     "Adducteurs",
+     "Couché sur le côté de la hanche travaillée, jambe du dessus pliée et posée devant. Montez de quelques centimètres la jambe du dessous tendue et redescendez lentement.",
+     "3 × 10-12 de chaque côté"
+    ]
+   ]
+  },
+  {
+   "nombre": "Phase 2 · Charge debout",
+   "cuando": "Semaines 3 à 6 · 4 jours par semaine · 25 minutes",
+   "texto": "La hanche doit maintenant vous porter debout. C'est la phase qui change le plus la marche et la boiterie. Critère d'entrée : deux semaines de phase 1 sans aggravation le lendemain.",
+   "ejercicios": [
+    [
+     "Pas latéraux à l'élastique",
+     "Moyen fessier",
+     "Élastique au-dessus des genoux, genoux légèrement fléchis et tronc droit. Petits pas latéraux lents, sans joindre les pieds ni incliner le bassin.",
+     "3 × 10 pas de chaque côté"
+    ],
+    [
+     "Charnière de hanche avec appui",
+     "Grand fessier et ischio-jambiers",
+     "Debout face à un appui, genoux légèrement fléchis. Reculez les hanches en inclinant le tronc dos droit et revenez en poussant les hanches vers l'avant. Amplitude seulement jusqu'où vous ne sentez pas de pincement dans l'aine.",
+     "3 × 10"
+    ],
+    [
+     "Squat partiel contre le mur",
+     "Fessiers et quadriceps",
+     "Dos contre le mur, pieds à la largeur des hanches et un pas en avant. Descendez en glissant le dos sans dépasser 60° de flexion des genoux et remontez. Jamais plus bas.",
+     "3 × 10"
+    ],
+    [
+     "Extension de hanche debout",
+     "Grand fessier",
+     "Debout, tenu à un appui. Amenez la jambe tendue en arrière en serrant le fessier, sans cambrer le dos ni tourner le bassin. Avec un élastique à la cheville quand c'est facile.",
+     "3 × 12 de chaque côté"
+    ],
+    [
+     "Équilibre sur une jambe",
+     "Moyen fessier et contrôle",
+     "À côté d'un appui par sécurité, sur la jambe travaillée, genou légèrement fléchi. Le bassin doit rester horizontal : la hanche de la jambe levée ne tombe pas.",
+     "3 × 30 s par jambe"
+    ]
+   ]
+  },
+  {
+   "nombre": "Phase 3 · Force fonctionnelle",
+   "cuando": "Semaines 7 à 12 · 3 jours par semaine · 30 minutes",
+   "texto": "L'objectif est que la hanche supporte votre quotidien sans le payer le lendemain : escaliers, côtes et longues stations debout. Critère d'entrée : deux semaines de phase 2 sans aggravation.",
+   "ejercicios": [
+    [
+     "Montée sur marche",
+     "Moyen fessier et quadriceps",
+     "Marche basse, de 15 à 20 cm. Montez en posant tout le pied et en poussant avec la jambe du haut, sans vous propulser avec celle du bas. Bassin horizontal et genou aligné avec le pied. Redescendez lentement.",
+     "3 × 8 par jambe"
+    ],
+    [
+     "Pont sur une jambe",
+     "Grand et moyen fessiers",
+     "Comme le pont de la phase 1, sur un seul pied, l'autre jambe tendue. Le bassin ne doit pas tomber du côté de la jambe levée ; s'il tombe, revenez quelques semaines au pont sur deux pieds.",
+     "3 × 8 de chaque côté"
+    ],
+    [
+     "Pas en V à l'élastique",
+     "Moyen et petit fessiers",
+     "Avec l'élastique, pas en diagonale vers l'avant et l'extérieur d'un pied, puis de l'autre, et retour dans le même ordre. Tronc immobile.",
+     "3 × 8"
+    ],
+    [
+     "Planche de Copenhague genou en appui",
+     "Adducteurs",
+     "Sur le côté, en appui sur l'avant-bras, le genou de la jambe du dessus sur un banc bas. Montez la hanche et maintenez. Seulement si l'aine ne proteste pas ; sinon, revenez à l'adduction couché.",
+     "3 × 15-20 s de chaque côté"
+    ]
+   ]
+  },
+  {
+   "nombre": "Étirements · Tous les jours",
+   "cuando": "À la fin de chaque séance. Sans à-coups et sans aller jusqu'à la douleur.",
+   "texto": "",
+   "ejercicios": [
+    [
+     "Étirement du psoas en fente",
+     "Fléchisseurs de hanche",
+     "Genou arrière posé sur un coussin. Basculez le bassin vers l'avant, comme pour rapprocher le pubis du nombril, et portez le poids vers l'avant jusqu'à sentir l'étirement dans l'aine. Ne cambrez pas le dos ; le bras peut rester en bas.",
+     "3 × 30 s de chaque côté"
+    ],
+    [
+     "Étirement des adducteurs au sol",
+     "Adducteurs",
+     "Assis, une jambe tendue sur le côté et l'autre pliée. Inclinez le tronc vers l'avant dos droit jusqu'à sentir une tension à l'intérieur de la cuisse.",
+     "3 × 30 s de chaque côté"
+    ]
+   ]
+  }
+ ],
+ "evitar": [
+  "Croiser les jambes et s'asseoir sur des chaises ou canapés bas.",
+  "Squats profonds, position accroupie ou assis sur les talons.",
+  "Pivoter sur la jambe d'appui le tronc tourné : pour vous retourner, bougez les pieds.",
+  "Pour l'instant, lever la jambe tendue allongé sur le dos ou monter le genou à la poitrine contre résistance : cela charge directement le psoas.",
+  "Course, sauts, sports avec changements de direction et brasse.",
+  "Dans les escaliers, montez avec la bonne jambe et descendez avec la mauvaise, en vous tenant à la rampe. Pour dormir, sur le dos ou sur le côté avec un gros coussin entre les genoux."
+ ],
+ "complementario": "Quand la douleur empêche de suivre le programme, une infiltration échoguidée peut ouvrir cette fenêtre de plusieurs semaines avec moins de douleur ; dans certains cas, on envisage le PRP (plasma riche en plaquettes). Cela se décide en consultation selon l'examen et l'imagerie. Rien de tout cela ne remplace le renforcement.",
+ "consultar": [
+  "La hanche se bloque ou vous sentez un claquement avec une douleur intense et la jambe « reste accrochée ».",
+  "La douleur nocturne recommence à vous réveiller plusieurs nuits de suite.",
+  "Vous ne pouvez pas poser la jambe ou la boiterie s'aggrave nettement.",
+  "La douleur augmente de séance en séance pendant plus d'une semaine malgré la baisse de la charge."
+ ],
+ "normal": "Il est normal d'avoir les fessiers fatigués, une gêne diffuse dans les 24 heures après une nouvelle séance et une amélioration par paliers, avec des semaines de plateau.",
+ "relacionadas": [
+  "artrosis-cadera",
+  "infiltraciones-ecoguiadas",
+  "factores-crecimiento-autologos"
+ ]
+}

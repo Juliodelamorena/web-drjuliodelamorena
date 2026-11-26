@@ -1,0 +1,254 @@
+{
+ "slug": "hombro-cintura-escapular",
+ "titulo": "Programme de renforcement de l'épaule et de l'omoplate",
+ "corto": "Renforcement de l'épaule et de l'omoplate",
+ "zona": "Épaule",
+ "descripcion": "12 semaines pour renforcer l'épaule de l'intérieur vers l'extérieur : omoplate, coiffe des rotateurs et force sur toute l'amplitude. Dr Julio De la Morena.",
+ "fecha": "2026-11-26",
+ "intro": [
+  "Une épaule forte ne dépend pas seulement du deltoïde. La tête de l'humérus reste centrée grâce à la coiffe des rotateurs, et la coiffe ne fonctionne bien que si l'omoplate sur laquelle elle s'appuie est stable et bouge au bon moment. Quand l'omoplate ne suit pas, l'épaule compense, se surcharge et finit par faire mal.",
+  "C'est pourquoi le programme va de l'intérieur vers l'extérieur : on réveille d'abord le contrôle de l'omoplate et de la coiffe, on gagne ensuite de la force dans une amplitude sûre, et on travaille enfin avec charge sur toute l'amplitude. Chaque phase prépare la suivante ; en sauter une n'accélère rien. Il convient pour la prévention et pour reprendre l'entraînement après une gêne à l'épaule."
+ ],
+ "regla": "La technique avant le poids. Augmentez la charge seulement quand vous réalisez toutes les séries avec une bonne technique et sans douleur. Une gêne allant jusqu'à 3 sur 10 est acceptable si elle disparaît à la fin ; si le lendemain matin l'épaule gêne davantage, reposez-vous ce jour-là et divisez la charge par deux à la séance suivante. Mouvements lents : 2 secondes pour monter, 1 de pause, 3 pour descendre.",
+ "antes": [
+  [
+   "Épaules loin des oreilles",
+   "Dans tous les exercices. Si le trapèze supérieur monte les épaules, l'exercice perd son effet"
+  ],
+  [
+   "Les deux côtés",
+   "Commencez toujours par le côté le plus faible et faites les mêmes répétitions de l'autre"
+  ],
+  [
+   "Élastiques et haltères",
+   "Commencez avec l'élastique le plus doux et changez quand 15 répétitions sont faciles. Haltères de 1 à 2 kg pour la coiffe et de 3 à 5 kg pour le deltoïde et les tirages"
+  ],
+  [
+   "Repos entre les séances",
+   "Laissez au moins un jour de repos entre deux séances de force. Si vous pratiquez un autre sport, placez le programme les jours sans travail intense du haut du corps"
+  ]
+ ],
+ "fases": [
+  {
+   "nombre": "Avant chaque séance",
+   "cuando": "Avant chaque séance · 3-5 minutes",
+   "texto": "Échauffement articulaire et contrôle de l'omoplate. À faire toujours, à toutes les phases.",
+   "ejercicios": [
+    [
+     "Cercles de bras sans poids",
+     "Échauffement articulaire",
+     "Debout, bras relâché. Décrivez des cercles vers l'avant et vers l'arrière en augmentant progressivement leur taille. Les deux bras.",
+     "2 × 10 dans chaque sens"
+    ],
+    [
+     "Contrôle de l'omoplate",
+     "Muscles de l'omoplate",
+     "Ramenez légèrement les omoplates en arrière et en bas, comme pour les glisser dans les poches arrière, sans bomber le torse ni monter les épaules. Tenez et relâchez.",
+     "2 × 10 · maintien 5 s"
+    ]
+   ]
+  },
+  {
+   "nombre": "Phase 1 · Activation et contrôle",
+   "cuando": "Semaines 1 à 3 · 4 jours par semaine · 20 minutes",
+   "texto": "Contractions maintenues et travail à l'élastique coude près du corps. Le but est que la coiffe et l'omoplate retravaillent ensemble avant d'ajouter de la charge.",
+   "ejercicios": [
+    [
+     "Isométrique de rotation externe",
+     "Sous-épineux et petit rond",
+     "Dans l'encadrement d'une porte, coude collé au corps et plié à 90º, dos du poignet contre le montant. Poussez vers l'extérieur sans bouger le bras et maintenez.",
+     "3 × 30 s de chaque côté"
+    ],
+    [
+     "Isométrique de rotation interne",
+     "Sous-scapulaire",
+     "Même position, paume contre le montant. Poussez vers l'intérieur et maintenez.",
+     "3 × 30 s de chaque côté"
+    ],
+    [
+     "Isométrique d'abduction",
+     "Sus-épineux et deltoïde",
+     "De profil contre un mur, coude plié, une serviette entre le bras et le mur. Poussez comme pour écarter le bras du corps, sans le bouger.",
+     "3 × 30 s de chaque côté"
+    ],
+    [
+     "Rotation externe à l'élastique",
+     "Sous-épineux et petit rond",
+     "Coude collé au corps et plié à 90º, une serviette roulée entre le coude et le flanc. Amenez la main vers l'extérieur et revenez lentement.",
+     "3 × 15 de chaque côté"
+    ],
+    [
+     "Rotation interne à l'élastique",
+     "Sous-scapulaire",
+     "Même position, élastique fixé à l'extérieur. Amenez la main vers le ventre et revenez lentement.",
+     "3 × 15 de chaque côté"
+    ],
+    [
+     "Tirage bas à l'élastique",
+     "Rhomboïdes et trapèze moyen",
+     "Élastique fixé à hauteur du ventre. Tirez coudes près du corps en ramenant les omoplates en arrière et en bas. Revenez lentement sans monter les épaules.",
+     "3 × 15"
+    ],
+    [
+     "Poussée horizontale à l'élastique",
+     "Dentelé antérieur",
+     "Dos au point d'ancrage, élastique à hauteur de poitrine. Poussez jusqu'à tendre le bras et, à la fin, avancez l'épaule en écartant l'omoplate. Revenez lentement.",
+     "3 × 12 de chaque côté"
+    ]
+   ]
+  },
+  {
+   "nombre": "Phase 2 · Force en amplitude sûre",
+   "cuando": "Semaines 4 à 7 · 3-4 jours par semaine · 30 minutes",
+   "texto": "On ajoute les haltères et le bras travaille écarté du corps, toujours sans dépasser la hauteur de l'épaule. Les exercices à l'élastique de la phase 1 servent d'échauffement. Critère d'entrée : trois semaines de phase 1 sans douleur.",
+   "ejercicios": [
+    [
+     "Élévation dans le plan de l'omoplate",
+     "Sus-épineux et deltoïde",
+     "Pouce vers le haut, bras à environ 30º devant le corps. Montez jusqu'à hauteur d'épaule et descendez en 3 secondes.",
+     "3 × 12"
+    ],
+    [
+     "Élévation latérale",
+     "Deltoïde moyen",
+     "Debout, haltères sur les côtés, coudes légèrement fléchis. Montez les bras jusqu'à hauteur d'épaules sans monter les épaules elles-mêmes, et descendez lentement.",
+     "3 × 12"
+    ],
+    [
+     "Élévation frontale",
+     "Deltoïde antérieur",
+     "Montez une haltère devant vous jusqu'à hauteur d'épaule, coude presque tendu, et descendez lentement. Alternez les bras.",
+     "3 × 10 de chaque côté"
+    ],
+    [
+     "Rowing à l'haltère avec appui",
+     "Grand dorsal et rhomboïdes",
+     "Genou et main sur un banc, dos droit. Ramenez le coude en arrière, près du corps, en rapprochant l'omoplate de la colonne, et descendez lentement.",
+     "3 × 12 de chaque côté"
+    ],
+    [
+     "Face pull à l'élastique",
+     "Rotateurs externes et trapèze moyen",
+     "Élastique fixé à hauteur des yeux. Tirez en amenant les mains vers les tempes, coudes hauts et écartés, en serrant les omoplates.",
+     "3 × 15"
+    ],
+    [
+     "Extension des triceps à l'élastique",
+     "Triceps",
+     "Élastique fixé en haut, coudes collés au corps. Tendez les coudes vers le bas sans bouger les épaules et revenez lentement.",
+     "3 × 15"
+    ],
+    [
+     "Glissement au mur",
+     "Dentelé antérieur et trapèze inférieur",
+     "Face au mur, avant-bras appuyés. Glissez les bras vers le haut en gardant les omoplates basses, et redescendez lentement.",
+     "3 × 10"
+    ]
+   ]
+  },
+  {
+   "nombre": "Phase 3 · Force complète",
+   "cuando": "Semaines 8 à 12 · 3 jours par semaine · 35-40 minutes",
+   "texto": "Charge sur toute l'amplitude, travail excentrique de la coiffe et exercices au poids du corps. L'objectif est une épaule forte et stable pour le sport et la vie quotidienne. Critère d'entrée : quatre semaines de phase 2 sans douleur.",
+   "ejercicios": [
+    [
+     "Élévation complète dans le plan de l'omoplate",
+     "Sus-épineux et deltoïde",
+     "Comme en phase 2, mais en montant le bras jusqu'en haut. Descente lente en 3 secondes.",
+     "3 × 10"
+    ],
+    [
+     "Développé couché aux haltères",
+     "Pectoral, deltoïde antérieur et triceps",
+     "Allongé sur un banc, haltères à hauteur de poitrine, coudes à environ 45º du corps. Poussez jusqu'à tendre les bras et descendez sans que les coudes passent sous le banc.",
+     "3 × 10-12"
+    ],
+    [
+     "Oiseau buste penché",
+     "Deltoïde postérieur et rhomboïdes",
+     "Tronc incliné vers l'avant, dos droit. Ouvrez les bras sur les côtés, coudes légèrement fléchis, en serrant les omoplates.",
+     "3 × 12"
+    ],
+    [
+     "Rotation externe à 90º",
+     "Rotateurs externes bras levé",
+     "Bras écarté à hauteur d'épaule, coude à 90º, élastique fixé devant. Tournez l'avant-bras vers le haut et revenez lentement.",
+     "3 × 12 de chaque côté"
+    ],
+    [
+     "Rotation externe excentrique",
+     "Sous-épineux et petit rond",
+     "Couché sur le côté, haltère dans la main du dessus. Montez avec l'aide de l'autre main et descendez avec une seule, très lentement, en 4 à 5 secondes.",
+     "3 × 10 de chaque côté"
+    ],
+    [
+     "T à plat ventre",
+     "Trapèze moyen et rhomboïdes",
+     "À plat ventre sur un banc, bras pendants. Montez-les sur les côtés en T, pouces vers le haut.",
+     "3 × 12"
+    ],
+    [
+     "Y à plat ventre",
+     "Trapèze inférieur",
+     "Même position. Montez les bras en diagonale devant la tête en Y, pouces vers le haut.",
+     "3 × 12"
+    ],
+    [
+     "Pompe avec protraction",
+     "Dentelé antérieur",
+     "En appui sur les genoux et les mains, ou sur les pieds si c'est facile. Sans plier les coudes, laissez la poitrine descendre entre les omoplates puis repoussez le sol en les écartant.",
+     "3 × 12"
+    ],
+    [
+     "Dips sur chaise assistés",
+     "Triceps et stabilisateurs de l'épaule",
+     "Mains au bord d'une chaise, pieds au sol. Descendez en pliant les coudes seulement jusqu'à 90º, sans avancer les épaules, et remontez.",
+     "3 × 10"
+    ]
+   ]
+  },
+  {
+   "nombre": "Étirements · Tous les jours",
+   "cuando": "À la fin de chaque séance. Sans à-coups et sans aller jusqu'à la douleur.",
+   "texto": "",
+   "ejercicios": [
+    [
+     "Étirement de la capsule postérieure",
+     "Capsule postérieure",
+     "Couché sur le côté, bras du dessous devant à hauteur d'épaule, coude à 90º. De l'autre main, poussez doucement le poignet vers le lit.",
+     "3 × 30 s de chaque côté"
+    ],
+    [
+     "Étirement du pectoral dans l'encadrement",
+     "Pectoral",
+     "Avant-bras sur le montant, coude à hauteur d'épaule. Avancez le corps jusqu'à sentir une tension dans la poitrine.",
+     "3 × 30 s de chaque côté"
+    ],
+    [
+     "Étirement en rotation interne avec serviette",
+     "Rotateurs externes et capsule",
+     "Serviette derrière le dos : une main en haut, l'autre en bas. La main du haut tire doucement vers le haut. Changez de côté.",
+     "3 × 30 s de chaque côté"
+    ]
+   ]
+  }
+ ],
+ "evitar": [
+  "Pendant les six premières semaines, les exercices de salle avec le bras derrière la tête, comme le développé ou le tirage nuque.",
+  "Les dips profonds aux barres parallèles avant la phase 3.",
+  "Augmenter le poids au détriment de la technique.",
+  "Monter les épaules pendant les exercices."
+ ],
+ "consultar": [
+  "Douleur qui vous réveille la nuit.",
+  "Sensation que l'épaule « se déboîte » ou claquement douloureux.",
+  "Fourmillements ou engourdissement qui descendent le long du bras.",
+  "Perte de force soudaine.",
+  "Douleur qui augmente de séance en séance pendant plus d'une semaine malgré la baisse de la charge."
+ ],
+ "normal": "Les courbatures des premiers jours de chaque phase et la fatigue musculaire en fin de séance sont normales.",
+ "relacionadas": [
+  "hombro-doloroso",
+  "lesiones-musculares"
+ ]
+}

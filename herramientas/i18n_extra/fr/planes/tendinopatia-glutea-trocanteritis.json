@@ -1,0 +1,185 @@
+{
+ "slug": "tendinopatia-glutea-trocanteritis",
+ "titulo": "Exercices pour la trochantérite (tendinopathie glutéale)",
+ "corto": "Tendinopathie glutéale (trochantérite)",
+ "zona": "Hanche",
+ "descripcion": "12 semaines pour la douleur latérale de hanche (tendinopathie glutéale) : la charge oui, la compression non. Dr Julio De la Morena.",
+ "fecha": "2026-11-26",
+ "intro": [
+  "Le moyen et le petit fessier sont les muscles qui soutiennent le bassin chaque fois que vous êtes en appui sur un seul pied : en marchant, en montant une marche, en vous levant d'une chaise. Leurs tendons se terminent sur l'os que vous sentez sur le côté de la hanche, le grand trochanter. Quand ces tendons souffrent, la douleur apparaît précisément là, sur la face latérale, et s'aggrave en restant longtemps assis, en se levant, en montant une côte ou en se couchant sur ce côté. C'est ce qu'on appelle souvent trochantérite ou bursite trochantérienne.",
+  "Ces tendons tolèrent bien la charge, mais très mal la compression. Chaque fois que la jambe se croise vers l'intérieur — en croisant les jambes, en dormant sur le côté avec le genou du dessus tombé, en restant debout appuyé sur une seule hanche — le tendon est écrasé contre l'os. Cette compression répétée, plus que l'effort, est ce qui l'entretient irrité.",
+  "D'où la règle qui gouverne tout le programme : la charge oui, la compression non. Le repos ne sert à rien, car un fessier faible laisse tomber le bassin à chaque pas et le tendon est de nouveau comprimé. Le programme ajoute le contrôle lombaire et la mobilité de la hanche : une hanche raide oblige la colonne à bouger à sa place."
+ ],
+ "regla": "La charge s'ajuste selon la douleur du lendemain, pas celle du jour même. Si le lendemain matin la hanche fait plus mal qu'avant la séance, vous en avez trop fait : reposez-vous ce jour-là et faites la moitié à la séance suivante. Si c'est pareil ou mieux, continuez et augmentez. Une gêne allant jusqu'à 3 sur 10 pendant l'exercice est acceptable si elle disparaît à la fin.",
+ "antes": [
+  [
+   "Échauffez-vous toujours, même 5 minutes",
+   "Vélo d'appartement à faible résistance ou marche rapide. Un tendon froid tolère beaucoup moins de charge. Selle haute : une selle basse ferme la hanche et comprime la face latérale"
+  ],
+  [
+   "Lombaires neutres",
+   "Ni cambrées ni creusées, dans tous les exercices. Si le dos se cambre pour terminer un mouvement, réduisez l'amplitude"
+  ],
+  [
+   "La régularité avant l'intensité",
+   "Cinq séances courtes par semaine rapportent bien plus que deux longues"
+  ],
+  [
+   "L'ordre compte",
+   "D'abord la mobilité et le contrôle lombaire, puis les fessiers et enfin les exercices debout. En passant à une nouvelle phase, les isométriques de la première servent d'échauffement"
+  ]
+ ],
+ "fases": [
+  {
+   "nombre": "Phase 1 · Activation sans compression",
+   "cuando": "Semaines 1 et 2 · Tous les jours · 15 minutes",
+   "texto": "L'objectif de cette phase est de calmer le tendon et de retrouver le contrôle. Le travail des fessiers est isométrique : vous poussez sans bouger l'articulation. La contraction maintenue a un effet antalgique immédiat sur le tendon et le prépare à la charge. Intensité modérée : vous devez pouvoir la tenir sans trembler.",
+   "ejercicios": [
+    [
+     "Respiration et activation du transverse",
+     "Transverse de l'abdomen",
+     "Allongé sur le dos, genoux pliés. En expirant, rentrez doucement le nombril vers la colonne sans bouger le bassin ni serrer les fessiers. Gardez l'activation tout en respirant normalement. C'est la base de tout le travail lombaire.",
+     "10 × 10 s · tous les jours"
+    ],
+    [
+     "Isométrique d'abduction à l'élastique",
+     "Moyen et petit fessiers",
+     "Allongé sur le dos, genoux pliés et pieds à plat à la largeur des hanches, un élastique autour des cuisses juste au-dessus des genoux. Poussez les genoux vers l'extérieur contre l'élastique sans les bouger et maintenez. Bassin immobile, dos neutre.",
+     "5 × 30-45 s (1 min de repos) · tous les jours"
+    ],
+    [
+     "Pont fessier",
+     "Grand et moyen fessiers",
+     "Même position, avec l'élastique. Activez le transverse, poussez les genoux contre l'élastique et montez le bassin jusqu'à aligner genoux, hanches et épaules. Tenez 3 secondes en haut et descendez lentement. Ne cambrez pas le dos en montant : la hauteur est donnée par le bassin, pas par les lombaires.",
+     "3 × 10 · pause de 3 s en haut · tous les jours"
+    ],
+    [
+     "Genoux à la poitrine",
+     "Mobilité lombaire",
+     "Allongé sur le dos, ramenez les deux genoux vers la poitrine avec les mains, sans tirer fort. Maintenez en respirant. Cela ouvre l'espace du bas du dos et le soulage.",
+     "3 × 20-30 s · tous les jours"
+    ],
+    [
+     "Bassin neutre, genoux d'un côté à l'autre",
+     "Mobilité lombo-pelvienne",
+     "Allongé sur le dos, genoux pliés et serrés. Laissez-les tomber doucement d'un côté puis de l'autre, sans décoller les épaules du sol. Petite amplitude au début : si vous sentez une pression sur le côté de la hanche, réduisez.",
+     "2 × 10 de chaque côté · tous les jours"
+    ],
+    [
+     "Chat-chameau",
+     "Mobilité de la colonne",
+     "À quatre pattes, mains sous les épaules et genoux sous les hanches. Arrondissez le dos vers le plafond puis revenez en position neutre. Ne creusez pas les lombaires en fin de mouvement : l'extension forcée de la colonne n'apporte rien ici.",
+     "2 × 10 · tous les jours"
+    ]
+   ]
+  },
+  {
+   "nombre": "Phase 2 · Charge progressive et mobilité",
+   "cuando": "Semaines 3 à 6 · 4 jours par semaine · 20 minutes",
+   "texto": "C'est ici que commence le travail qui change le tendon. On passe de la contraction maintenue au mouvement avec charge, toujours lent et contrôlé : 2 secondes pour monter, 1 de pause, 3 pour descendre. Les isométriques de la phase 1 restent comme échauffement. Critère d'entrée : deux semaines de phase 1 complète sans aggravation le lendemain.",
+   "ejercicios": [
+    [
+     "Moyen fessier couché sur le côté",
+     "Moyen et petit fessiers",
+     "Couché sur le côté de la hanche la moins douloureuse, un coussin sous la taille et un autre entre les genoux. Jambe du dessous pliée. Montez la jambe du dessus tendue, pied légèrement en arrière et pointe vers l'avant, seulement jusqu'à l'horizontale et un peu plus. Redescendez jusqu'au coussin, jamais en dessous : la jambe ne doit pas croiser la ligne du corps.",
+     "3 × 10-12 · tempo 2-1-3 · 4 jours/semaine"
+    ],
+    [
+     "Squat partiel contre le mur",
+     "Fessiers et quadriceps",
+     "Dos contre le mur, pieds à la largeur des hanches et un pas en avant. Descendez en glissant le dos jusqu'à un angle de genoux confortable, sans dépasser 60°, et remontez. Les genoux suivent la direction des pieds, sans rentrer vers l'intérieur.",
+     "3 × 10 · 4 jours/semaine"
+    ],
+    [
+     "Charnière de hanche avec appui",
+     "Grand fessier et ischio-jambiers",
+     "Debout face à un appui, genoux légèrement fléchis. Reculez les hanches en inclinant le tronc dos droit, comme pour fermer une porte avec les fesses, et revenez en poussant les hanches vers l'avant. La colonne ne bouge pas : le mouvement vient de la hanche.",
+     "3 × 10 · 4 jours/semaine"
+    ],
+    [
+     "Dead bug",
+     "Contrôle lombaire",
+     "Sur le dos, hanches et genoux à 90°. Transverse activé et lombaires collées au sol, descendez lentement un talon jusqu'à effleurer le sol et revenez. Alternez. Si le dos se décolle, réduisez l'amplitude.",
+     "3 × 8 de chaque côté · 4 jours/semaine"
+    ],
+    [
+     "Mobilité de hanche 90-90",
+     "Rotation de hanche",
+     "Assis au sol, une jambe devant et l'autre sur le côté, genoux à 90°. Tronc droit, mains en appui derrière si besoin, faites pivoter les genoux d'un côté à l'autre sans vous presser. Cherchez l'amplitude, jamais la douleur sur le côté de la hanche.",
+     "2 × 8 de chaque côté · 4 jours/semaine"
+    ],
+    [
+     "Étirement du psoas en fente",
+     "Fléchisseurs de hanche",
+     "Un genou au sol sur un coussin, l'autre pied devant. Basculez le bassin, comme pour rapprocher le pubis du nombril, et portez le poids vers l'avant jusqu'à sentir l'étirement dans l'aine de la jambe arrière. Sans lever le bras ni cambrer les lombaires.",
+     "3 × 30 s de chaque côté · 4 jours/semaine"
+    ]
+   ]
+  },
+  {
+   "nombre": "Phase 3 · Force fonctionnelle",
+   "cuando": "Semaines 7 à 12 · 3 jours par semaine · 25 minutes",
+   "texto": "L'objectif est que la hanche supporte l'appui sur une seule jambe, les côtes et les terrains irréguliers. On avance selon un critère, pas selon le calendrier : deux semaines de phase 2 complète sans aggravation le lendemain.",
+   "ejercicios": [
+    [
+     "Pas latéraux à l'élastique",
+     "Moyen fessier",
+     "Élastique autour des cuisses, au-dessus des genoux. Genoux semi-fléchis et tronc droit. Faites de petits pas latéraux contrôlés sans que les pieds se rejoignent ni que le bassin s'incline.",
+     "3 × 10 pas de chaque côté · 3 jours/semaine"
+    ],
+    [
+     "Pas en V à l'élastique",
+     "Moyen et petit fessiers",
+     "Avec l'élastique, faites un pas en diagonale vers l'avant et l'extérieur d'un pied, puis de l'autre, et revenez dans le même ordre, en dessinant un V. Tronc immobile.",
+     "3 × 8 · 3 jours/semaine"
+    ],
+    [
+     "Montée sur marche",
+     "Moyen fessier et quadriceps",
+     "Face à une marche basse, de 15 à 20 cm. Montez en posant tout le pied et en poussant avec la jambe du haut, sans vous propulser avec celle du bas. Le bassin reste horizontal et le genou ne rentre pas vers l'intérieur. Redescendez lentement avec la même jambe.",
+     "3 × 8 par jambe · 3 jours/semaine"
+    ],
+    [
+     "Équilibre unipodal",
+     "Moyen fessier et contrôle",
+     "Debout sur une jambe, genou légèrement fléchi, à côté d'un appui par sécurité. Gardez le bassin horizontal : la hanche de la jambe levée ne doit pas tomber. Progression : bras croisés, yeux fermés, surface molle.",
+     "3 × 30 s par jambe · 3 jours/semaine"
+    ],
+    [
+     "Pont unilatéral",
+     "Grand et moyen fessiers",
+     "Comme le pont de la phase 1, mais sur un seul pied et l'autre jambe tendue. Bassin horizontal pendant tout le mouvement. Si une hanche tombe, revenez quelques semaines de plus au pont sur deux pieds.",
+     "3 × 8 de chaque côté · 3 jours/semaine"
+    ],
+    [
+     "Entretien de la mobilité",
+     "",
+     "Genoux à la poitrine, mobilité 90-90 et étirement du psoas. Ne les abandonnez pas : ce sont eux qui soutiennent le travail de force.",
+     "2 séries de chaque · tous les jours"
+    ]
+   ]
+  }
+ ],
+ "evitar": [
+  "Croiser les jambes en position assise, ni genou sur genou ni cheville sur genou.",
+  "Dormir sur la hanche la plus douloureuse ou sur le côté sans coussin entre les genoux.",
+  "Rester debout « suspendu » sur une hanche : répartissez le poids sur les deux pieds.",
+  "Chaises et canapés bas : rehaussez le siège avec un coussin.",
+  "Les étirements qui croisent la jambe devant le corps, comme celui du piriforme « en quatre » ou celui de la bandelette ilio-tibiale : ils étirent le tendon précisément contre l'os.",
+  "En montagne, descendre de longues pentes sans bâtons."
+ ],
+ "complementario": "Si la douleur empêche de progresser, l'échographie en consultation montre l'état des tendons et permet d'envisager une infiltration échoguidée ou le PRP (plasma riche en plaquettes). Ils fonctionnent mieux associés à ce programme, jamais à sa place.",
+ "consultar": [
+  "Douleur qui descend dans la jambe sous le genou, avec fourmillements ou engourdissement.",
+  "Perte de force : la jambe « lâche » à l'appui ou vous traînez le pied.",
+  "Douleur dans l'aine ou sensation de blocage de la hanche.",
+  "Douleur nocturne qui vous réveille de façon répétée malgré le coussin entre les genoux.",
+  "Douleur qui augmente de séance en séance pendant plus d'une semaine malgré la baisse de la charge."
+ ],
+ "normal": "Une gêne diffuse sur le côté de la hanche dans les 24 heures qui suivent une nouvelle séance, des fessiers fatigués et une amélioration par paliers, avec des semaines de plateau, sont normaux.",
+ "relacionadas": [
+  "artrosis-cadera",
+  "tendinopatias",
+  "infiltraciones-ecoguiadas"
+ ]
+}

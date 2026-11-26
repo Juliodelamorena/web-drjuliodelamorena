@@ -1,0 +1,152 @@
+{
+ "slug": "epicondilitis-codo-de-tenista",
+ "titulo": "Programme d'exercices pour l'épicondylite (tennis-elbow)",
+ "corto": "Épicondylite latérale (tennis-elbow)",
+ "zona": "Coude",
+ "descripcion": "Programme de 12 semaines pour le tennis-elbow : isométriques, excentriques à l'élastique et à la barre flexible, et force. Dr Julio De la Morena.",
+ "fecha": "2026-11-26",
+ "intro": [
+  "Sur la face externe du coude, à l'épicondyle, s'insèrent les muscles qui relèvent le poignet, ouvrent les doigts et tournent la paume vers le haut. Leur tendon commun travaille à chaque prise : c'est pourquoi il fait mal de saisir une bouteille, un sac ou une tasse paume vers le bas, de taper au clavier, de serrer la main ou de tourner une poignée. Quand ce tendon reçoit pendant des semaines plus de charge qu'il n'en tolère, il cesse de bien se réparer et devient plus faible et plus sensible.",
+  "Un tendon ne guérit pas avec le repos : il guérit avec une charge bien dosée, qui est le traitement le mieux étayé par la littérature médicale. L'exercice excentrique (freiner la charge pendant que le muscle s'allonge) réduit la douleur et augmente la force. Les isométriques (pousser sans bouger l'articulation) soulagent la douleur les mauvais jours et permettent de commencer à charger dès le premier jour.",
+  "Le programme comporte trois phases : calmer le tendon avec des isométriques, le charger avec des excentriques à l'élastique et à la barre flexible, puis le renforcer par un travail de force lourd et lent avec l'épaule et l'omoplate, qui répartissent la charge sur tout le bras."
+ ],
+ "regla": "Pendant les exercices, une gêne allant jusqu'à 4 sur 10 au coude est acceptable : le tendon a besoin de sentir la charge pour s'adapter. La référence est le lendemain matin. Si le coude est pareil ou mieux, continuez et progressez. S'il est nettement moins bien ou si la gêne dure plus de 24 heures, ce jour-là faites seulement les isométriques et revenez le lendemain à la charge précédente.",
+ "antes": [
+  [
+   "Régularité quotidienne",
+   "Les études qui fonctionnent utilisent l'exercice tous les jours pendant au moins 12 semaines. L'amélioration se ressent vers 4 à 6 semaines ; le tendon met trois mois à devenir résistant"
+  ],
+  [
+   "Toujours lentement",
+   "Dans les excentriques, 4 secondes pour descendre. Ce qui soigne, c'est le freinage, pas la montée"
+  ],
+  [
+   "Élastiques par couleur",
+   "Quand les 3 séries se font avec une gêne de 2 sur 10 ou moins, passez à l'élastique ou à la barre de la couleur suivante : jaune, rouge, vert et bleu"
+  ],
+  [
+   "Surveillez les gestes du quotidien",
+   "Saisissez les charges paume vers le haut et coude plié. Évitez de soulever des objets bras tendu et paume vers le bas. Faites des pauses toutes les 30 à 45 minutes avec la souris, le clavier ou les outils"
+  ]
+ ],
+ "fases": [
+  {
+   "nombre": "Phase 1 · Calmer le tendon",
+   "cuando": "Semaines 1-2 · tous les jours · 10-15 minutes",
+   "texto": "Si votre douleur de base est faible dès le départ, vous pouvez commencer la phase 2 dès la deuxième semaine.",
+   "ejercicios": [
+    [
+     "Isométrique d'extension du poignet à l'élastique",
+     "Calmer la douleur",
+     "Assis, avant-bras posé sur la cuisse, paume vers le bas et poignet dépassant du genou. Bloquez l'élastique sous le pied et tenez-le en main. Gardez le poignet droit, sans le bouger, en poussant contre l'élastique. Intensité : celle qui permet de tenir tout le temps avec une gêne de 3 sur 10 ou moins.",
+     "5 × 45 s · 2 min de repos · 1 à 3 fois par jour"
+    ],
+    [
+     "Étirement des extenseurs de l'avant-bras",
+     "Avant et après",
+     "Debout, bras tendu devant vous, paume vers le bas. Pliez le poignet vers le bas et, de l'autre main, ramenez doucement le dos de la main vers vous. Tension douce, jamais de douleur.",
+     "3 × 30 s · avant et après chaque séance"
+    ]
+   ]
+  },
+  {
+   "nombre": "Phase 2 · Charger le tendon : excentriques à l'élastique",
+   "cuando": "Semaines 3-8 · tous les jours · 15-20 minutes · 1 minute de repos entre les séries",
+   "texto": "C'est le cœur du programme : freiner la charge pendant que le muscle s'allonge est ce qui améliore le plus la douleur et la force. Gardez l'isométrique comme échauffement ou pour les jours plus douloureux.",
+   "ejercicios": [
+    [
+     "Excentrique d'extension du poignet à l'élastique",
+     "L'exercice principal",
+     "Avant-bras posé sur la cuisse, paume vers le bas, élastique sous le pied. Montez le poignet en vous aidant de l'autre main puis, arrivé en haut, lâchez l'aide et descendez lentement en 4 secondes en freinant l'élastique avec le seul poignet atteint. Coude plié au début ; à partir de la semaine 6, coude plus tendu.",
+     "3 × 15 · 1 à 2 fois par jour · tous les jours"
+    ],
+    [
+     "Torsion à la barre flexible",
+     "Excentrique des extenseurs",
+     "Barre devant la poitrine, coudes tendus. La main atteinte tient une extrémité, poignet plié vers le haut ; la main saine tord la barre. Laissez ensuite la main atteinte la détordre lentement, en 4 secondes. Des améliorations d'environ 80 % de la douleur et de la force ont été décrites avec cet exercice.",
+     "3 × 15 · 1 fois par jour · barre rouge pour commencer"
+    ],
+    [
+     "Excentrique de supination à l'élastique",
+     "Supinateur",
+     "Assis, avant-bras appuyé et coude à 90º, l'élastique tirant la main vers l'intérieur. Tournez la paume vers le haut avec aide et revenez lentement, en 4 secondes, en résistant à l'élastique.",
+     "3 × 15 · 1 fois par jour"
+    ]
+   ]
+  },
+  {
+   "nombre": "Phase 3 · Force et reprise de l'activité",
+   "cuando": "Semaines 9-12 · 3 jours par semaine, un jour sur deux · 25-30 minutes",
+   "texto": "Gardez les excentriques de la phase 2 une fois par jour les jours sans renforcement. On ajoute la force lourde et lente, la préhension et le travail de l'épaule et de l'omoplate.",
+   "ejercicios": [
+    [
+     "Extension lente du poignet à l'haltère",
+     "Force lourde et lente",
+     "Avant-bras posé sur le banc, paume vers le bas. Montez l'haltère en 3 secondes et descendez-la en 3 secondes, sans aide. Charge permettant d'atteindre tout juste les répétitions indiquées.",
+     "Sem. 9-10 : 3 × 15 · Sem. 11 : 3 × 12 · Sem. 12 : 4 × 8 · 3 jours par semaine"
+    ],
+    [
+     "Serrage de balle",
+     "Force de préhension",
+     "Coude plié à 90º et collé au corps. Serrez la balle avec une force progressive et maintenez. À partir de la semaine 11, le même exercice coude tendu.",
+     "3 × 10 × 5 s · 3 jours par semaine"
+    ],
+    [
+     "Rotation externe d'épaule à l'élastique",
+     "Coiffe des rotateurs",
+     "Coude collé au flanc avec une serviette roulée, plié à 90º. Amenez l'avant-bras vers l'extérieur contre l'élastique et revenez lentement. Une épaule stable soulage le coude à chaque geste.",
+     "3 × 15 · 3 jours par semaine"
+    ],
+    [
+     "Tirage bas à l'élastique",
+     "Omoplate",
+     "Élastique fixé devant vous. Tirez en ramenant les coudes en arrière et en serrant les omoplates, sans hausser les épaules. Revenez en 3 secondes.",
+     "3 × 15 · 3 jours par semaine"
+    ]
+   ]
+  }
+ ],
+ "progresion": [
+  [
+   "Semaines 1-2",
+   "Calmer le tendon : isométrique 1 à 3 fois par jour et étirement doux"
+  ],
+  [
+   "Semaines 3-5",
+   "Commencer à charger : excentrique à l'élastique, torsion et supination, 3 × 15 par jour, avec l'isométrique avant de commencer"
+  ],
+  [
+   "Semaines 6-8",
+   "Charger davantage : élastique ou barre de la couleur suivante et excentriques coude plus tendu"
+  ],
+  [
+   "Semaines 9-12",
+   "Force et geste : force lente à l'haltère, préhension et épaule 3 jours par semaine, et reprise progressive du sport ou du travail manuel"
+  ],
+  [
+   "À partir de la semaine 13",
+   "Entretien : excentriques 3 jours par semaine pendant encore 3 mois. C'est ce qui évite les rechutes"
+  ]
+ ],
+ "progresion_titulo": "Comment progresser",
+ "evitar": [
+  "Soulever des objets bras tendu et paume vers le bas.",
+  "Mettre le bras au repos complet : le tendon s'affaiblit et la rechute devient plus probable.",
+  "Changer d'élastique avant que les séries se fassent avec une gêne faible.",
+  "Abandonner les excentriques dès que vous allez mieux : le tendon met trois mois à devenir résistant."
+ ],
+ "complementario": "Quand le tendon ne répond pas après des semaines de travail bien fait, l'échographie en consultation permet de voir son état et d'envisager, si elle est indiquée, une infiltration échoguidée de PRP (plasma riche en plaquettes). Aucun traitement ne remplace la charge : il fonctionne mieux associé à ce programme.",
+ "consultar": [
+  "Fourmillements ou engourdissement dans les doigts, surtout l'annulaire et l'auriculaire.",
+  "Perte de force brutale ou claquement douloureux pendant un exercice.",
+  "Coude gonflé, chaud ou rouge.",
+  "Douleur nocturne qui vous réveille ou ne cède pas au repos.",
+  "Aucune amélioration après 6 semaines de programme complet."
+ ],
+ "normal": "Une gêne allant jusqu'à 4 sur 10 pendant les exercices et un peu de fatigue dans l'avant-bras sont normales. L'amélioration se fait sentir vers la quatrième à sixième semaine et se poursuit pendant trois mois.",
+ "relacionadas": [
+  "codo-de-tenista",
+  "tendinopatias",
+  "infiltraciones-ecoguiadas"
+ ]
+}

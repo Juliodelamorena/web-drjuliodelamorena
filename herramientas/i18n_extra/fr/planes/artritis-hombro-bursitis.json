@@ -1,0 +1,208 @@
+{
+ "slug": "artritis-hombro-bursitis",
+ "titulo": "Programme d'exercices pour l'arthrite de l'épaule et la bursite",
+ "corto": "Arthrite de l'épaule et bursite sous-acromiale",
+ "zona": "Épaule",
+ "descripcion": "12 semaines pour l'arthrite gléno-humérale et la bursite sous-acromiale : calmer, élastique, force en amplitude et force complète. Dr Julio De la Morena.",
+ "fecha": "2026-11-26",
+ "intro": [
+  "Dans l'arthrite de l'épaule, la douleur ne vient généralement pas des calcifications ni de la tendinite souvent décrites dans les comptes rendus d'imagerie, mais de l'articulation enflammée elle-même et de la bourse située au-dessus. Calcifications et tendinite sont souvent une conséquence, pas la cause. C'est pourquoi un traitement visant uniquement le tendon ne fonctionne généralement pas.",
+  "Après des mois ou des années de douleur, les muscles qui tiennent l'épaule fondent peu à peu. Une épaule sans muscle laisse la tête de l'humérus bouger dans l'articulation plus qu'elle ne le devrait, et ce frottement entretient l'inflammation. Calmer l'inflammation éteint le feu ; l'exercice reconstruit le muscle pour qu'il ne se rallume pas."
+ ],
+ "regla": "La charge s'ajuste selon la douleur du lendemain, pas celle du jour même. Si le lendemain matin l'épaule fait plus mal qu'avant la séance, vous en avez trop fait : reposez-vous ce jour-là et faites la moitié à la séance suivante. Si c'est pareil ou mieux, continuez et augmentez. Une gêne allant jusqu'à 3 sur 10 pendant l'exercice est acceptable si elle disparaît à la fin.",
+ "antes": [
+  [
+   "Échauffement par cercles de bras",
+   "Cercles contrôlés sans poids, vers l'avant et vers l'arrière, sous la hauteur de l'épaule"
+  ],
+  [
+   "Les phases se chevauchent",
+   "En passant à une nouvelle phase, les exercices de la précédente servent d'échauffement. Les isométriques de la phase 0 peuvent être refaits à tout moment de la journée si l'épaule fait mal : ils la calment"
+  ],
+  [
+   "Dormez sans appuyer sur l'épaule",
+   "Sur le dos ou sur le côté sain, en serrant un coussin pour que le bras ne tombe pas vers l'avant"
+  ],
+  [
+   "Après une infiltration",
+   "Les 48 premières heures, vie normale sans porter de charges ni faire d'exercices de force. Ensuite, commencez par la phase 0"
+  ]
+ ],
+ "fases": [
+  {
+   "nombre": "Phase 0 · Calmer et réveiller",
+   "cuando": "Premières semaines · tous les jours · 10 minutes",
+   "texto": "Mouvements doux et contractions maintenues sans mouvement articulaire. Ils calment la douleur et réactivent des muscles qui ne travaillaient plus depuis longtemps. Si vous avez eu une infiltration, commencez après 48 heures.",
+   "ejercicios": [
+    [
+     "Pendule",
+     "Décompression articulaire",
+     "Appuyez la main saine sur une table et penchez le tronc. Laissez pendre le bras atteint, libre et relâché, et balancez-le doucement avec le mouvement du corps, en petits cercles. Le bras ne force pas : il pend.",
+     "2 × 1 minute · tous les jours"
+    ],
+    [
+     "Contrôle de l'omoplate",
+     "Muscles de l'omoplate",
+     "Debout, bras le long du corps. Ramenez légèrement les omoplates en arrière et en bas, comme pour les glisser dans les poches arrière, sans bomber le torse ni monter les épaules. Tenez et relâchez.",
+     "3 × 10 · maintien 5 s · tous les jours"
+    ],
+    [
+     "Isométrique de rotation externe",
+     "Sous-épineux et petit rond",
+     "Dans l'encadrement d'une porte, coude collé au corps et plié à 90º, dos du poignet contre le montant. Poussez vers l'extérieur sans bouger le bras et maintenez. Intensité modérée.",
+     "5 × 20-30 s · tous les jours"
+    ],
+    [
+     "Isométrique de rotation interne",
+     "Sous-scapulaire",
+     "Même position, paume contre le montant. Poussez vers l'intérieur sans bouger le bras et maintenez.",
+     "5 × 20-30 s · tous les jours"
+    ],
+    [
+     "Isométrique d'abduction",
+     "Sus-épineux et deltoïde",
+     "De profil contre un mur, coude plié, une serviette pliée entre le bras et le mur. Poussez le bras contre le mur comme pour l'écarter du corps, sans le bouger. Maintenez.",
+     "5 × 20-30 s · tous les jours"
+    ]
+   ]
+  },
+  {
+   "nombre": "Phase 1 · Force à l'élastique",
+   "cuando": "Semaines 1 à 3 · 5 jours par semaine · 20 minutes",
+   "texto": "On passe au mouvement avec un élastique, toujours coude près du corps et sous la hauteur de l'épaule. Mouvements lents : 2 secondes à l'aller, 1 de pause, 3 au retour. Commencez avec l'élastique le plus doux. Critère d'entrée : cinq jours de phase 0 sans aggravation.",
+   "ejercicios": [
+    [
+     "Rotation externe à l'élastique",
+     "Sous-épineux et petit rond",
+     "Coude collé au corps et plié à 90º, une serviette roulée entre le coude et le flanc. Amenez la main vers l'extérieur en étirant l'élastique et revenez lentement.",
+     "3 × 12-15"
+    ],
+    [
+     "Rotation interne à l'élastique",
+     "Sous-scapulaire",
+     "Même position, élastique fixé à l'extérieur. Amenez la main vers le ventre et revenez lentement.",
+     "3 × 12-15"
+    ],
+    [
+     "Tirage bas à l'élastique",
+     "Muscles de l'omoplate",
+     "Debout, élastique fixé à hauteur du ventre. Tirez coudes près du corps en ramenant les omoplates en arrière et en bas. Revenez lentement sans monter les épaules.",
+     "3 × 12"
+    ],
+    [
+     "Poussée horizontale à l'élastique",
+     "Dentelé antérieur et pectoral",
+     "Dos au point d'ancrage, élastique à hauteur de poitrine. Poussez vers l'avant jusqu'à tendre le bras en avançant l'épaule à la fin, et revenez lentement.",
+     "3 × 12"
+    ]
+   ]
+  },
+  {
+   "nombre": "Phase 2 · Force en amplitude",
+   "cuando": "Semaines 4 à 7 · 4 jours par semaine · 25 minutes",
+   "texto": "L'épaule commence à travailler bras écarté du corps, toujours sans dépasser la hauteur de l'épaule. Les exercices de la phase 1 servent d'échauffement. Critère d'entrée : trois semaines de phase 1 sans douleur nocturne.",
+   "ejercicios": [
+    [
+     "Élévation dans le plan de l'omoplate",
+     "Sus-épineux et deltoïde",
+     "Debout, pouce vers le haut, bras à environ 30º devant le corps. Montez le bras jusqu'à hauteur d'épaule, pas plus, et descendez lentement. D'abord sans poids ; puis 0,5 à 1 kg.",
+     "3 × 10-12"
+    ],
+    [
+     "Rowing à l'haltère avec appui",
+     "Grand dorsal et omoplate",
+     "Genou et main du côté sain sur un banc, dos droit. Ramenez le coude en arrière, près du corps, et descendez lentement. 1 à 2 kg.",
+     "3 × 10-12"
+    ],
+    [
+     "Face pull à l'élastique",
+     "Rotateurs externes et omoplate",
+     "Élastique fixé à hauteur des yeux. Tirez en amenant les mains vers les tempes, coudes hauts et écartés, en serrant les omoplates. Revenez lentement.",
+     "3 × 12"
+    ],
+    [
+     "Glissement au mur",
+     "Contrôle de l'omoplate à l'élévation",
+     "Face au mur, avant-bras appuyés. Glissez les bras vers le haut seulement jusqu'à l'apparition de la douleur, sans monter les épaules, et redescendez lentement.",
+     "3 × 10"
+    ]
+   ]
+  },
+  {
+   "nombre": "Phase 3 · Force complète",
+   "cuando": "Semaines 8 à 12 · 3 jours par semaine · 30 minutes",
+   "texto": "L'objectif est que l'épaule supporte votre vie quotidienne et votre sport sans le payer le lendemain. Critère d'entrée : quatre semaines de phase 2 sans douleur.",
+   "ejercicios": [
+    [
+     "Élévation complète dans le plan de l'omoplate",
+     "Sus-épineux et deltoïde",
+     "Comme en phase 2, mais en montant le bras jusqu'en haut s'il n'y a pas de douleur. Descente lente en 3 secondes. Avec 1 kg quand c'est facile.",
+     "3 × 10"
+    ],
+    [
+     "Rotation externe à 90º",
+     "Rotateurs externes bras levé",
+     "Bras écarté à hauteur d'épaule, coude plié à 90º, élastique fixé devant. Tournez l'avant-bras vers le haut et revenez lentement.",
+     "3 × 10-12"
+    ],
+    [
+     "T à plat ventre",
+     "Trapèze moyen et rhomboïdes",
+     "À plat ventre sur un banc ou un lit, bras pendants. Montez-les sur les côtés en T, pouces vers le haut, en serrant les omoplates. Sans poids.",
+     "3 × 10"
+    ],
+    [
+     "Y à plat ventre",
+     "Trapèze inférieur",
+     "Même position. Montez les bras en diagonale devant la tête en Y, pouces vers le haut. Si cela gêne, petite amplitude.",
+     "3 × 10"
+    ],
+    [
+     "Pompe avec protraction à genoux",
+     "Dentelé antérieur",
+     "En appui sur les genoux et les mains. Sans plier les coudes, laissez la poitrine descendre entre les omoplates puis repoussez le sol en les écartant. Seulement si l'appui sur la main est indolore.",
+     "3 × 10"
+    ]
+   ]
+  },
+  {
+   "nombre": "Étirements · Tous les jours",
+   "cuando": "À la fin de chaque séance, dès la phase 1. Sans à-coups et sans aller jusqu'à la douleur.",
+   "texto": "",
+   "ejercicios": [
+    [
+     "Étirement de la capsule postérieure",
+     "Capsule postérieure",
+     "Couché sur le côté atteint, bras devant à hauteur d'épaule, coude plié à 90º. De l'autre main, poussez doucement le poignet vers le lit. Si l'avant de l'épaule fait mal, basculez un peu en arrière.",
+     "3 × 30 s"
+    ],
+    [
+     "Étirement du pectoral dans l'encadrement",
+     "Pectoral",
+     "Avant-bras sur le montant, coude sous la hauteur de l'épaule. Avancez le corps jusqu'à sentir une tension dans la poitrine, sans douleur dans l'épaule.",
+     "3 × 30 s"
+    ]
+   ]
+  }
+ ],
+ "evitar": [
+  "Porter des charges bras écarté du corps et répéter des gestes au-dessus de la tête, comme étendre le linge ou attraper des objets en hauteur, avant la phase 3.",
+  "Porter des sacs lourds sur l'épaule atteinte : le poids près du corps et du côté sain.",
+  "Dormir sur l'épaule atteinte.",
+  "En Pilates ou en yoga, les appuis sur les mains et les exercices bras au-dessus de la tête avant la phase 3."
+ ],
+ "complementario": "Quand l'inflammation empêche de progresser, une infiltration échoguidée peut la calmer. Une fois l'épaule indolore, le PRP (plasma riche en plaquettes) est envisagé dans certains cas ; arriver à ce traitement avec les muscles reconstruits donne un meilleur résultat. Cela se décide en consultation.",
+ "consultar": [
+  "Fièvre, rougeur ou chaleur au point d'infiltration.",
+  "La douleur nocturne recommence à vous réveiller plusieurs nuits de suite.",
+  "Perte de force soudaine : vous n'arrivez pas à lever le bras.",
+  "Fourmillements ou engourdissement qui descendent le long du bras.",
+  "Douleur qui augmente de séance en séance pendant plus d'une semaine malgré la baisse de la charge."
+ ],
+ "normal": "Il est normal d'avoir l'épaule fatiguée après les séances et une amélioration par paliers, avec des semaines de plateau.",
+ "relacionadas": [
+  "hombro-doloroso",
+  "infiltraciones-ecoguiadas",
+  "factores-crecimiento-autologos"
+ ]
+}
