@@ -1,0 +1,208 @@
+{
+ "slug": "artritis-hombro-bursitis",
+ "titulo": "Exercise plan for shoulder arthritis and bursitis",
+ "corto": "Shoulder arthritis and subacromial bursitis",
+ "zona": "Shoulder",
+ "descripcion": "12-week plan for glenohumeral arthritis and subacromial bursitis: settle, band work, strength through range and full strength. Dr Julio De la Morena.",
+ "fecha": "2026-11-26",
+ "intro": [
+  "In shoulder arthritis, the pain usually does not come from the calcifications or the tendinitis often described in scan reports, but from the inflamed joint itself and the bursa above it. Calcifications and tendinitis are often a consequence, not the cause. That is why treatment aimed only at the tendon tends not to work.",
+  "After months or years of pain, the muscles that hold the shoulder gradually waste away. A shoulder without muscle lets the head of the humerus move in the joint more than it should, and that friction keeps the inflammation going. Easing the inflammation puts out the fire; exercise rebuilds the muscle so that it does not flare up again."
+ ],
+ "regla": "Load is adjusted according to the pain the following day, not the same day. If the next morning the shoulder hurts more than before the session, you overdid it: rest that day and do half at the next session. If you are the same or better, carry on and increase. Discomfort of up to 3 out of 10 during exercise is acceptable if it goes away when you finish.",
+ "antes": [
+  [
+   "Warm up with arm circles",
+   "Controlled circles without weight, forwards and backwards, below shoulder height"
+  ],
+  [
+   "The phases overlap",
+   "When you start a new phase, the exercises from the previous one become your warm-up. You can repeat the Phase 0 isometrics at any time of day if the shoulder hurts: they settle it"
+  ],
+  [
+   "Sleep without lying on the shoulder",
+   "On your back or on the healthy side, hugging a pillow so the arm does not fall forwards"
+  ],
+  [
+   "After an injection",
+   "For the first 48 hours, normal life without lifting weights or strength exercises. Then start at Phase 0"
+  ]
+ ],
+ "fases": [
+  {
+   "nombre": "Phase 0 · Settle and wake up",
+   "cuando": "First weeks · every day · 10 minutes",
+   "texto": "Gentle movements and sustained contractions without moving the joint. They settle the pain and switch back on muscles that have not been working for a long time. If you have had an injection, start after 48 hours.",
+   "ejercicios": [
+    [
+     "Pendulum",
+     "Joint decompression",
+     "Rest your healthy hand on a table and lean forwards. Let the affected arm hang loose and relaxed, and swing it gently with your body's movement, in small circles. The arm makes no effort: it hangs.",
+     "2 × 1 minute · every day"
+    ],
+    [
+     "Shoulder-blade control",
+     "Scapular muscles",
+     "Standing, arms by your sides. Draw the shoulder blades slightly back and down, as if putting them in your back pockets, without pushing the chest out or lifting the shoulders. Hold and release.",
+     "3 × 10 · 5 s hold · every day"
+    ],
+    [
+     "Isometric external rotation",
+     "Infraspinatus and teres minor",
+     "In a doorway, elbow tucked into the body and bent to 90º, back of the wrist against the frame. Push outwards without moving the arm and hold. Moderate intensity.",
+     "5 × 20-30 s · every day"
+    ],
+    [
+     "Isometric internal rotation",
+     "Subscapularis",
+     "Same position, palm against the frame. Push inwards without moving the arm and hold.",
+     "5 × 20-30 s · every day"
+    ],
+    [
+     "Isometric abduction",
+     "Supraspinatus and deltoid",
+     "Side-on to a wall, elbow bent, a folded towel between arm and wall. Push the arm into the wall as if moving it away from the body, without moving it. Hold.",
+     "5 × 20-30 s · every day"
+    ]
+   ]
+  },
+  {
+   "nombre": "Phase 1 · Strength with a band",
+   "cuando": "Weeks 1-3 · 5 days a week · 20 minutes",
+   "texto": "Move on to movement with an elastic band, always with the elbow close to the body and below shoulder height. Slow movements: 2 seconds out, 1 pause, 3 back. Start with the lightest band. Criterion to start: five days of Phase 0 without worsening.",
+   "ejercicios": [
+    [
+     "External rotation with band",
+     "Infraspinatus and teres minor",
+     "Elbow tucked into the body and bent to 90º, a rolled towel between elbow and side. Take the hand outwards, stretching the band, and return slowly.",
+     "3 × 12-15"
+    ],
+    [
+     "Internal rotation with band",
+     "Subscapularis",
+     "Same position, band anchored on the outside. Bring the hand towards your abdomen and return slowly.",
+     "3 × 12-15"
+    ],
+    [
+     "Low row with band",
+     "Scapular muscles",
+     "Standing, band anchored at abdomen height. Pull with the elbows close to the body, drawing the shoulder blades back and down. Return slowly without lifting the shoulders.",
+     "3 × 12"
+    ],
+    [
+     "Horizontal press with band",
+     "Serratus anterior and pectoral",
+     "Back to the anchor, band at chest height. Push forwards until the arm is straight, reaching the shoulder forwards at the end, and return slowly.",
+     "3 × 12"
+    ]
+   ]
+  },
+  {
+   "nombre": "Phase 2 · Strength through range",
+   "cuando": "Weeks 4-7 · 4 days a week · 25 minutes",
+   "texto": "The shoulder starts working with the arm away from the body, still no higher than shoulder height. The Phase 1 exercises become your warm-up. Criterion to start: three weeks of Phase 1 without night pain.",
+   "ejercicios": [
+    [
+     "Scapular-plane raise",
+     "Supraspinatus and deltoid",
+     "Standing, thumb up, arm about 30º in front of the body. Raise the arm to shoulder height, no higher, and lower slowly. Without weight at first; then 0.5-1 kg.",
+     "3 × 10-12"
+    ],
+    [
+     "Supported dumbbell row",
+     "Latissimus and shoulder blade",
+     "Knee and hand of the healthy side on a bench, back straight. Draw the elbow back, close to the body, and lower slowly. 1-2 kg.",
+     "3 × 10-12"
+    ],
+    [
+     "Face pull with band",
+     "External rotators and shoulder blade",
+     "Band anchored at eye height. Pull, bringing the hands towards your temples, elbows high and wide, squeezing the shoulder blades. Return slowly.",
+     "3 × 12"
+    ],
+    [
+     "Wall slide",
+     "Scapular control when lifting",
+     "Facing a wall, forearms against it. Slide the arms upwards only until pain appears, without lifting the shoulders, and lower slowly.",
+     "3 × 10"
+    ]
+   ]
+  },
+  {
+   "nombre": "Phase 3 · Full strength",
+   "cuando": "Weeks 8-12 · 3 days a week · 30 minutes",
+   "texto": "The goal is for the shoulder to cope with your daily life and sport without paying for it the next day. Criterion to start: four weeks of Phase 2 without pain.",
+   "ejercicios": [
+    [
+     "Full scapular-plane raise",
+     "Supraspinatus and deltoid",
+     "As in Phase 2, but raising the arm all the way up if there is no pain. Slow lowering over 3 seconds. With 1 kg when it becomes easy.",
+     "3 × 10"
+    ],
+    [
+     "External rotation at 90º",
+     "External rotators with the arm raised",
+     "Arm out at shoulder height, elbow bent to 90º, band anchored in front. Rotate the forearm upwards and return slowly.",
+     "3 × 10-12"
+    ],
+    [
+     "Prone T",
+     "Middle trapezius and rhomboids",
+     "Face down on a bench or bed, arms hanging. Lift them out to the sides in a T, thumbs up, squeezing the shoulder blades. Without weight.",
+     "3 × 10"
+    ],
+    [
+     "Prone Y",
+     "Lower trapezius",
+     "Same position. Lift the arms diagonally in front of the head in a Y, thumbs up. If it bothers you, use a small range.",
+     "3 × 10"
+    ],
+    [
+     "Kneeling push-up plus",
+     "Serratus anterior",
+     "Resting on knees and hands. Without bending the elbows, let the chest sink between the shoulder blades, then push the floor away, spreading them. Only if leaning on the hand is pain-free.",
+     "3 × 10"
+    ]
+   ]
+  },
+  {
+   "nombre": "Stretches · Every day",
+   "cuando": "At the end of every session, from Phase 1. No bouncing and never into pain.",
+   "texto": "",
+   "ejercicios": [
+    [
+     "Posterior capsule stretch",
+     "Posterior capsule",
+     "Lying on the affected side, arm in front at shoulder height, elbow bent to 90º. With the other hand, gently push the wrist towards the bed. If the front of the shoulder hurts, roll back slightly.",
+     "3 × 30 s"
+    ],
+    [
+     "Doorway pectoral stretch",
+     "Pectoral",
+     "Forearm on the door frame, elbow below shoulder height. Move your body forwards until you feel tension in the chest, without pain in the shoulder.",
+     "3 × 30 s"
+    ]
+   ]
+  }
+ ],
+ "evitar": [
+  "Lifting weights with the arm away from the body and repetitive overhead movements, such as hanging out washing or reaching high shelves, until Phase 3.",
+  "Carrying heavy bags on the affected shoulder: keep weight close to the body and on the healthy side.",
+  "Sleeping on the affected shoulder.",
+  "In Pilates or yoga, weight-bearing on the hands and arms-overhead exercises until Phase 3."
+ ],
+ "complementario": "When inflammation is stopping you from progressing, an ultrasound-guided injection can settle it. Once the shoulder no longer hurts, PRP (platelet-rich plasma) is considered in selected cases; arriving at that treatment with the muscles rebuilt gives a better result. This is decided in clinic.",
+ "consultar": [
+  "Fever, redness or heat at the injection site.",
+  "Night pain waking you again several nights in a row.",
+  "Sudden loss of strength: you cannot lift the arm.",
+  "Tingling or numbness running down the arm.",
+  "Pain that increases session after session for more than a week despite reducing the load."
+ ],
+ "normal": "A tired shoulder after the sessions and improvement in steps, with plateau weeks, are normal.",
+ "relacionadas": [
+  "hombro-doloroso",
+  "infiltraciones-ecoguiadas",
+  "factores-crecimiento-autologos"
+ ]
+}

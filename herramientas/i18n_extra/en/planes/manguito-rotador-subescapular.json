@@ -1,0 +1,239 @@
+{
+ "slug": "manguito-rotador-subescapular",
+ "titulo": "Exercise plan for the rotator cuff",
+ "corto": "Rotator cuff and subscapularis",
+ "zona": "Shoulder",
+ "descripcion": "12-week plan for shoulder pain from the rotator cuff, with a focus on subscapularis: isometrics, bands and load. Dr Julio De la Morena.",
+ "fecha": "2026-11-26",
+ "intro": [
+  "The shoulder is not a deep socket like the hip: it is a ball resting on an almost flat surface. What keeps it centred is a group of four small muscles around it, the rotator cuff: supraspinatus, infraspinatus, teres minor and subscapularis. They are not muscles of strength but of control.",
+  "Subscapularis is the only one of the four at the front, and it is the one that holds the head of the humerus so that it does not slide forwards with every movement. When it lacks strength, that job passes to supraspinatus, which sits on top and runs through a narrow space. That is why many shoulders that hurt \"on top\" actually have a control problem \"at the front\".",
+  "The sequence is almost always the same: one day you ask more of the shoulder than it is ready to give, the muscle goes into spasm, pulls on the tendon, and the tendon becomes inflamed to make you stop. Easing the pain is not the treatment; it is permission to begin it. Rest does not help: a shoulder protected for weeks is weaker and hurts again with less load. Strengthening is the main treatment."
+ ],
+ "regla": "Load is adjusted according to the pain the following day, not the same day. If the next morning the shoulder hurts more than before the session, you overdid it: rest that day and do half at the next session. If you are the same or better, carry on and increase. This applies to the plan, to the gym and to daily life.",
+ "elegir_fase": [
+  [
+   "Phase 0",
+   "Only if you have just had an injection: five days of normal life without planned exercises, with the pendulum and gentle mobility"
+  ],
+  [
+   "Phase 1",
+   "Days 5-14, or the start if there was no injection: isometrics to regain control"
+  ],
+  [
+   "Phase 2",
+   "Weeks 3-6: elastic band at a slow tempo"
+  ],
+  [
+   "Phase 3",
+   "Weeks 6-12, after two weeks of Phase 2 without pain the next day: load and real-life movements"
+  ]
+ ],
+ "elegir_texto": "Choose your phase according to how the shoulder feels today and each phase's criteria, not by the calendar alone.",
+ "antes": [
+  [
+   "Always warm up, for at least 5 minutes",
+   "Exercise bike, brisk walking or wide arm circles without weight. A cold tendon tolerates much less load"
+  ],
+  [
+   "While there is discomfort, keep your hand in view",
+   "A lift in which your hand stays within your field of vision does not compress supraspinatus. Once you lose sight of your hand, compression begins. This is your guide for the first weeks"
+  ],
+  [
+   "Never above 4 out of 10",
+   "Mild discomfort is fine. Pain that makes you change the movement or hold your breath is not: reduce the load or the range"
+  ],
+  [
+   "Consistency over intensity",
+   "Five short sessions a week achieve much more than two long ones. If one day you only have ten minutes, do the first three exercises"
+  ]
+ ],
+ "fases": [
+  {
+   "nombre": "Phase 0 · The first 5 days",
+   "cuando": "Only if you have just had an injection · days 1-5",
+   "texto": "Normal life: work, driving, cooking, walking. The only thing not done in these five days is the planned exercises. It is normal for discomfort to come back for three or four days while the muscles relax. If there was no injection, start at Phase 1.",
+   "ejercicios": [
+    [
+     "Codman pendulum",
+     "",
+     "Standing, lean forwards resting your healthy hand on a table or couch. Let the arm hang relaxed and move your body, not the arm: the arm swings by itself. Circles and swings forwards and back and side to side.",
+     "1 × 30-60 s in each direction · twice a day, days 1-5"
+    ],
+    [
+     "Free pain-free mobility",
+     "",
+     "Move the arm through its whole pain-free range, without forcing the end of the movement. Do not try to gain degrees: what matters is that the joint does not stiffen.",
+     "1 × 10 in each direction · twice a day, days 1-5"
+    ]
+   ]
+  },
+  {
+   "nombre": "Phase 1 · Activation and control",
+   "cuando": "Days 5 to 14 · every day · 10-12 minutes",
+   "texto": "The aim of this phase is not to gain strength but to recover the \"command\". A shoulder that has avoided certain movements for weeks stops switching on the small muscles properly, and if you go straight to the elastic band, deltoid takes over the work and the cuff stays \"asleep\". Everything in this phase is isometric: you push against something that does not move. Without range there is no friction, and without friction the tendon is not irritated. Isometric intensity: around 20-30 % of your maximum strength. You should be able to talk during the effort. If you start to shake, it is too much.",
+   "ejercicios": [
+    [
+     "Isometric internal rotation",
+     "Subscapularis",
+     "Standing in a doorway with the affected arm against the frame. Elbow tucked into your side and bent to 90º, with a rolled towel between elbow and body. Push the back of your hand into the frame, inwards, as if bringing the forearm towards your navel. The arm does not move.",
+     "5 × 10 s (10 s rest) · twice a day"
+    ],
+    [
+     "Isometric belly press",
+     "Subscapularis",
+     "Standing, palm flat on your abdomen, elbow in front of the body. Press the hand into the abdomen without letting the elbow drift back. This is the \"purest\" subscapularis movement: if the elbow goes back, the muscle has stopped working.",
+     "5 × 10 s · twice a day"
+    ],
+    [
+     "Isometric external rotation",
+     "",
+     "Same doorway, now with the opposite side. Elbow tucked in and bent to 90º, push the palm outwards into the frame. Infraspinatus and teres minor work: the counterbalance to subscapularis.",
+     "5 × 10 s · twice a day"
+    ],
+    [
+     "Isometric abduction at 20º",
+     "",
+     "Standing next to a wall, arm by your side and about 20º away from the body (a fist's width). Push the elbow outwards into the wall. It activates supraspinatus without taking it into the arc where compression occurs.",
+     "5 × 10 s · twice a day"
+    ],
+    [
+     "Shoulder-blade control",
+     "",
+     "Seated or standing, arms relaxed. Draw your shoulder blades down and back, as if putting them in your back pockets. Hold for 5 seconds and release. Do not lift your shoulders towards your ears.",
+     "2 × 10 · every day"
+    ],
+    [
+     "Doorway pectoral stretch",
+     "",
+     "Forearm on the door frame, elbow at shoulder height. Move your body forwards until you feel tension in the chest, never pain in the shoulder. A short pectoral pulls the shoulder forwards and narrows the space supraspinatus runs through.",
+     "3 × 20-30 s · every day"
+    ]
+   ]
+  },
+  {
+   "nombre": "Phase 2 · Strengthening with a band",
+   "cuando": "Weeks 3 to 6 · 4-5 days a week · 15-20 minutes",
+   "texto": "This is where the work that really changes the shoulder begins. You need an elastic band (medium is enough to start) and a small rolled towel. Tempo matters as much as repetitions: 2 seconds for the effort, 1 pause, 3 to return. It is that slow, controlled return that remodels the tendon.",
+   "ejercicios": [
+    [
+     "Internal rotation with band",
+     "Subscapularis · the key exercise",
+     "Band anchored at elbow height, standing side-on. A rolled towel between elbow and side, which must not fall during the whole exercise. Elbow at 90º, bring the forearm towards your navel and return slowly. The shoulder does not come forwards and the elbow does not move away.",
+     "3 × 12 · tempo 2-1-3 · 4-5 days/week"
+    ],
+    [
+     "External rotation with band",
+     "",
+     "Same position, in the opposite direction: the forearm moves away from the body. Keep the towel. This exercise balances the previous one; internal rotation alone unbalances the shoulder.",
+     "3 × 12 · tempo 2-1-3 · 4-5 days/week"
+    ],
+    [
+     "Low row with band",
+     "",
+     "Band anchored in front at chest height. Pull the elbows back, close to the body, squeezing the shoulder blades together at the end. Chest open; shoulders do not rise.",
+     "3 × 12 · 4-5 days/week"
+    ],
+    [
+     "Horizontal press with band",
+     "Functional subscapularis",
+     "Band anchored behind you at chest height. Push forwards until the elbow is straight, keeping the shoulder blade against the ribs. At the end, push a couple of centimetres further, \"reaching\" the shoulder forwards.",
+     "3 × 12 · 4-5 days/week"
+    ],
+    [
+     "Scapular-plane raise",
+     "",
+     "Standing, arm straight with thumb up, lift diagonally about 30º in front of the body (neither straight forwards nor out to the side) and only to shoulder height. Without weight at first; then with a small bottle of water.",
+     "3 × 10 · 3 days/week · only if pain-free"
+    ],
+    [
+     "Sleeper stretch (posterior capsule)",
+     "",
+     "Lying on the affected side, shoulder and elbow at 90º. With your free hand, gently push the forearm towards the floor. Tension at the back of the shoulder, never a sharp pain at the front. A tight posterior capsule pushes the head of the humerus up and forwards.",
+     "3 × 30 s · every day"
+    ],
+    [
+     "Pectoral stretch",
+     "",
+     "The Phase 1 stretch stays, now at the end of the session.",
+     "3 × 30 s · every day"
+    ]
+   ]
+  },
+  {
+   "nombre": "Phase 3 · Load and return to normal",
+   "cuando": "Weeks 6 to 12 · 3 days a week · 20-25 minutes",
+   "texto": "The aim of this phase is for the shoulder to cope with what you will ask of it in real life, which is almost never a \"clean\" movement with the elbow tucked in. Load goes up, the working angle widens and eccentric work is added. You move into this phase by criterion, not by calendar: at least two weeks doing Phase 2 without pain the next day.",
+   "ejercicios": [
+    [
+     "Internal rotation at 45º abduction",
+     "Subscapularis",
+     "As in Phase 2, but with the arm 45º away from the body and without the towel. A much more demanding angle, far closer to real movements.",
+     "3 × 12 · tempo 2-1-3 · 3 days/week"
+    ],
+    [
+     "External rotation at 90º",
+     "",
+     "Arm out at shoulder height, elbow at 90º, band in front. Take the hand up and back. Make sure the elbow does not drop.",
+     "3 × 12 · 3 days/week"
+    ],
+    [
+     "Eccentric internal rotation",
+     "Subscapularis",
+     "Bring the forearm to your navel with help from the other hand and return with the affected arm alone, counting 4 seconds. The braking phase is the strongest stimulus for remodelling the tendon.",
+     "3 × 8 · 4 s lowering · 2 days/week"
+    ],
+    [
+     "Light dumbbell press lying down",
+     "",
+     "Lying down, with a weight that lets you do 10 repetitions comfortably. Controlled range: do not lower the elbow below the line of the body, where the shoulder slides forwards.",
+     "3 × 10 · 2 days/week"
+    ],
+    [
+     "Dumbbell row",
+     "",
+     "Resting one hand on a bench or chair, pull the weight towards your hip, keeping the elbow close. It balances the pressing exercises and stabilises the shoulder blade.",
+     "3 × 10 · 2 days/week"
+    ],
+    [
+     "Push-up plus for the shoulder blade",
+     "",
+     "In a plank against the wall or on the floor, as tolerated. With the elbows already straight, push further, spreading the shoulder blades, then let them come together. A small movement, a lot of work.",
+     "3 × 10 · 2 days/week"
+    ],
+    [
+     "Full scapular-plane raise",
+     "",
+     "As in Phase 2, but now overhead, with a light weight if the range is pain-free.",
+     "3 × 10 · 3 days/week"
+    ],
+    [
+     "Maintenance stretches",
+     "",
+     "Sleeper stretch and pectoral stretch. Do not drop them: they are what maintains the result of the strength work.",
+     "3 × 30 s · every day"
+    ]
+   ]
+  }
+ ],
+ "evitar": [
+  "Working overhead while there is pain.",
+  "Going straight to the elastic band and skipping the isometrics: deltoid takes over and the cuff stays \"asleep\".",
+  "Keeping the shoulder completely at rest for weeks.",
+  "In the five days after an injection, planned exercises, the gym or Pilates."
+ ],
+ "complementario": "An ultrasound-guided injection or manual work by the physiotherapist opens a pain-free window; what heals is what you do in that window. For tendons that do not respond, PRP (platelet-rich plasma) can be considered in clinic.",
+ "consultar": [
+  "Pain that repeatedly wakes you at night, not just discomfort finding a position.",
+  "Loss of strength: you cannot hold an object you used to hold, or the arm \"gives way\".",
+  "Pain running down the arm to the hand, with tingling or numbness.",
+  "Progressive loss of movement: each week the arm reaches less far.",
+  "Pain that increases session after session for more than a week despite reducing the load."
+ ],
+ "normal": "Diffuse discomfort for 24-48 hours after a new session or an increase in load, a tired shoulder at the end of the day and a particular movement still bothering you for weeks are all normal. Improvement comes in steps, with plateaus of one or two weeks.",
+ "relacionadas": [
+  "hombro-doloroso",
+  "tendinopatias",
+  "infiltraciones-ecoguiadas"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "slug": "osgood-schlatter",
+ "titulo": "Stretching plan for Osgood-Schlatter disease",
+ "corto": "Osgood-Schlatter",
+ "zona": "Knee",
+ "descripcion": "Daily stretches, ice and heat and load management for Osgood-Schlatter disease in growing athletes. Dr Julio De la Morena.",
+ "fecha": "2026-11-26",
+ "intro": [
+  "During a growth spurt, bone grows faster than muscle, and the quadriceps, powerful and not very elastic, ends up short. If you also train a lot, that muscle pulls hard on the patellar tendon right where it attaches, at the bump you have below the knee (the tibial tuberosity). The bone there is still growing, and the repeated pulling irritates its surface. That is Osgood-Schlatter disease.",
+  "Sometimes there is also pain on the outer side of the ankle: by landing differently to protect the knee, the peroneal muscles get overloaded. It is not dangerous and it goes away by itself when you stop growing. The aim is for it to stop hurting sooner so you can keep playing: lengthen and relax those muscles, calm the tendon with ice and not overdo the load."
+ ],
+ "regla": "Play and train below 3 out of 10 pain, and decide by how the knee feels the next morning. If it is worse in the morning, lower the intensity that day or skip training. It is better to cut half an hour of sport each day, or skip one midweek session, than to have to stop for two weeks in a row.",
+ "antes": [
+  [
+   "Heat on the muscle",
+   "On the front of the thigh and the outer side of the leg, above the ankle. Before stretching, at night and on days when your thigh feels heavy: electric blanket, wheat bag or hot compress, 15-20 minutes. Never on the painful spot below the knee, nor right after a knock"
+  ],
+  [
+   "Ice on the tendon and bone",
+   "On the painful bump below the kneecap and, if it hurts, behind and below the ankle. After every training session and match: ice wrapped in a cloth, never directly on the skin, 15 minutes. You can repeat it 2-3 times a day"
+  ],
+  [
+   "Physiotherapy",
+   "Two sessions a week at first and then for maintenance, with proper hands-on work to loosen the quadriceps and peroneals"
+  ],
+  [
+   "Training",
+   "You can carry on with your sport. If one day you arrive very heavy-legged, lower the intensity or skip that session so you are fresh for the match. You will notice it more during periods when you grow faster: that is normal"
+  ]
+ ],
+ "fases": [
+  {
+   "nombre": "Stretches · Every day",
+   "cuando": "At night and after training · 15 minutes · never long stretches just before playing",
+   "texto": "Always stretch gently and hold, without bouncing. You should feel tension in the muscle, never pain in the knee or the tendon. Apply heat to the muscle for a few minutes before stretching.",
+   "ejercicios": [
+    [
+     "Kneeling quadriceps stretch, without bending the knee",
+     "Quadriceps",
+     "Kneel with the painful leg behind, the knee resting on a cushion and the other leg in front. Before moving, tuck your pelvis under, as if flattening your lower back and squeezing your bottom. Without losing that position, move your body forwards a little until you feel tension at the front of the thigh. Do not bring the heel to your bottom: the knee stays bent at a right angle, so the muscle is stretched from the hip without pulling on the tendon or the tuberosity.",
+     "3 × 30-40 seconds each leg · every day"
+    ],
+    [
+     "Standing quadriceps stretch with towel, at a distance",
+     "Quadriceps",
+     "Standing, leaning on a wall. Loop a towel or strap around the ankle of the leg you are stretching and hold the ends with the hand on the same side. Tuck your pelvis under as in exercise 1 and take the thigh backwards, behind the other leg, using the towel to keep the foot away from your bottom. The stretch should be felt in the thigh, not the knee. Use it when you have nowhere to kneel.",
+     "3 × 30 seconds each leg · alternative to exercise 1"
+    ],
+    [
+     "Seated glute stretch",
+     "Glute and piriformis",
+     "Sitting on the floor, cross the leg you are stretching over the other, with the foot on the floor outside the knee. Hug the knee and bring it towards the opposite shoulder, keeping your back straight, until you feel tension in the buttock.",
+     "3 × 30 seconds each side"
+    ],
+    [
+     "Hamstring stretch with towel",
+     "Back of the thigh",
+     "On your back, with a towel around the sole of the foot. Raise the leg with the knee straight until you feel tension at the back of the thigh; the other leg straight and flat on the floor. Hold without bouncing.",
+     "3 × 30 seconds each leg"
+    ],
+    [
+     "Seated peroneal stretch",
+     "Peroneals",
+     "Seated, cross the leg with the painful foot over the other knee. With your hand, turn the sole of the foot inwards and downwards, as if trying to look at it, until you feel tension on the outer side of the ankle and leg. Hold gently, without pain in the tendon.",
+     "3 × 30 seconds · both legs, longer on the painful one"
+    ],
+    [
+     "Wall calf stretch",
+     "Calf",
+     "Standing facing a wall, hands on it. Take the leg you are stretching back, with the heel on the floor and the knee straight, and the toes pointing forwards. Move your hips forwards until you feel tension in the calf. A short calf increases the load on the peroneals.",
+     "3 × 30 seconds each leg"
+    ]
+   ]
+  }
+ ],
+ "evitar": [
+  "Stretching hard just before playing: long stretches at night and after training.",
+  "Putting heat on the painful bump below the knee.",
+  "Training with pain above 3 out of 10.",
+  "Bringing the heel to your bottom when stretching the quadriceps: it pulls on the tendon and the tuberosity."
+ ],
+ "complementario": "If it still hurts after a month on the plan, other treatment is considered in clinic, always with ultrasound to see the state of the tendon and bone.",
+ "consultar": [
+  "Pain that stops you putting weight on the leg or wakes you at night.",
+  "Marked swelling or heat in the knee.",
+  "A limp that does not go away within a couple of days.",
+  "Pain that clearly gets worse despite reducing the load for a week."
+ ],
+ "normal": "It is normal for the bump below the knee to remain noticeable and to hurt more during periods of rapid growth.",
+ "relacionadas": [
+  "tendinitis-rotuliana",
+  "medicina-deportiva"
+ ]
+}

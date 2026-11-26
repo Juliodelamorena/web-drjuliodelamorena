@@ -1,0 +1,254 @@
+{
+ "slug": "hombro-cintura-escapular",
+ "titulo": "Shoulder and shoulder-blade strengthening plan",
+ "corto": "Shoulder and shoulder-blade strengthening",
+ "zona": "Shoulder",
+ "descripcion": "12-week plan to strengthen the shoulder from the inside out: shoulder blade, rotator cuff and strength through the full range. Dr Julio De la Morena.",
+ "fecha": "2026-11-26",
+ "intro": [
+  "A strong shoulder does not depend on deltoid alone. The head of the humerus stays centred thanks to the rotator cuff, and the cuff only works well when the shoulder blade it rests on is stable and moves at the right time. When the shoulder blade falls short, the shoulder compensates, becomes overloaded and ends up hurting.",
+  "That is why the plan goes from the inside out: first scapular and cuff control are woken up, then strength is built in a safe range, and finally loaded work through the full range. Each phase prepares the next; skipping one does not speed anything up. It is suitable for prevention and for returning to training after shoulder discomfort."
+ ],
+ "regla": "Technique comes before weight. Increase the load only when you complete all sets with good technique and without pain. Discomfort of up to 3 out of 10 is acceptable if it goes away when you finish; if the next morning the shoulder bothers you more, rest that day and halve the load at the next session. Slow movements: 2 seconds up, 1 pause, 3 down.",
+ "antes": [
+  [
+   "Shoulders away from your ears",
+   "In every exercise. If upper trapezius lifts the shoulders, the exercise loses its effect"
+  ],
+  [
+   "Both sides",
+   "Always start with the weaker side and do the same repetitions on the other"
+  ],
+  [
+   "Bands and dumbbells",
+   "Start with the lightest band and change when 15 repetitions are easy. Dumbbells of 1-2 kg for the cuff and 3-5 kg for deltoid and rows"
+  ],
+  [
+   "Rest between sessions",
+   "Leave at least one rest day between strength sessions. If you play another sport, put the plan on days without intense upper-body work"
+  ]
+ ],
+ "fases": [
+  {
+   "nombre": "Before every session",
+   "cuando": "Before every session · 3-5 minutes",
+   "texto": "Joint warm-up and shoulder-blade control. Always done, in every phase.",
+   "ejercicios": [
+    [
+     "Arm circles without weight",
+     "Joint warm-up",
+     "Standing, arm relaxed. Draw circles forwards and backwards, gradually increasing the size. Both arms.",
+     "2 × 10 in each direction"
+    ],
+    [
+     "Shoulder-blade control",
+     "Scapular muscles",
+     "Draw the shoulder blades slightly back and down, as if putting them in your back pockets, without pushing the chest out or lifting the shoulders. Hold and release.",
+     "2 × 10 · 5 s hold"
+    ]
+   ]
+  },
+  {
+   "nombre": "Phase 1 · Activation and control",
+   "cuando": "Weeks 1-3 · 4 days a week · 20 minutes",
+   "texto": "Sustained contractions and band work with the elbow close to the body. The aim is for the cuff and shoulder blade to work together again before adding load.",
+   "ejercicios": [
+    [
+     "Isometric external rotation",
+     "Infraspinatus and teres minor",
+     "In a doorway, elbow tucked into the body and bent to 90º, back of the wrist against the frame. Push outwards without moving the arm and hold.",
+     "3 × 30 s each side"
+    ],
+    [
+     "Isometric internal rotation",
+     "Subscapularis",
+     "Same position, palm against the frame. Push inwards and hold.",
+     "3 × 30 s each side"
+    ],
+    [
+     "Isometric abduction",
+     "Supraspinatus and deltoid",
+     "Side-on to a wall, elbow bent, a towel between arm and wall. Push as if moving the arm away from the body, without moving it.",
+     "3 × 30 s each side"
+    ],
+    [
+     "External rotation with band",
+     "Infraspinatus and teres minor",
+     "Elbow tucked into the body and bent to 90º, a rolled towel between elbow and side. Take the hand outwards and return slowly.",
+     "3 × 15 each side"
+    ],
+    [
+     "Internal rotation with band",
+     "Subscapularis",
+     "Same position, band anchored on the outside. Bring the hand towards your abdomen and return slowly.",
+     "3 × 15 each side"
+    ],
+    [
+     "Low row with band",
+     "Rhomboids and middle trapezius",
+     "Band anchored at abdomen height. Pull with the elbows close to the body, drawing the shoulder blades back and down. Return slowly without lifting the shoulders.",
+     "3 × 15"
+    ],
+    [
+     "Horizontal press with band",
+     "Serratus anterior",
+     "Back to the anchor, band at chest height. Push until the arm is straight and at the end reach the shoulder forwards, spreading the shoulder blade. Return slowly.",
+     "3 × 12 each side"
+    ]
+   ]
+  },
+  {
+   "nombre": "Phase 2 · Strength in a safe range",
+   "cuando": "Weeks 4-7 · 3-4 days a week · 30 minutes",
+   "texto": "Dumbbells are added and the arm works away from the body, still no higher than shoulder height. The Phase 1 band exercises become your warm-up. Criterion to start: three weeks of Phase 1 without pain.",
+   "ejercicios": [
+    [
+     "Scapular-plane raise",
+     "Supraspinatus and deltoid",
+     "Thumb up, arm about 30º in front of the body. Raise to shoulder height and lower over 3 seconds.",
+     "3 × 12"
+    ],
+    [
+     "Lateral raise",
+     "Middle deltoid",
+     "Standing, dumbbells at your sides, elbows slightly bent. Raise the arms to shoulder height without lifting the shoulders themselves, and lower slowly.",
+     "3 × 12"
+    ],
+    [
+     "Front raise",
+     "Anterior deltoid",
+     "Raise one dumbbell in front to shoulder height, elbow almost straight, and lower slowly. Alternate arms.",
+     "3 × 10 each side"
+    ],
+    [
+     "Supported dumbbell row",
+     "Latissimus and rhomboids",
+     "Knee and hand on a bench, back straight. Draw the elbow back, close to the body, bringing the shoulder blade towards the spine, and lower slowly.",
+     "3 × 12 each side"
+    ],
+    [
+     "Face pull with band",
+     "External rotators and middle trapezius",
+     "Band anchored at eye height. Pull, bringing the hands towards your temples, elbows high and wide, squeezing the shoulder blades.",
+     "3 × 15"
+    ],
+    [
+     "Triceps pushdown with band",
+     "Triceps",
+     "Band anchored high, elbows tucked into the body. Straighten the elbows downwards without moving the shoulders, and return slowly.",
+     "3 × 15"
+    ],
+    [
+     "Wall slide",
+     "Serratus anterior and lower trapezius",
+     "Facing a wall, forearms against it. Slide the arms upwards keeping the shoulder blades down, and lower slowly.",
+     "3 × 10"
+    ]
+   ]
+  },
+  {
+   "nombre": "Phase 3 · Full strength",
+   "cuando": "Weeks 8-12 · 3 days a week · 35-40 minutes",
+   "texto": "Load through the full range, eccentric cuff work and bodyweight exercises. The goal is a strong, stable shoulder for sport and daily life. Criterion to start: four weeks of Phase 2 without pain.",
+   "ejercicios": [
+    [
+     "Full scapular-plane raise",
+     "Supraspinatus and deltoid",
+     "As in Phase 2, but raising the arm all the way up. Slow lowering over 3 seconds.",
+     "3 × 10"
+    ],
+    [
+     "Dumbbell bench press",
+     "Pectoral, anterior deltoid and triceps",
+     "Lying on a bench, dumbbells at chest height, elbows at about 45º to the body. Press until the arms are straight and lower without the elbows dropping below the bench.",
+     "3 × 10-12"
+    ],
+    [
+     "Bent-over reverse fly",
+     "Posterior deltoid and rhomboids",
+     "Trunk tilted forwards, back straight. Open the arms out to the sides with elbows slightly bent, squeezing the shoulder blades.",
+     "3 × 12"
+    ],
+    [
+     "External rotation at 90º",
+     "External rotators with the arm raised",
+     "Arm out at shoulder height, elbow at 90º, band anchored in front. Rotate the forearm upwards and return slowly.",
+     "3 × 12 each side"
+    ],
+    [
+     "Eccentric external rotation",
+     "Infraspinatus and teres minor",
+     "Lying on your side, dumbbell in the top hand. Lift with help from the other hand and lower with one, very slowly, over 4-5 seconds.",
+     "3 × 10 each side"
+    ],
+    [
+     "Prone T",
+     "Middle trapezius and rhomboids",
+     "Face down on a bench, arms hanging. Lift them out to the sides in a T, thumbs up.",
+     "3 × 12"
+    ],
+    [
+     "Prone Y",
+     "Lower trapezius",
+     "Same position. Lift the arms diagonally in front of the head in a Y, thumbs up.",
+     "3 × 12"
+    ],
+    [
+     "Push-up plus",
+     "Serratus anterior",
+     "Resting on knees and hands, or on feet if it is easy. Without bending the elbows, let the chest sink between the shoulder blades, then push the floor away, spreading them.",
+     "3 × 12"
+    ],
+    [
+     "Assisted chair dips",
+     "Triceps and shoulder stabilisers",
+     "Hands on the edge of a chair, feet on the floor. Lower by bending the elbows only to 90º, without the shoulders coming forwards, and push back up.",
+     "3 × 10"
+    ]
+   ]
+  },
+  {
+   "nombre": "Stretches · Every day",
+   "cuando": "At the end of every session. No bouncing and never into pain.",
+   "texto": "",
+   "ejercicios": [
+    [
+     "Posterior capsule stretch",
+     "Posterior capsule",
+     "Lying on your side, bottom arm in front at shoulder height, elbow at 90º. With the other hand, gently push the wrist towards the bed.",
+     "3 × 30 s each side"
+    ],
+    [
+     "Doorway pectoral stretch",
+     "Pectoral",
+     "Forearm on the door frame, elbow at shoulder height. Move your body forwards until you feel tension in the chest.",
+     "3 × 30 s each side"
+    ],
+    [
+     "Internal rotation stretch with towel",
+     "External rotators and capsule",
+     "Towel behind your back: one hand above, the other below. The top hand gently pulls upwards. Switch sides.",
+     "3 × 30 s each side"
+    ]
+   ]
+  }
+ ],
+ "evitar": [
+  "In the first six weeks, gym exercises with the arm behind the head, such as behind-the-neck presses or pulldowns.",
+  "Deep bar dips until Phase 3.",
+  "Increasing the weight at the expense of technique.",
+  "Lifting the shoulders during the exercises."
+ ],
+ "consultar": [
+  "Pain that wakes you at night.",
+  "A feeling that the shoulder \"slips out\", or a painful click.",
+  "Tingling or numbness running down the arm.",
+  "Sudden loss of strength.",
+  "Pain that increases session after session for more than a week despite reducing the load."
+ ],
+ "normal": "Muscle soreness in the first days of each phase and muscle fatigue at the end are normal.",
+ "relacionadas": [
+  "hombro-doloroso",
+  "lesiones-musculares"
+ ]
+}

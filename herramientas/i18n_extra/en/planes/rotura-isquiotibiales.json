@@ -1,0 +1,156 @@
+{
+ "slug": "rotura-isquiotibiales",
+ "titulo": "Rehabilitation plan for a hamstring tear",
+ "corto": "Hamstring tear",
+ "zona": "Thigh",
+ "descripcion": "Phased plan to return to sport after a hamstring tear: isometrics, concentrics, eccentrics and running. Dr Julio De la Morena.",
+ "fecha": "2026-11-26",
+ "intro": [
+  "A healing muscle needs progressive load so that the scar lines up properly and stays elastic. Too little load leaves a weak scar, and too much too soon tears it open again. That is why it goes in phases: first strength without movement, then with movement and finally braking the weight.",
+  "You start when ultrasound confirms that the edges of the tear have joined. Until then, compression, ice several times a day and no hamstring work. Each phase has a criterion for moving on to the next: you progress by criterion, not by calendar."
+ ],
+ "regla": "Discomfort of up to 3 out of 10 during exercise is acceptable if the next day you are the same or better. A sharp twinge, pain above 4 or new swelling: stop, go back to the previous level and get it checked.",
+ "antes": [
+  [
+   "When to start",
+   "Only when ultrasound confirms the tear is closing. Before that, a compression thigh sleeve, ice and no hamstring work"
+  ],
+  [
+   "Exercise bike",
+   "15-20 minutes without resistance from the first phase"
+  ],
+  [
+   "Moving between phases",
+   "Phase 1 → 2: isometrics at maximum effort without pain. Phase 2 → 3: Swiss-ball curl and deadlift without pain, and a stretch with the same range as the healthy leg"
+  ],
+  [
+   "Warm up before running",
+   "At least 15 minutes of progressive running and accelerations before any sprint"
+  ]
+ ],
+ "fases": [
+  {
+   "nombre": "Phase 1 · Isometric",
+   "cuando": "Week 1 after the ultrasound · every day",
+   "texto": "Contraction without moving the leg, plus an exercise bike without resistance for 15-20 minutes.",
+   "ejercicios": [
+    [
+     "Hamstring isometric with the heel",
+     "Hamstrings",
+     "Seated or lying, with the knee slightly bent. Dig your heel into the floor or couch without moving the leg. Start gently.",
+     "5 repetitions · 30-45 seconds · 50-70 % intensity"
+    ],
+    [
+     "Isometric at different angles",
+     "Hamstrings",
+     "The same exercise, changing the knee bend. Increase the intensity only if it does not hurt.",
+     "3 repetitions of 30 seconds at 30, 60 and 90 degrees of knee bend"
+    ],
+    [
+     "Two-foot glute bridge",
+     "Glutes and hamstrings",
+     "Lying down, knees bent. Lift the pelvis by squeezing the glutes, without arching your back.",
+     "3 × 10 · hold 5 seconds at the top"
+    ]
+   ]
+  },
+  {
+   "nombre": "Phase 2 · Concentric",
+   "cuando": "Week 2 · alternate days",
+   "texto": "Controlled movement, without bouncing. Gentle stretch at the end.",
+   "ejercicios": [
+    [
+     "Bridge with heels on a Swiss ball",
+     "Hamstrings",
+     "Heels on the ball, lift the pelvis and hold for 3 seconds.",
+     "3 × 10"
+    ],
+    [
+     "Swiss-ball hamstring curl",
+     "Hamstrings",
+     "With the pelvis raised, bring the ball towards you by bending the knees and return slowly.",
+     "3 × 8-10"
+    ],
+    [
+     "Romanian deadlift with dumbbells",
+     "Hamstrings and glutes",
+     "Knees slightly bent and back straight. Push the hips back and lower the dumbbells close to your legs until you feel tension, no further.",
+     "3 × 10 · light weight"
+    ],
+    [
+     "Hamstring stretch with towel",
+     "Stretch",
+     "Lying down, towel around the sole of the foot. Raise the straight leg until you feel gentle tension.",
+     "3 × 30 seconds · pain-free"
+    ]
+   ]
+  },
+  {
+   "nombre": "Phase 3 · Eccentric and running",
+   "cuando": "Weeks 3 and 4 · alternate days for strength",
+   "texto": "On the days in between, progressive running.",
+   "ejercicios": [
+    [
+     "Hamstring eccentric",
+     "Eccentric work",
+     "Lying face down with an ankle weight or band: lift with both legs and lower with the injured leg alone over 4 seconds.",
+     "3 × 8"
+    ],
+    [
+     "Assisted Nordic curl",
+     "Eccentric work",
+     "Kneeling with the ankles held, let yourself fall forwards as slowly as possible. Brake with the hamstrings.",
+     "3 × 5 · with help from a band or partner"
+    ],
+    [
+     "Single-leg Romanian deadlift",
+     "Hamstrings and control",
+     "Standing on the injured leg, tilt the trunk forwards with the other leg behind and the back straight.",
+     "3 × 8 each leg"
+    ],
+    [
+     "Machine hamstring curl",
+     "Hamstrings",
+     "Lift in 1 second and lower in 3. Increase the weight when the last set feels easy.",
+     "3 × 10"
+    ]
+   ]
+  }
+ ],
+ "progresion": [
+  [
+   "Progressive running",
+   "On the days in between during Phase 3: gentle jogging for 10-15 minutes and, if pain-free, straight runs at 60, 70 and 80 % of speed. No sprinting or kicking yet"
+  ],
+  [
+   "Return to sport",
+   "From week 5 and after review: progressive sprinting two days a week, changes of direction and kicking built up gradually, and training with the team, first without contact"
+  ],
+  [
+   "Before the first match",
+   "At least two full training sessions without discomfort"
+  ],
+  [
+   "Maintenance",
+   "The Nordic curl and single-leg deadlift twice a week throughout the season: the best protection against another tear"
+  ]
+ ],
+ "progresion_titulo": "Return to sport",
+ "evitar": [
+  "Stretching hard or doing hamstring work before the tear has closed.",
+  "Sprints and kicking before you can do straight runs at 80 % without pain.",
+  "Skipping phases because you feel good.",
+  "Dropping the Nordic curl once you are back playing."
+ ],
+ "complementario": "Ultrasound in clinic shows how the tear is closing and helps decide the timing of each phase. In some muscle injuries, ultrasound-guided PRP (platelet-rich plasma) is considered.",
+ "consultar": [
+  "You feel a sharp twinge during an exercise or a run.",
+  "A new bruise appears or the area swells.",
+  "The pain does not ease within 48 hours."
+ ],
+ "normal": "It is normal for the muscle to feel tired or tight after new sessions and to have some soreness when you start the eccentrics.",
+ "relacionadas": [
+  "lesiones-musculares",
+  "medicina-deportiva"
+ ]
+}

@@ -1,0 +1,152 @@
+{
+ "slug": "epitrocleitis-codo-de-golfista",
+ "titulo": "Exercise plan for medial epicondylitis (golfer's elbow)",
+ "corto": "Medial epicondylitis (golfer's elbow)",
+ "zona": "Elbow",
+ "descripcion": "12-week plan for medial epicondylitis or golfer's elbow: isometrics, eccentrics with bands and a flexible bar, and strength. Dr Julio De la Morena.",
+ "fecha": "2026-11-26",
+ "intro": [
+  "On the inner side of the elbow, at the medial epicondyle, lie the attachments of the muscles that bend the wrist, close the fist and turn the palm downwards. Their common tendon works in every strong grip and every throw: that is why it hurts to squeeze, to strike with a club or racket, to lift weight with the palm facing up or to wring out a cloth. When that tendon takes more load than it can tolerate for weeks, it stops repairing properly and becomes weaker and more sensitive.",
+  "A tendon does not heal with rest: it heals with well-dosed load, which is the treatment with the strongest support in the medical literature. Eccentric exercise (controlling the weight while the muscle lengthens) reduces pain and increases strength. Isometrics (pushing without moving the joint) ease pain on bad days and let you start loading from day one.",
+  "The plan has three phases: settle the tendon with isometrics, load it with eccentrics using bands and a flexible bar, and strengthen it with heavy, slow strength work together with the shoulder and shoulder blade, which share the load across the whole arm."
+ ],
+ "regla": "During the exercises, discomfort of up to 4 out of 10 in the elbow is acceptable: the tendon needs to feel the load in order to adapt. Your reference is the following morning. If the elbow is the same or better, carry on and progress. If it is clearly worse or the discomfort lasts more than 24 hours, do only the isometrics that day and go back to the previous load the next.",
+ "antes": [
+  [
+   "Consistency every day",
+   "The studies that work use exercise every day for at least 12 weeks. Improvement shows at 4-6 weeks; the tendon takes three months to become resilient"
+  ],
+  [
+   "Always slow",
+   "In the eccentrics, take 4 seconds to lower. The part that heals is the braking, not the lifting"
+  ],
+  [
+   "Bands by colour",
+   "When all 3 sets cause discomfort of 2 out of 10 or less, move up to the next colour of band or bar: yellow, red, green and blue"
+  ],
+  [
+   "Mind your everyday movements",
+   "Avoid clenching your fist hard while twisting the wrist, as when wringing or using a screwdriver. In sport, review your stroke technique and grip. Take breaks every 30-45 minutes when using tools"
+  ]
+ ],
+ "fases": [
+  {
+   "nombre": "Phase 1 · Settle the tendon",
+   "cuando": "Weeks 1-2 · every day · 10-15 minutes",
+   "texto": "If your baseline pain is low from the start, you can begin phase 2 in the second week.",
+   "ejercicios": [
+    [
+     "Isometric wrist flexion with band",
+     "Ease the pain",
+     "Seated, forearm resting on your thigh, palm facing up and wrist over the edge of the knee. Stand on the band and hold the wrist straight, without letting the band bend it downwards. Intensity: whatever lets you hold for the whole time with discomfort of 3 out of 10 or less.",
+     "5 × 45 s · 2 min rest · 1-3 times a day"
+    ],
+    [
+     "Forearm flexor stretch",
+     "Before and after",
+     "Standing, arm straight in front of you, palm facing forwards and fingers pointing to the floor. With the other hand, gently draw the fingers towards you, stretching the inner side of the forearm. A gentle pull, never pain.",
+     "3 × 30 s · before and after each session"
+    ]
+   ]
+  },
+  {
+   "nombre": "Phase 2 · Load the tendon: eccentrics with bands",
+   "cuando": "Weeks 3-8 · every day · 15-20 minutes · 1 minute's rest between sets",
+   "texto": "This is the heart of the programme: controlling the load while the muscle lengthens is what improves pain and strength the most. Keep the isometric as a warm-up or for days with more pain.",
+   "ejercicios": [
+    [
+     "Eccentric wrist flexion with band",
+     "The main exercise",
+     "Forearm resting on your thigh, palm facing up, standing on the band. Lift the wrist with help from the other hand and, at the top, remove the help and lower slowly over 4 seconds, controlling the band with the affected wrist alone.",
+     "3 × 15 · 1-2 times a day · every day"
+    ],
+    [
+     "Reverse flexible bar twist",
+     "Flexor eccentric",
+     "Bar in front of your chest with elbows straight. The affected hand holds one end with the palm facing up and the wrist bent towards the palm; the healthy hand twists the bar. Then let the affected hand untwist slowly, over 4 seconds. In patients who had not improved with other treatments, this exercise reduced disability to a quarter.",
+     "3 × 15 · twice a day · start with the red bar"
+    ],
+    [
+     "Eccentric pronation with band",
+     "Pronator",
+     "Seated, forearm supported and elbow at 90º, with the band pulling the hand outwards. Turn the palm downwards with help and return slowly, over 4 seconds, resisting the band.",
+     "3 × 15 · once a day"
+    ]
+   ]
+  },
+  {
+   "nombre": "Phase 3 · Strength and return to activity",
+   "cuando": "Weeks 9-12 · 3 days a week on alternate days · 25-30 minutes",
+   "texto": "Keep the phase 2 eccentrics once a day on the days without strength work. Heavy, slow strength work, grip and shoulder and shoulder-blade work are added.",
+   "ejercicios": [
+    [
+     "Slow dumbbell wrist flexion",
+     "Heavy, slow strength",
+     "Forearm resting on the bench, palm facing up. Lift the dumbbell over 3 seconds and lower it over 3 seconds, without help. Use a weight that lets you just reach the stated repetitions.",
+     "Wk 9-10: 3 × 15 · Wk 11: 3 × 12 · Wk 12: 4 × 8 · 3 days a week"
+    ],
+    [
+     "Ball squeeze",
+     "Grip strength",
+     "Elbow bent to 90º and tucked into your side. Squeeze the ball with increasing force and hold. From week 11, the same exercise with the elbow straight.",
+     "3 × 10 × 5 s · 3 days a week"
+    ],
+    [
+     "Shoulder external rotation with band",
+     "Rotator cuff",
+     "Elbow tucked into your side with a rolled towel, bent to 90º. Take the forearm outwards against the band and return slowly. A stable shoulder offloads the elbow with every movement.",
+     "3 × 15 · 3 days a week"
+    ],
+    [
+     "Low row with band",
+     "Shoulder blade",
+     "Band anchored in front. Pull, taking the elbows back and squeezing the shoulder blades together, without shrugging. Return over 3 seconds.",
+     "3 × 15 · 3 days a week"
+    ]
+   ]
+  }
+ ],
+ "progresion": [
+  [
+   "Weeks 1-2",
+   "Settle the tendon: isometric 1-3 times a day and gentle stretching"
+  ],
+  [
+   "Weeks 3-5",
+   "Start loading: eccentric with band, reverse bar twist and pronation, 3 × 15 daily, with the isometric beforehand"
+  ],
+  [
+   "Weeks 6-8",
+   "Load more: next colour of band or bar and eccentrics with the elbow straighter"
+  ],
+  [
+   "Weeks 9-12",
+   "Strength and movement: slow dumbbell strength, grip and shoulder 3 days a week, and a gradual return to sport or manual work"
+  ],
+  [
+   "From week 13",
+   "Maintenance: eccentrics 3 days a week for another 3 months. This is what prevents relapses"
+  ]
+ ],
+ "progresion_titulo": "How to progress",
+ "evitar": [
+  "Clenching your fist hard while twisting the wrist: wringing, using a screwdriver, opening jars.",
+  "Resting the arm completely: the tendon weakens and relapse becomes more likely.",
+  "Going back to hitting hard with a club or racket before phase 3.",
+  "Dropping the eccentrics when you feel better: the tendon takes three months to become resilient."
+ ],
+ "complementario": "When the tendon does not respond after weeks of well-executed work, ultrasound in clinic shows its condition and allows us to assess, if indicated, an ultrasound-guided injection of PRP (platelet-rich plasma). No treatment replaces loading: it works best when combined with this plan.",
+ "consultar": [
+  "Tingling or numbness in the fingers, especially the ring and little fingers.",
+  "Sudden loss of strength or a painful snap during an exercise.",
+  "A swollen, hot or red elbow.",
+  "Night pain that wakes you or does not ease with rest.",
+  "No improvement after 6 weeks of doing the full plan."
+ ],
+ "normal": "Discomfort of up to 4 out of 10 during the exercises and some tiredness in the forearm are normal. Improvement shows around the fourth to sixth week and continues for three months.",
+ "relacionadas": [
+  "codo-de-tenista",
+  "tendinopatias",
+  "infiltraciones-ecoguiadas"
+ ]
+}
