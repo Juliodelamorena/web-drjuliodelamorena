@@ -1,0 +1,156 @@
+{
+ "slug": "rotura-isquiotibiales",
+ "titulo": "Plan de readaptación de la rotura de isquiotibiales",
+ "corto": "Rotura de isquiotibiales",
+ "zona": "Muslo",
+ "descripcion": "Plan por fases para volver al deporte tras una rotura de isquiotibiales: isométricos, concéntricos, excéntricos y carrera. Dr. Julio De la Morena.",
+ "fecha": "2026-11-26",
+ "intro": [
+  "Un músculo que cicatriza necesita carga progresiva para que la cicatriz se oriente bien y sea elástica. Poca carga deja una cicatriz débil, y mucha carga demasiado pronto la vuelve a abrir. Por eso se va por fases: primero fuerza sin movimiento, después con movimiento y al final frenando el peso.",
+  "Se empieza cuando la ecografía confirma que los bordes de la rotura están unidos. Hasta entonces, compresión, frío varias veces al día y nada de trabajo de isquiotibiales. Cada fase tiene un criterio para pasar a la siguiente: se avanza por criterio, no por calendario."
+ ],
+ "regla": "Una molestia de hasta 3 sobre 10 durante el ejercicio es aceptable si al día siguiente estás igual o mejor. Un pinchazo, un dolor de más de 4 o una hinchazón nueva: para, vuelve al nivel anterior y consulta.",
+ "antes": [
+  [
+   "Cuándo empezar",
+   "Solo cuando la ecografía confirme que la rotura está cerrando. Antes, muslera compresiva, frío y sin trabajo de isquiotibiales"
+  ],
+  [
+   "Bicicleta estática",
+   "15-20 minutos sin resistencia desde la primera fase"
+  ],
+  [
+   "Para pasar de fase",
+   "Fase 1 → 2: isométricos al máximo esfuerzo sin dolor. Fase 2 → 3: curl con fitball y peso muerto sin dolor, y estiramiento con la misma amplitud que la pierna sana"
+  ],
+  [
+   "Calienta antes de correr",
+   "Al menos 15 minutos con carrera progresiva y aceleraciones antes de cualquier sprint"
+  ]
+ ],
+ "fases": [
+  {
+   "nombre": "Fase 1 · Isométrico",
+   "cuando": "Semana 1 tras la ecografía · todos los días",
+   "texto": "Contracción sin mover la pierna, más bicicleta estática sin resistencia 15-20 minutos.",
+   "ejercicios": [
+    [
+     "Isométrico de isquiotibiales con el talón",
+     "Isquiotibiales",
+     "Sentado o tumbado, con la rodilla algo doblada. Clava el talón contra el suelo o la camilla sin mover la pierna. Empieza suave.",
+     "5 repeticiones · 30-45 segundos · intensidad 50-70 %"
+    ],
+    [
+     "Isométrico a distintos ángulos",
+     "Isquiotibiales",
+     "El mismo ejercicio cambiando la flexión de la rodilla. Sube la intensidad solo si no duele.",
+     "3 repeticiones de 30 segundos a 30, 60 y 90 grados de rodilla"
+    ],
+    [
+     "Puente de glúteo con los dos pies",
+     "Glúteo e isquiotibiales",
+     "Tumbado, rodillas dobladas. Eleva la pelvis apretando los glúteos, sin arquear la espalda.",
+     "3 × 10 · mantener 5 segundos arriba"
+    ]
+   ]
+  },
+  {
+   "nombre": "Fase 2 · Concéntrico",
+   "cuando": "Semana 2 · días alternos",
+   "texto": "Movimiento controlado, sin rebotes. Estiramiento suave al terminar.",
+   "ejercicios": [
+    [
+     "Puente con talones sobre fitball",
+     "Isquiotibiales",
+     "Talones sobre la pelota, eleva la pelvis y mantén 3 segundos.",
+     "3 × 10"
+    ],
+    [
+     "Curl femoral con fitball",
+     "Isquiotibiales",
+     "Con la pelvis elevada, acerca la pelota doblando las rodillas y vuelve despacio.",
+     "3 × 8-10"
+    ],
+    [
+     "Peso muerto rumano con mancuernas",
+     "Isquiotibiales y glúteo",
+     "Rodillas ligeramente dobladas y espalda recta. Lleva la cadera atrás y baja las mancuernas pegadas a las piernas hasta notar tensión, no más.",
+     "3 × 10 · peso ligero"
+    ],
+    [
+     "Estiramiento de isquiotibiales con toalla",
+     "Estiramiento",
+     "Tumbado, toalla en la planta del pie. Sube la pierna estirada hasta notar tensión suave.",
+     "3 × 30 segundos · sin dolor"
+    ]
+   ]
+  },
+  {
+   "nombre": "Fase 3 · Excéntrico y carrera",
+   "cuando": "Semanas 3 y 4 · días alternos para la fuerza",
+   "texto": "Los días intermedios, carrera progresiva.",
+   "ejercicios": [
+    [
+     "Excéntrico de isquiosurales",
+     "Trabajo excéntrico",
+     "Tumbado boca abajo con peso en el tobillo o goma: sube con las dos piernas y baja solo con la pierna lesionada en 4 segundos.",
+     "3 × 8"
+    ],
+    [
+     "Nórdico asistido",
+     "Trabajo excéntrico",
+     "De rodillas con los tobillos sujetos, déjate caer hacia delante lo más despacio posible. Frena con los isquiotibiales.",
+     "3 × 5 · con ayuda de goma o compañero"
+    ],
+    [
+     "Peso muerto rumano a una pierna",
+     "Isquiotibiales y control",
+     "Apoyado en la pierna lesionada, lleva el tronco hacia delante con la otra pierna atrás y la espalda recta.",
+     "3 × 8 por pierna"
+    ],
+    [
+     "Curl femoral en máquina",
+     "Isquiotibiales",
+     "Sube en 1 segundo y baja en 3. Aumenta el peso cuando la última serie resulte fácil.",
+     "3 × 10"
+    ]
+   ]
+  }
+ ],
+ "progresion": [
+  [
+   "Carrera progresiva",
+   "En los días intermedios de la Fase 3: trote suave 10-15 minutos y, si no duele, rectas al 60, 70 y 80 % de la velocidad. Nada de sprint ni golpeo todavía"
+  ],
+  [
+   "Vuelta al deporte",
+   "Desde la semana 5 y tras revisión: sprint progresivo dos días por semana, cambios de dirección y golpeo de menos a más, y entrenamiento con el equipo, primero sin contacto"
+  ],
+  [
+   "Antes del primer partido",
+   "Al menos dos entrenamientos completos sin molestias"
+  ],
+  [
+   "Mantenimiento",
+   "El nórdico y el peso muerto a una pierna dos veces por semana durante toda la temporada: es la mejor protección frente a una nueva rotura"
+  ]
+ ],
+ "progresion_titulo": "Vuelta al deporte",
+ "evitar": [
+  "Estirar fuerte o hacer trabajo de isquiotibiales antes de que la rotura esté cerrada.",
+  "Sprints y golpeos antes de hacer rectas al 80 % sin dolor.",
+  "Saltarte las fases por sentirte bien.",
+  "Abandonar el nórdico al volver a jugar."
+ ],
+ "complementario": "La ecografía en consulta permite ver cómo cierra la rotura y decidir el momento de cada fase. En algunas lesiones musculares se valora el PRP (plasma rico en plaquetas) guiado por ecografía.",
+ "consultar": [
+  "Notas un pinchazo durante un ejercicio o una carrera.",
+  "Aparece un hematoma nuevo o la zona se hincha.",
+  "El dolor no cede en 48 horas."
+ ],
+ "normal": "Es normal notar el músculo cansado o tenso tras las sesiones nuevas y algo de agujetas al empezar los excéntricos.",
+ "relacionadas": [
+  "lesiones-musculares",
+  "medicina-deportiva"
+ ]
+}

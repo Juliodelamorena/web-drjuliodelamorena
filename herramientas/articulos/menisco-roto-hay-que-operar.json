@@ -1,0 +1,66 @@
+{
+ "slug": "menisco-roto-hay-que-operar",
+ "fecha": "2026-11-26",
+ "categoria": "Rodilla",
+ "titulo": "Tengo el menisco roto: ¿hay que operarse?",
+ "resumen": "Cuándo una rotura de menisco necesita cirugía y cuándo mejora mejor sin ella, según la edad, el tipo de rotura y los síntomas.",
+ "descripcion": "Rotura de menisco: cuándo hace falta operar y cuándo es mejor tratarla sin cirugía, según los estudios. Dr. Julio De la Morena, Pozuelo (Madrid).",
+ "entradilla": "No todas las roturas de menisco necesitan cirugía. En las personas de más de 40 años, la mayoría de las roturas que aparecen en una resonancia son degenerativas, y los estudios muestran que el ejercicio da resultados parecidos a la artroscopia. La cirugía se reserva para las roturas que bloquean la rodilla y para algunas lesiones traumáticas en personas jóvenes. El Dr. Julio De la Morena valora cada caso con exploración y ecografía en el Hospital Memorial Publio Cordón (Pozuelo de Alarcón, Madrid).",
+ "imagen": "blog-menisco-operar.jpg",
+ "imagen_wh": [
+  1080,
+  560
+ ],
+ "imagen_alt": "El Dr. Julio De la Morena revisa una resonancia magnética de rodilla",
+ "temas": [
+  "Rotura de menisco",
+  "Menisco degenerativo",
+  "Artroscopia de rodilla",
+  "Segunda opinión"
+ ],
+ "secciones": [
+  [
+   "Dos tipos de rotura muy distintos",
+   "<p>El menisco es un cojín de fibrocartílago entre el fémur y la tibia. Se rompe de dos maneras. La <strong>rotura traumática</strong> aparece en una persona joven tras un giro o una caída, a menudo jugando al fútbol, al pádel o esquiando. La <strong>rotura degenerativa</strong> aparece a partir de los 40 años sin un golpe claro: el menisco se ha ido desgastando y se fisura con un gesto cotidiano, como agacharse.</p><p>La segunda es mucho más frecuente. Y es tan habitual que se encuentra en resonancias de personas que no tienen ningún dolor de rodilla. Por eso que la resonancia diga «rotura de menisco» no significa, por sí solo, que esa rotura sea la causa del dolor.</p>"
+  ],
+  [
+   "Lo que dicen los estudios",
+   "<p>Varios ensayos clínicos han comparado la artroscopia con un programa de ejercicio en personas de mediana edad con roturas degenerativas. Los resultados a uno, dos y cinco años son parecidos en dolor y función. Algunos de esos ensayos compararon incluso la artroscopia real con una cirugía simulada, y tampoco encontraron diferencias. A partir de estos datos, las guías clínicas no recomiendan operar de entrada la rotura degenerativa.</p>"
+  ],
+  [
+   "Cuándo sí se valora la cirugía",
+   "<ul><li><strong>Bloqueo verdadero:</strong> la rodilla se queda trabada y no se puede estirar del todo, porque un fragmento de menisco se ha desplazado.</li><li><strong>Rotura traumática en una persona joven</strong>, sobre todo si se puede suturar el menisco en lugar de quitar una parte.</li><li><strong>Rotura asociada a otras lesiones</strong>, como una rotura del ligamento cruzado anterior.</li><li><strong>Dolor que persiste</strong> pese a un tratamiento conservador bien hecho durante al menos tres meses, con una exploración que apunta claramente al menisco.</li></ul>"
+  ],
+  [
+   "Qué se hace sin cirugía",
+   "<p>El tratamiento conservador no es esperar. Incluye un programa de fuerza de cuádriceps y cadera, ajustar la carga en el deporte y en el día a día, y control del peso si hace falta. Cuando el dolor no deja avanzar, una infiltración guiada por ecografía puede abrir una ventana para trabajar. Si además hay artrosis, en casos seleccionados se valora el <a href=\"/prp-rodilla/\">PRP (plasma rico en plaquetas)</a>.</p>"
+  ],
+  [
+   "Antes de decidir",
+   "<p>Si le han propuesto operarse un menisco, conviene que alguien revise la resonancia junto con la exploración y le explique qué parte del dolor viene realmente del menisco. Es lo que se hace en una <a href=\"/segunda-opinion/\">segunda opinión</a>: no se trata de evitar la cirugía a toda costa, sino de operarse solo cuando aporta algo.</p>"
+  ]
+ ],
+ "faq": [
+  [
+   "¿Se cura solo un menisco roto?",
+   "El menisco tiene poco riego y una rotura degenerativa no se cierra por sí sola, pero puede dejar de doler. Muchas personas recuperan una rodilla funcional y sin dolor con ejercicio, aunque la rotura siga viéndose en la resonancia."
+  ],
+  [
+   "¿Puedo hacer deporte con el menisco roto?",
+   "Depende del tipo de rotura y de los síntomas. Muchas personas vuelven a caminar, correr o jugar al pádel tras un programa de fuerza, ajustando la carga. Si la rodilla se bloquea o se hincha tras cada esfuerzo, hay que revisarla."
+  ],
+  [
+   "¿Qué pasa si quitan parte del menisco?",
+   "Quitar una parte del menisco reduce su capacidad de amortiguar y, a largo plazo, puede acelerar la artrosis. Por eso, cuando se opera, se intenta conservar todo el menisco posible."
+  ],
+  [
+   "¿Quién valora una rotura de menisco en Pozuelo?",
+   "El Dr. Julio De la Morena, especialista en Medicina de la Educación Física y del Deporte, en la Unidad de Terapias Regenerativas y Medicina Deportiva del Hospital Memorial Publio Cordón (Pozuelo de Alarcón). Cita en el 913 548 990."
+  ]
+ ],
+ "relacionadas": [
+  "rotura-menisco",
+  "segunda-opinion",
+  "artrosis-rodilla"
+ ]
+}

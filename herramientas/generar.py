@@ -169,7 +169,6 @@ def formulario(ruta, zona="", compacto=True):
 <label for="f-tel">Teléfono<input id="f-tel" name="telefono" type="tel" autocomplete="tel" required></label>
 <details class="opc"{" open" if zona else ""}><summary>Añadir detalles (opcional)</summary>
 <label for="f-zona">¿Qué zona le duele?<select id="f-zona" name="zona">{opts}</select></label>
-<label for="f-motivo">Cuéntenos brevemente qué le pasa<textarea id="f-motivo" name="motivo" rows="3"></textarea></label>
 {__import__("extras").como_html("es")}
 </details>
 <p class="nota">Le llamamos en menos de 24 horas para darle cita (si cae en fin de semana o festivo, el siguiente día laborable).</p>
@@ -403,3 +402,10 @@ if __name__ == "__main__":
   os.makedirs(f"{ROOT}/{ABOUT['slug']}", exist_ok=True)
   open(f"{ROOT}/{ABOUT['slug']}/index.html", "w").write(about_page())
   print("ok", len(PAGES) + 1)
+  # Portada (index.html se edita a mano): el selector por zonas y el aviso de segunda opinión
+  # se regeneran entre sus marcas para que sigan a las páginas y planes que existan.
+  import re as _re, zonas as _Z
+  _ix = open(f"{ROOT}/index.html", encoding="utf-8").read()
+  for _m, _html in (("zonas", _Z.selector("es")), ("segunda-opinion", _Z.segunda_opinion("es"))):
+      _ix = _re.sub(rf"<!--{_m}-->.*?(<!--/{_m}-->|(?=\n))", lambda _x: f"<!--{_m}-->{_html}<!--/{_m}-->", _ix, count=1, flags=_re.S)
+  open(f"{ROOT}/index.html", "w", encoding="utf-8").write(_ix)

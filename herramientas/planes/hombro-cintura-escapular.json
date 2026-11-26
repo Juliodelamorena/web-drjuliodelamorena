@@ -1,0 +1,254 @@
+{
+ "slug": "hombro-cintura-escapular",
+ "titulo": "Plan de fortalecimiento del hombro y la escápula",
+ "corto": "Fortalecimiento del hombro y la escápula",
+ "zona": "Hombro",
+ "descripcion": "Plan de 12 semanas para fortalecer el hombro de dentro hacia fuera: escápula, manguito rotador y fuerza en todo el recorrido. Dr. Julio De la Morena.",
+ "fecha": "2026-11-26",
+ "intro": [
+  "Un hombro fuerte no depende solo del deltoides. La cabeza del húmero se mantiene centrada gracias al manguito rotador, y el manguito solo trabaja bien si la escápula, sobre la que se apoya, está estable y se mueve en el momento justo. Cuando la escápula falla, el hombro compensa, se sobrecarga y acaba doliendo.",
+  "Por eso el plan va de dentro hacia fuera: primero se despierta el control de la escápula y del manguito, después se gana fuerza en recorridos seguros y, al final, se trabaja con carga en todo el recorrido. Cada fase prepara la siguiente; saltarse una no acelera nada. Sirve para prevenir y para volver a entrenar después de una molestia de hombro."
+ ],
+ "regla": "La técnica manda sobre el peso. Sube carga solo cuando completes todas las series con buena técnica y sin dolor. Una molestia de hasta 3 sobre 10 es aceptable si desaparece al terminar; si el hombro molesta más a la mañana siguiente, ese día descansa y en la siguiente sesión reduce la carga a la mitad. Movimientos lentos: 2 segundos para subir, 1 de pausa, 3 para bajar.",
+ "antes": [
+  [
+   "Hombros lejos de las orejas",
+   "En todos los ejercicios. Si el trapecio superior se encoge, el ejercicio pierde su efecto"
+  ],
+  [
+   "Los dos lados",
+   "Empieza siempre por el más débil y haz el mismo número de repeticiones con el otro"
+  ],
+  [
+   "Bandas y mancuernas",
+   "Empieza con la banda más suave y cambia cuando hagas 15 repeticiones con facilidad. Mancuernas de 1-2 kilos para el manguito y de 3-5 kilos para deltoides y remo"
+  ],
+  [
+   "Descanso entre sesiones",
+   "Deja al menos un día de descanso entre sesiones de fuerza. Si haces otro deporte, encaja el plan en los días sin entrenamiento intenso de tren superior"
+  ]
+ ],
+ "fases": [
+  {
+   "nombre": "Antes de cada sesión",
+   "cuando": "Antes de cada sesión · 3-5 minutos",
+   "texto": "Calentamiento articular y control de la escápula. Se hacen siempre, en todas las fases.",
+   "ejercicios": [
+    [
+     "Círculos de brazo sin peso",
+     "Calentamiento articular",
+     "De pie, brazo relajado. Dibuja círculos hacia delante y hacia atrás, aumentando poco a poco el tamaño. Los dos brazos.",
+     "2 × 10 en cada sentido"
+    ],
+    [
+     "Control escapular",
+     "Musculatura de la escápula",
+     "Lleva los omóplatos ligeramente hacia atrás y hacia abajo, como si los guardaras en los bolsillos traseros, sin sacar pecho ni subir los hombros. Mantén y suelta.",
+     "2 × 10 · 5 s de mantenimiento"
+    ]
+   ]
+  },
+  {
+   "nombre": "Fase 1 · Activación y control",
+   "cuando": "Semanas 1 a 3 · 4 días por semana · 20 minutos",
+   "texto": "Contracciones mantenidas y trabajo con banda con el codo pegado al cuerpo. El objetivo es que el manguito y la escápula vuelvan a trabajar coordinados antes de añadir carga.",
+   "ejercicios": [
+    [
+     "Isométrico de rotación externa",
+     "Infraespinoso y redondo menor",
+     "En el marco de una puerta, codo pegado al cuerpo y doblado a 90°, dorso de la muñeca contra el marco. Empuja hacia fuera sin mover el brazo y mantén.",
+     "3 × 30 s por lado"
+    ],
+    [
+     "Isométrico de rotación interna",
+     "Subescapular",
+     "Misma posición, con la palma contra el marco. Empuja hacia dentro y mantén.",
+     "3 × 30 s por lado"
+    ],
+    [
+     "Isométrico de abducción",
+     "Supraespinoso y deltoides",
+     "De lado junto a la pared, codo doblado y una toalla entre el brazo y la pared. Empuja como si quisieras separar el brazo del cuerpo, sin moverlo.",
+     "3 × 30 s por lado"
+    ],
+    [
+     "Rotación externa con banda",
+     "Infraespinoso y redondo menor",
+     "Codo pegado al cuerpo y doblado a 90°, con una toalla enrollada entre el codo y el costado. Lleva la mano hacia fuera y vuelve despacio.",
+     "3 × 15 por lado"
+    ],
+    [
+     "Rotación interna con banda",
+     "Subescapular",
+     "Misma posición, con la banda anclada por fuera. Lleva la mano hacia el abdomen y vuelve despacio.",
+     "3 × 15 por lado"
+    ],
+    [
+     "Remo bajo con banda",
+     "Romboides y trapecio medio",
+     "Banda anclada a la altura del abdomen. Tira con los codos pegados al cuerpo, llevando los omóplatos atrás y abajo. Vuelve despacio, sin encoger los hombros.",
+     "3 × 15"
+    ],
+    [
+     "Empuje horizontal con banda",
+     "Serrato anterior",
+     "De espaldas al anclaje, banda a la altura del pecho. Empuja hasta estirar el brazo y al final alarga el hombro hacia delante, separando el omóplato. Vuelve despacio.",
+     "3 × 12 por lado"
+    ]
+   ]
+  },
+  {
+   "nombre": "Fase 2 · Fuerza en recorrido seguro",
+   "cuando": "Semanas 4 a 7 · 3-4 días por semana · 30 minutos",
+   "texto": "Se añaden mancuernas y se trabaja separando el brazo del cuerpo, sin pasar todavía de la altura del hombro. Los ejercicios con banda de la Fase 1 quedan como calentamiento. Criterio para entrar: tres semanas de Fase 1 sin dolor.",
+   "ejercicios": [
+    [
+     "Elevación en plano escapular",
+     "Supraespinoso y deltoides",
+     "Pulgar hacia arriba y brazo unos 30° por delante del cuerpo. Eleva hasta la altura del hombro y baja en 3 segundos.",
+     "3 × 12"
+    ],
+    [
+     "Elevación lateral",
+     "Deltoides medio",
+     "De pie, mancuernas a los lados y codos ligeramente doblados. Eleva los brazos hasta la altura de los hombros, sin encogerlos, y baja despacio.",
+     "3 × 12"
+    ],
+    [
+     "Elevación frontal",
+     "Deltoides anterior",
+     "Eleva una mancuerna por delante hasta la altura del hombro, con el codo casi estirado, y baja despacio. Alterna los brazos.",
+     "3 × 10 por lado"
+    ],
+    [
+     "Remo con mancuerna apoyada",
+     "Dorsal ancho y romboides",
+     "Rodilla y mano apoyadas en un banco, espalda recta. Lleva el codo hacia atrás pegado al cuerpo, juntando el omóplato a la columna, y baja despacio.",
+     "3 × 12 por lado"
+    ],
+    [
+     "Tirón hacia la cara con banda",
+     "Rotadores externos y trapecio medio",
+     "Banda anclada a la altura de los ojos. Tira llevando las manos hacia las sienes con los codos altos y abiertos, juntando los omóplatos.",
+     "3 × 15"
+    ],
+    [
+     "Extensión de tríceps con banda",
+     "Tríceps",
+     "Banda anclada arriba, codos pegados al cuerpo. Estira los codos hacia abajo sin mover los hombros y vuelve despacio.",
+     "3 × 15"
+    ],
+    [
+     "Deslizamiento en pared",
+     "Serrato y trapecio inferior",
+     "De cara a la pared, antebrazos apoyados. Desliza los brazos hacia arriba manteniendo los omóplatos abajo y baja despacio.",
+     "3 × 10"
+    ]
+   ]
+  },
+  {
+   "nombre": "Fase 3 · Fuerza completa",
+   "cuando": "Semanas 8 a 12 · 3 días por semana · 35-40 minutos",
+   "texto": "Carga en todo el recorrido, trabajo excéntrico del manguito y ejercicios con el peso del cuerpo. El objetivo es un hombro fuerte y estable para el deporte y la vida diaria. Criterio para entrar: cuatro semanas de Fase 2 sin dolor.",
+   "ejercicios": [
+    [
+     "Elevación completa en plano escapular",
+     "Supraespinoso y deltoides",
+     "Como en la Fase 2, pero subiendo el brazo hasta arriba. Bajada lenta, en 3 segundos.",
+     "3 × 10"
+    ],
+    [
+     "Press de pecho con mancuernas",
+     "Pectoral, deltoides anterior y tríceps",
+     "Tumbado en un banco, mancuernas a la altura del pecho y codos a unos 45° del cuerpo. Empuja hasta estirar los brazos y baja sin que los codos pasen por debajo del banco.",
+     "3 × 10-12"
+    ],
+    [
+     "Elevación posterior inclinado",
+     "Deltoides posterior y romboides",
+     "Tronco inclinado hacia delante con la espalda recta. Abre los brazos hacia los lados con los codos ligeramente doblados, juntando los omóplatos.",
+     "3 × 12"
+    ],
+    [
+     "Rotación externa a 90°",
+     "Rotadores externos en elevación",
+     "Brazo separado a la altura del hombro y codo a 90°, banda anclada por delante. Gira el antebrazo hacia arriba y vuelve despacio.",
+     "3 × 12 por lado"
+    ],
+    [
+     "Excéntrico de rotación externa",
+     "Infraespinoso y redondo menor",
+     "Tumbado de lado, con la mancuerna en la mano de arriba. Sube con ayuda de la otra mano y baja solo, muy despacio, en 4-5 segundos.",
+     "3 × 10 por lado"
+    ],
+    [
+     "T boca abajo",
+     "Trapecio medio y romboides",
+     "Boca abajo en un banco, brazos colgando. Elévalos hacia los lados formando una T, con los pulgares hacia arriba.",
+     "3 × 12"
+    ],
+    [
+     "Y boca abajo",
+     "Trapecio inferior",
+     "Misma posición. Eleva los brazos en diagonal por delante de la cabeza, formando una Y, con los pulgares hacia arriba.",
+     "3 × 12"
+    ],
+    [
+     "Flexión con protracción",
+     "Serrato anterior",
+     "Apoyado sobre rodillas y manos, o sobre los pies si es fácil. Sin doblar los codos, hunde el pecho entre los omóplatos y después empuja el suelo separándolos.",
+     "3 × 12"
+    ],
+    [
+     "Fondo en silla asistido",
+     "Tríceps y estabilizadores del hombro",
+     "Manos en el borde de una silla y pies apoyados. Baja doblando los codos solo hasta 90°, sin que los hombros se adelanten, y sube.",
+     "3 × 10"
+    ]
+   ]
+  },
+  {
+   "nombre": "Estiramientos · Todos los días",
+   "cuando": "Al final de cada sesión. Sin rebotes y sin llegar al dolor.",
+   "texto": "",
+   "ejercicios": [
+    [
+     "Estiramiento de la cápsula posterior",
+     "Cápsula posterior",
+     "Tumbado de lado, con el brazo de abajo delante a la altura del hombro y el codo a 90°. Con la otra mano, lleva suavemente la muñeca hacia la cama.",
+     "3 × 30 s por lado"
+    ],
+    [
+     "Estiramiento de pectoral en el marco de la puerta",
+     "Pectoral",
+     "Antebrazo apoyado en el marco, codo a la altura del hombro. Avanza el cuerpo hasta notar tensión en el pecho.",
+     "3 × 30 s por lado"
+    ],
+    [
+     "Estiramiento de rotación interna con toalla",
+     "Rotadores externos y cápsula",
+     "Toalla por detrás de la espalda: una mano arriba y otra abajo. La de arriba tira suavemente hacia arriba. Cambia de lado.",
+     "3 × 30 s por lado"
+    ]
+   ]
+  }
+ ],
+ "evitar": [
+  "Durante las primeras seis semanas, los ejercicios de gimnasio con el brazo por detrás de la cabeza, como el press o el jalón tras nuca.",
+  "Los fondos profundos hasta la Fase 3.",
+  "Subir peso a costa de la técnica.",
+  "Encoger los hombros durante los ejercicios."
+ ],
+ "consultar": [
+  "Dolor que te despierta por la noche.",
+  "Sensación de que el hombro «se sale» o un chasquido con dolor.",
+  "Hormigueo o adormecimiento que baja por el brazo.",
+  "Pérdida de fuerza brusca.",
+  "Dolor que aumenta sesión tras sesión durante más de una semana pese a bajar la carga."
+ ],
+ "normal": "Es normal tener agujetas los primeros días de cada fase y cansancio muscular al terminar.",
+ "relacionadas": [
+  "hombro-doloroso",
+  "lesiones-musculares"
+ ]
+}

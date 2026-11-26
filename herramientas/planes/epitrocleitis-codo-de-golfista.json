@@ -1,0 +1,152 @@
+{
+ "slug": "epitrocleitis-codo-de-golfista",
+ "titulo": "Plan de ejercicios para la epitrocleitis (codo de golfista)",
+ "corto": "Epitrocleitis (codo de golfista)",
+ "zona": "Codo",
+ "descripcion": "Plan de 12 semanas para la epitrocleitis o codo de golfista: isométricos, excéntricos con gomas y barra flexible, y fuerza. Dr. Julio De la Morena.",
+ "fecha": "2026-11-26",
+ "intro": [
+  "En la cara interna del codo, en la epitróclea, se anclan los músculos que doblan la muñeca, cierran el puño y giran la palma hacia abajo. Su tendón común trabaja en cada agarre fuerte y en cada lanzamiento: por eso duele al apretar, al golpear con el palo o la raqueta, al levantar peso con la palma hacia arriba o al escurrir un trapo. Cuando ese tendón recibe más carga de la que tolera durante semanas, deja de repararse bien y se vuelve más débil y más sensible.",
+  "El tendón no se cura con reposo: se cura con carga bien dosificada, que es el tratamiento con mejor respaldo en la literatura médica. El ejercicio excéntrico (frenar el peso mientras el músculo se alarga) reduce el dolor y aumenta la fuerza. Los isométricos (empujar sin mover la articulación) bajan el dolor en los días malos y permiten empezar a cargar desde el primer día.",
+  "El plan tiene tres fases: calmar el tendón con isométricos, cargarlo con excéntricos con gomas y barra flexible, y fortalecerlo con fuerza pesada y lenta junto con el hombro y la escápula, que reparten la carga de todo el brazo."
+ ],
+ "regla": "Durante los ejercicios se acepta una molestia de hasta 4 sobre 10 en el codo: el tendón necesita notar la carga para adaptarse. La referencia es la mañana siguiente. Si el codo está igual o mejor, sigues y progresas. Si está claramente peor o la molestia dura más de 24 horas, ese día solo isométricos y al siguiente vuelves a la carga anterior.",
+ "antes": [
+  [
+   "Constancia diaria",
+   "Los estudios que funcionan usan ejercicio todos los días durante al menos 12 semanas. A las 4-6 semanas se nota la mejoría; el tendón tarda tres meses en hacerse resistente"
+  ],
+  [
+   "Lento siempre",
+   "En los excéntricos, 4 segundos para bajar. La parte que cura es la frenada, no la subida"
+  ],
+  [
+   "Gomas por colores",
+   "Cuando las 3 series salgan con molestia de 2 sobre 10 o menos, pasa a la goma o barra del siguiente color: amarilla, roja, verde y azul"
+  ],
+  [
+   "Cuida los gestos del día",
+   "Evita cerrar el puño con fuerza girando a la vez la muñeca, como al escurrir o atornillar. En el deporte, revisa la técnica del golpe y el agarre. Haz pausas cada 30-45 minutos con herramientas"
+  ]
+ ],
+ "fases": [
+  {
+   "nombre": "Fase 1 · Calmar el tendón",
+   "cuando": "Semanas 1-2 · todos los días · 10-15 minutos",
+   "texto": "Si el dolor de base es bajo desde el principio, puedes empezar la fase 2 en la segunda semana.",
+   "ejercicios": [
+    [
+     "Isométrico de flexión de muñeca con goma",
+     "Calmar el dolor",
+     "Sentado, antebrazo apoyado en el muslo, palma hacia arriba y muñeca sobresaliendo de la rodilla. Pisa la goma y aguanta la muñeca recta, sin dejar que la goma la doble hacia abajo. Intensidad: la que permita aguantar todo el tiempo con molestia de 3 sobre 10 o menos.",
+     "5 × 45 s · 2 min de descanso · 1-3 veces al día"
+    ],
+    [
+     "Estiramiento de los flexores del antebrazo",
+     "Antes y después",
+     "De pie, brazo estirado al frente y palma hacia delante con los dedos hacia el suelo. Con la otra mano, lleva suavemente los dedos hacia ti, estirando la cara interna del antebrazo. Tirantez suave, nunca dolor.",
+     "3 × 30 s · antes y después de cada sesión"
+    ]
+   ]
+  },
+  {
+   "nombre": "Fase 2 · Cargar el tendón: excéntricos con gomas",
+   "cuando": "Semanas 3-8 · todos los días · 15-20 minutos · 1 minuto de descanso entre series",
+   "texto": "Es el corazón del programa: frenar la carga mientras el músculo se alarga es lo que más mejora el dolor y la fuerza. Mantén el isométrico como calentamiento o en los días con más dolor.",
+   "ejercicios": [
+    [
+     "Excéntrico de flexión de muñeca con goma",
+     "El ejercicio principal",
+     "Antebrazo apoyado en el muslo, palma hacia arriba, goma pisada. Sube la muñeca ayudándote con la otra mano y, al llegar arriba, suelta la ayuda y baja despacio en 4 segundos frenando la goma solo con la muñeca afectada.",
+     "3 × 15 · 1-2 veces al día · todos los días"
+    ],
+    [
+     "Torsión inversa con barra flexible",
+     "Excéntrico de flexores",
+     "Barra delante del pecho con los codos estirados. La mano afectada sujeta un extremo con la palma hacia arriba y la muñeca doblada hacia la palma; la sana retuerce la barra. Después, deja que la mano afectada destuerza despacio , en 4 segundos. En pacientes que no habían mejorado con otros tratamientos, este ejercicio redujo la discapacidad a una cuarta parte.",
+     "3 × 15 · 2 veces al día · barra roja para empezar"
+    ],
+    [
+     "Excéntrico de pronación con goma",
+     "Pronador",
+     "Sentado, antebrazo apoyado y codo a 90º, con la goma tirando de la mano hacia fuera. Gira la palma hacia abajo con ayuda y vuelve despacio, en 4 segundos , resistiendo la goma.",
+     "3 × 15 · 1 vez al día"
+    ]
+   ]
+  },
+  {
+   "nombre": "Fase 3 · Fuerza y vuelta a la actividad",
+   "cuando": "Semanas 9-12 · 3 días por semana en días alternos · 25-30 minutos",
+   "texto": "Mantén los excéntricos de la fase 2 una vez al día en los días sin fuerza. Se añade la fuerza pesada y lenta, el agarre y el trabajo de hombro y escápula.",
+   "ejercicios": [
+    [
+     "Fuerza lenta de flexión de muñeca con mancuerna",
+     "Fuerza pesada y lenta",
+     "Antebrazo apoyado en el banco, palma hacia arriba. Sube la mancuerna en 3 segundos y bájala en 3 segundos, sin ayuda. Peso que permita llegar justo a las repeticiones indicadas.",
+     "Sem. 9-10: 3 × 15 · Sem. 11: 3 × 12 · Sem. 12: 4 × 8 · 3 días por semana"
+    ],
+    [
+     "Prensión con pelota",
+     "Fuerza de agarre",
+     "Codo doblado a 90º y pegado al cuerpo. Aprieta la pelota con fuerza progresiva y mantén. A partir de la semana 11, el mismo ejercicio con el codo estirado.",
+     "3 × 10 × 5 s · 3 días por semana"
+    ],
+    [
+     "Rotación externa de hombro con banda",
+     "Manguito rotador",
+     "Codo pegado al costado con una toalla enrollada, doblado a 90º. Lleva el antebrazo hacia fuera contra la banda y vuelve despacio. Un hombro estable descarga el codo en cada gesto.",
+     "3 × 15 · 3 días por semana"
+    ],
+    [
+     "Remo bajo con banda",
+     "Escápula",
+     "Banda anclada delante. Tira llevando los codos atrás y juntando los omóplatos, sin encoger los hombros. Vuelve en 3 segundos.",
+     "3 × 15 · 3 días por semana"
+    ]
+   ]
+  }
+ ],
+ "progresion": [
+  [
+   "Semanas 1-2",
+   "Calmar el tendón: isométrico 1-3 veces al día y estiramiento suave"
+  ],
+  [
+   "Semanas 3-5",
+   "Empezar a cargar: excéntrico con goma, torsión inversa y pronación, 3 × 15 diarios, con el isométrico antes de empezar"
+  ],
+  [
+   "Semanas 6-8",
+   "Cargar más: goma o barra del siguiente color y excéntricos con el codo más estirado"
+  ],
+  [
+   "Semanas 9-12",
+   "Fuerza y gesto: fuerza lenta con mancuerna, prensión y hombro 3 días por semana, y vuelta progresiva al deporte o al trabajo manual"
+  ],
+  [
+   "Desde la semana 13",
+   "Mantenimiento: excéntricos 3 días por semana durante otros 3 meses. Es lo que evita las recaídas"
+  ]
+ ],
+ "progresion_titulo": "Cómo progresar",
+ "evitar": [
+  "Cerrar el puño con fuerza mientras giras la muñeca: escurrir, atornillar, abrir tarros.",
+  "Dejar el brazo en reposo completo: el tendón se debilita y la recaída es más probable.",
+  "Volver a golpear fuerte con el palo o la raqueta antes de la fase 3.",
+  "Abandonar los excéntricos al notar mejoría: el tendón tarda tres meses en hacerse resistente."
+ ],
+ "complementario": "Cuando el tendón no responde tras semanas de trabajo bien hecho, la ecografía en consulta permite ver su estado y valorar, si está indicada, una infiltración guiada por ecografía con PRP (plasma rico en plaquetas). Ningún tratamiento sustituye a la carga: funciona mejor cuando se combina con este plan.",
+ "consultar": [
+  "Hormigueo o acorchamiento en los dedos, sobre todo el anular y el meñique.",
+  "Pérdida de fuerza brusca o un chasquido doloroso durante un ejercicio.",
+  "Codo hinchado, caliente o enrojecido.",
+  "Dolor nocturno que te despierta o que no cede en reposo.",
+  "Sin mejoría después de 6 semanas haciendo el plan completo."
+ ],
+ "normal": "Es normal una molestia de hasta 4 sobre 10 durante los ejercicios y algo de cansancio en el antebrazo. La mejoría se nota hacia la cuarta o sexta semana y sigue durante tres meses.",
+ "relacionadas": [
+  "codo-de-tenista",
+  "tendinopatias",
+  "infiltraciones-ecoguiadas"
+ ]
+}

@@ -15,6 +15,7 @@ def mas_lesiones(self):
 import json, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import generar as G
+import zonas as Z
 import extras as X
 import idiomas as I
 
@@ -179,7 +180,6 @@ class Builder:
 <label for="f-email">{esc(UI["form_email"])}<input id="f-email" name="email" type="email" autocomplete="email" required></label>
 <label for="f-tel">{esc(UI["form_phone"])}<input id="f-tel" name="telefono" type="tel" autocomplete="tel"></label>
 {X.como_html(self.L)}
-<label for="f-motivo">{esc(UI["form_reason"])}<textarea id="f-motivo" name="motivo" rows="4"></textarea></label>
 <label class="check" for="f-priv"><input id="f-priv" name="privacidad" type="checkbox" required><span>{UI["form_privacy"]}</span></label>
 <button class="btn btn-dark" type="submit">{esc(UI["form_submit"])}</button>
 </form>'''
@@ -348,10 +348,12 @@ class Builder:
 <h2 class="h2">{esc(H["cond_h2"])}</h2>
 <p class="lead">{esc(H["cond_lead"])}</p>
 </div>
+{Z.selector(self.L)}
 <div class="areas">
 {areas}
 </div>
 {mas_lesiones(self)}
+{Z.segunda_opinion(self.L)}
 </div>
 </section>
 

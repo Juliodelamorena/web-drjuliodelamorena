@@ -1,0 +1,239 @@
+{
+ "slug": "manguito-rotador-subescapular",
+ "titulo": "Plan de ejercicios para el manguito rotador",
+ "corto": "Manguito rotador y subescapular",
+ "zona": "Hombro",
+ "descripcion": "Plan de 12 semanas para el dolor de hombro por el manguito rotador, con énfasis en el subescapular: isométricos, banda y carga. Dr. Julio De la Morena.",
+ "fecha": "2026-11-26",
+ "intro": [
+  "El hombro no es una articulación encajada como la cadera: es una bola apoyada sobre una superficie casi plana. Lo que la mantiene centrada es un grupo de cuatro músculos pequeños que la rodean, el manguito rotador: supraespinoso, infraespinoso, redondo menor y subescapular. No son músculos de fuerza, son músculos de control.",
+  "El subescapular es el único de los cuatro que está por delante y el que sujeta la cabeza del húmero para que no se vaya hacia delante en cada gesto. Cuando se queda corto de fuerza, ese trabajo pasa al supraespinoso, que está por arriba y cruza un hueco estrecho. Por eso muchos hombros que duelen «arriba» tienen en realidad un problema de control «por delante».",
+  "La secuencia casi siempre es la misma: un día le pides al hombro más de lo que está preparado para dar, el músculo se contractura, tira de su tendón y el tendón se inflama para que pares. Quitar el dolor no es el tratamiento, es el permiso para empezarlo. Y el reposo no sirve: un hombro protegido durante semanas está más débil y recae con menos carga. Fortalecer es el tratamiento de fondo."
+ ],
+ "regla": "La carga se ajusta por el dolor del día siguiente, no por el del mismo día. Si a la mañana siguiente el hombro molesta más que antes de la sesión, te has pasado: ese día descansas y en la sesión siguiente haces la mitad. Si estás igual o mejor, continúa y sube. Vale para el plan, para el gimnasio y para la vida diaria.",
+ "elegir_fase": [
+  [
+   "Fase 0",
+   "Solo si acabas de recibir una infiltración: cinco días de vida normal, sin ejercicio programado, con péndulo y movilidad suave"
+  ],
+  [
+   "Fase 1",
+   "Días 5 a 14, o el inicio si no te han infiltrado: isométricos para recuperar el control"
+  ],
+  [
+   "Fase 2",
+   "Semanas 3 a 6: banda elástica con tempo lento"
+  ],
+  [
+   "Fase 3",
+   "Semanas 6 a 12, tras dos semanas de Fase 2 sin dolor al día siguiente: carga y gestos reales"
+  ]
+ ],
+ "elegir_texto": "Elige la fase por cómo está hoy el hombro y por los criterios de cada una, no solo por el calendario.",
+ "antes": [
+  [
+   "Calienta siempre, aunque sean 5 minutos",
+   "Bicicleta estática, caminar rápido o círculos amplios de brazos sin peso. Un tendón frío tolera mucha menos carga"
+  ],
+  [
+   "Respeta el campo visual mientras haya molestia",
+   "La elevación que mantiene la mano dentro de tu campo de visión no comprime el supraespinoso. En cuanto dejas de ver la mano, empieza a pinzar. Es una guía para las primeras semanas"
+  ],
+  [
+   "Nunca por encima de 4 sobre 10",
+   "Una molestia leve es aceptable. Un dolor que te hace cambiar el gesto o contener la respiración no lo es: baja carga o recorrido"
+  ],
+  [
+   "Constancia antes que intensidad",
+   "Cinco sesiones cortas a la semana rinden mucho más que dos largas. Si un día solo tienes diez minutos, haz los tres primeros ejercicios"
+  ]
+ ],
+ "fases": [
+  {
+   "nombre": "Fase 0 · Los primeros 5 días",
+   "cuando": "Solo si acabas de recibir una infiltración · días 1 a 5",
+   "texto": "Vida normal: trabajar, conducir, cocinar, caminar. Lo que no se hace estos cinco días es ejercicio programado. Es normal que la molestia vuelva tres o cuatro días mientras la musculatura se relaja. Si no te han infiltrado, empieza en la Fase 1.",
+   "ejercicios": [
+    [
+     "Péndulo de Codman",
+     "",
+     "De pie, inclinado hacia delante apoyando la mano sana en una mesa o camilla. Deja el brazo colgando muerto y mueve el tronco, no el brazo: el brazo se balancea solo. Círculos y balanceos adelante-atrás y lado a lado.",
+     "1 × 30-60 s en cada sentido · 2 veces al día, días 1 a 5"
+    ],
+    [
+     "Movilidad libre sin dolor",
+     "",
+     "Mueve el brazo en todo el recorrido que no duela, sin forzar el final. No busques ganar grados: se trata de que la articulación no se quede quieta.",
+     "1 × 10 en cada dirección · 2 veces al día, días 1 a 5"
+    ]
+   ]
+  },
+  {
+   "nombre": "Fase 1 · Activación y control",
+   "cuando": "Del día 5 al día 14 · Todos los días · 10-12 minutos",
+   "texto": "El objetivo de esta fase no es ganar fuerza, es recuperar la orden. Un hombro que lleva semanas evitando gestos deja de reclutar bien los músculos pequeños, y si saltas directo a la banda elástica el trabajo se lo lleva el deltoides y el manguito sigue dormido. Todo lo de esta fase es isométrico: empujas contra algo que no se mueve. Sin recorrido no hay roce, y sin roce el tendón no se irrita. Intensidad de los isométricos: alrededor del 20-30 % de tu fuerza máxima. Debe poder mantenerse una conversación mientras aprietas. Si tiemblas, es demasiado.",
+   "ejercicios": [
+    [
+     "Isométrico de rotación interna",
+     "Subescapular",
+     "De pie junto al marco de una puerta, con el brazo afectado hacia el marco. Codo pegado al costado y doblado 90°, con una toalla enrollada entre codo y cuerpo. Empuja el dorso de la mano contra el marco hacia dentro, como si quisieras llevar el antebrazo hacia tu ombligo. El brazo no se mueve.",
+     "5 × 10 s (10 s de descanso) · 2 veces al día"
+    ],
+    [
+     "Belly press isométrico",
+     "Subescapular",
+     "De pie, mano plana sobre el abdomen, codo por delante del cuerpo. Empuja la mano contra la barriga sin dejar que el codo se vaya hacia atrás. Es el gesto más puro de subescapular que existe: si el codo cae hacia atrás, el músculo ha dejado de trabajar.",
+     "5 × 10 s · 2 veces al día"
+    ],
+    [
+     "Isométrico de rotación externa",
+     "",
+     "Mismo marco de puerta, ahora de espaldas al lado contrario. Codo pegado y doblado 90°, empuja la palma contra el marco hacia fuera. Trabaja infraespinoso y redondo menor, que son el contrapeso del subescapular.",
+     "5 × 10 s · 2 veces al día"
+    ],
+    [
+     "Isométrico de abducción a 20°",
+     "",
+     "De pie junto a una pared, brazo pegado al cuerpo y separado unos 20° (un puño de distancia). Empuja el codo contra la pared hacia fuera. Activa el supraespinoso sin llevarlo al arco donde pinza.",
+     "5 × 10 s · 2 veces al día"
+    ],
+    [
+     "Control escapular",
+     "",
+     "Sentado o de pie, brazos relajados. Lleva los omóplatos hacia abajo y hacia atrás, como si quisieras metértelos en los bolsillos traseros. Mantén 5 segundos y suelta. No encojas los hombros hacia las orejas.",
+     "2 × 10 · todos los días"
+    ],
+    [
+     "Estiramiento de pectoral en marco de puerta",
+     "",
+     "Antebrazo apoyado en el marco con el codo a la altura del hombro. Avanza el cuerpo hasta notar tensión en el pecho, nunca dolor en el hombro. Un pectoral corto lleva el hombro hacia delante y estrecha el espacio por el que pasa el supraespinoso.",
+     "3 × 20-30 s · todos los días"
+    ]
+   ]
+  },
+  {
+   "nombre": "Fase 2 · Fortalecimiento con banda",
+   "cuando": "Semanas 3 a 6 · 4-5 días por semana · 15-20 minutos",
+   "texto": "Aquí empieza el trabajo que de verdad cambia el hombro. Necesitas una banda elástica (una de resistencia media es suficiente para empezar) y una toalla pequeña enrollada. El tempo importa tanto como el número de repeticiones: 2 segundos para llevar el peso, 1 de pausa, 3 para volver. Esa bajada lenta y controlada es la parte del movimiento que reorganiza el tendón.",
+   "ejercicios": [
+    [
+     "Rotación interna con banda",
+     "Subescapular · el principal",
+     "Banda fijada a la altura del codo, de pie de lado. Toalla enrollada entre codo y costado —no se te puede caer en todo el ejercicio—. Codo a 90°, lleva el antebrazo hacia el ombligo y vuelve despacio. El hombro no se adelanta y el codo no se separa.",
+     "3 × 12 · tempo 2-1-3 · 4-5 días/semana"
+    ],
+    [
+     "Rotación externa con banda",
+     "",
+     "La misma posición, girando hacia el lado contrario: el antebrazo se aleja del cuerpo. Mantén la toalla sujeta. Es el ejercicio que equilibra al anterior; hacer solo rotación interna desequilibra el hombro.",
+     "3 × 12 · tempo 2-1-3 · 4-5 días/semana"
+    ],
+    [
+     "Remo bajo con banda",
+     "",
+     "Banda fijada al frente a la altura del pecho. Tira de los codos hacia atrás pegados al cuerpo, juntando los omóplatos al final. El pecho se abre; los hombros no suben.",
+     "3 × 12 · 4-5 días/semana"
+    ],
+    [
+     "Press horizontal con banda",
+     "Subescapular funcional",
+     "Banda fijada por detrás a la altura del pecho. Empuja hacia delante hasta estirar el codo, manteniendo el omóplato apoyado contra las costillas. Al final, empuja un par de centímetros más «sacando» el hombro hacia delante.",
+     "3 × 12 · 4-5 días/semana"
+    ],
+    [
+     "Elevación en plano escapular",
+     "",
+     "De pie, brazo estirado y pulgar hacia arriba, eleva en diagonal a unos 30° por delante del cuerpo —no de frente ni de lado— y solo hasta la altura del hombro. Sin peso al principio; después una botella pequeña de agua.",
+     "3 × 10 · 3 días/semana · solo si no duele"
+    ],
+    [
+     "Sleeper stretch (cápsula posterior)",
+     "",
+     "Tumbado sobre el lado afectado, hombro y codo a 90°. Con la mano libre, empuja suavemente el antebrazo hacia el suelo. Tensión en la parte de atrás del hombro, nunca pinchazo delante. Una cápsula posterior rígida empuja la cabeza del húmero hacia arriba y hacia delante.",
+     "3 × 30 s · todos los días"
+    ],
+    [
+     "Estiramiento de pectoral",
+     "",
+     "Se mantiene el de la Fase 1, ahora al terminar la sesión.",
+     "3 × 30 s · todos los días"
+    ]
+   ]
+  },
+  {
+   "nombre": "Fase 3 · Carga y vuelta a la normalidad",
+   "cuando": "Semanas 6 a 12 · 3 días por semana · 20-25 minutos",
+   "texto": "El objetivo de esta fase es que el hombro aguante lo que le vas a pedir en la vida real, que casi nunca es un movimiento limpio con el codo pegado al cuerpo. Se sube carga, se abre el ángulo de trabajo y se introduce el trabajo excéntrico. No se entra en esta fase por calendario, sino por criterio: debes llevar al menos dos semanas completando la Fase 2 sin dolor al día siguiente.",
+   "ejercicios": [
+    [
+     "Rotación interna a 45° de separación",
+     "Subescapular",
+     "Igual que en la Fase 2, pero con el brazo separado 45° del cuerpo y sin toalla. Es un ángulo mucho más exigente y mucho más parecido a los gestos reales.",
+     "3 × 12 · tempo 2-1-3 · 3 días/semana"
+    ],
+    [
+     "Rotación externa a 90°",
+     "",
+     "Brazo separado a la altura del hombro, codo a 90°, banda al frente. Lleva la mano hacia arriba y atrás. Controla que el codo no caiga.",
+     "3 × 12 · 3 días/semana"
+    ],
+    [
+     "Excéntrico de rotación interna",
+     "Subescapular",
+     "Lleva el antebrazo hacia el ombligo con ayuda de la otra mano y devuélvelo solo con el brazo afectado, contando 4 segundos. La fase de frenado es la que más estimula la reorganización del tendón.",
+     "3 × 8 · bajada de 4 s · 2 días/semana"
+    ],
+    [
+     "Press de pecho con mancuerna ligera",
+     "",
+     "Tumbado, con un peso que te permita hacer 10 repeticiones cómodas. Recorrido controlado: no bajes el codo por debajo de la línea del cuerpo, que es donde el hombro se va hacia delante.",
+     "3 × 10 · 2 días/semana"
+    ],
+    [
+     "Remo con mancuerna",
+     "",
+     "Apoyado con una mano en un banco o silla, tira del peso hacia la cadera con el codo pegado. Compensa el trabajo de empuje y sostiene la escápula.",
+     "3 × 10 · 2 días/semana"
+    ],
+    [
+     "Push-up plus escapular",
+     "",
+     "En posición de plancha contra la pared o en el suelo según tolerancia. Con los codos ya estirados, empuja un poco más separando los omóplatos, y después júntalos. El movimiento es pequeño; el trabajo, mucho.",
+     "3 × 10 · 2 días/semana"
+    ],
+    [
+     "Elevación completa en plano escapular",
+     "",
+     "Como en la Fase 2 pero ahora por encima de la cabeza, con peso ligero, siempre que el recorrido sea indoloro.",
+     "3 × 10 · 3 días/semana"
+    ],
+    [
+     "Estiramientos de mantenimiento",
+     "",
+     "Sleeper stretch y estiramiento de pectoral. No se abandonan: son lo que sostiene el trabajo de fuerza.",
+     "3 × 30 s · todos los días"
+    ]
+   ]
+  }
+ ],
+ "evitar": [
+  "Trabajar por encima de la cabeza mientras haya dolor.",
+  "Saltar directamente a la banda elástica sin pasar por los isométricos: el trabajo se lo lleva el deltoides y el manguito sigue dormido.",
+  "Dejar el hombro en reposo durante semanas.",
+  "En los cinco días tras una infiltración, ejercicio programado, gimnasio o pilates."
+ ],
+ "complementario": "Una infiltración guiada por ecografía o el trabajo manual del fisioterapeuta abren una ventana sin dolor; lo que cura es lo que se hace dentro de esa ventana. En los tendones que no responden se puede valorar el PRP (plasma rico en plaquetas) en consulta.",
+ "consultar": [
+  "Dolor que despierta por la noche de forma repetida, no solo molestia al buscar la postura.",
+  "Pérdida de fuerza: no poder sostener un objeto que antes sostenías, o que el brazo «falle».",
+  "Dolor que baja por el brazo hasta la mano, con hormigueo o adormecimiento.",
+  "Pérdida de movilidad progresiva: cada semana llegas menos lejos.",
+  "Dolor que aumenta sesión tras sesión durante más de una semana pese a haber bajado la carga."
+ ],
+ "normal": "Es normal una molestia difusa las 24-48 horas siguientes a una sesión nueva o a una subida de carga, notar el hombro cansado al final del día y que un gesto concreto siga molestando semanas después. La mejoría llega a escalones, con mesetas de una o dos semanas.",
+ "relacionadas": [
+  "hombro-doloroso",
+  "tendinopatias",
+  "infiltraciones-ecoguiadas"
+ ]
+}

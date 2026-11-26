@@ -1,0 +1,208 @@
+{
+ "slug": "artritis-hombro-bursitis",
+ "titulo": "Plan de ejercicios para la artritis de hombro y la bursitis",
+ "corto": "Artritis de hombro y bursitis subacromial",
+ "zona": "Hombro",
+ "descripcion": "Plan de 12 semanas para la artritis del hombro y la bursitis subacromial: calmar, banda, fuerza en recorrido y fuerza completa. Dr. Julio De la Morena.",
+ "fecha": "2026-11-26",
+ "intro": [
+  "En la artritis del hombro, el dolor no suele venir de las calcificaciones o la tendinitis que a menudo se describen en las pruebas, sino de la propia articulación, que está inflamada, y de la bolsa que hay encima de ella. Las calcificaciones y la tendinitis son muchas veces consecuencia, no causa. Por eso los tratamientos dirigidos solo al tendón no suelen funcionar.",
+  "Tras meses o años de dolor, la musculatura que sujeta el hombro se ha ido perdiendo. Un hombro sin músculo deja que la cabeza del húmero se mueva más de la cuenta dentro de la articulación, y ese roce mantiene la inflamación. Calmar la inflamación apaga el fuego; los ejercicios reconstruyen el músculo para que no se vuelva a encender."
+ ],
+ "regla": "La carga se ajusta por el dolor del día siguiente, no por el del mismo día. Si a la mañana siguiente el hombro molesta más que antes de la sesión, te has pasado: ese día descansas y en la siguiente sesión haces la mitad. Si estás igual o mejor, continúa y sube. Una molestia de hasta 3 sobre 10 durante el ejercicio es aceptable si desaparece al terminar.",
+ "antes": [
+  [
+   "Calienta con círculos de brazo",
+   "Círculos controlados sin peso hacia delante y hacia atrás, sin pasar de la altura del hombro"
+  ],
+  [
+   "Las fases se solapan",
+   "Al entrar en una nueva, los ejercicios de la anterior quedan como calentamiento. Los isométricos de la Fase 0 se pueden repetir en cualquier momento del día si el hombro duele: calman"
+  ],
+  [
+   "Duerme sin apoyar el hombro",
+   "Boca arriba o sobre el lado sano, con una almohada abrazada para que el brazo no caiga hacia delante"
+  ],
+  [
+   "Tras una infiltración",
+   "Las primeras 48 horas, vida normal sin cargar peso ni hacer ejercicios de fuerza. Después empiezas por la Fase 0"
+  ]
+ ],
+ "fases": [
+  {
+   "nombre": "Fase 0 · Calmar y despertar",
+   "cuando": "Primeras semanas · todos los días · 10 minutos",
+   "texto": "Movimientos suaves y contracciones mantenidas sin mover la articulación. Calman el dolor y vuelven a activar una musculatura que lleva tiempo sin trabajar. Si te han infiltrado, se empieza a las 48 horas.",
+   "ejercicios": [
+    [
+     "Péndulo",
+     "Descompresión articular",
+     "Apoya la mano sana en una mesa e inclina el tronco. Deja el brazo afectado colgando, relajado, y balancéalo suavemente con el movimiento del cuerpo, en pequeños círculos. El brazo no hace fuerza: cuelga.",
+     "2 × 1 minuto · todos los días"
+    ],
+    [
+     "Control escapular",
+     "Musculatura de la escápula",
+     "De pie, brazos a lo largo del cuerpo. Lleva los omóplatos ligeramente hacia atrás y hacia abajo, como si los guardaras en los bolsillos traseros, sin sacar pecho ni subir los hombros. Mantén y suelta.",
+     "3 × 10 · 5 s de mantenimiento · todos los días"
+    ],
+    [
+     "Isométrico de rotación externa",
+     "Infraespinoso y redondo menor",
+     "En el marco de una puerta, codo pegado al cuerpo y doblado a 90°, dorso de la muñeca contra el marco. Empuja hacia fuera sin mover el brazo y mantén. Intensidad moderada.",
+     "5 × 20-30 s · todos los días"
+    ],
+    [
+     "Isométrico de rotación interna",
+     "Subescapular",
+     "Misma posición, con la palma contra el marco. Empuja hacia dentro sin mover el brazo y mantén.",
+     "5 × 20-30 s · todos los días"
+    ],
+    [
+     "Isométrico de abducción",
+     "Supraespinoso y deltoides",
+     "De lado junto a la pared, con el codo doblado y una toalla doblada entre el brazo y la pared. Empuja el brazo hacia la pared, como si quisieras separarlo del cuerpo, sin moverlo. Mantén.",
+     "5 × 20-30 s · todos los días"
+    ]
+   ]
+  },
+  {
+   "nombre": "Fase 1 · Fuerza con banda",
+   "cuando": "Semanas 1 a 3 · 5 días por semana · 20 minutos",
+   "texto": "Se pasa al movimiento con banda elástica, siempre con el codo pegado al cuerpo y por debajo de la altura del hombro. Movimientos lentos: 2 segundos para ir, 1 de pausa, 3 para volver. Empieza con la banda más suave. Criterio para entrar: cinco días de Fase 0 sin empeoramiento.",
+   "ejercicios": [
+    [
+     "Rotación externa con banda",
+     "Infraespinoso y redondo menor",
+     "Codo pegado al cuerpo y doblado a 90°, con una toalla enrollada entre el codo y el costado. Lleva la mano hacia fuera estirando la banda y vuelve despacio.",
+     "3 × 12-15"
+    ],
+    [
+     "Rotación interna con banda",
+     "Subescapular",
+     "Misma posición, con la banda anclada por fuera. Lleva la mano hacia el abdomen y vuelve despacio.",
+     "3 × 12-15"
+    ],
+    [
+     "Remo bajo con banda",
+     "Musculatura de la escápula",
+     "De pie, banda anclada a la altura del abdomen. Tira con los codos pegados al cuerpo, llevando los omóplatos atrás y abajo. Vuelve despacio, sin encoger los hombros.",
+     "3 × 12"
+    ],
+    [
+     "Empuje horizontal con banda",
+     "Serrato y pectoral",
+     "De espaldas al anclaje, banda a la altura del pecho. Empuja hacia delante hasta estirar el brazo, alargando el hombro al final, y vuelve despacio.",
+     "3 × 12"
+    ]
+   ]
+  },
+  {
+   "nombre": "Fase 2 · Fuerza en recorrido",
+   "cuando": "Semanas 4 a 7 · 4 días por semana · 25 minutos",
+   "texto": "El hombro empieza a trabajar separándose del cuerpo, sin pasar todavía de la altura del hombro. Los ejercicios de la Fase 1 quedan como calentamiento. Criterio para entrar: tres semanas de Fase 1 sin dolor nocturno.",
+   "ejercicios": [
+    [
+     "Elevación en plano escapular",
+     "Supraespinoso y deltoides",
+     "De pie, pulgar hacia arriba y brazo unos 30° por delante del cuerpo. Eleva el brazo hasta la altura del hombro, no más, y baja despacio. Sin peso al principio; después, 0,5-1 kg.",
+     "3 × 10-12"
+    ],
+    [
+     "Remo con mancuerna apoyada",
+     "Dorsal y escápula",
+     "Rodilla y mano del lado sano apoyadas en un banco, espalda recta. Lleva el codo hacia atrás pegado al cuerpo y baja despacio. 1-2 kg.",
+     "3 × 10-12"
+    ],
+    [
+     "Tirón hacia la cara con banda",
+     "Rotadores externos y escápula",
+     "Banda anclada a la altura de los ojos. Tira llevando las manos hacia las sienes con los codos altos y abiertos, juntando los omóplatos. Vuelve despacio.",
+     "3 × 12"
+    ],
+    [
+     "Deslizamiento en pared",
+     "Control escapular en elevación",
+     "De cara a la pared, antebrazos apoyados. Desliza los brazos hacia arriba solo hasta donde no haya dolor, sin encoger los hombros, y baja despacio.",
+     "3 × 10"
+    ]
+   ]
+  },
+  {
+   "nombre": "Fase 3 · Fuerza completa",
+   "cuando": "Semanas 8 a 12 · 3 días por semana · 30 minutos",
+   "texto": "El objetivo es que el hombro aguante tu vida diaria y tu actividad deportiva sin pagarlo al día siguiente. Criterio para entrar: cuatro semanas de Fase 2 sin dolor.",
+   "ejercicios": [
+    [
+     "Elevación completa en plano escapular",
+     "Supraespinoso y deltoides",
+     "Como en la Fase 2, pero subiendo el brazo hasta arriba si no hay dolor. Bajada lenta, en 3 segundos. Con 1 kg cuando sea fácil.",
+     "3 × 10"
+    ],
+    [
+     "Rotación externa a 90°",
+     "Rotadores externos en elevación",
+     "Brazo separado a la altura del hombro y codo doblado a 90°, banda anclada por delante. Gira el antebrazo hacia arriba y vuelve despacio.",
+     "3 × 10-12"
+    ],
+    [
+     "T boca abajo",
+     "Trapecio medio y romboides",
+     "Boca abajo en un banco o en la cama, brazos colgando. Elévalos hacia los lados formando una T, con los pulgares hacia arriba, juntando los omóplatos. Sin peso.",
+     "3 × 10"
+    ],
+    [
+     "Y boca abajo",
+     "Trapecio inferior",
+     "Misma posición. Eleva los brazos en diagonal por delante de la cabeza, formando una Y, con los pulgares hacia arriba. Recorrido corto si molesta.",
+     "3 × 10"
+    ],
+    [
+     "Flexión con protracción sobre rodillas",
+     "Serrato anterior",
+     "Apoyado sobre rodillas y manos. Sin doblar los codos, hunde el pecho entre los omóplatos y después empuja el suelo separándolos. Solo si el apoyo sobre la mano no duele.",
+     "3 × 10"
+    ]
+   ]
+  },
+  {
+   "nombre": "Estiramientos · Todos los días",
+   "cuando": "Al final de cada sesión, desde la Fase 1. Sin rebotes y sin llegar al dolor.",
+   "texto": "",
+   "ejercicios": [
+    [
+     "Estiramiento de la cápsula posterior",
+     "Cápsula posterior",
+     "Tumbado sobre el lado afectado, con el brazo delante a la altura del hombro y el codo doblado a 90°. Con la otra mano, lleva suavemente la muñeca hacia la cama. Si duele en la parte delantera del hombro, túmbate un poco más hacia atrás.",
+     "3 × 30 s"
+    ],
+    [
+     "Estiramiento de pectoral en el marco de la puerta",
+     "Pectoral",
+     "Antebrazo apoyado en el marco, codo por debajo de la altura del hombro. Avanza el cuerpo hasta notar tensión en el pecho, sin dolor en el hombro.",
+     "3 × 30 s"
+    ]
+   ]
+  }
+ ],
+ "evitar": [
+  "Cargar peso con el brazo separado del cuerpo y los gestos repetidos por encima de la cabeza, como colgar ropa o coger cosas de estantes altos, hasta la Fase 3.",
+  "Llevar bolsos pesados en el hombro afectado: el peso, cerca del cuerpo y en el lado sano.",
+  "Dormir sobre el hombro que duele.",
+  "Hasta la Fase 3, en pilates o yoga, los apoyos sobre las manos y los ejercicios con los brazos por encima de la cabeza."
+ ],
+ "complementario": "Cuando la inflamación no deja avanzar, una infiltración guiada por ecografía puede calmarla. Con el hombro ya sin dolor, en algunos casos se valora el PRP (plasma rico en plaquetas); llegar a ese tratamiento con la musculatura recuperada mejora su resultado. Se decide en consulta.",
+ "consultar": [
+  "Fiebre, enrojecimiento o calor en la zona de una infiltración.",
+  "El dolor nocturno vuelve a despertarte varias noches seguidas.",
+  "Pérdida brusca de fuerza: no puedes levantar el brazo.",
+  "Hormigueo o adormecimiento que baja por el brazo.",
+  "Dolor que aumenta sesión tras sesión durante más de una semana pese a bajar la carga."
+ ],
+ "normal": "Es normal notar el hombro cansado tras las sesiones y que la mejoría llegue a escalones, con semanas de meseta.",
+ "relacionadas": [
+  "hombro-doloroso",
+  "infiltraciones-ecoguiadas",
+  "factores-crecimiento-autologos"
+ ]
+}

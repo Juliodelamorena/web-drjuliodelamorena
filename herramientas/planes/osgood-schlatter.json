@@ -1,0 +1,94 @@
+{
+ "slug": "osgood-schlatter",
+ "titulo": "Plan de estiramientos para la enfermedad de Osgood-Schlatter",
+ "corto": "Osgood-Schlatter",
+ "zona": "Rodilla",
+ "descripcion": "Estiramientos diarios, frío y calor y control de la carga para la enfermedad de Osgood-Schlatter en deportistas en crecimiento. Dr. Julio De la Morena.",
+ "fecha": "2026-11-26",
+ "intro": [
+  "En la fase de crecimiento, el hueso crece más deprisa que el músculo, y el cuádriceps, potente y poco elástico, se queda corto. Si además entrenas mucho, ese músculo tira con fuerza del tendón rotuliano justo donde se inserta, en el bulto que tienes debajo de la rodilla (la tuberosidad tibial). Ahí el hueso todavía está creciendo, y la tracción repetida irrita su superficie. Es la enfermedad de Osgood-Schlatter.",
+  "A veces se suma dolor en la cara externa del tobillo: al apoyar distinto para proteger la rodilla, se sobrecargan los peroneos. No es peligroso y se cura solo cuando terminas de crecer. El objetivo es que deje de doler antes, para que puedas seguir jugando: alargar y relajar esos músculos, bajar la inflamación del tendón con frío y no pasarte de carga."
+ ],
+ "regla": "Juega y entrena por debajo de 3 sobre 10 de dolor, y decide por cómo amanece la rodilla al día siguiente. Si amanece peor, ese día bajas la intensidad o te saltas el entrenamiento. Es mejor quitar media hora de deporte cada día, o saltarte un entrenamiento entre semana, que tener que parar dos semanas seguidas.",
+ "antes": [
+  [
+   "Calor al músculo",
+   "En la parte delantera del muslo y en la cara externa de la pierna, por encima del tobillo. Antes de estirar, por la noche y los días que notes el muslo cargado: manta eléctrica, bolsa de semillas o compresa caliente, 15-20 minutos. Nunca sobre la zona dolorosa de debajo de la rodilla ni justo después de un golpe"
+  ],
+  [
+   "Frío al tendón y al hueso",
+   "En el bulto doloroso de debajo de la rótula y, si duele, detrás y por debajo del tobillo. Después de cada entrenamiento y partido: hielo envuelto en un paño, nunca directo sobre la piel, 15 minutos. Se puede repetir 2-3 veces al día"
+  ],
+  [
+   "Fisioterapia",
+   "Dos sesiones por semana al principio y después de mantenimiento, con trabajo manual de verdad para soltar el cuádriceps y los peroneos"
+  ],
+  [
+   "Entrenamientos",
+   "Puedes seguir con tu deporte. Si un día llegas muy cargado, baja la intensidad o sáltate ese entrenamiento para llegar bien al partido. En las épocas en que crezcas más rápido lo notarás más: es normal"
+  ]
+ ],
+ "fases": [
+  {
+   "nombre": "Estiramientos · Todos los días",
+   "cuando": "Por la noche y después de entrenar · 15 minutos · nunca estiramientos largos justo antes de jugar",
+   "texto": "Estira siempre suave y mantenido, sin rebotes. Tienes que notar tensión en el músculo, nunca dolor en la rodilla ni en el tendón. Aplica calor en el músculo unos minutos antes de estirar.",
+   "ejercicios": [
+    [
+     "Cuádriceps en zancada, sin doblar la rodilla",
+     "Cuádriceps",
+     "Arrodíllate con la pierna que duele atrás, la rodilla apoyada sobre un cojín y la otra pierna adelantada. Antes de moverte, mete la pelvis hacia dentro, como si quisieras aplanar la zona lumbar y apretar el culo. Sin perder esa posición, adelanta un poco el cuerpo hasta notar la tensión en la parte delantera del muslo. No lleves el talón al glúteo: la rodilla se queda doblada en ángulo recto, para estirar el músculo desde la cadera sin tirar del tendón ni de la tuberosidad.",
+     "3 × 30-40 segundos cada pierna · todos los días"
+    ],
+    [
+     "Cuádriceps de pie con toalla, a distancia",
+     "Cuádriceps",
+     "De pie, apoyado en una pared. Pasa una toalla o una cinta por el tobillo de la pierna que vas a estirar y sujeta los extremos con la mano del mismo lado. Mete la pelvis hacia dentro como en el ejercicio 1 y lleva el muslo hacia atrás, por detrás de la otra pierna, usando la toalla para sujetar el pie lejos del glúteo. La sensación de estiramiento tiene que estar en el muslo, no en la rodilla. Úsalo cuando no tengas dónde arrodillarte.",
+     "3 × 30 segundos cada pierna · alternativa al ejercicio 1"
+    ],
+    [
+     "Glúteo sentado",
+     "Glúteo y piramidal",
+     "Sentado en el suelo, cruza la pierna que vas a estirar por encima de la otra, con el pie apoyado por fuera de la rodilla. Abraza la rodilla y llévala hacia el hombro contrario, manteniendo la espalda recta, hasta notar tensión en el glúteo.",
+     "3 × 30 segundos cada lado"
+    ],
+    [
+     "Isquiotibiales con toalla",
+     "Parte de atrás del muslo",
+     "Boca arriba, con una toalla rodeando la planta del pie. Sube la pierna con la rodilla estirada hasta notar tensión en la parte de atrás del muslo; la otra pierna, estirada y pegada al suelo. Mantén sin rebotes.",
+     "3 × 30 segundos cada pierna"
+    ],
+    [
+     "Peroneos sentado",
+     "Peroneos",
+     "Sentado, cruza la pierna del pie que te duele sobre la otra rodilla. Con la mano, lleva la planta del pie hacia dentro y hacia abajo, como si quisieras mirarte la planta, hasta notar tensión en la cara externa del tobillo y de la pierna. Mantén suave, sin dolor en el tendón.",
+     "3 × 30 segundos · las dos piernas, más tiempo en la que duele"
+    ],
+    [
+     "Gemelo en la pared",
+     "Gemelo",
+     "De pie frente a una pared, con las manos apoyadas. Lleva atrás la pierna que vas a estirar, con el talón pegado al suelo y la rodilla estirada, y la punta del pie mirando al frente. Adelanta la cadera hasta notar tensión en la pantorrilla. Un gemelo corto aumenta la carga sobre los peroneos.",
+     "3 × 30 segundos cada pierna"
+    ]
+   ]
+  }
+ ],
+ "evitar": [
+  "Estirar fuerte justo antes de jugar: los estiramientos largos, por la noche y después de entrenar.",
+  "Poner calor sobre el bulto doloroso de debajo de la rodilla.",
+  "Entrenar con dolor por encima de 3 sobre 10.",
+  "Llevar el talón al glúteo al estirar el cuádriceps: tira del tendón y de la tuberosidad."
+ ],
+ "complementario": "Si tras un mes de plan sigue doliendo, en consulta se valora si conviene otro tratamiento, siempre con la ecografía para ver el estado del tendón y del hueso.",
+ "consultar": [
+  "Dolor que no te deja apoyar o que te despierta por la noche.",
+  "Hinchazón o calor importante en la rodilla.",
+  "Cojera que no se pasa en un par de días.",
+  "Dolor que empeora claramente pese a bajar la carga durante una semana."
+ ],
+ "normal": "Es normal que el bulto de debajo de la rodilla siga notándose y que moleste más en las épocas de crecimiento rápido.",
+ "relacionadas": [
+  "tendinitis-rotuliana",
+  "medicina-deportiva"
+ ]
+}

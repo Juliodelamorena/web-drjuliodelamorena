@@ -200,7 +200,6 @@
 <label for="f-tel">Teléfono<input id="f-tel" name="telefono" type="tel" autocomplete="tel" required></label>
 <details class="opc"><summary>Añadir detalles (opcional)</summary>
 <label for="f-zona">¿Qué zona le duele?<select id="f-zona" name="zona"><option value="">Elija una opción</option><option>Rodilla</option><option>Hombro</option><option>Espalda o ciática</option><option>Cadera</option><option>Codo</option><option>Tobillo o pie</option><option>Lesión muscular</option><option>Otra</option></select></label>
-<label for="f-motivo">Cuéntenos brevemente qué le pasa<textarea id="f-motivo" name="motivo" rows="3"></textarea></label>
 <label for="f-como">¿Cómo nos ha conocido?<select id="f-como" name="como"><option value="">Elija una opción</option><option value="instagram">Instagram</option><option value="buscador">Google u otro buscador</option><option value="youtube">YouTube</option><option value="paciente">Me lo recomendó un paciente o un familiar</option><option value="profesional">Me envió un médico o un fisioterapeuta</option><option value="ya-paciente">Ya soy paciente</option><option value="otro">Otro</option></select></label>
 </details>
 <p class="nota">Le llamamos en menos de 24 horas para darle cita (si cae en fin de semana o festivo, el siguiente día laborable).</p>
@@ -234,6 +233,7 @@
 <h2 class="h2">Para cualquier persona con dolor, haga deporte o no</h2>
 <p class="lead">No hace falta ser deportista ni llevar una vida activa. Se atiende con el mismo rigor a quien quiere caminar, dormir o subir escaleras sin dolor que a los jugadores profesionales de rugby, pádel y fútbol que pasan por la consulta.</p>
 </div>
+<!--zonas--><div class="zonas" id="donde-duele"><p class="label">¿Dónde le duele?</p><p class="zonas-h">Elija la zona y vea qué puede ser y cómo se trata</p><div class="zonas-grid"><details class="zona"><summary>Hombro</summary><ul><li><a href="/hombro-doloroso/">Hombro doloroso y manguito rotador</a></li><li><a href="/hombro-congelado/">Hombro congelado (capsulitis)</a></li><li><a href="/planes/capsulitis-hombro-congelado/"><span class="zona-tipo">Plan de ejercicio</span>Hombro congelado</a></li><li><a href="/planes/manguito-rotador-subescapular/"><span class="zona-tipo">Plan de ejercicio</span>Manguito rotador</a></li><li><a href="/planes/artritis-hombro-bursitis/"><span class="zona-tipo">Plan de ejercicio</span>Artritis de hombro y bursitis</a></li><li><a href="/planes/hombro-cintura-escapular/"><span class="zona-tipo">Plan de ejercicio</span>Fortalecimiento del hombro</a></li></ul></details><details class="zona"><summary>Codo</summary><ul><li><a href="/codo-de-tenista/">Codo de tenista y de pádel</a></li><li><a href="/planes/epicondilitis-codo-de-tenista/"><span class="zona-tipo">Plan de ejercicio</span>Codo de tenista</a></li><li><a href="/planes/epitrocleitis-codo-de-golfista/"><span class="zona-tipo">Plan de ejercicio</span>Codo de golfista</a></li></ul></details><details class="zona"><summary>Espalda</summary><ul><li><a href="/lumbalgia-ciatica/">Lumbalgia y ciática</a></li><li><a href="/planes/ciatica-radiculopatia-l5/"><span class="zona-tipo">Plan de ejercicio</span>Ciática y estabilidad lumbar</a></li></ul></details><details class="zona"><summary>Cadera e ingle</summary><ul><li><a href="/artrosis-cadera/">Artrosis de cadera</a></li><li><a href="/trocanteritis/">Dolor lateral de cadera (trocanteritis)</a></li><li><a href="/pubalgia/">Pubalgia</a></li><li><a href="/planes/coxartrosis-artrosis-de-cadera/"><span class="zona-tipo">Plan de ejercicio</span>Artrosis de cadera</a></li><li><a href="/planes/tendinopatia-glutea-trocanteritis/"><span class="zona-tipo">Plan de ejercicio</span>Trocanteritis</a></li></ul></details><details class="zona"><summary>Rodilla</summary><ul><li><a href="/artrosis-rodilla/">Artrosis de rodilla</a></li><li><a href="/prp-rodilla/">PRP (plasma rico en plaquetas) en la rodilla</a></li><li><a href="/rotura-menisco/">Rotura de menisco</a></li><li><a href="/tendinitis-rotuliana/">Tendinitis rotuliana</a></li><li><a href="/planes/condropatia-rotuliana/"><span class="zona-tipo">Plan de ejercicio</span>Condropatía rotuliana</a></li><li><a href="/planes/osgood-schlatter/"><span class="zona-tipo">Plan de ejercicio</span>Osgood-Schlatter</a></li></ul></details><details class="zona"><summary>Tobillo y pie</summary><ul><li><a href="/esguince-tobillo/">Esguince de tobillo</a></li><li><a href="/tendinitis-aquiles/">Tendinitis de Aquiles</a></li><li><a href="/fascitis-plantar/">Fascitis plantar</a></li></ul></details><details class="zona"><summary>Músculo</summary><ul><li><a href="/lesiones-musculares/">Lesiones musculares</a></li><li><a href="/planes/rotura-isquiotibiales/"><span class="zona-tipo">Plan de ejercicio</span>Rotura de isquiotibiales</a></li></ul></details><details class="zona"><summary>Todo el cuerpo</summary><ul><li><a href="/medicina-deportiva/">Médico deportivo en Pozuelo</a></li><li><a href="/planes/cuerpo-completo/"><span class="zona-tipo">Plan de ejercicio</span>Cuerpo completo</a></li></ul></details></div></div><!--/zonas-->
 <div class="areas">
 <a class="area" href="/artrosis-rodilla/"><h3>Artrosis</h3><p>Rodilla, cadera, tobillo y mano. Alternativas antes de plantear una prótesis.</p><small>Más información →</small></a>
 <a class="area" href="/lumbalgia-ciatica/"><h3>Lumbalgia y ciática</h3><p>Dolor lumbar y radiculopatía: el dolor que se irradia a la pierna.</p><small>Más información →</small></a>
@@ -242,7 +242,8 @@
 <a class="area" href="/esguince-tobillo/"><h3>Esguinces</h3><p>Tobillo y rodilla. Esguinces de repetición e inestabilidad.</p><small>Más información →</small></a>
 <a class="area" href="/lesiones-musculares/"><h3>Lesiones musculares</h3><p>Roturas de fibras y lesiones que recaen.</p><small>Más información →</small></a>
 </div>
-<div class="mas-lesiones"><span>También tratamos:</span><a class="chip" href="/codo-de-tenista/">Codo de tenista y de pádel</a><a class="chip" href="/fascitis-plantar/">Fascitis plantar</a><a class="chip" href="/tendinitis-rotuliana/">Tendinitis rotuliana</a><a class="chip" href="/tendinitis-aquiles/">Tendinitis de Aquiles</a><a class="chip" href="/rotura-menisco/">Rotura de menisco</a><a class="chip" href="/artrosis-cadera/">Artrosis de cadera</a><a class="chip" href="/pubalgia/">Pubalgia</a></div>
+<div class="mas-lesiones"><span>También tratamos:</span><a class="chip" href="/codo-de-tenista/">Codo de tenista y de pádel</a><a class="chip" href="/fascitis-plantar/">Fascitis plantar</a><a class="chip" href="/tendinitis-rotuliana/">Tendinitis rotuliana</a><a class="chip" href="/tendinitis-aquiles/">Tendinitis de Aquiles</a><a class="chip" href="/rotura-menisco/">Rotura de menisco</a><a class="chip" href="/artrosis-cadera/">Artrosis de cadera</a><a class="chip" href="/pubalgia/">Pubalgia</a><a class="chip" href="/hombro-congelado/">Hombro congelado</a><a class="chip" href="/trocanteritis/">Trocanteritis</a><a class="chip" href="/prp-rodilla/">PRP en la rodilla</a></div>
+<!--segunda-opinion--><div class="so-band"><div><h3>¿Le han recomendado operarse?</h3><p>Antes de decidir, puede pedir una segunda opinión: se revisan sus pruebas, se explora la zona con ecografía si hace falta y se valoran las alternativas sin cirugía. Recibe un informe escrito.</p></div><a class="btn" href="/segunda-opinion/">Pedir una segunda opinión</a></div><!--/segunda-opinion-->
 </div>
 </section>
 
@@ -257,7 +258,7 @@
 <div class="treat">
 <div><h3><a href="/factores-crecimiento-autologos/">PRP (plasma rico en plaquetas)</a></h3><p>Se obtiene de la propia sangre del paciente y se aplica en la zona lesionada, guiado por ecografía, en casos seleccionados de artrosis y tendinopatía.</p></div>
 <div><h3><a href="/infiltraciones-ecoguiadas/">Infiltraciones ecoguiadas</a></h3><p>El tratamiento se coloca con precisión, viendo en pantalla la aguja y la estructura tratada.</p></div>
-<div><h3>Ecografía musculoesquelética</h3><p>Diagnóstico en consulta y control de la evolución sin esperas.</p></div>
+<div><h3><a href="/ecografia-musculoesqueletica/">Ecografía musculoesquelética</a></h3><p>Diagnóstico en consulta y control de la evolución sin esperas.</p></div>
 <div><h3>Ejercicio terapéutico</h3><p>Programa individual de fuerza y readaptación, coordinado con fisioterapia.</p></div>
 <div><h3><a href="/medicina-deportiva/">Medicina deportiva</a></h3><p>Valoración, prevención de lesiones y vuelta a la actividad.</p></div>
 <div><h3><a href="/segunda-opinion/">Segunda opinión</a></h3><p>Revisión de diagnósticos y de indicaciones quirúrgicas antes de decidir.</p></div>
@@ -303,23 +304,23 @@
 </div>
 <div class="posts">
 <!--POSTS-->
+<a class="post" href="/blog/menisco-roto-hay-que-operar.html">
+<picture><source srcset="/img/blog-menisco-operar.webp" type="image/webp"><img src="/img/blog-menisco-operar.jpg" alt="El Dr. Julio De la Morena revisa una resonancia magnética de rodilla" width="1080" height="560" loading="lazy"></picture>
+<span class="meta">Rodilla · Noviembre 2026</span>
+<h3>Tengo el menisco roto: ¿hay que operarse?</h3>
+<p>Cuándo una rotura de menisco necesita cirugía y cuándo mejora mejor sin ella, según la edad, el tipo de rotura y los síntomas.</p>
+</a>
+<a class="post" href="/blog/cuando-no-funciona-el-prp.html">
+<picture><source srcset="/img/blog-prp-cuando-no.webp" type="image/webp"><img src="/img/blog-prp-cuando-no.jpg" alt="Ecografía de un tendón durante la consulta del Dr. Julio De la Morena" width="1080" height="560" loading="lazy"></picture>
+<span class="meta">Terapias regenerativas · Noviembre 2026</span>
+<h3>¿En qué casos no funciona el PRP?</h3>
+<p>El PRP (plasma rico en plaquetas) ayuda en casos seleccionados. Estas son las situaciones en las que no conviene indicarlo.</p>
+</a>
 <a class="post" href="/blog/osgood-schlatter-diagnostico-tratamiento.html">
 <picture><source srcset="/img/rodilla.webp" type="image/webp"><img src="/img/rodilla.jpg" alt="Exploración de la rodilla en consulta" width="960" height="1200" loading="lazy"></picture>
 <span class="meta">Rodilla · Noviembre 2026</span>
 <h3>Osgood-Schlatter: diagnóstico y tratamiento</h3>
 <p>Qué es la enfermedad de Osgood-Schlatter, cómo se ve en la ecografía con Doppler y por qué el tratamiento conservador funciona en la mayoría de los casos.</p>
-</a>
-<a class="post" href="/blog/infiltraciones-que-son-y-por-que-con-ecografia.html">
-<picture><source srcset="/img/eco.webp" type="image/webp"><img src="/img/eco.jpg" alt="Infiltración guiada por ecografía en la consulta" width="960" height="1200" loading="lazy"></picture>
-<span class="meta">Terapias regenerativas · Noviembre 2026</span>
-<h3>Infiltraciones: qué son y por qué deben hacerse con ecografía</h3>
-<p>Qué es una infiltración, qué se puede infiltrar, si duele y qué dicen los estudios sobre hacerla guiada por ecografía.</p>
-</a>
-<a class="post" href="/blog/prp-artrosis-tres-estudios.html">
-<picture><source srcset="/img/rodilla.webp" type="image/webp"><img src="/img/rodilla.jpg" alt="Exploración de la rodilla en consulta" width="960" height="1200" loading="lazy"></picture>
-<span class="meta">Terapias regenerativas · Noviembre 2026</span>
-<h3>PRP en la artrosis: tres estudios donde sí funciona</h3>
-<p>Tres estudios publicados sobre el PRP (plasma rico en plaquetas) en la artrosis de rodilla y de cadera, resumidos y con su enlace.</p>
 </a>
 <!--/POSTS-->
 </div>

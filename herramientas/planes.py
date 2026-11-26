@@ -156,14 +156,20 @@ def plan(p):
 
 def indice(planes):
     url = f"{SITE}/planes/"
-    cards = "\n".join(f'<a class="card" href="/planes/{p["slug"]}/"><span class="meta">{esc(p["zona"])}</span><h3>{esc(p["corto"])}</h3><p>{esc(str(sum(len(f["ejercicios"]) for f in p["fases"])))} ejercicios en {len(p["fases"])} fases · pensado para el móvil</p></a>' for p in planes)
+    zonas = {}
+    for p in planes:
+        zonas.setdefault(p["zona"], []).append(p)
+    cards = "\n".join(
+        f'<section class="pl-zona"><h2>{esc(z)}</h2><ul>' + "".join(
+            f'<li><a href="/planes/{p["slug"]}/"><strong>{esc(p["corto"])}</strong><span>{sum(len(f["ejercicios"]) for f in p["fases"])} ejercicios · {len(p["fases"])} fases</span></a></li>' for p in ps)
+        + '</ul></section>' for z, ps in zonas.items())
     body = f'''<main class="block"><div class="wrap">
 <div class="head"><p class="label">Planes de ejercicio</p><h1 class="h2">Planes de ejercicio para casa</h1>
 <p class="lead">Planes por fases elaborados por el Dr. Julio De la Morena para sus pacientes. Ábrelos en el móvil, marca los ejercicios que vas haciendo cada día o imprímelos. Son orientativos: no sustituyen una valoración.</p></div>
-<div class="cards">{cards}</div></div></main>
+<div class="pl-lista">{cards}</div></div></main>
 '''
     ld = {"@context": "https://schema.org", "@type": "CollectionPage", "url": url, "name": "Planes de ejercicio del Dr. Julio De la Morena", "inLanguage": "es-ES", "author": G.DOCTOR_REF}
-    return G.head("Planes de ejercicio · Dr. Julio De la Morena", "Planes de ejercicio por fases para casa, pensados para el móvil: capsulitis, lumbalgia y más. Dr. Julio De la Morena, Hospital Memorial Publio Cordón.", url, "retrato.jpg", ld, form=False) + body + G.footer(form=False) + "\n</body>\n</html>\n"
+    return G.head("Planes de ejercicio · Dr. Julio De la Morena", "Planes de ejercicio gratuitos por fases para casa, pensados para el móvil: hombro, codo, cadera, rodilla, espalda y músculo. Dr. Julio De la Morena.", url, "retrato.jpg", ld, form=False) + body + G.footer(form=False) + "\n</body>\n</html>\n"
 
 
 def cargar():

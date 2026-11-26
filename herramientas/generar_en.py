@@ -12,6 +12,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import generar as G
 import extras as X
 import idiomas as I
+import zonas as Z
 from paginas_en import PAGES_EN, ABOUT_EN, SLUG_ES_TO_EN
 
 ROOT, SITE, CITA, FONTS, esc = G.ROOT, G.SITE, G.CITA, G.FONTS, G.esc
@@ -100,7 +101,6 @@ def contact_block(ruta, compacto=False):
 <label for="f-nombre">Full name<input id="f-nombre" name="nombre" type="text" autocomplete="name" required></label>
 <label for="f-tel">Phone<input id="f-tel" name="telefono" type="tel" autocomplete="tel" required></label>
 {X.como_html("en")}
-<label for="f-motivo">Reason for your visit<textarea id="f-motivo" name="motivo" rows="4"></textarea></label>
 <label class="check" for="f-priv"><input id="f-priv" name="privacidad" type="checkbox" required><span>I have read and accept the <a href="/en/privacidad.html">privacy policy</a>. Your details are used only to contact you about your appointment.</span></label>
 <button class="btn btn-dark" type="submit">Send request</button>
 </form>
@@ -342,10 +342,12 @@ def home():
 <h2 class="h2">For anyone in pain, whether or not they play sport</h2>
 <p class="lead">You do not need to be an athlete or lead an active life. Someone who wants to walk, sleep or climb stairs without pain receives the same care as the professional rugby, padel and football players seen in clinic.</p>
 </div>
+{Z.selector("en")}
 <div class="areas">
 {area_html}
 </div>
 <div class="mas-lesiones"><span>We also treat:</span>{"".join(f'<a class="chip" href="/en/{q["slug"]}/">{esc(q["nav"])}</a>' for q in PAGES_EN if q["es"] in NEW_ES)}</div>
+{Z.segunda_opinion("en")}
 </div>
 </section>
 
